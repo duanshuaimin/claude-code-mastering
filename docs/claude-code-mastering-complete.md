@@ -30,206 +30,206 @@ toc: true
 
 \newpage
 
-# 서문
+# Preface
 
-**© 2025 황민호 (robin.hwang@kakaocorp.com). All rights reserved.**  
-**무단 배포 금지 - 개인 학습 및 연구 목적으로만 사용 가능**
+**© 2025 Minho Hwang (robin.hwang@kakaocorp.com). All rights reserved.**
+**Unauthorized distribution prohibited - For personal learning and research purposes only**
 
 ---
 
-## AI 시대의 개발 패러다임 변화
+## Paradigm Shift in Development in the AI Era
 
-2025년, 우리는 소프트웨어 개발 역사상 가장 극적인 변화의 한가운데 서 있습니다. 
+In 2025, we stand in the midst of the most dramatic change in the history of software development.
 
-30년 전, 통합 개발 환경(IDE)의 등장이 개발자들의 생산성을 혁명적으로 향상시켰듯이, 오늘날 AI 페어 프로그래밍 도구들은 우리가 코드를 작성하고 문제를 해결하는 방식을 근본적으로 바꾸고 있습니다.
+Just as the emergence of Integrated Development Environments (IDEs) 30 years ago revolutionized developers' productivity, today's AI pair programming tools are fundamentally changing the way we write code and solve problems.
 
-그중에서도 Claude Code는 단순한 코드 자동완성을 넘어, 진정한 의미의 'AI 동료'로서 개발자와 협업하는 새로운 패러다임을 제시합니다. 마치 경험 많은 시니어 개발자와 함께 일하는 것처럼, Claude Code는 여러분의 의도를 이해하고, 최적의 솔루션을 제안하며, 복잡한 작업을 함께 수행합니다.
+Among them, Claude Code goes beyond simple code autocompletion to present a new paradigm of collaboration between developers and a true 'AI colleague'. Like working with an experienced senior developer, Claude Code understands your intentions, proposes optimal solutions, and performs complex tasks together with you.
 
-## 이 책을 읽어야 할 사람
+## Who Should Read This Book
 
-이 책은 다음과 같은 분들을 위해 쓰였습니다.
+This book is written for the following people:
 
-**초급 개발자라면**
+**For Junior Developers**
 
-- AI 도구를 활용해 빠르게 성장하고 싶은 분
-- 복잡한 코드베이스를 효과적으로 탐색하는 방법을 배우고 싶은 분
-- 시니어 개발자의 사고 과정을 학습하고 싶은 분
+- Those who want to grow rapidly by utilizing AI tools
+- Those who want to learn how to effectively explore complex codebases
+- Those who want to learn the thought processes of senior developers
 
-**중급 개발자라면**
+**For Mid-level Developers**
 
-- 반복적인 작업에서 벗어나 창의적인 문제 해결에 집중하고 싶은 분
-- 개발 생산성을 획기적으로 높이고 싶은 분
-- 새로운 기술 스택을 빠르게 습득하고 싶은 분
+- Those who want to escape repetitive tasks and focus on creative problem-solving
+- Those who want to dramatically increase development productivity
+- Those who want to quickly acquire new technology stacks
 
-**시니어 개발자와 팀 리더라면**
+**For Senior Developers and Team Leaders**
 
-- 팀의 개발 프로세스를 혁신하고 싶은 분
-- 주니어 개발자들의 온보딩을 효과적으로 지원하고 싶은 분
-- 복잡한 아키텍처 결정을 AI와 함께 검증하고 싶은 분
+- Those who want to innovate their team's development process
+- Those who want to effectively support the onboarding of junior developers
+- Those who want to validate complex architectural decisions with AI
 
-**기술 리더와 CTO라면**
+**For Technical Leaders and CTOs**
 
-- AI 시대의 개발 문화를 조직에 정착시키고 싶은 분
-- 개발팀의 생산성과 코드 품질을 동시에 향상시키고 싶은 분
-- 미래의 개발 환경을 준비하고 싶은 분
+- Those who want to establish a development culture for the AI era in their organization
+- Those who want to simultaneously improve their development team's productivity and code quality
+- Those who want to prepare for the future development environment
 
-## 책의 구성과 활용법
+## Book Structure and How to Use It
 
-이 책은 총 13개의 장으로 구성되어 있으며, 기초부터 고급 활용까지 단계적으로 학습할 수 있도록 설계되었습니다.
+This book consists of 13 chapters and is designed for step-by-step learning from basic to advanced utilization.
 
-**기초 편 (1-3장)**
+**Basics (Chapters 1-3)**
 
-- 제1장: Claude Code란 무엇인가? - AI 페어 프로그래밍의 새로운 패러다임
-- 제2장: 설치와 기본 설정 - 5분 만에 시작하기
-- 제3장: 기본 사용법 마스터 - 프롬프트 엔지니어링의 기술
+- Chapter 1: What is Claude Code? - A New Paradigm of AI Pair Programming
+- Chapter 2: Installation and Basic Setup - Get Started in 5 Minutes
+- Chapter 3: Mastering Basic Usage - The Art of Prompt Engineering
 
-**프로젝트 최적화 (4-6장)**
+**Project Optimization (Chapters 4-6)**
 
-- 제4장: CLAUDE.md로 프로젝트 맞춤 설정 - AI가 당신의 프로젝트를 이해하게 만들기
-- 제5장: 프레임워크별 베스트 프랙티스 - React, Vue, Django, Spring 완벽 활용
-- 제6장: 언어별 활용 전략 - TypeScript, Python, Java, Go, Rust 마스터하기
+- Chapter 4: Customizing Projects with CLAUDE.md - Making AI Understand Your Project
+- Chapter 5: Best Practices for Each Framework - Mastering React, Vue, Django, Spring
+- Chapter 6: Utilization Strategies for Each Language - Mastering TypeScript, Python, Java, Go, Rust
 
-**고급 워크플로우 (7-9장)**
+**Advanced Workflows (Chapters 7-9)**
 
-- 제7장: 효율적인 개발 워크플로우 - 생산성 10배 높이기
-- 제8장: 멀티태스킹과 병렬 처리 - 여러 작업을 동시에 처리하는 기술
-- 제9장: 자동화와 CI/CD 통합 - 반복 작업 제로 만들기
+- Chapter 7: Efficient Development Workflows - Increasing Productivity 10x
+- Chapter 8: Multitasking and Parallel Processing - Techniques for Handling Multiple Tasks Simultaneously
+- Chapter 9: Automation and CI/CD Integration - Making Repetitive Tasks Zero
 
-**실전 프로젝트 (10장)**
+**Real-world Project (Chapter 10)**
 
-- 제10장: 웹 애플리케이션 구축 - 처음부터 배포까지 함께하기
+- Chapter 10: Building a Web Application - From Start to Deployment Together
 
-**팀 협업과 조직 혁신 (11-13장)**
+**Team Collaboration and Organizational Innovation (Chapters 11-13)**
 
-- 제11장: GitHub Actions와 Claude Code Action - PR 자동화의 마법
-- 제12장: 팀에서 Claude Code 활용하기 - 함께 성장하는 개발 문화
-- 제13장: 조직별 Claude Code 활용 사례 연구 - Anthropic 팀들의 실제 경험
+- Chapter 11: GitHub Actions and Claude Code Action - The Magic of PR Automation
+- Chapter 12: Utilizing Claude Code in a Team - A Development Culture of Growing Together
+- Chapter 13: Case Studies of Claude Code Usage by Organization - Real Experiences from Anthropic Teams
 
-### 이 책을 최대한 활용하는 방법
+### How to Make the Most of This Book
 
-1. **실습 중심 학습**: 각 장의 예제를 직접 따라하며 학습하세요. Claude Code는 실제로 사용해봐야 그 가치를 알 수 있습니다.
+1. **Hands-on Learning**: Learn by following the examples in each chapter. You can only understand the value of Claude Code by actually using it.
 
-2. **점진적 적용**: 현재 진행 중인 프로젝트에 하나씩 적용해보세요. 작은 성공 경험이 큰 변화로 이어집니다.
+2. **Gradual Application**: Apply it one by one to your current projects. Small successful experiences lead to big changes.
 
-3. **커스터마이징**: 책의 내용을 그대로 따르기보다는, 여러분의 환경과 필요에 맞게 조정하세요.
+3. **Customization**: Rather than strictly following the book's content, adjust it to your environment and needs.
 
-4. **공유와 토론**: 팀원들과 경험을 공유하고, 더 나은 방법을 함께 찾아가세요.
+4. **Sharing and Discussion**: Share your experiences with team members and find better methods together.
 
-## 함께 떠나는 여정
+## A Journey Together
 
-이 책은 단순한 도구 사용법을 넘어, AI와 함께 일하는 새로운 개발 문화를 만들어가는 여정입니다. 
+This book is more than just a tool manual; it's a journey to create a new development culture of working with AI.
 
-Claude Code는 여러분의 코드를 대신 작성하는 도구가 아닙니다. 오히려 여러분이 더 나은 개발자가 되도록 돕는 동료입니다. 복잡한 문제를 함께 고민하고, 다양한 해결책을 제시하며, 때로는 여러분이 놓친 부분을 짚어주는 믿음직한 파트너입니다.
+Claude Code is not a tool that writes your code for you. Rather, it is a colleague that helps you become a better developer. It is a reliable partner that contemplates complex problems with you, suggests various solutions, and sometimes points out what you missed.
 
-이제 AI와 함께하는 개발의 세계로 첫발을 내딛어 봅시다. 이 책이 여러분의 개발 인생에 새로운 장을 여는 계기가 되기를 바랍니다.
+Let's take the first step into the world of development with AI. I hope this book will be an opportunity to open a new chapter in your development life.
 
-2025년 6월  
-황민호
+June 2025
+Minho Hwang
 
 \newpage
 
-# 제1장: Claude Code란 무엇인가?
+# Chapter 1: What is Claude Code?
 
 > "The best way to predict the future is to invent it." - Alan Kay
 
-이 장에서는 Claude Code가 무엇인지, 왜 중요한지 알아보겠습니다.
+In this chapter, we will explore what Claude Code is and why it is important.
 
-프로그래밍의 역사는 끊임없는 **추상화와 도구 발전**의 역사입니다. 기계어에서 어셈블리로, 고급 언어에서 프레임워크로, 그리고 이제 AI와 자연어로 대화하며 코드를 작성하는 새로운 시대에 도달했습니다.
+The history of programming is a history of continuous **abstraction and tool development**. From machine language to assembly, from high-level languages to frameworks, and now we have reached a new era of writing code by conversing with AI in natural language.
 
-Claude Code는 이런 발전의 연장선상에 있는 혁신적인 도구입니다. 기존 개발 방식의 한계를 극복하고, 더 효율적이고 생산적인 개발 환경을 제공합니다.
+Claude Code is an innovative tool that lies on this path of development. It overcomes the limitations of existing development methods and provides a more efficient and productive development environment.
 
-## 1.1 전통적인 개발 도구의 한계
+## 1.1 Limitations of Traditional Development Tools
 
-### 현재 개발 환경의 도전 과제
+### Challenges in the Current Development Environment
 
-먼저 Claude Code가 왜 필요한지 이해하기 위해, 현재 개발자들이 직면한 주요 어려움들을 살펴보겠습니다.
+First, to understand why Claude Code is necessary, let's look at the main difficulties developers currently face.
 
-**1. 폭발적으로 증가하는 복잡성**
-현대의 소프트웨어는 정말 복잡해졌습니다. 예를 들어
+**1. Explosively Increasing Complexity**
+Modern software has become truly complex. For example:
 
-- 평범한 웹 애플리케이션도 100개 이상의 라이브러리에 의존합니다.
-- 마이크로서비스 환경에서는 수십 개의 독립적인 서비스를 관리해야 합니다.
-- 한 명의 개발자가 프론트엔드, 백엔드, 데이터베이스, DevOps까지 모두 알아야 하는 풀스택 시대입니다.
+- Ordinary web applications depend on over 100 libraries.
+- In a microservice environment, dozens of independent services must be managed.
+- We are in the era of full-stack development, where a single developer needs to know everything from frontend, backend, database, to DevOps.
 
-이런 복잡성 때문에 새로운 프로젝트를 시작할 때마다 어디서부터 시작해야 할지 막막함을 느끼는 개발자들이 많습니다.
+Because of this complexity, many developers feel overwhelmed about where to start when beginning a new project.
 
-**2. 끊임없이 변화하는 기술 스택**
-기술 변화의 속도도 정말 빠릅니다.
+**2. Constantly Changing Technology Stack**
+The speed of technological change is also very fast.
 
-- JavaScript 생태계에서는 매년 새로운 프레임워크가 등장합니다.
-- AWS만 해도 200개가 넘는 서비스를 제공하고 있습니다.
-- 각 프로그래밍 언어마다 고유한 철학과 생태계를 가지고 있어서 학습 부담이 큽니다.
+- New frameworks emerge every year in the JavaScript ecosystem.
+- AWS alone offers over 200 services.
+- Each programming language has its own unique philosophy and ecosystem, creating a heavy learning burden.
 
-빠르게 변화하는 기술 환경에서 지속적인 학습과 적응이 필요한 상황입니다.
+Continuous learning and adaptation are necessary in this rapidly changing technological environment.
 
-**3. 반복적이고 지루한 작업들**
-개발을 하다 보면 창의적인 부분보다는 반복적인 작업에 시간을 많이 쓰게 됩니다.
+**3. Repetitive and Tedious Tasks**
+When developing, a lot of time is spent on repetitive tasks rather than creative parts.
 
-- 매번 똑같은 형태의 보일러플레이트 코드 작성
-- 비슷비슷한 CRUD 기능들의 반복 구현
-- 귀찮지만 꼭 필요한 문서화와 주석 작성
-- 중요하지만 지루한 테스트 코드 작성
+- Writing boilerplate code of the same form every time
+- Repetitive implementation of similar CRUD functionalities
+- Tedious but necessary documentation and comment writing
+- Important but boring test code writing
 
-이런 작업들은 필요하지만, 개발자의 창의적인 에너지를 소모시키는 요인이 되고 있습니다.
+These tasks are necessary, but they are factors that consume a developer's creative energy.
 
-### IDE의 진화와 한계
+### Evolution and Limitations of IDEs
 
-통합 개발 환경(IDE)은 지난 수십 년간 꾸준히 발전해왔습니다.
+Integrated Development Environments (IDEs) have been steadily developing over the past few decades.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 timeline
-    title IDE 진화의 역사
+    title History of IDE Evolution
     
-    1980년대 : 텍스트 에디터
-             : 별도 컴파일러
-             : 명령행 기반
+    1980s : Text Editors
+           : Separate Compilers
+           : Command-line based
     
-    1990년대 : 통합 개발 환경
-             : 문법 강조
-             : 내장 디버거
-             : 프로젝트 관리
+    1990s : Integrated Development Environments
+           : Syntax Highlighting
+           : Built-in Debuggers
+           : Project Management
     
-    2000년대 : 인텔리센스
-             : 자동 리팩토링
-             : 코드 완성
-             : 버전 제어 통합
+    2000s : IntelliSense
+           : Automatic Refactoring
+           : Code Completion
+           : Version Control Integration
     
-    2010년대 : 플러그인 생태계
-             : 클라우드 통합
-             : 실시간 협업
-             : 모바일 지원
+    2010s : Plugin Ecosystems
+           : Cloud Integration
+           : Real-time Collaboration
+           : Mobile Support
     
-    2020년대 : AI 코드 완성
-             : 지능형 제안
-             : 자동 테스트 생성
-             : 자연어 인터페이스
+    2020s : AI Code Completion
+           : Intelligent Suggestions
+           : Automatic Test Generation
+           : Natural Language Interface
 ```
 
-하지만 여전히 한계가 존재합니다.
+However, limitations still exist.
 
-1. **컨텍스트 이해 부족**: IDE는 코드의 문법은 이해하지만, 비즈니스 로직이나 의도는 파악하지 못합니다.
+1. **Lack of Context Understanding**: IDEs understand code syntax but not business logic or intent.
 
-2. **수동적인 도구**: 개발자가 명시적으로 요청해야만 도움을 제공합니다.
+2. **Passive Tools**: They only provide help when explicitly requested by the developer.
 
-3. **단편적인 지원**: 코드 작성, 테스트, 문서화, 배포 등이 분리되어 있습니다.
+3. **Fragmented Support**: Code writing, testing, documentation, deployment, etc., are separated.
 
-## 1.2 AI 페어 프로그래밍의 등장
+## 1.2 Emergence of AI Pair Programming
 
-### 페어 프로그래밍의 재정의
-**전통적인 페어 프로그래밍**
+### Redefining Pair Programming
+**Traditional Pair Programming**
 
-- 두 명의 개발자가 하나의 컴퓨터 앞에 앉아 작업
-- 한 명은 코드를 작성(Driver), 다른 한 명은 검토(Navigator)
-- 지식 공유와 코드 품질 향상이 목적
+- Two developers sit at one computer and work
+- One writes code (Driver), the other reviews (Navigator)
+- Aims for knowledge sharing and code quality improvement
 
-**AI 페어 프로그래밍**
+**AI Pair Programming**
 
-- 개발자와 AI가 대화하며 협업
-- AI는 24시간 사용 가능한 시니어 개발자 역할
-- 즉각적인 피드백과 다양한 관점 제공
+- Developer and AI collaborate through conversation
+- AI acts as a 24/7 available senior developer
+- Provides instant feedback and diverse perspectives
 
-### AI 개발 도구의 스펙트럼
+### Spectrum of AI Development Tools
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
@@ -237,19 +237,19 @@ graph LR
     subgraph matrix [" "]
         direction LR
         
-        subgraph level1 ["기본 지원"]
-            A1["자동완성<br/>GitHub Copilot"]
-            A2["코드 생성<br/>Tabnine"]
+        subgraph level1 ["Basic Support"]
+            A1["Auto-completion<br/>GitHub Copilot"]
+            A2["Code Generation<br/>Tabnine"]
         end
         
-        subgraph level2 ["고급 지원"]
-            B1["대화형 AI<br/>Claude Code"]
-            B2["자율 에이전트<br/>Future Tech"]
+        subgraph level2 ["Advanced Support"]
+            B1["Conversational AI<br/>Claude Code"]
+            B2["Autonomous Agent<br/>Future Tech"]
         end
         
-        A1 -.->|진화| A2
-        A2 -.->|도약| B1
-        B1 -.->|발전| B2
+        A1 -.->|Evolution| A2
+        A2 -.->|Leap| B1
+        B1 -.->|Development| B2
     end
     
     classDef current fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
@@ -262,72 +262,72 @@ graph LR
     class A1,A2 basic
 ```
 
-Claude Code는 '대화형 어시스턴트' 영역에서 가장 진보된 형태를 보여줍니다.
+Claude Code represents the most advanced form in the 'conversational assistant' area.
 
-## 1.3 Claude Code의 핵심 철학
+## 1.3 Core Philosophy of Claude Code
 
-### 1. 유연성 (Flexibility)
+### 1. Flexibility
 
-Claude Code는 특정 워크플로우를 강제하지 않습니다.
-
-```bash
-# 다양한 접근 방식 모두 가능
-claude "버그를 찾아서 수정해줘"
-claude "TDD 방식으로 새 기능을 구현해줘"
-claude "이 코드를 함수형 스타일로 리팩토링해줘"
-claude "아키텍처를 분석하고 개선점을 제안해줘"
-```
-
-### 2. 투명성 (Transparency)
-
-모든 작업 과정이 투명하게 공개됩니다.
+Claude Code does not enforce specific workflows.
 
 ```bash
-# Claude Code의 작업 과정을 실시간으로 확인
-> 파일 탐색 중: src/components/
-> 코드 분석 중: UserProfile.jsx
-> 수정 사항 적용 중...
-> 테스트 실행 중...
+# All various approaches are possible
+claude "Find and fix the bug"
+claude "Implement a new feature using TDD"
+claude "Refactor this code into a functional style"
+claude "Analyze the architecture and suggest improvements"
 ```
 
-### 3. 협업 (Collaboration)
+### 2. Transparency
 
-AI는 도구가 아닌 동료입니다.
+The entire work process is transparently disclosed.
 
-- 제안과 대안 제시
-- 잠재적 문제 사전 경고
-- 더 나은 해결책 토론
-- 학습과 성장 지원
+```bash
+# Check Claude Code's work process in real-time
+> Exploring files: src/components/
+> Analyzing code: UserProfile.jsx
+> Applying modifications...
+> Running tests...
+```
 
-### 4. 맥락 이해 (Context Awareness)
+### 3. Collaboration
 
-전체 프로젝트 맥락을 이해합니다.
+AI is a colleague, not a tool.
+
+- Suggests proposals and alternatives
+- Warns about potential problems in advance
+- Discusses better solutions
+- Supports learning and growth
+
+### 4. Context Awareness
+
+Understands the entire project context.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#334155", "primaryBorderColor": "#e2e8f0"}, "mindmap": {"htmlLabels": false, "useMaxWidth": false}}}%%
 mindmap
-  root((맥락 이해))
-    프로젝트 분석
-      파일 구조 탐색
-      의존성 매핑
-      아키텍처 패턴 인식
-    컨벤션 학습
-      코딩 스타일 분석
-      네이밍 규칙 파악
-      포맷팅 패턴 인식
-    로직 이해
-      비즈니스 요구사항
-      데이터 플로우
-      에러 처리 패턴
-    솔루션 제공
-      최적화된 구현
-      베스트 프랙티스 적용
-      확장 가능한 설계
+  root((Context Awareness))
+    Project Analysis
+      File Structure Exploration
+      Dependency Mapping
+      Architecture Pattern Recognition
+    Convention Learning
+      Coding Style Analysis
+      Naming Convention Identification
+      Formatting Pattern Recognition
+    Logic Understanding
+      Business Requirements
+      Data Flow
+      Error Handling Patterns
+    Solution Provision
+      Optimized Implementation
+      Best Practice Application
+      Scalable Design
 ```
 
-## 1.4 다른 AI 코딩 도구와의 차별점
+## 1.4 Differentiation from Other AI Coding Tools
 
-### GitHub Copilot과의 비교
+### Comparison with GitHub Copilot
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
@@ -337,20 +337,20 @@ graph LR
         
         subgraph copilot ["GitHub Copilot"]
             direction TB
-            A1["인라인 자동완성<br/>간단한 제안"]
-            A2["현재 파일 중심<br/>제한적 컨텍스트"]
-            A3["코드 작성<br/>단일 기능"]
-            A4["제한적 설정<br/>기본 옵션만"]
-            A5["낮은 학습 곡선<br/>즉시 사용 가능"]
+            A1["Inline auto-completion<br/>Simple suggestions"]
+            A2["Current file focused<br/>Limited context"]
+            A3["Code writing<br/>Single function"]
+            A4["Limited settings<br/>Basic options only"]
+            A5["Low learning curve<br/>Usable immediately"]
         end
         
         subgraph claude ["Claude Code"]
             direction TB
-            B1["대화형 협업<br/>자연어 인터페이스"]
-            B2["전체 프로젝트<br/>완전한 컨텍스트"]
-            B3["전체 라이프사이클<br/>설계부터 배포까지"]
-            B4["완전 커스터마이징<br/>CLAUDE.md 활용"]
-            B5["적응형 학습<br/>점진적 마스터리"]
+            B1["Conversational collaboration<br/>Natural language interface"]
+            B2["Entire project<br/>Complete context"]
+            B3["Entire lifecycle<br/>From design to deployment"]
+            B4["Full customization<br/>Utilizing CLAUDE.md"]
+            B5["Adaptive learning<br/>Gradual mastery"]
         end
         
         A1 -.->|vs| B1
@@ -367,97 +367,97 @@ graph LR
     class B1,B2,B3,B4,B5 claudeStyle
 ```
 
-| 특징 | GitHub Copilot | Claude Code |
+| Feature | GitHub Copilot | Claude Code |
 |------|----------------|-------------|
-| 작동 방식 | 인라인 자동완성 | 대화형 상호작용 |
-| 컨텍스트 | 현재 파일 중심 | 전체 프로젝트 |
-| 작업 범위 | 코드 작성 | 설계, 구현, 테스트, 배포 |
-| 커스터마이징 | 제한적 | 완전 커스터마이징 가능 |
-| 학습 곡선 | 낮음 | 중간 |
+| Operation Method | Inline auto-completion | Conversational interaction |
+| Context | Current file focused | Entire project |
+| Scope of Work | Code writing | Design, implementation, testing, deployment |
+| Customization | Limited | Fully customizable |
+| Learning Curve | Low | Medium |
 
-### ChatGPT와의 비교
+### Comparison with ChatGPT
 
-| 특징 | ChatGPT | Claude Code |
+| Feature | ChatGPT | Claude Code |
 |------|---------|-------------|
-| 파일 시스템 접근 | 불가능 | 완전한 접근 |
-| 코드 실행 | 제한적 | 직접 실행 가능 |
-| 지속성 | 대화별 리셋 | 프로젝트 컨텍스트 유지 |
-| 도구 통합 | 없음 | Git, 테스트, 빌드 도구 등 |
+| File System Access | Not possible | Full access |
+| Code Execution | Limited | Direct execution possible |
+| Persistence | Resets per conversation | Maintains project context |
+| Tool Integration | None | Git, testing, build tools, etc. |
 
-### Claude Code만의 독특한 기능
+### Unique Features of Claude Code
 
-**1. CLAUDE.md를 통한 프로젝트 맞춤화**
+**1. Project Customization via CLAUDE.md**
 ```markdown
-# 우리 프로젝트의 규칙
-- 모든 컴포넌트는 함수형으로 작성
-- 테스트 커버리지 80% 이상 유지
-- 커밋 메시지는 conventional commits 따르기
+# Rules for our project
+- All components are written functionally
+- Maintain test coverage above 80%
+- Commit messages follow conventional commits
 ```
 
-**2. 멀티모달 입력 지원**
+**2. Multimodal Input Support**
 
-- 디자인 스크린샷을 보고 UI 구현
-- 다이어그램을 코드로 변환
-- 에러 스크린샷으로 디버깅
+- Implement UI by looking at design screenshots
+- Convert diagrams into code
+- Debug with error screenshots
 
-**3. 진정한 풀스택 지원**
+**3. True Full-Stack Support**
 ```bash
-# 프론트엔드부터 배포까지 한 번에
-claude "사용자 인증 기능을 만들어줘. React 프론트엔드, Node.js 백엔드, PostgreSQL 데이터베이스, Docker 컨테이너화까지"
+# From frontend to deployment all at once
+claude "Create user authentication functionality. React frontend, Node.js backend, PostgreSQL database, and Docker containerization"
 ```
 
-## 실제 사례: 30분 만에 만든 실시간 채팅 앱
+## Real Case: Real-time Chat App Created in 30 Minutes
 
-한 스타트업 개발자의 경험담
+Experience of a startup developer
 
-> "새로운 프로젝트를 시작해야 했는데, 실시간 채팅 기능이 핵심이었습니다. 
-> 보통이라면 아키텍처 설계부터 시작해서 일주일은 걸렸을 텐데, 
-> Claude Code와 함께 30분 만에 작동하는 프로토타입을 만들었습니다.
+> "I had to start a new project, and real-time chat functionality was key.
+> Normally, it would have taken at least a week, starting from architecture design.
+> But with Claude Code, I created a working prototype in 30 minutes.
 > 
-> 더 놀라운 건, 코드 품질이 제가 직접 작성한 것보다 나았다는 점입니다.
-> 에러 핸들링, 보안, 확장성까지 고려되어 있었죠."
+> What's more surprising is that the code quality was better than what I would have written myself.
+> Error handling, security, and scalability were all considered."
 
-이것이 가능했던 이유
+Reasons why this was possible
 
-1. Claude Code가 실시간 통신의 베스트 프랙티스를 알고 있음
-2. 프로젝트 구조를 자동으로 파악하고 적절히 통합
-3. 테스트 코드까지 함께 생성
-4. 잠재적 문제점을 사전에 지적하고 해결
+1. Claude Code knows best practices for real-time communication
+2. Automatically identifies project structure and integrates appropriately
+3. Generates test code as well
+4. Points out and resolves potential problems 사전
 
-## 마치며
+## Conclusion
 
-Claude Code는 단순한 도구가 아닙니다. 이는 개발 방식의 패러다임 전환입니다.
+Claude Code is not just a tool. It is a paradigm shift in development methods.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 flowchart LR
-    subgraph before ["전통적 개발 방식"]
+    subgraph before ["Traditional Development Method"]
         direction TB
-        A1["개발자가 모든 세부사항을<br/>직접 구현"]
-        A2["반복적인 작업에<br/>시간 소모"]
-        A3["새로운 기술 학습에<br/>높은 진입 장벽"]
-        A4["느린 프로토타이핑<br/>사이클"]
+        A1["Developer implements all<br/>details manually"]
+        A2["Time consumed on<br/>repetitive tasks"]
+        A3["High entry barrier for<br/>learning new technologies"]
+        A4["Slow prototyping<br/>cycle"]
     end
     
-    subgraph transition ["전환점"]
-        T["Claude Code<br/>도입"]
+    subgraph transition ["Turning Point"]
+        T["Claude Code<br/>Adoption"]
     end
     
-    subgraph after ["혁신적 개발 문화"]
+    subgraph after ["Innovative Development Culture"]
         direction TB
-        B1["개발자는 '무엇을'<br/>만들지에 집중"]
-        B2["AI가 '어떻게'<br/>구현할지를 도움"]
-        B3["빠른 실험과<br/>검증 가능"]
-        B4["지속적인 학습과<br/>성장"]
+        B1["Developer focuses on<br/>'what' to build"]
+        B2["AI helps with 'how'<br/>to implement"]
+        B3["Fast experimentation and<br/>validation possible"]
+        B4["Continuous learning and<br/>growth"]
     end
     
     before --> transition
     transition --> after
     
-    A1 -.->|변화| B1
-    A2 -.->|자동화| B2
-    A3 -.->|가속화| B3
-    A4 -.->|최적화| B4
+    A1 -.->|Change| B1
+    A2 -.->|Automation| B2
+    A3 -.->|Acceleration| B3
+    A4 -.->|Optimization| B4
     
     classDef beforeStyle fill:#f8fafc,stroke:#64748b,stroke-width:1px,color:#64748b
     classDef afterStyle fill:#e2e8f0,stroke:#334155,stroke-width:2px,color:#1e293b
@@ -468,270 +468,270 @@ flowchart LR
     class T transitionStyle
 ```
 
-다음 장에서는 Claude Code를 실제로 설치하고 첫 번째 명령을 실행해보겠습니다. AI와 함께하는 개발의 새로운 여정을 시작해보겠습니다.
+In the next chapter, we will actually install Claude Code and run our first command. Let's start a new journey of development with AI.
 
 \newpage
 
-# 제2장: 설치와 초기 설정
+# Chapter 2: Installation and Initial Setup
 
-> "시작이 반이다" - 한국 속담
+> "Well begun is half done."
 
-이제 Claude Code를 설치해보겠습니다. 이 장에서는 **각 운영체제별로 단계별 설치 가이드**를 제공하며, 설치 과정에서 발생할 수 있는 문제들과 해결 방법도 함께 다룹니다.
+Now let's install Claude Code. This chapter provides **step-by-step installation guides for each operating system**, and also covers potential problems during installation and their solutions.
 
-## 2.1 시스템 요구사항
+## 2.1 System Requirements
 
-### 최소 요구사항
+### Minimum Requirements
 
-먼저 시스템이 Claude Code를 실행할 수 있는지 확인해보겠습니다. 최소 요구사항은 일반적인 개발 환경과 유사하며, 대부분의 현대적인 시스템에서 실행 가능합니다.
+First, let's check if your system can run Claude Code. The minimum requirements are similar to a typical development environment and can run on most modern systems.
 
-| 구성 요소 | 최소 요구사항 | 권장 사항 |
+| Component | Minimum Requirement | Recommendation |
 |----------|-------------|----------|
-| 운영체제 | macOS 12+, Windows 10+, Ubuntu 20.04+ | 최신 버전 |
-| RAM | 8GB | 16GB 이상 |
-| 저장공간 | 2GB 여유 공간 | 10GB 이상 |
-| 인터넷 | 안정적인 연결 필요 | 고속 인터넷 |
-| Node.js | 18.0 이상 | 20.0 이상 |
+| Operating System | macOS 12+, Windows 10+, Ubuntu 20.04+ | Latest version |
+| RAM | 8GB | 16GB or more |
+| Storage | 2GB free space | 10GB or more |
+| Internet | Stable connection required | High-speed internet |
+| Node.js | 18.0 or higher | 20.0 or higher |
 
-### 사전 준비사항
+### Prerequisites
 
-설치 전 시스템 환경을 확인하겠습니다. 터미널을 열고 다음 명령어들을 실행하여 필요한 도구들이 설치되어 있는지 확인하세요.
+Let's check the system environment before installation. Open a terminal and run the following commands to check if the necessary tools are installed.
 
-**터미널 실행 방법**
+**How to Run Terminal**
 
-- **Mac**: `Cmd + Space` → "터미널" 검색
-- **Windows**: `Win + R` → "cmd" 입력
+- **Mac**: `Cmd + Space` → Search for "Terminal"
+- **Windows**: `Win + R` → Type "cmd"
 - **Linux**: `Ctrl + Alt + T`
 
 ```bash
-# Node.js 버전 확인
+# Check Node.js version
 node --version
 
-# npm 버전 확인
+# Check npm version
 npm --version
 
-# Git 설치 확인 (선택사항이지만 권장)
+# Check Git installation (optional but recommended)
 git --version
 ```
 
-**Node.js가 설치되어 있지 않거나 버전이 낮다면**
+**If Node.js is not installed or the version is low**
 
-1. [Node.js 공식 사이트](https://nodejs.org)에서 LTS 버전을 다운로드하세요
-2. 또는 패키지 매니저를 사용하세요
-   - **Mac**: `brew install node` (Homebrew 필요)
-   - **Windows**: `choco install nodejs` (Chocolatey 필요)
+1. Download the LTS version from the [Node.js official site](https://nodejs.org)
+2. Or use a package manager
+   - **Mac**: `brew install node` (Homebrew required)
+   - **Windows**: `choco install nodejs` (Chocolatey required)
    - **Linux**: `sudo apt install nodejs npm` (Ubuntu/Debian)
 
-> **권장사항**: LTS(Long Term Support) 버전을 사용하면 안정성과 호환성을 보장받을 수 있습니다.
+> **Recommendation**: Using the LTS (Long Term Support) version ensures stability and compatibility.
 
-## 2.2 설치 가이드 (OS별)
+## 2.2 Installation Guide (By OS)
 
-이제 운영체제별로 Claude Code를 설치하겠습니다. 각 OS에 최적화된 설치 방법을 제공합니다.
+Now let's install Claude Code for each operating system. We provide installation methods optimized for each OS.
 
-### macOS에서 설치하기
+### Installing on macOS
 
-macOS에서는 두 가지 설치 방법을 제공합니다.
+Two installation methods are provided for macOS.
 
-**방법 1: npm을 통한 설치 (권장)**
+**Method 1: Installation via npm (Recommended)**
 
-가장 간단하고 안정적인 방법입니다.
+This is the simplest and most stable method.
 
 ```bash
-# Claude Code 설치
+# Install Claude Code
 npm install -g @anthropic-ai/claude-code
 
-# 설치 확인
+# Verify installation
 claude --version
 ```
 
-**방법 2: Homebrew를 통한 설치**
+**Method 2: Installation via Homebrew**
 
 ```bash
-# Homebrew tap 추가
+# Add Homebrew tap
 brew tap anthropic-ai/claude-code
 
-# Claude Code 설치
+# Install Claude Code
 brew install claude-code
 
-# 설치 확인
+# Verify installation
 claude --version
 ```
 
-**macOS 특화 설정**
+**macOS Specific Settings**
 
 ```bash
-# 터미널 권한 설정 (필요한 경우)
-# 시스템 환경설정 > 보안 및 개인정보 > 개인정보 > 전체 디스크 접근 권한
-# Terminal.app 또는 사용 중인 터미널 앱 추가
+# Set terminal permissions (if necessary)
+# System Preferences > Security & Privacy > Privacy > Full Disk Access
+# Add Terminal.app or the terminal app you are using
 
-# Spotlight 검색 제외 (선택사항)
-# .claude-code 디렉토리를 Spotlight 검색에서 제외하여 성능 향상
+# Exclude from Spotlight search (optional)
+# Improve performance by excluding the .claude-code directory from Spotlight search
 ```
 
-### Windows에서 설치하기
+### Installing on Windows
 
-Windows에서는 WSL 2(Windows Subsystem for Linux)를 통해 Claude Code를 설치하는 것이 권장됩니다. 현재 Claude Code는 Windows 네이티브 클라이언트를 지원하지 않으므로, Linux 환경이 필요합니다.
+On Windows, it is recommended to install Claude Code via WSL 2 (Windows Subsystem for Linux). Currently, Claude Code does not support a Windows native client, so a Linux environment is required.
 
-**시스템 요구사항**
+**System Requirements**
 
-| 항목 | 최소 조건 |
+| Item | Minimum Condition |
 |------|-----------|
-| OS | Windows 10 (21H2) 또는 Windows 11 + WSL 2 |
-| RAM | 4GB 이상 |
-| 네트워크 | 인터넷 연결 (OAuth 인증 및 API 호출) |
-| 소프트웨어 | WSL 2, Node.js 18+, Git(선택사항) |
+| OS | Windows 10 (21H2) or Windows 11 + WSL 2 |
+| RAM | 4GB or more |
+| Network | Internet connection (OAuth authentication and API calls) |
+| Software | WSL 2, Node.js 18+, Git (optional) |
 
-**1단계: WSL 2 설치**
+**Step 1: Install WSL 2**
 
-PowerShell을 **관리자 권한**으로 실행하고 다음 명령어를 입력하세요.
+Run PowerShell as **administrator** and enter the following command.
 
 ```powershell
-# WSL 설치 (Ubuntu 22.04 LTS 기본 포함)
+# Install WSL (includes Ubuntu 22.04 LTS by default)
 wsl --install
 
-# 설치 후 시스템 재부팅
+# Reboot system after installation
 ```
 
-기존에 WSL 1을 사용하고 있다면 다음과 같이 업그레이드하세요.
+If you are using WSL 1, upgrade as follows:
 
 ```powershell
-# WSL 2로 업그레이드
+# Upgrade to WSL 2
 wsl --set-version Ubuntu 2
 
-# 설치 상태 확인
+# Check installation status
 wsl --status
 wsl --list --verbose
 ```
 
-**2단계: Node.js 설치 (WSL 내부)**
+**Step 2: Install Node.js (Inside WSL)**
 
-WSL 터미널(Ubuntu)을 열고 NVM을 통해 Node.js를 설치하세요.
+Open the WSL terminal (Ubuntu) and install Node.js via NVM.
 
 ```bash
-# NVM 설치
+# Install NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
-# 변경사항 적용
+# Apply changes
 source ~/.bashrc
 
-# Node.js 18 LTS 설치 및 사용
+# Install and use Node.js 18 LTS
 nvm install 18
 nvm use 18
 
-# 설치 확인
+# Verify installation
 node --version
 npm --version
 ```
 
-> **중요**: `which node` 명령 실행 시 경로가 `/home/<username>/.nvm/...`으로 표시되어야 합니다. `/mnt/c/...` 경로가 나타나면 Windows와 경로가 충돌하는 상황이므로 위 과정을 다시 진행하세요.
+> **Important**: When running the `which node` command, the path should be displayed as `/home/<username>/.nvm/...`. If the path `/mnt/c/...` appears, it means there is a path conflict with Windows, so repeat the above process.
 
-**3단계: Claude Code 설치**
+**Step 3: Install Claude Code**
 
 ```bash
-# Claude Code 설치
+# Install Claude Code
 npm install -g @anthropic-ai/claude-code
 
-# 설치 확인
+# Verify installation
 claude --version
 ```
 
-**설치 오류 해결**
+**Troubleshooting Installation Errors**
 
-| 오류 | 해결방법 |
+| Error | Solution |
 |------|----------|
-| `OS detection failed` | `npm config set os linux` 실행 후 `npm install -g @anthropic-ai/claude-code --force --no-os-check` |
-| `exec: node: not found` | Node.js 설치 재확인, `which node` 경로 점검 |
-| 권한 오류 | `npm config set prefix '~/.npm-global'` 실행 후 재설치 |
+| `OS detection failed` | Run `npm config set os linux` then `npm install -g @anthropic-ai/claude-code --force --no-os-check` |
+| `exec: node: not found` | Recheck Node.js installation, check `which node` path |
+| Permission error | Run `npm config set prefix '~/.npm-global'` then reinstall |
 
-### Linux (Ubuntu/Debian)에서 설치하기
+### Installing on Linux (Ubuntu/Debian)
 
 ```bash
-# 시스템 패키지 업데이트
+# Update system packages
 sudo apt update && sudo apt upgrade
 
-# Node.js 설치 (아직 없는 경우)
+# Install Node.js (if not already present)
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install nodejs
 
-# Claude Code 설치
+# Install Claude Code
 sudo npm install -g @anthropic-ai/claude-code
 
-# 설치 확인
+# Verify installation
 claude --version
 
-# 권한 설정 (필요한 경우)
+# Set permissions (if necessary)
 sudo chmod +x /usr/local/bin/claude
 ```
 
-## 2.3 첫 번째 명령어 실행하기
+## 2.3 Running Your First Command
 
-설치가 완료되었습니다. 이제 Claude Code의 기본 설정을 진행하겠습니다.
+Installation is complete. Now let's proceed with the basic setup of Claude Code.
 
-### API 키 설정
+### API Key Setup
 
-Claude Code를 사용하려면 API 키 설정이 필요합니다. 무료 사용량으로 시작할 수 있습니다.
+An API key is required to use Claude Code. You can start with free usage.
 
-**1단계: API 키 발급받기**
+**Step 1: Obtain an API Key**
 
-1. [Anthropic Console](https://console.anthropic.com)에 접속하세요
-2. 계정을 만들거나 로그인하세요
-3. "API Keys" 섹션에서 새 키를 생성하세요
+1. Go to [Anthropic Console](https://console.anthropic.com)
+2. Create an account or log in
+3. Create a new key in the "API Keys" section
 
-**2단계: API 키 설정하기**
+**Step 2: Set up the API Key**
 ```bash
-# API 키 설정 명령어 실행
+# Run API key setup command
 claude login
 
-# 프롬프트가 나타나면 복사한 API 키를 붙여넣기
-# (키를 입력할 때는 화면에 표시되지 않는 것이 정상입니다)
+# Paste the copied API key when prompted
+# (It is normal for the key not to be displayed on the screen when typing)
 ```
 
-> **보안 주의사항**: API 키는 개인 계정과 연결되므로 타인과 공유하지 않도록 주의하세요.
+> **Security Note**: The API key is linked to your personal account, so be careful not to share it with others.
 
-### 첫 번째 대화
+### First Conversation
 
-이제 Claude Code와 첫 대화를 시작해보겠습니다.
+Now let's start our first conversation with Claude Code.
 
 ```bash
-# 첫 인사 (Claude가 답변하면 성공!)
-claude "안녕하세요, Claude! 처음 뵙겠습니다."
+# First greeting (Success if Claude responds!)
+claude "Hello, Claude! Nice to meet you."
 
-# 간단한 작업 요청해보기
-claude "현재 시스템 정보를 알려주세요"
+# Try a simple task request
+claude "Please tell me the current system information"
 
-# 디렉토리 탐색해보기
-claude "현재 폴더에 어떤 파일들이 있는지 보여주세요"
+# Try exploring a directory
+claude "Show me what files are in the current folder"
 ```
 
-**응답이 정상적으로 출력되면 설치와 기본 설정이 완료된 것입니다.** Claude Code 사용 준비가 완료되었습니다.
+**If the response is displayed correctly, the installation and basic setup are complete.** You are ready to use Claude Code.
 
-### 대화형 모드 vs 명령 모드
+### Interactive Mode vs. Command Mode
 
-**명령 모드 (일회성 작업)**
+**Command Mode (One-off tasks)**
 ```bash
-claude "package.json 파일을 읽고 요약해줘"
+claude "Read the package.json file and summarize it"
 ```
 
-**대화형 모드 (지속적인 작업)**
+**Interactive Mode (Continuous tasks)**
 
-명령 모드는 단발성 작업에 적합하지만, 복잡한 프로젝트나 여러 단계를 거쳐야 하는 작업에는 대화형 모드가 더 효율적입니다.
+Command mode is suitable for single tasks, but interactive mode is more efficient for complex projects or tasks that require multiple steps.
 
 ```bash
-# 대화형 모드 시작
+# Start interactive mode
 claude
 
-# 이제 지속적으로 대화 가능
-> 새로운 React 프로젝트를 시작하고 싶어
-> TypeScript를 사용하고, 테스트 환경도 설정해줘
-> Material-UI도 추가해줘
+# Now you can chat continuously
+> I want to start a new React project
+> Use TypeScript and set up a testing environment too
+> Add Material-UI as well
 ```
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 graph LR
-    subgraph interactive ["대화형 모드의 장점"]
-        A["컨텍스트 유지<br/>이전 대화 내용 기억"]
-        B["단계적 개선<br/>점진적 요구사항 조정"]
-        C["효율적 협업<br/>대화를 통한 구체화"]
+    subgraph interactive ["Advantages of Interactive Mode"]
+        A["Context Persistence<br/>Remembers previous conversation"]
+        B["Step-by-Step Improvement<br/>Gradual adjustment of requirements"]
+        C["Efficient Collaboration<br/>Specification through dialogue"]
         
         A --> B
         B --> C
@@ -743,52 +743,52 @@ graph LR
     class A,B,C advantageStyle
 ```
 
-대화형 모드의 장점
+Advantages of Interactive Mode
 
-## 2.4 기본 설정 최적화
+## 2.4 Optimizing Basic Settings
 
-Claude Code를 더 효율적으로 사용하기 위해서는 개인의 작업 환경과 선호도에 맞게 설정을 조정하는 것이 중요합니다. 이 섹션에서는 주요 설정 옵션들과 최적화 방법을 알아보겠습니다.
+To use Claude Code more efficiently, it's important to adjust settings according to your work environment and preferences. This section will cover major configuration options and optimization methods.
 
-### 전역 설정 파일
+### Global Configuration File
 
-Claude Code의 모든 설정은 홈 디렉토리의 설정 파일에서 관리됩니다. 이 파일을 통해 개인화된 작업 환경을 구성할 수 있습니다.
+All Claude Code settings are managed in a configuration file in your home directory. You can configure a personalized work environment through this file.
 
-**설정 파일 위치**: `~/.claude-code/config.json`
+**Configuration File Location**: `~/.claude-code/config.json`
 
 ```json
 {
-  "api_key": "sk-ant-...",              // API 인증 키
-  "default_model": "claude-3-opus-20240229", // 기본 사용 모델
-  "theme": "dark",                       // 인터페이스 테마 (dark/light)
-  "editor": "vscode",                    // 선호 에디터
-  "auto_commit": false,                  // 자동 커밋 여부
-  "language": "ko",                      // 기본 언어 설정
+  "api_key": "sk-ant-...",              // API authentication key
+  "default_model": "claude-3-opus-20240229", // Default model to use
+  "theme": "dark",                       // Interface theme (dark/light)
+  "editor": "vscode",                    // Preferred editor
+  "auto_commit": false,                  // Whether to auto-commit
+  "language": "en",                      // Default language setting
   "permissions": {
-    "file_write": true,                  // 파일 쓰기 권한
-    "file_read": true,                   // 파일 읽기 권한
-    "command_execution": true            // 명령 실행 권한
+    "file_write": true,                  // File write permission
+    "file_read": true,                   // File read permission
+    "command_execution": true            // Command execution permission
   }
 }
 ```
 
-**주요 설정 옵션 설명**
+**Explanation of Major Configuration Options**
 
-- `default_model`: 작업 유형에 따라 적절한 모델 선택 (opus: 복잡한 작업, sonnet: 일반 작업, haiku: 빠른 응답)
-- `auto_commit`: 코드 변경 시 자동으로 Git 커밋할지 결정
-- `permissions`: 보안을 위해 필요한 권한만 활성화하는 것을 권장
+- `default_model`: Choose the appropriate model based on task type (opus: complex tasks, sonnet: general tasks, haiku: fast responses)
+- `auto_commit`: Decide whether to automatically Git commit code changes
+- `permissions`: Recommended to enable only necessary permissions for security
 
-### 권한 설정
+### Permission Settings
 
-Claude Code는 강력한 도구이므로 적절한 권한 관리가 중요합니다. 작업 환경과 보안 요구사항에 따라 권한을 조정할 수 있습니다.
+Claude Code is a powerful tool, so proper permission management is important. You can adjust permissions based on your work environment and security requirements.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 graph TB
-    subgraph permissions ["권한 유형별 설명"]
+    subgraph permissions ["Permission Types Explained"]
         direction TB
-        A["file_read<br/>프로젝트 파일 읽기<br/>코드 분석, 리뷰에 필수"]
-        B["file_write<br/>파일 생성 및 수정<br/>개발 작업에 필수"]
-        C["command_execution<br/>시스템 명령 실행<br/>빌드, 테스트 등에 필요"]
+        A["file_read<br/>Read project files<br/>Essential for code analysis, reviews"]
+        B["file_write<br/>Create and modify files<br/>Essential for development tasks"]
+        C["command_execution<br/>Execute system commands<br/>Needed for build, test, etc."]
         
         A --> B
         B --> C
@@ -799,33 +799,33 @@ graph TB
     class A,B,C permissionStyle
 ```
 
-**권한 유형별 설명**
+**Permission Types Explained**
 
-보안과 편의성의 균형을 위한 권한 설정 전략
+Permission setting strategy for balancing security and convenience
 
 ```bash
-# 모든 권한 부여 (개발 환경)
+# Grant all permissions (development environment)
 claude --allow-all
 
-# 읽기 전용 모드 (코드 리뷰용)
+# Read-only mode (for code reviews)
 claude --read-only
 
-# 특정 권한만 부여
+# Grant specific permissions only
 claude --allow-read --allow-write --deny-execute
 ```
 
-### 에디터 통합
+### Editor Integration
 
-개발 효율성을 높이기 위해 Claude Code를 기존 에디터와 통합할 수 있습니다. 에디터 통합을 통해 코드 편집과 AI 지원을 원활하게 연결할 수 있습니다.
+To increase development efficiency, you can integrate Claude Code with your existing editor. Editor integration allows for a seamless connection between code editing and AI support.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 graph LR
-    subgraph editors ["지원되는 에디터"]
-        A["Visual Studio Code<br/>가장 완전한 통합 지원"]
-        B["Vim/Neovim<br/>터미널 기반 워크플로우"]
-        C["JetBrains IDEs<br/>IntelliJ, PyCharm 등"]
-        D["Sublime Text<br/>경량 에디터"]
+    subgraph editors ["Supported Editors"]
+        A["Visual Studio Code<br/>Most complete integration support"]
+        B["Vim/Neovim<br/>Terminal-based workflow"]
+        C["JetBrains IDEs<br/>IntelliJ, PyCharm, etc."]
+        D["Sublime Text<br/>Lightweight editor"]
     end
     
     classDef editorStyle fill:#e2e8f0,stroke:#334155,stroke-width:2px,color:#1e293b
@@ -833,33 +833,33 @@ graph LR
     class A,B,C,D editorStyle
 ```
 
-**지원되는 에디터**
+**Supported Editors**
 
-선호하는 에디터와 통합 설정
+Integration settings with your preferred editor
 
 ```bash
-# VSCode 통합
+# VSCode integration
 claude config set editor vscode
 
-# Vim 통합
+# Vim integration
 claude config set editor vim
 
-# 에디터에서 직접 Claude Code 호출
+# Call Claude Code directly from the editor
 # VSCode: Cmd+Shift+P > "Claude: Ask"
 ```
 
-### 프록시 설정 (기업 환경)
+### Proxy Settings (Corporate Environment)
 
-많은 기업에서는 보안상의 이유로 프록시 서버를 통해 외부 인터넷에 접속합니다. Claude Code도 이런 환경에서 사용할 수 있도록 프록시 설정을 지원합니다.
+Many companies access the external internet through proxy servers for security reasons. Claude Code supports proxy settings to be usable in such environments.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 flowchart TD
-    A["프록시 설정이 필요한 경우"]
+    A["When Proxy Settings Are Needed"]
     
-    A --> B["회사 방화벽 뒤에서<br/>작업하는 경우"]
-    A --> C["VPN을 통해 회사 네트워크에<br/>연결된 경우"]
-    A --> D["특정 보안 정책이 적용된<br/>네트워크 환경"]
+    A --> B["Working behind a<br/>company firewall"]
+    A --> C["Connected to company network<br/>via VPN"]
+    A --> D["Network environment with<br/>specific security policies"]
     
     classDef caseStyle fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
     classDef rootStyle fill:#e2e8f0,stroke:#334155,stroke-width:3px,color:#1e293b
@@ -868,74 +868,74 @@ flowchart TD
     class B,C,D caseStyle
 ```
 
-**프록시 설정이 필요한 경우**
+**When Proxy Settings Are Needed**
 
-기업 환경에서 프록시를 사용하는 경우의 설정 방법
+How to set up proxy in a corporate environment
 
 ```bash
-# HTTP 프록시 설정
+# HTTP proxy settings
 export HTTP_PROXY=http://proxy.company.com:8080
 export HTTPS_PROXY=http://proxy.company.com:8080
 
-# Claude Code 전용 프록시 설정
+# Claude Code specific proxy settings
 claude config set proxy http://proxy.company.com:8080
 ```
 
-## 2.5 문제 해결 가이드
+## 2.5 Troubleshooting Guide
 
-Claude Code 설치 및 초기 사용 과정에서 발생할 수 있는 일반적인 문제들과 해결 방법을 정리했습니다. 문제 상황별로 단계적인 해결 방안을 제시하므로, 차근차근 따라하면 대부분의 문제를 해결할 수 있습니다.
+This section summarizes common problems that may occur during Claude Code installation and initial use, along with their solutions. Step-by-step solutions are provided for each problem situation, so following them carefully should resolve most issues.
 
-### 자주 발생하는 문제와 해결 방법
+### Frequently Occurring Problems and Solutions
 
-다음은 Claude Code 사용자들이 가장 자주 경험하는 문제들과 검증된 해결 방법들입니다.
+The following are the most common problems experienced by Claude Code users and their verified solutions.
 
 **1. "command not found: claude"**
 
-이 오류는 Claude Code가 설치되었지만 시스템 PATH에 등록되지 않았을 때 발생합니다.
+This error occurs when Claude Code is installed but not registered in the system PATH.
 
-**원인 분석**
+**Cause Analysis**
 
-- npm 전역 설치 경로가 PATH에 포함되지 않음
-- 잘못된 설치 경로
-- Shell 환경 변수 설정 문제
+- npm global installation path not included in PATH
+- Incorrect installation path
+- Shell environment variable setting issue
 
-**해결 방법**
+**Solution**
 ```bash
-# 1단계: npm 전역 경로 확인
+# Step 1: Check npm global path
 npm config get prefix
 
-# 2단계: PATH에 추가 (bash/zsh)
+# Step 2: Add to PATH (bash/zsh)
 echo 'export PATH="$PATH:$(npm config get prefix)/bin"' >> ~/.bashrc
 source ~/.bashrc
 
-# 3단계: 설치 확인
+# Step 3: Verify installation
 claude --version
 ```
 
-**추가 해결책**
+**Additional Solutions**
 
-- macOS에서 `.zshrc` 파일 수정 필요할 수 있음
-- Windows에서는 시스템 환경 변수에서 PATH 수정
+- May need to modify `.zshrc` file on macOS
+- Modify PATH in system environment variables on Windows
 
 **2. "EACCES: permission denied"**
 
-이 오류는 npm 전역 설치 시 권한 문제로 발생합니다. 특히 Linux나 macOS에서 자주 나타납니다.
+This error occurs due to permission issues during npm global installation. It is especially common on Linux or macOS.
 
-**원인 분석**
+**Cause Analysis**
 
-- npm 전역 디렉토리에 대한 쓰기 권한 부족
-- sudo로 설치했을 때 소유권 문제
-- 시스템 보호된 디렉토리에 설치 시도
+- Lack of write permission for npm global directory
+- Ownership issue when installed with sudo
+- Attempting to install in a system-protected directory
 
-**해결 방법**
+**Solution**
 ```bash
-# 방법 1: 권한 수정 (권장)
+# Method 1: Modify permissions (Recommended)
 sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
 
-# 방법 2: npx를 통한 실행 (임시 해결)
+# Method 2: Execute via npx (Temporary solution)
 npx @anthropic-ai/claude-code
 
-# 방법 3: npm 전역 디렉토리 변경
+# Method 3: Change npm global directory
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
 echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc
@@ -944,272 +944,272 @@ source ~/.bashrc
 
 **3. "API rate limit exceeded"**
 
-API 사용량 제한에 도달했을 때 발생하는 오류입니다. Anthropic의 API 정책에 따라 시간당 요청 횟수가 제한됩니다.
+This error occurs when the API usage limit is reached. The number of requests per hour is limited according to Anthropic's API policy.
 
-**원인 분석**
-- 단시간 내 너무 많은 요청
-- API 플랜의 사용량 한계 도달
-- 네트워크 문제로 인한 중복 요청
+**Cause Analysis**
+- Too many requests in a short time
+- Reached API plan usage limit
+- Duplicate requests due to network problems
 
-**해결 방법**
+**Solution**
 ```bash
-# 1단계: 현재 상태 확인
+# Step 1: Check current status
 claude status
 
-# 2단계: 자동 재시도 간격 설정 (밀리초)
+# Step 2: Set auto-retry interval (milliseconds)
 claude config set retry_delay 5000
 
-# 3단계: 최대 재시도 횟수 설정
+# Step 3: Set maximum number of retries
 claude config set max_retries 3
 ```
 
-**예방 방법**
+**Prevention Methods**
 
-- 대용량 작업 시 작은 단위로 분할하여 실행
-- `--rate-limit` 옵션 사용하여 요청 속도 조절
-- API 사용량 모니터링으로 제한 사전 파악
+- Execute large tasks by dividing them into smaller units
+- Adjust request speed using the `--rate-limit` option
+- Monitor API usage to anticipate limits
 
 **4. "SSL certificate problem"**
 
-기업 환경에서 자체 인증서를 사용하거나 네트워크 보안 정책으로 인해 SSL 인증서 검증에 실패할 때 발생합니다.
+This occurs when SSL certificate verification fails due to the use of self-signed certificates in a corporate environment or network security policies.
 
-**원인 분석**
+**Cause Analysis**
 
-- 회사 방화벽의 SSL 검사
-- 자체 서명된 인증서 사용
-- 오래된 시스템의 인증서 저장소 문제
+- SSL inspection by company firewall
+- Use of self-signed certificates
+- Certificate store issues on older systems
 
-**해결 방법**
+**Solution**
 ```bash
-# ⚠️ 임시 해결책 (보안 위험 있음)
+# ⚠️ Temporary solution (Security risk)
 export NODE_TLS_REJECT_UNAUTHORIZED=0
 
-# ✅ 권장 해결책: 회사 인증서 설치
-# 1단계: IT 부서에서 인증서 파일 받기
-# 2단계: npm에 인증서 등록
+# ✅ Recommended solution: Install company certificate
+# Step 1: Obtain certificate file from IT department
+# Step 2: Register certificate with npm
 npm config set cafile /path/to/company-cert.pem
 
-# 3단계: Claude Code 전용 설정
+# Step 3: Claude Code specific settings
 claude config set tls_verify true
 claude config set ca_bundle /path/to/company-cert.pem
 ```
 
-**보안 고려사항**
+**Security Considerations**
 
-- `NODE_TLS_REJECT_UNAUTHORIZED=0`은 보안 위험이 있으므로 임시로만 사용
-- 가능하면 IT 부서와 협력하여 적절한 인증서 설정
+- `NODE_TLS_REJECT_UNAUTHORIZED=0` poses a security risk, use only temporarily
+- If possible, collaborate with the IT department for proper certificate setup
 
-### 성능 최적화 팁
+### Performance Optimization Tips
 
-Claude Code의 응답 속도와 효율성을 향상시키기 위한 설정들입니다. 프로젝트 규모와 작업 패턴에 따라 적절히 조정하여 사용하세요.
+These are settings to improve Claude Code's response speed and efficiency. Adjust appropriately based on project size and work patterns.
 
-**1. 캐시 활성화**
+**1. Enable Caching**
 
-반복적인 요청에 대한 응답을 캐시하여 속도를 향상시킵니다.
+Improves speed by caching responses to repetitive requests.
 
 ```bash
-# 응답 캐싱 활성화
+# Enable response caching
 claude config set cache_enabled true
 
-# 캐시 유지 시간 설정 (초 단위, 기본: 3600초 = 1시간)
+# Set cache TTL (seconds, default: 3600s = 1 hour)
 claude config set cache_ttl 3600
 
-# 캐시 크기 제한 설정 (MB 단위)
+# Set cache size limit (MB)
 claude config set cache_max_size 100
 ```
 
-**캐시 활용 팁**
+**Cache Usage Tips**
 
-- 동일한 코드를 반복 분석할 때 유용
-- 큰 프로젝트에서 점진적 작업 시 효과적
-- 캐시 무효화: `claude cache clear`
+- Useful when repeatedly analyzing the same code
+- Effective for incremental work on large projects
+- Clear cache: `claude cache clear`
 
-**2. 컨텍스트 크기 조정**
+**2. Adjust Context Size**
 
-프로젝트 규모에 따라 Claude Code가 한 번에 처리할 수 있는 컨텍스트 크기를 조정합니다.
+Adjust the context size that Claude Code can process at once, depending on the project scale.
 
 ```bash
-# 큰 프로젝트의 경우 컨텍스트 확대
+# Increase context for large projects
 claude config set max_context_length 100000
 
-# 작은 프로젝트나 빠른 응답이 필요한 경우
+# For small projects or when fast responses are needed
 claude config set max_context_length 50000
 
-# 현재 설정 확인
+# Check current setting
 claude config get max_context_length
 ```
 
-**설정 가이드라인**
-- **소규모 프로젝트 (< 50개 파일)**: 50,000
-- **중간 규모 프로젝트 (50-200개 파일)**: 100,000
-- **대규모 프로젝트 (200개+ 파일)**: 200,000
+**Setting Guidelines**
+- **Small projects (< 50 files)**: 50,000
+- **Medium projects (50-200 files)**: 100,000
+- **Large projects (200+ files)**: 200,000
 
-**주의사항**: 컨텍스트가 클수록 응답 시간이 길어지고 API 비용이 증가할 수 있습니다.
+**Caution**: Larger context may lead to longer response times and increased API costs.
 
-**3. 로컬 모델 사용 (베타)**
+**3. Use Local Model (Beta)**
 
-개발 중인 기능으로, 로컬에서 모델을 실행하여 인터넷 연결 없이도 Claude Code를 사용할 수 있습니다.
+A feature under development that allows running models locally, enabling Claude Code usage without an internet connection.
 
 ```bash
-# 로컬 모드 활성화
+# Enable local mode
 claude config set local_mode true
 
-# 로컬 모델 다운로드 (용량 주의: 수 GB)
+# Download local model (Caution: Several GBs in size)
 claude download-model claude-instant
 
-# 다운로드된 모델 확인
+# Check downloaded models
 claude list-models --local
 
-# 특정 모델로 실행
-claude --model local:claude-instant "코드를 분석해줘"
+# Run with a specific model
+claude --model local:claude-instant "Analyze the code"
 ```
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 mindmap
-  root((로컬 모드의 장점))
-    인터넷 연결 불필요
-      오프라인 작업 가능
-      네트워크 의존성 제거
-    API 비용 절약
-      사용량 제한 없음
-      비용 효율적 운영
-    응답 속도 향상
-      로컬 처리로 지연 최소화
-      하드웨어 성능에 따라 결정
-    데이터 프라이버시 보장
-      외부 전송 없음
-      완전한 로컬 처리
+  root((Advantages of Local Mode))
+    No Internet Connection Required
+      Offline work possible
+      Eliminates network dependency
+    API Cost Savings
+      No usage limits
+      Cost-effective operation
+    Improved Response Speed
+      Minimizes latency with local processing
+      Determined by hardware performance
+    Data Privacy Assurance
+      No external transmission
+      Complete local processing
 ```
 
-**로컬 모드의 장점**
+**Advantages of Local Mode**
 
-**요구사항**
-- 충분한 저장공간 (모델당 2-8GB)
-- 강력한 하드웨어 (GPU 권장)
-- 베타 기능으로 일부 제한사항 존재
+**Requirements**
+- Sufficient storage space (2-8GB per model)
+- Powerful hardware (GPU recommended)
+- Some limitations exist as it's a beta feature
 
-## 실습: Hello World 프로젝트
+## Lab: Hello World Project
 
-이론적인 설정을 마쳤으니, 이제 실제로 Claude Code를 사용해보겠습니다. 간단한 웹 서버 프로젝트를 통해 Claude Code의 기본 사용법을 체험해보겠습니다.
+Now that we've finished the theoretical setup, let's actually use Claude Code. We'll experience the basic usage of Claude Code through a simple web server project.
 
-**학습 목표**
-- Claude Code의 자연어 명령 사용법 익히기
-- 프로젝트 생성부터 실행까지의 전체 과정 체험
-- 생성된 코드의 품질과 구조 이해
+**Learning Objectives**
+- Learn how to use Claude Code's natural language commands
+- Experience the entire process from project creation to execution
+- Understand the quality and structure of the generated code
 
-**실습 과정**
+**Lab Process**
 
 ```bash
-# 1단계: 프로젝트 디렉토리 생성
+# Step 1: Create project directory
 mkdir hello-claude && cd hello-claude
 
-# 2단계: Claude Code로 프로젝트 초기화
-claude "Node.js로 간단한 Hello World 웹 서버를 만들어줘. 
-포트 3000에서 실행되고, '/' 경로로 접속하면 'Hello from Claude Code!'를 
-표시하도록 해줘. package.json과 README.md도 함께 만들어줘."
+# Step 2: Initialize project with Claude Code
+claude "Create a simple Hello World web server with Node.js.
+Make it run on port 3000 and display 'Hello from Claude Code!' when accessing the '/' path.
+Also, create package.json and README.md files."
 
-# 3단계: 생성된 파일 구조 확인
+# Step 3: Check generated file structure
 ls -la
-# 예상 결과
-# package.json  - 프로젝트 설정 파일
-# server.js     - 웹 서버 메인 파일
-# README.md     - 프로젝트 설명 문서
+# Expected result
+# package.json  - Project configuration file
+# server.js     - Web server main file
+# README.md     - Project description document
 
-# 4단계: 의존성 설치
+# Step 4: Install dependencies
 npm install
 
-# 5단계: 서버 실행
+# Step 5: Run the server
 npm start
 
-# 6단계: 브라우저에서 테스트
-# http://localhost:3000 접속하여 "Hello from Claude Code!" 메시지 확인
+# Step 6: Test in browser
+# Access http://localhost:3000 and check for "Hello from Claude Code!" message
 ```
 
-**실습 포인트**
-- 자연어로 복잡한 요구사항을 한 번에 전달
-- Claude Code가 생성하는 코드의 품질과 구조 관찰
-- 생성된 README.md에서 추가 사용법 확인
+**Lab Points**
+- Convey complex requirements at once using natural language
+- Observe the quality and structure of code generated by Claude Code
+- Check the generated README.md for additional usage instructions
 
-**실습 완료 체크리스트**
-- [ ] 프로젝트가 성공적으로 생성되었는가?
-- [ ] 서버가 정상적으로 시작되는가?
-- [ ] 브라우저에서 올바른 메시지가 표시되는가?
-- [ ] 생성된 코드가 이해 가능한 구조인가?
+**Lab Completion Checklist**
+- [ ] Was the project successfully created?
+- [ ] Does the server start normally?
+- [ ] Is the correct message displayed in the browser?
+- [ ] Is the generated code structure understandable?
 
-Claude Code와 함께 첫 번째 프로젝트를 성공적으로 만들었습니다!
+You have successfully created your first project with Claude Code!
 
-## 설치 완료 및 다음 단계
+## Installation Complete and Next Steps
 
-이제 Claude Code의 설치와 기본 설정이 완료되었습니다. 첫 번째 실습을 통해 Claude Code의 강력함을 경험했을 것입니다.
+The installation and basic setup of Claude Code are now complete. You should have experienced the power of Claude Code through the first lab.
 
-**이 장에서 배운 내용**
-- 운영체제별 설치 방법과 환경 설정
-- API 키 설정과 첫 번째 대화
-- 문제 해결 방법과 성능 최적화
-- 실제 프로젝트 생성 경험
+**What You Learned in This Chapter**
+- OS-specific installation methods and environment setup
+- API key setup and first conversation
+- Troubleshooting methods and performance optimization
+- Experience creating an actual project
 
-**다음 장 미리보기**
-제3장에서는 Claude Code의 핵심 기능들을 체계적으로 학습합니다.
-- **파일 시스템 탐색**: 프로젝트 구조 파악과 효율적인 코드 분석
-- **코드 작성과 수정**: 자연어를 통한 정교한 코드 생성과 리팩토링
-- **테스트와 디버깅**: 품질 높은 코드를 위한 검증과 문제 해결
-- **Git 통합**: 버전 관리와 협업을 위한 워크플로우
+**Next Chapter Preview**
+In Chapter 3, you will systematically learn the core features of Claude Code.
+- **File System Exploration**: Understanding project structure and efficient code analysis
+- **Code Writing and Modification**: Sophisticated code generation and refactoring through natural language
+- **Testing and Debugging**: Verification and problem-solving for high-quality code
+- **Git Integration**: Workflows for version control and collaboration
 
-**유용한 참고 명령어**
+**Useful Reference Commands**
 ```bash
-# 도움말 확인
+# Check help
 claude help
 
-# 대화형 튜토리얼 시작
+# Start interactive tutorial
 claude tutorial
 
-# 현재 설정 확인
+# Check current configuration
 claude config list
 
-# 버전 정보 확인
+# Check version information
 claude --version
 ```
 
-**문제 해결 리소스**
-- 공식 문서: https://docs.anthropic.com/claude-code
-- 커뮤니티 포럼: https://community.anthropic.com
-- GitHub 이슈: https://github.com/anthropic/claude-code/issues
+**Troubleshooting Resources**
+- Official Documentation: https://docs.anthropic.com/claude-code
+- Community Forum: https://community.anthropic.com
+- GitHub Issues: https://github.com/anthropic/claude-code/issues
 
 \newpage
 
-# 제3장: 기본 사용법 마스터
+# Chapter 3: Mastering Basic Usage
 
-> "천 리 길도 한 걸음부터" - 노자
+> "A journey of a thousand miles begins with a single step." - Lao Tzu
 
-이 장에서는 Claude Code의 핵심 기능들을 체계적으로 학습하겠습니다. **실습 중심의 예제**를 통해 일상적인 개발 업무에 Claude Code를 효과적으로 적용하는 방법을 익히겠습니다.
+In this chapter, we will systematically learn the core features of Claude Code. Through **hands-on examples**, we will learn how to effectively apply Claude Code to everyday development tasks.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 flowchart TD
-    A["기본 명령어 구조와 옵션"] --> B["효율적인 파일 탐색과 분석"]
-    B --> C["코드 작성, 수정, 리팩토링"]
-    C --> D["테스트 및 디버깅 전략"]
-    D --> E["Git 연동과 버전 관리"]
-    E --> F["실전 프로젝트 예제"]
+    A["Basic Command Structure and Options"] --> B["Efficient File Exploration and Analysis"]
+    B --> C["Code Writing, Modification, and Refactoring"]
+    C --> D["Testing and Debugging Strategies"]
+    D --> E["Git Integration and Version Control"]
+    E --> F["Real-world Project Example"]
     
     classDef chapterStyle fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
     
     class A,B,C,D,E,F chapterStyle
 ```
 
-이 장에서 다루는 내용
+Topics covered in this chapter
 
-## 3.1 기본 명령어 구조
+## 3.1 Basic Command Structure
 
-### 명령어 해부학
+### Command Anatomy
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph LR
-    subgraph structure ["Claude Code 명령어 구조"]
-        A["claude<br/>기본 명령어"] --> B["[옵션]<br/>동작 방식 제어 플래그"]
-        B --> C["[명령/질문]<br/>자연어로 작성하는 요청"]
+    subgraph structure ["Claude Code Command Structure"]
+        A["claude<br/>Base Command"] --> B["[Options]<br/>Behavior Control Flags"]
+        B --> C["[Command/Question]<br/>Request written in natural language"]
     end
     
     classDef commandStyle fill:#e2e8f0,stroke:#334155,stroke-width:2px,color:#1e293b
@@ -1219,84 +1219,84 @@ graph LR
     class B,C optionStyle
 ```
 
-Claude Code 명령어의 구조는 직관적이면서도 강력합니다.
+The structure of Claude Code commands is intuitive yet powerful.
 
-### 주요 옵션들
+### Key Options
 
-Claude Code는 다양한 옵션을 통해 동작을 세밀하게 제어할 수 있습니다. 각 옵션의 용도와 활용 시나리오를 이해하면 더 효과적으로 사용할 수 있습니다.
+Claude Code allows fine-grained control over its behavior through various options. Understanding the purpose and usage scenarios of each option will enable more effective use.
 
-**기본 옵션들**
+**Basic Options**
 ```bash
-# 도움말 보기 - 사용 가능한 모든 명령어와 옵션 확인
+# View help - Check all available commands and options
 claude --help
 claude -h
 
-# 버전 확인 - 현재 설치된 Claude Code 버전 확인
+# Check version - Check the currently installed Claude Code version
 claude --version
 claude -v
 
-# 대화 기록 지우기 - 새로운 컨텍스트로 시작하고 싶을 때
+# Clear conversation history - When you want to start with a new context
 claude --clear
 claude -c
 ```
 
-**모델 선택 옵션**
+**Model Selection Options**
 ```bash
-# 복잡한 작업을 위한 고성능 모델 사용
-claude --model claude-3-opus "복잡한 알고리즘 구현해줘"
+# Use high-performance model for complex tasks
+claude --model claude-3-opus "Implement a complex algorithm"
 
-# 빠른 응답이 필요한 간단한 작업
-claude -m claude-3-haiku "간단한 설명만 해줘"
+# Simple tasks requiring quick responses
+claude -m claude-3-haiku "Just give a simple explanation"
 
-# 균형잡힌 성능과 속도
-claude -m claude-3-sonnet "코드 리뷰해줘"
+# Balanced performance and speed
+claude -m claude-3-sonnet "Review the code"
 ```
 
-**출력 형식 제어**
+**Output Format Control**
 ```bash
-# JSON 형식으로 구조화된 데이터 받기
-claude --json "프로젝트 구조를 JSON으로 출력해줘"
+# Receive structured data in JSON format
+claude --json "Output the project structure in JSON"
 
-# 마크다운 형식으로 문서 생성
-claude --markdown "README 파일 내용을 마크다운으로 보여줘"
+# Generate documentation in Markdown format
+claude --markdown "Show the README file content in Markdown"
 
-# 일반 텍스트 출력 (기본값)
-claude --plain "간단한 설명을 텍스트로 보여줘"
+# Plain text output (default)
+claude --plain "Show a simple explanation in text"
 ```
 
-### 자연어 명령의 힘
+### The Power of Natural Language Commands
 
-Claude Code의 핵심 특징은 복잡한 명령어 문법 대신 자연스러운 언어로 의도를 전달할 수 있다는 점입니다.
+A key feature of Claude Code is the ability to convey intent using natural language instead of complex command syntax.
 
 ```bash
-# 기술적인 요청
-claude "UserService 클래스에 이메일 검증 메서드를 추가해줘"
+# Technical request
+claude "Add an email validation method to the UserService class"
 
-# 탐색적인 질문
-claude "이 프로젝트에서 인증은 어떻게 처리되고 있어?"
+# Exploratory question
+claude "How is authentication handled in this project?"
 
-# 창의적인 요청
-claude "이 함수를 더 효율적으로 만들 수 있는 방법이 있을까?"
+# Creative request
+claude "Is there a way to make this function more efficient?"
 
-# 복합적인 작업
-claude "버그를 찾아서 수정하고, 테스트도 작성한 다음, 커밋 메시지까지 만들어줘"
+# Complex task
+claude "Find and fix the bug, write tests, and then create a commit message"
 ```
 
-## 3.2 파일 탐색과 읽기
+## 3.2 File Exploration and Reading
 
-### 프로젝트 구조 파악하기
+### Understanding Project Structure
 
-새로운 프로젝트에 투입되었을 때 빠르게 전체 구조를 파악하는 것은 중요합니다. Claude Code를 활용하면 효율적으로 코드베이스를 탐색할 수 있습니다.
+When assigned to a new project, quickly grasping the overall structure is crucial. Claude Code can be used to efficiently explore the codebase.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 flowchart TD
-    A["전체 구조 파악 전략"]
+    A["Overall Structure Grasping Strategy"]
     
-    A --> B["프로젝트 개요 파악<br/>• 구조 트리 시각화<br/>• 기술 스택 분석"]
-    A --> C["핵심 디렉토리 탐색<br/>• src 폴더 상세 분석<br/>• 설정 파일 분류"]
-    A --> D["파일 패턴 분석<br/>• 파일 타입별 그룹핑<br/>• 테스트 구조 파악"]
-    A --> E["최근 활동 추적<br/>• 변경사항 분석<br/>• 핵심 로직 위치 파악"]
+    A --> B["Understand Project Overview<br/>• Visualize structure tree<br/>• Analyze technology stack"]
+    A --> C["Explore Core Directories<br/>• Detailed analysis of src folder<br/>• Classify configuration files"]
+    A --> D["Analyze File Patterns<br/>• Group by file type<br/>• Understand test structure"]
+    A --> E["Track Recent Activity<br/>• Analyze changes<br/>• Identify core logic location"]
     
     classDef strategyStyle fill:#e2e8f0,stroke:#334155,stroke-width:3px,color:#1e293b
     classDef stepStyle fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
@@ -1305,290 +1305,290 @@ flowchart TD
     class B,C,D,E stepStyle
 ```
 
-**전체 구조 파악 전략**
+**Overall Structure Grasping Strategy**
 
-### 효율적인 파일 읽기
+### Efficient File Reading
 
-단순히 파일을 열어보는 것이 아니라, 목적에 맞는 정보를 효과적으로 추출하는 방법입니다.
+This is not just about opening files, but effectively extracting information relevant to your purpose.
 
 ```bash
-# 단일 파일 읽기
-claude "package.json 파일을 읽어줘"
+# Read a single file
+claude "Read the package.json file"
 
-# 여러 파일 동시에 읽기
-claude "모든 설정 파일들(config로 시작하는)을 읽고 요약해줘"
+# Read multiple files simultaneously
+claude "Read all configuration files (starting with config) and summarize them"
 
-# 특정 부분만 읽기
-claude "app.js 파일에서 라우터 설정 부분만 보여줘"
+# Read only a specific part
+claude "Show only the router configuration part from the app.js file"
 
-# 파일 비교
-claude "개발 환경과 프로덕션 환경 설정 파일을 비교해줘"
+# Compare files
+claude "Compare the development and production environment configuration files"
 ```
 
-### 코드 분석 요청
+### Code Analysis Requests
 
-기존 코드의 동작 원리를 이해하거나 잠재적 문제를 발견하는 데 유용한 분석 요청들입니다.
+Useful analysis requests for understanding how existing code works or discovering potential problems.
 
 ```bash
-# 함수 분석
-claude "calculateTotalPrice 함수가 어떻게 동작하는지 설명해줘"
+# Function analysis
+claude "Explain how the calculateTotalPrice function works"
 
-# 의존성 분석
-claude "이 프로젝트가 사용하는 주요 라이브러리들과 용도를 설명해줘"
+# Dependency analysis
+claude "Explain the main libraries used in this project and their purposes"
 
-# 아키텍처 분석
-claude "이 프로젝트의 전체적인 아키텍처를 다이어그램으로 설명해줘"
+# Architecture analysis
+claude "Explain the overall architecture of this project with a diagram"
 
-# 보안 취약점 검사
-claude "보안상 문제가 될 수 있는 코드가 있는지 검사해줘"
+# Security vulnerability scan
+claude "Scan for any code that could be a security issue"
 ```
 
-## 3.3 코드 작성과 수정
+## 3.3 Code Writing and Modification
 
-### 새 파일 생성
+### Creating New Files
 
-프로젝트의 컨벤션과 구조에 맞는 새 파일을 자동으로 생성할 수 있습니다.
+You can automatically generate new files that conform to the project's conventions and structure.
 
 ```bash
-# 기본적인 파일 생성
-claude "utils 폴더에 날짜 관련 유틸리티 함수들을 만들어줘"
+# Basic file creation
+claude "Create date-related utility functions in the utils folder"
 
-# 템플릿 기반 생성
-claude "Express 라우터 템플릿으로 user 라우터를 만들어줘"
+# Template-based generation
+claude "Create a user router using the Express router template"
 
-# 테스트 파일 자동 생성
-claude "UserService에 대한 Jest 테스트 파일을 만들어줘"
+# Automatic test file generation
+claude "Create a Jest test file for UserService"
 
-# 문서 생성
-claude "API 엔드포인트 문서를 Swagger 형식으로 만들어줘"
+# Document generation
+claude "Create API endpoint documentation in Swagger format"
 ```
 
-### 코드 수정 패턴
+### Code Modification Patterns
 
-다양한 수정 작업을 체계적으로 수행하는 방법들입니다. 각 패턴별로 실제 사용 시나리오와 베스트 프랙티스를 함께 소개합니다.
+Methods for systematically performing various modification tasks. We will introduce actual usage scenarios and best practices for each pattern.
 
-**1. 단순 수정 - 코드 현대화**
+**1. Simple Modification - Code Modernization**
 ```bash
-# ES5를 ES6+ 문법으로 업그레이드
-claude "모든 var를 const나 let으로 바꿔줘. 재할당되는 변수만 let을 사용해"
+# Upgrade ES5 to ES6+ syntax
+claude "Change all var to const or let. Use let only for reassigned variables"
 
-# 콜백을 async/await로 변환
-claude "콜백 기반 코드를 async/await 패턴으로 변경해줘"
+# Convert callbacks to async/await
+claude "Change callback-based code to async/await pattern"
 
-# 문자열 연결을 템플릿 리터럴로
-claude "문자열 연결 연산자(+)를 템플릿 리터럴로 바꿔줘"
+# Change string concatenation to template literals
+claude "Change string concatenation operator (+) to template literals"
 ```
 
-**2. 리팩토링 - 코드 구조 개선**
+**2. Refactoring - Improving Code Structure**
 ```bash
-# 긴 함수 분리
-claude "이 함수가 50줄이 넘는데, 논리적 단위로 분리해서 가독성을 높여줘"
+# Split long functions
+claude "This function is over 50 lines long, split it into logical units to improve readability"
 
-# 중복 코드 제거
-claude "중복되는 코드를 찾아서 재사용 가능한 함수로 추출해줘"
+# Remove duplicate code
+claude "Find duplicate code and extract it into a reusable function"
 
-# 조건문 단순화
-claude "복잡한 if-else 체인을 early return 패턴이나 switch문으로 개선해줘"
+# Simplify conditional statements
+claude "Improve complex if-else chains with early return patterns or switch statements"
 ```
 
-**3. 기능 추가 - 점진적 개선**
+**3. Adding Features - Incremental Improvement**
 ```bash
-# 에러 처리 추가
-claude "이 API 호출 함수에 적절한 에러 처리와 재시도 로직을 추가해줘"
+# Add error handling
+claude "Add appropriate error handling and retry logic to this API call function"
 
-# 로딩 상태 관리
-claude "이 컴포넌트에 로딩, 성공, 에러 상태를 관리하는 로직을 추가해줘"
+# Manage loading states
+claude "Add logic to manage loading, success, and error states in this component"
 
-# 유효성 검사 추가
-claude "사용자 입력 폼에 실시간 유효성 검사를 추가해줘"
+# Add validation
+claude "Add real-time validation to the user input form"
 ```
 
-**4. 버그 수정 - 안정성 향상**
+**4. Bug Fixing - Enhancing Stability**
 ```bash
-# 잠재적 오류 찾기
-claude "null/undefined 참조 오류가 발생할 수 있는 부분을 찾아서 옵셔널 체이닝으로 수정해줘"
+# Find potential errors
+claude "Find parts where null/undefined reference errors might occur and fix them with optional chaining"
 
-# 메모리 누수 방지
-claude "이벤트 리스너나 타이머가 제대로 정리되지 않는 부분을 찾아서 수정해줘"
+# Prevent memory leaks
+claude "Find and fix parts where event listeners or timers are not properly cleaned up"
 
-# 경쟁 조건 해결
-claude "비동기 작업에서 경쟁 조건이 발생할 수 있는 부분을 찾아서 수정해줘"
+# Resolve race conditions
+claude "Find and fix parts where race conditions might occur in asynchronous operations"
 ```
 
-### 코드 스타일 통일
+### Unifying Code Style
 
-프로젝트 전반에 일관된 코딩 스타일을 적용하는 작업입니다.
+Applying a consistent coding style across the entire project.
 
 ```bash
-# 포매팅
-claude "프로젝트 전체를 Prettier 규칙에 맞게 포매팅해줘"
+# Formatting
+claude "Format the entire project according to Prettier rules"
 
-# 네이밍 컨벤션
-claude "camelCase를 snake_case로 변경해줘"
+# Naming conventions
+claude "Change camelCase to snake_case"
 
-# 주석 추가
-claude "복잡한 로직에 설명 주석을 추가해줘"
+# Add comments
+claude "Add explanatory comments to complex logic"
 
-# 타입 추가
-claude "JavaScript 파일에 TypeScript 타입을 추가해줘"
+# Add types
+claude "Add TypeScript types to JavaScript files"
 ```
 
-## 3.4 테스트 실행과 디버깅
+## 3.4 Test Execution and Debugging
 
-### 테스트 작성
+### Writing Tests
 
-품질 높은 소프트웨어를 위한 체계적인 테스트 작성 방법입니다.
+Systematic test writing methods for high-quality software.
 
 ```bash
-# 단위 테스트
-claude "calculateDiscount 함수에 대한 단위 테스트를 작성해줘"
+# Unit tests
+claude "Write unit tests for the calculateDiscount function"
 
-# 통합 테스트
-claude "사용자 등록 API에 대한 통합 테스트를 작성해줘"
+# Integration tests
+claude "Write integration tests for the user registration API"
 
-# 엣지 케이스
-claude "이 함수의 엣지 케이스를 찾아서 테스트를 추가해줘"
+# Edge cases
+claude "Find edge cases for this function and add tests"
 
-# 테스트 커버리지
-claude "테스트 커버리지를 확인하고 누락된 부분에 테스트를 추가해줘"
+# Test coverage
+claude "Check test coverage and add tests for missing parts"
 ```
 
-### 디버깅 전략
+### Debugging Strategies
 
-문제 발생 시 효과적으로 원인을 파악하고 해결하는 체계적인 접근법입니다.
+Systematic approaches to effectively identify and resolve causes when problems occur.
 
-**1. 오류 메시지 분석**
+**1. Analyzing Error Messages**
 ```bash
-claude "이 오류 메시지가 무엇을 의미하는지 설명하고 해결 방법을 제시해줘
+claude "Explain what this error message means and suggest a solution
 TypeError: Cannot read property 'name' of undefined"
 ```
 
-**2. 로그 추가**
+**2. Adding Logs**
 ```bash
-claude "문제가 발생하는 것 같은 부분에 디버그 로그를 추가해줘"
+claude "Add debug logs to the part where the problem seems to be occurring"
 ```
 
-**3. 단계별 추적**
+**3. Step-by-Step Tracing**
 ```bash
-claude "이 함수의 실행 흐름을 단계별로 추적할 수 있도록 코드를 수정해줘"
+claude "Modify the code so I can trace the execution flow of this function step by step"
 ```
 
-**4. 성능 분석**
+**4. Performance Analysis**
 ```bash
-claude "이 코드의 성능 병목 지점을 찾아서 최적화해줘"
+claude "Find the performance bottleneck in this code and optimize it"
 ```
 
-### 실시간 디버깅 세션
+### Real-time Debugging Session
 
-복잡한 문제를 대화형으로 해결하는 과정의 예시입니다. 실제 디버깅 시나리오를 통해 Claude Code와의 효과적인 협업 방법을 알아봅시다.
+Examples of resolving complex problems interactively. Let's learn effective collaboration methods with Claude Code through actual debugging scenarios.
 
-**시나리오 1: 서버 시작 오류 해결**
+**Scenario 1: Resolving Server Start Error**
 ```bash
-# 대화형 디버깅 시작
+# Start interactive debugging
 claude
 
-> 서버가 시작되지 않아. 포트 3000에서 이미 사용 중이라는 오류가 나와.
-< 포트 3000을 사용하는 프로세스를 확인해보겠습니다. 다음 명령을 실행해드릴게요
+> The server won't start. It says port 3000 is already in use.
+< I'll check for processes using port 3000. I'll run the following command for you:
   lsof -i :3000
 
-> 확인했더니 이전에 실행한 node 프로세스가 PID 12345로 실행 중이야.
-< 해당 프로세스를 안전하게 종료하고, 향후 이런 문제를 방지하는 스크립트를 만들어드리겠습니다.
-  1. 프로세스 종료 스크립트 생성
-  2. package.json에 재시작 스크립트 추가
-  3. graceful shutdown 코드 구현
+> I checked, and a previously run node process is running with PID 12345.
+< I will safely terminate that process and create a script to prevent this issue in the future.
+  1. Create a process termination script
+  2. Add a restart script to package.json
+  3. Implement graceful shutdown code
 
-> 좋아, 진행해줘. 그리고 왜 서버가 제대로 종료되지 않았는지도 알고 싶어.
-< 서버 코드를 분석해보니 다음과 같은 문제들을 발견했습니다.
-  1. SIGTERM 시그널 핸들러가 없어서 프로세스가 강제 종료됨
-  2. 활성 연결이 정리되지 않고 있음
-  3. 데이터베이스 연결 풀이 닫히지 않음
+> Okay, go ahead. And I also want to know why the server didn't shut down properly.
+< Analyzing the server code, I found the following issues:
+  1. The process was forcibly terminated because there was no SIGTERM signal handler.
+  2. Active connections were not being cleaned up.
+  3. The database connection pool was not being closed.
   
-  이제 이 문제들을 하나씩 해결해드리겠습니다...
+  Now I will resolve these issues one by one...
 ```
 
-**시나리오 2: 메모리 누수 추적**
+**Scenario 2: Tracking Memory Leaks**
 ```bash
 claude
 
-> 서버가 며칠 동안 실행되면 메모리 사용량이 계속 증가해. 메모리 누수가 있는 것 같아.
-< 메모리 누수를 추적하기 위해 다음 단계로 진행하겠습니다.
-  1. 현재 코드에서 메모리 누수 가능성이 있는 패턴 검색
-  2. 메모리 프로파일링 도구 설정
-  3. 의심되는 코드 영역에 모니터링 추가
+> When the server runs for a few days, memory usage keeps increasing. I think there's a memory leak.
+< To track the memory leak, I will proceed with the following steps:
+  1. Search for patterns in the current code that might cause memory leaks.
+  2. Set up memory profiling tools.
+  3. Add monitoring to suspected code areas.
 
-> 어떤 패턴들이 위험한가?
-< 다음과 같은 패턴들을 발견했습니다.
-  - 이벤트 리스너가 제거되지 않는 곳 3개
-  - 전역 변수에 계속 데이터가 추가되는 캐시
-  - 순환 참조가 있는 객체 구조
-  각각 수정 방법을 보여드릴까요?
+> What patterns are risky?
+< I found the following patterns:
+  - 3 places where event listeners are not removed.
+  - A cache where data is continuously added to a global variable.
+  - Object structures with circular references.
+  Shall I show you how to fix each one?
 ```
 
-## 3.5 Git 연동과 버전 관리
+## 3.5 Git Integration and Version Control
 
-### 기본 Git 작업
+### Basic Git Operations
 
-일상적인 버전 관리 작업을 Claude Code와 함께 수행하는 방법입니다.
+How to perform routine version control tasks with Claude Code.
 
 ```bash
-# 상태 확인
-claude "git 상태를 확인하고 변경사항을 요약해줘"
+# Check status
+claude "Check git status and summarize the changes"
 
-# 스테이징
-claude "수정된 파일 중 테스트 관련 파일만 스테이징해줘"
+# Staging
+claude "Stage only the test-related files among the modified files"
 
-# 커밋
-claude "의미 있는 커밋 메시지를 작성해서 커밋해줘"
+# Commit
+claude "Write a meaningful commit message and commit"
 
-# 브랜치 관리
-claude "새로운 기능을 위한 브랜치를 만들고 체크아웃해줘"
+# Branch management
+claude "Create a new branch for a new feature and check it out"
 ```
 
-### 고급 Git 작업
+### Advanced Git Operations
 
-복잡한 Git 작업도 Claude Code의 도움으로 안전하고 효율적으로 수행할 수 있습니다.
+Even complex Git operations can be performed safely and efficiently with the help of Claude Code.
 
 ```bash
-# 대화형 리베이스
-claude "최근 3개 커밋을 정리해서 하나로 합쳐줘"
+# Interactive rebase
+claude "Clean up the last 3 commits and squash them into one"
 
-# 충돌 해결
-claude "머지 충돌을 해결해줘. 두 변경사항을 모두 유지하는 방향으로"
+# Conflict resolution
+claude "Resolve the merge conflict. Keep both changes."
 
-# 히스토리 분석
-claude "이 버그가 언제 도입됐는지 git bisect로 찾아줘"
+# History analysis
+claude "Find out when this bug was introduced using git bisect"
 
-# 체리픽
-claude "hotfix 브랜치의 버그 수정 커밋만 main으로 체리픽해줘"
+# Cherry-pick
+claude "Cherry-pick only the bug fix commit from the hotfix branch to main"
 ```
 
-### Pull Request 작성
+### Creating Pull Requests
 
-팀 협업에서 중요한 Pull Request 관련 작업들입니다.
+Tasks related to Pull Requests, which are important for team collaboration.
 
 ```bash
-# PR 생성
-claude "이 기능에 대한 Pull Request를 생성해줘. 
-변경사항을 요약하고, 테스트 방법도 포함해줘"
+# Create PR
+claude "Create a Pull Request for this feature.
+Summarize the changes and include testing methods."
 
-# 코드 리뷰 대응
-claude "리뷰어가 지적한 사항들을 수정하고 답변을 작성해줘"
+# Respond to code reviews
+claude "Address the points raised by the reviewer and write a response"
 
-# PR 템플릿 활용
-claude "프로젝트의 PR 템플릿에 맞춰서 설명을 작성해줘"
+# Utilize PR templates
+claude "Write the description according to the project's PR template"
 ```
 
-## 실전 예제: Todo 앱 만들기
+## Real-world Example: Creating a Todo App
 
-앞서 학습한 기본 사용법들을 종합적으로 활용하여 실제 프로젝트를 구축해보겠습니다. Todo 애플리케이션을 단계별로 개발하면서 Claude Code의 실전 활용법을 익혀봅시다.
+Let's build an actual project by comprehensively utilizing the basic usage methods learned so far. We will learn practical application of Claude Code by developing a Todo application step by step.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph TB
-    subgraph goals ["프로젝트 목표"]
-        A["모던한 기술 스택 활용<br/>React, TypeScript, Vite"]
-        B["완성도 높은 사용자 경험 제공<br/>반응형, 접근성, 애니메이션"]
-        C["전체 개발 주기 경험<br/>테스트와 배포까지"]
+    subgraph goals ["Project Goals"]
+        A["Utilize modern tech stack<br/>React, TypeScript, Vite"]
+        B["Provide a high-quality user experience<br/>Responsive, Accessible, Animated"]
+        C["Experience the full development lifecycle<br/>Including testing and deployment"]
     end
     
     classDef goalStyle fill:#e2e8f0,stroke:#334155,stroke-width:2px,color:#1e293b
@@ -1596,16 +1596,16 @@ graph TB
     class A,B,C goalStyle
 ```
 
-**프로젝트 목표**
+**Project Goals**
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 flowchart TD
-    A["1단계: 프로젝트 설정<br/>React, TypeScript, Vite 구성"] --> B["2단계: 컴포넌트 개발<br/>타입 정의, UI 컴포넌트 생성"]
-    B --> C["3단계: 상태 관리<br/>Context API, 커스텀 훅"]
-    C --> D["4단계: 스타일링<br/>Tailwind CSS, 반응형, 접근성"]
-    D --> E["5단계: 테스트<br/>유닛 테스트, 통합 테스트"]
-    E --> F["6단계: 배포 준비<br/>빌드 최적화, CI/CD, 모니터링"]
+    A["Step 1: Project Setup<br/>Configure React, TypeScript, Vite"] --> B["Step 2: Component Development<br/>Define types, Create UI components"]
+    B --> C["Step 3: State Management<br/>Context API, Custom Hooks"]
+    C --> D["Step 4: Styling<br/>Tailwind CSS, Responsive, Accessibility"]
+    D --> E["Step 5: Testing<br/>Unit tests, Integration tests"]
+    E --> F["Step 6: Deployment Prep<br/>Build optimization, CI/CD, Monitoring"]
     
     classDef stepStyle fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
     classDef currentStyle fill:#e2e8f0,stroke:#334155,stroke-width:3px,color:#1e293b
@@ -1613,274 +1613,274 @@ flowchart TD
     class A,B,C,D,E,F stepStyle
 ```
 
-### Todo 앱 개발 단계별 가이드
+### Todo App Development Step-by-Step Guide
 ```
 
-**프로젝트 완성 체크리스트**
-- [ ] 모든 CRUD 기능이 정상 작동하는가?
-- [ ] 반응형 디자인이 모든 화면 크기에서 잘 동작하는가?
-- [ ] 테스트 커버리지가 80% 이상인가?
-- [ ] 라이트하우스 점수가 90점 이상인가?
-- [ ] 접근성 기준을 충족하는가?
+**Project Completion Checklist**
+- [ ] Do all CRUD functions work correctly?
+- [ ] Does the responsive design work well on all screen sizes?
+- [ ] Is test coverage above 80%?
+- [ ] Is the Lighthouse score above 90?
+- [ ] Does it meet accessibility standards?
 
-## 프로 팁: 효율성 극대화
+## Pro Tips: Maximizing Efficiency
 
-### 1. 별칭(Alias) 설정
+### 1. Setting Aliases
 
-자주 사용하는 명령어에 단축 별칭을 설정하여 작업 효율성을 높일 수 있습니다.
+You can increase work efficiency by setting shortened aliases for frequently used commands.
 
 ```bash
-# ~/.bashrc 또는 ~/.zshrc에 추가
+# Add to ~/.bashrc or ~/.zshrc
 alias cc="claude"
 alias ccc="claude --clear"
 alias ccr="claude 'npm run'"
 ```
 
-### 2. 템플릿 활용
+### 2. Utilizing Templates
 
-반복적으로 사용하는 명령어 패턴을 템플릿으로 저장하여 재사용성을 높입니다.
+Increase reusability by saving frequently used command patterns as templates.
 
-**템플릿 디렉토리 구조 만들기**
+**Creating Template Directory Structure**
 ```bash
-# Claude Code 템플릿 디렉토리 생성
+# Create Claude Code template directory
 mkdir -p ~/.claude-templates/{components,features,tests,docs}
 ```
 
-**실용적인 템플릿 예시들**
+**Practical Template Examples**
 
-1. **React 컴포넌트 템플릿**
+1. **React Component Template**
 ```bash
-# 컴포넌트 생성 템플릿
+# Component creation template
 cat > ~/.claude-templates/components/react-component.txt << 'EOF'
-새로운 React 컴포넌트를 만들어줘
-- 컴포넌트 이름: [COMPONENT_NAME]
-- 함수형 컴포넌트로 작성
-- TypeScript 사용
-- Props 인터페이스 정의
-- 기본 스타일 포함
-- 스토리북 스토리 파일도 생성
-- 유닛 테스트 파일 포함
+Create a new React component
+- Component name: [COMPONENT_NAME]
+- Write as a functional component
+- Use TypeScript
+- Define Props interface
+- Include basic styles
+- Also generate Storybook story file
+- Include unit test file
 EOF
 
-# 사용 예시
+# Usage example
 COMPONENT_NAME="UserProfile" envsubst < ~/.claude-templates/components/react-component.txt | claude
 ```
 
-2. **API 엔드포인트 템플릿**
+2. **API Endpoint Template**
 ```bash
-# API 라우트 생성 템플릿
+# API route creation template
 cat > ~/.claude-templates/features/api-endpoint.txt << 'EOF'
-새로운 REST API 엔드포인트를 만들어줘
-- 리소스: [RESOURCE_NAME]
-- CRUD 작업 모두 포함
-- Express.js 라우터 사용
-- 입력 검증 미들웨어
-- 에러 핸들링
-- Swagger 문서 주석
-- 통합 테스트 포함
+Create a new REST API endpoint
+- Resource: [RESOURCE_NAME]
+- Include all CRUD operations
+- Use Express.js router
+- Input validation middleware
+- Error handling
+- Swagger documentation comments
+- Include integration tests
 EOF
 ```
 
-3. **버그 수정 템플릿**
+3. **Bug Fix Template**
 ```bash
-# 버그 수정 워크플로우 템플릿
+# Bug fix workflow template
 cat > ~/.claude-templates/features/bugfix.txt << 'EOF'
-다음 버그를 수정해줘
-1. 먼저 관련된 코드를 찾아서 분석해줘
-2. 버그의 근본 원인을 설명해줘
-3. 수정 방안을 제시하고 구현해줘
-4. 재발 방지를 위한 테스트를 추가해줘
-5. 수정사항을 커밋 메시지와 함께 정리해줘
+Fix the following bug
+1. First, find and analyze the related code
+2. Explain the root cause of the bug
+3. Suggest and implement a fix
+4. Add tests to prevent recurrence
+5. Summarize the changes with a commit message
 
-버그 설명: [BUG_DESCRIPTION]
+Bug description: [BUG_DESCRIPTION]
 EOF
 ```
 
-### 3. 컨텍스트 유지
+### 3. Maintaining Context
 
-복잡하고 긴 작업을 수행할 때는 대화형 모드를 활용하여 문맥을 유지합니다. 효과적인 컨텍스트 관리는 대규모 작업의 성공 열쇠입니다.
+Utilize interactive mode to maintain context when performing complex and lengthy tasks. Effective context management is key to the success of large-scale tasks.
 
-**대규모 리팩토링 시나리오**
+**Large-Scale Refactoring Scenario**
 ```bash
-# 대화형 모드로 시작
+# Start in interactive mode
 claude
 
-> 이제부터 레거시 코드를 최신 아키텍처로 마이그레이션할 거야
-< 알겠습니다. 먼저 현재 코드베이스를 분석하고 마이그레이션 계획을 수립하겠습니다.
+> From now on, I'm going to migrate legacy code to a modern architecture.
+< Understood. I will first analyze the current codebase and create a migration plan.
 
-> 1단계: 현재 아키텍처를 분석하고 문제점을 파악해줘
-< 분석 결과
-  - 모놀리식 구조로 모듈 간 결합도가 높음
-  - 클래스 기반 컴포넌트 사용 (React 16.2)
-  - 상태 관리가 prop drilling으로 복잡함
-  - 테스트 커버리지 30%
+> Step 1: Analyze the current architecture and identify problems.
+< Analysis Results
+  - Monolithic structure with high coupling between modules
+  - Class-based component usage (React 16.2)
+  - State management is complex due to prop drilling
+  - Test coverage 30%
   
-  주요 개선 필요 영역을 식별했습니다. 계속 진행할까요?
+  Identified key areas needing improvement. Shall I proceed?
 
-> 2단계: 마이그레이션 로드맵을 만들어줘
-< 단계별 마이그레이션 로드맵
-  Phase 1: 인프라 현대화 (1-2주)
-  - 빌드 도구를 Webpack에서 Vite로 마이그레이션
-  - TypeScript 도입
+> Step 2: Create a migration roadmap.
+< Step-by-Step Migration Roadmap
+  Phase 1: Infrastructure Modernization (1-2 weeks)
+  - Migrate build tool from Webpack to Vite
+  - Introduce TypeScript
   
-  Phase 2: 컴포넌트 현대화 (3-4주)
-  - 클래스 컴포넌트를 함수형으로 전환
-  - Custom Hooks로 로직 추출
+  Phase 2: Component Modernization (3-4 weeks)
+  - Convert class components to functional
+  - Extract logic with Custom Hooks
   
-  Phase 3: 상태 관리 개선 (1주)
-  - Context API 또는 Zustand 도입
+  Phase 3: State Management Improvement (1 week)
+  - Introduce Context API or Zustand
   
-  Phase 4: 테스트 강화 (1주)
-  - 테스트 커버리지 80% 목표
+  Phase 4: Test Enhancement (1 week)
+  - Target 80% test coverage
 
-> 좋아, Phase 1부터 시작하자. 먼저 Vite 마이그레이션을 진행해줘
-< Phase 1 시작: Vite 마이그레이션을 단계별로 진행하겠습니다...
+> Okay, let's start with Phase 1. Proceed with the Vite migration first.
+< Starting Phase 1: I will proceed with the Vite migration step by step...
 ```
 
-**컨텍스트 유지 팁**
+**Context Maintenance Tips**
 
-1. **체크포인트 생성**: 각 단계 완료 시 진행 상황 요약 요청
-2. **명확한 단계 구분**: 번호나 라벨로 작업 단계 명시
-3. **정기적인 검증**: 중간중간 결과 확인 및 방향 조정
-4. **컨텍스트 저장**: 중요한 결정사항은 별도 문서로 저장
+1. **Create Checkpoints**: Request a summary of progress upon completion of each step.
+2. **Clear Step Demarcation**: Specify work steps with numbers or labels.
+3. **Regular Verification**: Check results intermittently and adjust direction.
+4. **Save Context**: Save important decisions as separate documents.
 
-## 마치며
+## Conclusion
 
-이 장에서는 Claude Code의 핵심 기능들을 체계적으로 학습했습니다.
+In this chapter, we systematically learned the core features of Claude Code.
 
-**주요 학습 내용**
-- **자연어 기반 명령**: 복잡한 문법 없이 의도를 명확히 전달
-- **프로젝트 탐색**: 코드베이스를 빠르게 이해하고 분석
-- **코드 관리**: 작성, 수정, 리팩토링의 효율적인 방법
-- **품질 관리**: 테스트와 디버깅을 통한 안정성 확보
-- **버전 관리**: Git 연동을 통한 체계적인 개발 워크플로우
+**Key Learnings**
+- **Natural Language-Based Commands**: Clearly convey intent without complex syntax.
+- **Project Exploration**: Quickly understand and analyze the codebase.
+- **Code Management**: Efficient methods for writing, modifying, and refactoring.
+- **Quality Management**: Ensuring stability through testing and debugging.
+- **Version Control**: Systematic development workflow through Git integration.
 
-**실무 적용 포인트**
-- 반복 작업은 Claude Code에 위임하여 창의적 업무에 집중
-- 대화형 모드를 활용한 복잡한 문제 해결
-- 프로젝트 컨텍스트를 활용한 정확한 작업 수행
+**Practical Application Points**
+- Delegate repetitive tasks to Claude Code to focus on creative work.
+- Solve complex problems using interactive mode.
+- Perform accurate tasks by utilizing project context.
 
-다음 장에서는 CLAUDE.md 파일을 통해 프로젝트별로 Claude Code를 맞춤 설정하는 방법을 알아보겠습니다. 각 프로젝트의 특성에 맞는 최적화 전략을 학습해봅시다.
+In the next chapter, we will learn how to customize Claude Code for each project using the CLAUDE.md file. Let's learn optimization strategies tailored to the characteristics of each project.
 
 \newpage
 
-# 제4장: CLAUDE.md로 프로젝트 맞춤 설정
+# Chapter 4: Customizing Projects with CLAUDE.md
 
-> "좋은 도구는 사용자에게 맞춰진다" - 도널드 노먼
+> "Good tools adapt to the user." - Donald Norman
 
-이 장에서는 **CLAUDE.md 파일을 통한 프로젝트 맞춤 설정**에 대해 알아보겠습니다. 각 프로젝트의 고유한 특성과 요구사항에 맞춰 Claude Code를 최적화하는 방법을 체계적으로 학습하겠습니다.
+In this chapter, we will learn about **project customization through the CLAUDE.md file**. We will systematically learn how to optimize Claude Code according to the unique characteristics and requirements of each project.
 
-CLAUDE.md는 Claude Code가 프로젝트의 컨텍스트를 이해하고, 팀의 코딩 규칙을 준수하며, 일관된 품질의 코드를 생성하도록 돕는 핵심 도구입니다.
+CLAUDE.md is a core tool that helps Claude Code understand the project's context, adhere to the team's coding rules, and generate code of consistent quality.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 flowchart TD
-    A["CLAUDE.md의 역할과 중요성"] --> B["프로젝트 구조 및 아키텍처 문서화"]
-    B --> C["코딩 스타일 가이드 정의"]
-    C --> D["개발 환경 자동화 설정"]
-    D --> E["팀 협업을 위한 규칙 수립"]
-    E --> F["실전 프로젝트 예제와 최적화 전략"]
+    A["Role and Importance of CLAUDE.md"] --> B["Documenting Project Structure and Architecture"]
+    B --> C["Defining Coding Style Guides"]
+    C --> D["Setting up Development Environment Automation"]
+    D --> E["Establishing Rules for Team Collaboration"]
+    E --> F["Real-world Project Examples and Optimization Strategies"]
     
     classDef chapterStyle fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
     
     class A,B,C,D,E,F chapterStyle
 ```
 
-**이 장에서 다룰 내용**
+**Topics covered in this chapter**
 
-## 4.1 CLAUDE.md의 역할과 중요성
+## 4.1 Role and Importance of CLAUDE.md
 
-### CLAUDE.md란?
+### What is CLAUDE.md?
 
-CLAUDE.md는 프로젝트 루트 디렉토리에 위치하는 특별한 마크다운 파일입니다. 이 파일은 Claude Code에게 프로젝트별 지침과 규칙을 제공하여, 보다 정확하고 일관된 결과를 도출할 수 있게 합니다.
+CLAUDE.md is a special Markdown file located in the project's root directory. This file provides Claude Code with project-specific instructions and rules, enabling it to produce more accurate and consistent results.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 mindmap
-  root((CLAUDE.md 핵심 개념))
-    프로젝트 컨텍스트
-      고유한 특성 이해
-      비즈니스 도메인 파악
-      아키텍처 구조 인식
-    지속적 규칙 적용
-      세션 간 일관성 유지
-      스타일 가이드 준수
-      자동 규칙 검증
-    팀 지식 저장소
-      암묵적 지식 명시화
-      개발 경험 축적
-      베스트 프랙티스 공유
+  root((CLAUDE.md Core Concepts))
+    Project Context
+      Understanding unique characteristics
+      Identifying business domain
+      Recognizing architectural structure
+    Continuous Rule Application
+      Maintaining consistency across sessions
+      Adhering to style guides
+      Automated rule validation
+    Team Knowledge Repository
+      Making tacit knowledge explicit
+      Accumulating development experience
+      Sharing best practices
 ```
 
-**CLAUDE.md의 핵심 개념**
+**Core Concepts of CLAUDE.md**
 
-프로젝트 구조 예시
+Project structure example:
 
 ```
-프로젝트 루트/
-├── CLAUDE.md          # Claude Code 설정 파일
-├── README.md          # 일반 프로젝트 문서
+Project Root/
+├── CLAUDE.md          # Claude Code configuration file
+├── README.md          # General project documentation
 ├── package.json
 └── src/
 ```
 
-### 왜 중요한가?
+### Why is it Important?
 
-CLAUDE.md를 통해 얻을 수 있는 주요 이점들을 구체적인 예시와 함께 살펴보겠습니다.
+Let's look at the main benefits of using CLAUDE.md with specific examples.
 
-**1. 일관성 보장**
+**1. Ensuring Consistency**
 
-CLAUDE.md가 없을 때와 있을 때의 차이를 비교해보겠습니다.
+Let's compare the difference with and without CLAUDE.md.
 ```markdown
 # CLAUDE.md
-## 코드 스타일
+## Code Style
 
-- 모든 함수는 화살표 함수로 작성
-- 세미콜론 항상 사용
-- 들여쓰기는 2칸
+- All functions should be arrow functions.
+- Always use semicolons.
+- Indentation is 2 spaces.
 ```
 
-**2. 팀 규칙 자동 적용**
+**2. Automatic Application of Team Rules**
 
-팀의 Git 커밋 규칙을 CLAUDE.md에 정의하면, Claude Code가 자동으로 규칙에 맞는 커밋 메시지를 생성합니다.
+If you define the team's Git commit rules in CLAUDE.md, Claude Code will automatically generate commit messages that conform to these rules.
 
 ```markdown
-## Git 커밋 규칙
-- feat: 새로운 기능 추가
-- fix: 버그 수정
-- docs: 문서 수정
-- style: 코드 포매팅 (기능 변경 없음)
-- refactor: 코드 리팩토링 (기능 변경 없음)
-- test: 테스트 추가 또는 수정
-- chore: 빌드 프로세스 또는 보조 도구 변경
+## Git Commit Rules
+- feat: Add a new feature
+- fix: Fix a bug
+- docs: Modify documentation
+- style: Code formatting (no functional changes)
+- refactor: Code refactoring (no functional changes)
+- test: Add or modify tests
+- chore: Changes to build process or auxiliary tools
 
-## 커밋 메시지 형식
+## Commit Message Format
 <type>(<scope>): <subject>
 
-예시
-feat(auth): 소셜 로그인 기능 추가
-fix(api): 사용자 조회 시 null 참조 오류 수정
+Example:
+feat(auth): Add social login functionality
+fix(api): Fix null reference error when querying user
 ```
 
-이렇게 정의하면 Claude Code가 자동으로 올바른 형식의 커밋 메시지를 생성합니다.
+With this definition, Claude Code automatically generates commit messages in the correct format.
 
-**3. 프로젝트 특화 지식**
+**3. Project-Specific Knowledge**
 
-프로젝트의 도메인 지식을 명시하면 Claude Code가 비즈니스 맥락을 이해하고 더 정확한 코드를 생성합니다.
+Specifying the project's domain knowledge allows Claude Code to understand the business context and generate more accurate code.
 
 ```markdown
-## 도메인 용어
-- SKU (Stock Keeping Unit): 재고 관리 단위
-  - 예: "SHOE-NIKE-AF1-WHT-42" (나이키 에어포스1 흰색 42사이즈)
-- PDP (Product Detail Page): 상품 상세 페이지
-  - 주요 컴포넌트: 이미지 갤러리, 가격 정보, 재고 상태, 리뷰
-- CAC (Customer Acquisition Cost): 고객 획득 비용
-  - 계산식: 총 마케팅 비용 / 신규 고객 수
+## Domain Terminology
+- SKU (Stock Keeping Unit): Inventory management unit
+  - Example: "SHOE-NIKE-AF1-WHT-42" (Nike Air Force 1 White Size 42)
+- PDP (Product Detail Page): Product detail page
+  - Key components: Image gallery, price information, stock status, reviews
+- CAC (Customer Acquisition Cost): Customer acquisition cost
+  - Formula: Total marketing cost / Number of new customers
 
-## 비즈니스 규칙
-- 재고가 5개 이하일 때 "품절 임박" 표시
-- 신규 회원은 첫 구매 시 10% 할인 자동 적용
-- 50,000원 이상 구매 시 무료 배송
+## Business Rules
+- Display "Low Stock" when inventory is 5 or less.
+- New members automatically receive a 10% discount on their first purchase.
+- Free shipping for purchases over 50,000 KRW.
 ```
 
 ### CLAUDE.md vs README.md
@@ -1889,17 +1889,17 @@ fix(api): 사용자 조회 시 null 참조 오류 수정
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph LR
     subgraph readme ["README.md"]
-        A1["대상: 사람<br/>개발자, 사용자"]
-        A2["목적: 프로젝트 소개<br/>사용 가이드"]
-        A3["내용: 설치 방법<br/>API 문서, 예제"]
-        A4["형식: 사용자 친화적<br/>설명 중심"]
+        A1["Target: Humans<br/>Developers, Users"]
+        A2["Purpose: Project Introduction<br/>Usage Guide"]
+        A3["Content: Installation<br/>API Docs, Examples"]
+        A4["Format: User-friendly<br/>Descriptive"]
     end
     
     subgraph claude ["CLAUDE.md"]
-        B1["대상: Claude Code<br/>AI 어시스턴트"]
-        B2["목적: 작업 지침<br/>컨텍스트 제공"]
-        B3["내용: 코딩 규칙<br/>아키텍처, 팀 컨벤션"]
-        B4["형식: 구조화된<br/>AI 이해 최적화"]
+        B1["Target: Claude Code<br/>AI Assistant"]
+        B2["Purpose: Work Instructions<br/>Context Provision"]
+        B3["Content: Coding Rules<br/>Architecture, Team Conventions"]
+        B4["Format: Structured<br/>Optimized for AI Understanding"]
     end
     
     A1 -.->|vs| B1
@@ -1914,128 +1914,128 @@ graph LR
     class B1,B2,B3,B4 claudeStyle
 ```
 
-두 파일의 차이점과 각각의 역할을 명확히 이해하는 것이 중요합니다.
+It's important to clearly understand the differences and respective roles of these two files.
 
-**실제 활용 예시**
+**Practical Usage Example**
 
 ```markdown
-# README.md (사람을 위한 문서)
-## 프로젝트 소개
-이 프로젝트는 전자상거래 플랫폼입니다.
+# README.md (Documentation for humans)
+## Project Introduction
+This project is an e-commerce platform.
 
-## 설치 방법
+## Installation
 
-1. 저장소를 클론합니다.
-2. `npm install` 실행
-3. `npm start`로 서버 시작
+1. Clone the repository.
+2. Run `npm install`.
+3. Start the server with `npm start`.
 
 ---
 
-# CLAUDE.md (Claude Code를 위한 문서)
-## 프로젝트 아키텍처
-- 패턴: MVC + Repository Pattern
-- 프론트엔드: React 18 + TypeScript
-- 백엔드: Node.js + Express
-- 데이터베이스: PostgreSQL + Redis
+# CLAUDE.md (Documentation for Claude Code)
+## Project Architecture
+- Pattern: MVC + Repository Pattern
+- Frontend: React 18 + TypeScript
+- Backend: Node.js + Express
+- Database: PostgreSQL + Redis
 
-## 코드 생성 규칙
-- 모든 API 응답은 ResponseDto로 래핑
-- 에러는 CustomError 클래스 사용
-- 비동기 함수는 반드시 try-catch 포함
+## Code Generation Rules
+- All API responses must be wrapped with ResponseDto.
+- Use CustomError class for errors.
+- Asynchronous functions must include try-catch.
 ```
 
-## 4.2 프로젝트 구조 문서화
+## 4.2 Documenting Project Structure
 
-### 기본 구조 설명
+### Basic Structure Explanation
 
-프로젝트의 디렉토리 구조와 각 파일의 역할을 명확히 정의하면 Claude Code가 더 정확한 작업을 수행할 수 있습니다. 단순한 구조 나열을 넘어서 각 디렉토리의 책임과 파일 명명 규칙까지 포함해야 합니다.
+Clearly defining the project's directory structure and the role of each file allows Claude Code to perform more accurate tasks. This should go beyond a simple structure listing to include the responsibilities of each directory and file naming conventions.
 
 ```markdown
 # CLAUDE.md
 
-## 프로젝트 구조
+## Project Structure
 
-### 디렉토리 구조
+### Directory Structure
 ```
 src/
-├── components/      # React 컴포넌트
-│   ├── common/     # 공통 컴포넌트
-│   ├── features/   # 기능별 컴포넌트
-│   └── layouts/    # 레이아웃 컴포넌트
-├── hooks/          # 커스텀 React 훅
-├── services/       # API 통신 로직
-├── store/          # Redux 스토어
-├── utils/          # 유틸리티 함수
-└── types/          # TypeScript 타입 정의
+├── components/      # React components
+│   ├── common/     # Common components
+│   ├── features/   # Feature-specific components
+│   └── layouts/    # Layout components
+├── hooks/          # Custom React hooks
+├── services/       # API communication logic
+├── store/          # Redux store
+├── utils/          # Utility functions
+└── types/          # TypeScript type definitions
 ```
 
-### 주요 파일 위치
-- 환경 설정: `.env`, `.env.example`
-- API 엔드포인트: `src/services/api.ts`
-- 라우팅 설정: `src/routes/index.tsx`
-- 전역 스타일: `src/styles/global.css`
+### Key File Locations
+- Environment configuration: `.env`, `.env.example`
+- API endpoints: `src/services/api.ts`
+- Routing configuration: `src/routes/index.tsx`
+- Global styles: `src/styles/global.css`
 
-### 파일 명명 규칙
-- 컴포넌트: PascalCase (예: UserProfile.tsx)
-- 유틸리티: camelCase (예: formatDate.ts)
-- 상수: UPPER_SNAKE_CASE (예: API_ENDPOINTS.ts)
-- 스타일: kebab-case (예: user-profile.module.css)
+### File Naming Conventions
+- Components: PascalCase (e.g., UserProfile.tsx)
+- Utilities: camelCase (e.g., formatDate.ts)
+- Constants: UPPER_SNAKE_CASE (e.g., API_ENDPOINTS.ts)
+- Styles: kebab-case (e.g., user-profile.module.css)
 ```
 
-### 아키텍처 패턴 명시
+### Specifying Architectural Patterns
 
-프로젝트에서 사용하는 주요 아키텍처 패턴과 디자인 원칙을 명시하면 일관성 있는 코드를 생성할 수 있습니다.
+Specifying the main architectural patterns and design principles used in the project helps generate consistent code.
 
 ```markdown
-## 아키텍처 패턴
+## Architectural Patterns
 
-### 상태 관리
-- Redux Toolkit 사용
-- 각 기능별로 slice 파일 생성
-- RTK Query로 API 상태 관리
+### State Management
+- Use Redux Toolkit
+- Create slice files for each feature
+- Manage API state with RTK Query
 
-### 컴포넌트 구조
+### Component Structure
 ```typescript
-// 모든 컴포넌트는 다음 구조를 따름
+// All components follow this structure
 interface ComponentProps {
-  // props 정의
+  // define props
 }
 
 export const ComponentName: React.FC<ComponentProps> = (props) => {
-  // 훅은 최상단에
-  // 로직
-  // JSX 반환
+  // Hooks at the top
+  // Logic
+  // Return JSX
 }
 ```
 
-### 데이터 흐름
+### Data Flow
 
-1. 사용자 액션 → 2. Action dispatch → 3. Reducer 처리 → 4. State 업데이트 → 5. UI 리렌더링
+1. User Action → 2. Action Dispatch → 3. Reducer Processing → 4. State Update → 5. UI Re-render
 
 
-## 4.3 코딩 스타일 가이드 정의
+## 4.3 Defining Coding Style Guides
 
-### 언어별 스타일 가이드
+### Language-Specific Style Guides
 
-프로젝트에서 사용하는 프로그래밍 언어별로 일관된 코딩 스타일을 정의해야 합니다. 이는 단순한 포매팅 규칙을 넘어서 코드의 가독성과 유지보수성을 높이는 핵심 요소입니다.
+Define consistent coding styles for each programming language used in the project. This goes beyond simple formatting rules and is a key element in enhancing code readability and maintainability.
 
 ````markdown
-## 코딩 스타일
+## Coding Style
 
 ### TypeScript/JavaScript
-- 함수명: camelCase
-- 컴포넌트명: PascalCase  
-- 상수: UPPER_SNAKE_CASE
-- 파일명: kebab-case.ts
+- Function names: camelCase
+- Component names: PascalCase
+- Constants: UPPER_SNAKE_CASE
+- File names: kebab-case.ts
 
-### 명명 규칙 예시
+### Naming Convention Examples
 ```typescript
-// 좋은 예
+// Good examples
 const getUserData = async (userId: string) => { }
 const MAX_RETRY_COUNT = 3;
 export const UserProfile: React.FC = () => { }
 
-// 피해야 할 예
+// Examples to avoid
 const get_user_data = async (userid) => { }
 const maxretrycount = 3;
 export const userprofile = () => { }
@@ -2044,11 +2044,11 @@ export const userprofile = () => { }
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 flowchart TD
-    A["Import 순서"] --> B["1. React 관련<br/>React, useState, useEffect"]
-    B --> C["2. 외부 라이브러리<br/>axios, lodash, moment"]
-    C --> D["3. 내부 모듈<br/>@/constants, @/services"]
-    D --> E["4. 상대 경로 import<br/>../components, ./utils"]
-    E --> F["5. 스타일 파일<br/>CSS, SCSS 파일"]
+    A["Import Order"] --> B["1. React related<br/>React, useState, useEffect"]
+    B --> C["2. External libraries<br/>axios, lodash, moment"]
+    C --> D["3. Internal modules<br/>@/constants, @/services"]
+    D --> E["4. Relative path imports<br/>../components, ./utils"]
+    E --> F["5. Style files<br/>CSS, SCSS files"]
     
     classDef importStyle fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
     classDef rootStyle fill:#e2e8f0,stroke:#334155,stroke-width:3px,color:#1e293b
@@ -2057,7 +2057,7 @@ flowchart TD
     class B,C,D,E,F importStyle
 ```
 
-### Import 순서
+### Import Order
 
 ```typescript
 import React, { useState, useEffect } from 'react';
@@ -2072,21 +2072,21 @@ import './styles.css';
 ```
 ````
 
-### 코드 품질 기준
+### Code Quality Standards
 
-높은 품질의 코드를 유지하기 위한 구체적인 기준과 규칙을 설정합니다. 이러한 기준은 코드 리뷰 시 체크리스트로도 활용됩니다.
+Establish specific standards and rules for maintaining high-quality code. These standards can also be used as a checklist during code reviews.
 
 ```markdown
-## 코드 품질 기준
+## Code Quality Standards
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph TB
-    subgraph rules ["함수 작성 규칙"]
-        A["한 가지 일만 수행<br/>Single Responsibility"]
-        B["함수 길이 50줄 이하<br/>가독성 향상"]
-        C["매개변수 3개 이하<br/>복잡성 감소"]
-        D["복잡도 10 이하<br/>Cyclomatic Complexity"]
+    subgraph rules ["Function Writing Rules"]
+        A["Performs one task<br/>Single Responsibility"]
+        B["Function length 50 lines or less<br/>Improves readability"]
+        C["3 parameters or less<br/>Reduces complexity"]
+        D["Complexity 10 or less<br/>Cyclomatic Complexity"]
     end
     
     classDef ruleStyle fill:#e2e8f0,stroke:#334155,stroke-width:2px,color:#1e293b
@@ -2094,11 +2094,11 @@ graph TB
     class A,B,C,D ruleStyle
 ```
 
-### 함수 작성 규칙
+### Function Writing Rules
 
-### 에러 처리
+### Error Handling
 ```typescript
-// 모든 비동기 함수는 try-catch 사용
+// All asynchronous functions use try-catch
 try {
   const data = await fetchData();
   return { success: true, data };
@@ -2108,63 +2108,63 @@ try {
 }
 ```
 
-### 주석 작성
-- 코드가 '무엇을' 하는지가 아닌 '왜' 하는지 설명
-- JSDoc 형식으로 함수 문서화
-- TODO 주석은 이슈 번호와 함께
+### Commenting
+- Explain 'why' the code does something, not 'what' it does.
+- Document functions in JSDoc format.
+- TODO comments should include an issue number.
 
 ```typescript
 /**
- * 사용자 인증 토큰을 검증합니다.
- * @param token - JWT 토큰
- * @returns 토큰이 유효한지 여부
+ * Validates the user authentication token.
+ * @param token - JWT token
+ * @returns Whether the token is valid.
  */
 const validateToken = (token: string): boolean => {
-  // TODO(#123): 토큰 만료 시간 검증 로직 추가
+  // TODO(#123): Add token expiration validation logic
   return jwt.verify(token, SECRET_KEY);
 }
 ```
 
-## 4.4 개발 환경 자동화
+## 4.4 Development Environment Automation
 
-### 개발 환경 설정
+### Development Environment Setup
 
-일관된 개발 환경을 위한 필수 도구와 설정을 명시합니다. 새로운 팀원이 빠르게 개발 환경을 구축할 수 있도록 단계별 가이드를 제공합니다.
+Specify essential tools and settings for a consistent development environment. Provide a step-by-step guide for new team members to quickly set up their development environment.
 
 ```markdown
-## 개발 환경
+## Development Environment
 
-### 필수 도구
-- Node.js 18.0 이상
-- pnpm 8.0 이상 (npm 대신 사용)
-- VS Code + 추천 확장 프로그램
+### Required Tools
+- Node.js 18.0 or higher
+- pnpm 8.0 or higher (use instead of npm)
+- VS Code + Recommended extensions
 
-### 초기 설정 스크립트
-# 의존성 설치
+### Initial Setup Script
+# Install dependencies
 pnpm install
 
-# 환경 변수 설정
+# Set environment variables
 cp .env.example .env
 
-# 데이터베이스 마이그레이션
+# Database migration
 pnpm db:migrate
 
-# 개발 서버 시작
+# Start development server
 pnpm dev
 ```
 
-### VS Code 설정
-`.vscode/settings.json` 파일이 자동으로 적용됩니다.
-- 자동 포매팅 (저장 시)
-- ESLint 자동 수정
-- 추천 확장 프로그램 설치 알림
+### VS Code Settings
+The `.vscode/settings.json` file will be applied automatically.
+- Auto-formatting (on save)
+- ESLint auto-fix
+- Notification for recommended extension installation
 
-### 코드 생성 템플릿
-`pnpm generate:component` 실행 시
+### Code Generation Templates
+When running `pnpm generate:component`:
 
-1. 컴포넌트 이름 입력
-2. 컴포넌트 타입 선택 (일반/페이지/레이아웃)
-3. 자동으로 파일 생성
+1. Enter component name
+2. Select component type (general/page/layout)
+3. Files are generated automatically:
    - ComponentName.tsx
    - ComponentName.test.tsx
    - ComponentName.stories.tsx
@@ -2172,52 +2172,52 @@ pnpm dev
 
 ### Git Hooks
 
-- pre-commit: 린트 및 포매팅 검사
-- commit-msg: 커밋 메시지 형식 검증
-- pre-push: 테스트 실행
+- pre-commit: Lint and formatting checks
+- commit-msg: Commit message format validation
+- pre-push: Run tests
 
-## 4.5 팀 협업을 위한 규칙 설정
+## 4.5 Establishing Rules for Team Collaboration
 
-### 코드 리뷰 가이드라인
+### Code Review Guidelines
 
-효과적인 코드 리뷰를 위한 체계적인 가이드라인을 수립합니다. 단순한 체크리스트를 넘어서 리뷰어와 작성자 모두를 위한 실질적인 가이드를 제공합니다.
+Establish systematic guidelines for effective code reviews. Provide practical guidance for both reviewers and authors, going beyond a simple checklist.
 
 ```markdown
-## 코드 리뷰 가이드라인
+## Code Review Guidelines
 
-### PR 작성 규칙
-1. 제목: `[타입] 간단한 설명`
-2. 본문 필수 포함 사항
-   - 변경 사항 요약
-   - 관련 이슈 번호
-   - 테스트 방법
-   - 스크린샷 (UI 변경 시)
+### PR Creation Rules
+1. Title: `[Type] Brief description`
+2. Body must include:
+   - Summary of changes
+   - Related issue number
+   - Testing method
+   - Screenshot (for UI changes)
 
-### 리뷰 체크리스트
-- [ ] 코드가 프로젝트 컨벤션을 따르는가?
-- [ ] 테스트가 충분히 작성되었는가?
-- [ ] 성능 영향은 고려되었는가?
-- [ ] 보안 취약점은 없는가?
-- [ ] 문서는 업데이트되었는가?
+### Review Checklist
+- [ ] Does the code follow project conventions?
+- [ ] Are tests sufficiently written?
+- [ ] Is performance impact considered?
+- [ ] Are there no security vulnerabilities?
+- [ ] Is documentation updated?
 
-### 머지 기준
-- 최소 1명의 승인 필요
-- 모든 CI 체크 통과
-- 충돌 해결 완료
+### Merge Criteria
+- At least 1 approval required
+- All CI checks pass
+- Conflicts resolved
 
-### 브랜치 전략
+### Branching Strategy
 
-체계적인 Git 브랜치 관리를 위한 전략과 규칙을 정의합니다. Git Flow를 기반으로 한 실용적인 브랜치 전략을 소개합니다.
+Define strategies and rules for systematic Git branch management. Introduce a practical branching strategy based on Git Flow.
 
-## Git 브랜치 전략
+## Git Branching Strategy
 
-### 브랜치 명명 규칙
-- feature/기능명: 새 기능 개발
-- fix/이슈번호: 버그 수정
-- hotfix/설명: 긴급 수정
-- refactor/대상: 리팩토링
+### Branch Naming Conventions
+- feature/feature-name: New feature development
+- fix/issue-number: Bug fix
+- hotfix/description: Urgent fix
+- refactor/target: Refactoring
 
-### 브랜치 플로우
+### Branch Flow
 main
   ├── develop
   │     ├── feature/user-auth
@@ -2225,69 +2225,69 @@ main
   │     └── fix/123
   └── hotfix/critical-bug
 
-### 머지 전략
+### Merge Strategy
 - feature → develop: Squash merge
 - develop → main: Merge commit
 - hotfix → main: Cherry-pick
 ```
 
 
-## 팀 커뮤니케이션
+## Team Communication
 
-### 이슈 템플릿
-버그 리포트
+### Issue Templates
+Bug Report
 
-- 재현 단계
-- 예상 동작
-- 실제 동작
-- 환경 정보
+- Steps to reproduce
+- Expected behavior
+- Actual behavior
+- Environment information
 
-기능 요청
+Feature Request
 
-- 사용자 스토리
-- 수락 기준
-- 기술적 고려사항
+- User story
+- Acceptance criteria
+- Technical considerations
 
-### 일일 스탠드업
-매일 오전 10시, 다음 내용 공유
+### Daily Stand-up
+Daily at 10 AM, share the following:
 
-1. 어제 한 일
-2. 오늘 할 일
-3. 블로커
+1. What I did yesterday
+2. What I will do today
+3. Blockers
 
-### 기술 결정 기록
-`docs/adr/` 디렉토리에 Architecture Decision Records 작성
+### Technical Decision Log
+Write Architecture Decision Records in the `docs/adr/` directory.
 
-- 배경
-- 고려한 옵션들
-- 결정 사항
-- 결과
+- Background
+- Options considered
+- Decision
+- Outcome
 
-## 실전 예제: 대규모 전자상거래 프로젝트
+## Real-world Example: Large-Scale E-commerce Project
 
-실제 프로덕션 환경에서 사용할 수 있는 체계적이고 포괄적인 CLAUDE.md 예시를 살펴보겠습니다.
+Let's look at a systematic and comprehensive CLAUDE.md example that can be used in a real production environment.
 
 ````markdown
 # E-Commerce Project Guidelines for Claude Code
 
-## 프로젝트 개요
-대규모 전자상거래 플랫폼 (일 100만 MAU)
+## Project Overview
+Large-scale e-commerce platform (1 million MAU daily)
 
-## 핵심 기술 스택
+## Core Tech Stack
 - Frontend: Next.js 14, TypeScript, Tailwind CSS
 - State: Zustand + React Query
 - Backend: Node.js, Express, PostgreSQL
 - Infrastructure: AWS, Docker, K8s
 
-## 도메인 지식
+## Domain Knowledge
 
-### 비즈니스 용어
-- SKU: Stock Keeping Unit (재고 관리 코드)
-- GMV: Gross Merchandise Volume (총 거래액)
-- AOV: Average Order Value (평균 주문 금액)
-- Cart Abandonment: 장바구니 이탈
+### Business Terminology
+- SKU: Stock Keeping Unit
+- GMV: Gross Merchandise Volume
+- AOV: Average Order Value
+- Cart Abandonment
 
-### 핵심 도메인 모델
+### Core Domain Model
 ```typescript
 interface Product {
   id: string;
@@ -2308,382 +2308,382 @@ interface Order {
 }
 ```
 
-## 성능 요구사항
-- 페이지 로드: 3초 이내
-- API 응답: 200ms 이내
-- 99.9% 가용성
+## Performance Requirements
+- Page load: Within 3 seconds
+- API response: Within 200ms
+- 99.9% availability
 
-## 보안 규칙
-- 모든 사용자 입력 검증
-- SQL Injection 방지
-- XSS 방지
-- 민감 정보 암호화
+## Security Rules
+- Validate all user input
+- Prevent SQL Injection
+- Prevent XSS
+- Encrypt sensitive information
 
-## 테스트 전략
-- 단위 테스트: 80% 커버리지
-- 통합 테스트: 핵심 플로우
-- E2E 테스트: 구매 플로우
+## Test Strategy
+- Unit tests: 80% coverage
+- Integration tests: Core flows
+- E2E tests: Purchase flow
 
-## 배포 프로세스
-1. feature 브랜치에서 개발
-2. PR 생성 및 리뷰
-3. develop 브랜치 머지
-4. 스테이징 자동 배포
-5. QA 검증
-6. 프로덕션 배포 (승인 필요)
+## Deployment Process
+1. Develop on feature branch
+2. Create PR and review
+3. Merge to develop branch
+4. Auto-deploy to staging
+5. QA verification
+6. Deploy to production (approval required)
 
-## Claude Code 특별 지침
-- 성능을 항상 고려하여 코드 작성
-- 확장 가능한 아키텍처 유지
-- 마이크로서비스 경계 준수
-- 비동기 처리 우선
-- 에러 로깅 필수
+## Claude Code Special Instructions
+- Always consider performance when writing code.
+- Maintain a scalable architecture.
+- Adhere to microservice boundaries.
+- Prioritize asynchronous processing.
+- Error logging is mandatory.
 ````
 
-## 프로 팁: CLAUDE.md 최적화
+## Pro Tips: Optimizing CLAUDE.md
 
-### 1. 섹션별 우선순위
+### 1. Section Priority
 
-중요도에 따라 CLAUDE.md의 내용을 구조화하면 Claude Code가 더 효과적으로 규칙을 인식할 수 있습니다.
+Structuring the content of CLAUDE.md by importance allows Claude Code to recognize rules more effectively.
 
 ```markdown
 # CLAUDE.md
 
-## 🚨 중요 규칙 (항상 준수)
-- 절대 main 브랜치에 직접 푸시 금지
-- 모든 API 키는 환경 변수로
-- 테스트 없는 코드 커밋 금지
+## 🚨 Critical Rules (Always Adhere)
+- Never push directly to the main branch.
+- All API keys must be environment variables.
+- Do not commit code without tests.
 
-## 📋 일반 가이드라인
-- 가능하면 함수형 프로그래밍
-- 주석은 최소화, 코드로 설명
+## 📋 General Guidelines
+- Use functional programming where possible.
+- Minimize comments; explain with code.
 
-## 💡 권장사항
-- 새로운 라이브러리 도입 전 팀 논의
-- 성능 최적화는 측정 후 진행 
+## 💡 Recommendations
+- Discuss with the team before introducing new libraries.
+- Optimize performance after measurement.
 ```
 
-### 2. 동적 업데이트
+### 2. Dynamic Updates
 
-CLAUDE.md를 업데이트했을 때 Claude Code가 새로운 규칙을 인식하도록 할 수 있습니다.
+You can make Claude Code recognize new rules when CLAUDE.md is updated.
 
 ```bash
-# CLAUDE.md 업데이트 시 Claude Code에게 알리기
-claude "CLAUDE.md 파일이 업데이트되었어. 
-새로운 규칙들을 확인하고 요약해줘"
+# Notify Claude Code when CLAUDE.md is updated
+claude "The CLAUDE.md file has been updated.
+Please review the new rules and summarize them."
 ```
 
-### 3. 환경별 설정 관리
+### 3. Environment-Specific Configuration Management
 
-다양한 개발 환경에 따른 다른 설정을 체계적으로 관리할 수 있습니다.
+Systematically manage different configurations for various development environments.
 
-## 환경별 설정
+## Environment-Specific Settings
 
-### 개발 환경
-- 로그 레벨: DEBUG
-- 더미 데이터 사용 가능
-- 에러 상세 정보 표시
+### Development Environment
+- Log level: DEBUG
+- Dummy data can be used
+- Display detailed error information
 
-### 프로덕션 환경
-- 로그 레벨: ERROR
-- 실제 데이터만 사용
-- 에러 메시지 일반화
+### Production Environment
+- Log level: ERROR
+- Use only real data
+- Generalize error messages
 
 
-### 4. 지속적 개선과 버전 관리
+### 4. Continuous Improvement and Version Control
 
-CLAUDE.md 자체도 소프트웨어처럼 버전 관리하고 지속적으로 개선해야 합니다.
+CLAUDE.md itself should be version-controlled and continuously improved like software.
 
-## CLAUDE.md 버전 관리
+## CLAUDE.md Version Control
 
 ### v2.1.0 (2024-03-15)
-#### 추가
-- 새로운 보안 규칙 (SQL Injection 방지)
-- React 18 훅 사용 가이드라인
+#### Added
+- New security rule (SQL Injection prevention)
+- React 18 hooks usage guidelines
 
-#### 변경
-- TypeScript 설정을 strict 모드로 업그레이드
-- API 응답 시간 기준을 200ms로 강화
+#### Changed
+- Upgraded TypeScript configuration to strict mode
+- Strengthened API response time criteria to 200ms
 
-#### 제거
-- 구형 Internet Explorer 지원 중단
+#### Removed
+- Discontinued support for legacy Internet Explorer
 
 ### v2.0.0 (2024-02-01)
-#### 주요 변경
-- 마이크로서비스 아키텍처로 전환
-- 새로운 브랜치 전략 (Git Flow → GitHub Flow)
+#### Major Changes
+- Transitioned to microservice architecture
+- New branching strategy (Git Flow → GitHub Flow)
 
 
-**개선 사이클 예시**
+**Improvement Cycle Example**
 ```bash
-# 월간 CLAUDE.md 리뷰
-claude "지난 한 달간 우리 팀의 개발 패턴을 분석해서
-CLAUDE.md에서 개선이 필요한 부분을 찾아줘"
+# Monthly CLAUDE.md review
+claude "Analyze our team's development patterns over the past month
+and find areas for improvement in CLAUDE.md."
 
-# 규칙 효과성 분석
-claude "현재 CLAUDE.md 규칙들이 실제로 잘 지켜지고 있는지
-코드베이스를 분석해서 준수율을 보고해줘"
+# Rule effectiveness analysis
+claude "Analyze the codebase to see if the current CLAUDE.md rules
+are actually being followed and report the compliance rate."
 
-# 새로운 규칙 제안
-claude "최근 발생한 버그들을 분석해서
-예방할 수 있는 새로운 규칙을 제안해줘"
+# Suggest new rules
+claude "Analyze recently occurred bugs and suggest new rules
+that could prevent them."
 ```
 
-## 마치며
+## Conclusion
 
-이 장에서는 CLAUDE.md를 통한 프로젝트 맞춤 설정 방법을 체계적으로 학습했습니다.
+In this chapter, we systematically learned how to customize projects using CLAUDE.md.
 
-### 핵심 학습 내용
+### Core Learnings
 
-**1. 전략적 설정 구성**
-- **우선순위 기반 규칙 구조**: 중요도에 따른 단계적 규칙 적용
-- **컨텍스트 인식**: 프로젝트 특성과 팀 문화를 반영한 맞춤 설정
-- **환경별 최적화**: 개발/스테이징/프로덕션 환경에 맞는 차별화된 접근
+**1. Strategic Configuration Setup**
+- **Priority-Based Rule Structure**: Apply rules stepwise based on importance.
+- **Context Awareness**: Custom settings reflecting project characteristics and team culture.
+- **Environment-Specific Optimization**: Differentiated approach for dev/staging/production environments.
 
-**2. 실용적 운영 방법**
-- **동적 업데이트**: 규칙 변경 시 영향도 분석과 점진적 적용
-- **지속적 개선**: 데이터 기반의 규칙 효과성 측정과 개선
-- **팀 협업 강화**: 명확한 가이드라인을 통한 일관된 코드 품질 유지
+**2. Practical Operation Methods**
+- **Dynamic Updates**: Impact analysis and gradual application of rule changes.
+- **Continuous Improvement**: Data-driven measurement and improvement of rule effectiveness.
+- **Enhanced Team Collaboration**: Maintaining consistent code quality through clear guidelines.
 
-### 실무 적용 로드맵
+### Practical Application Roadmap
 
-**1단계: 기본 CLAUDE.md 작성 (1주)**
+**Step 1: Create Basic CLAUDE.md (1 week)**
 
-- 프로젝트 구조와 기본 코딩 스타일 정의
-- 필수 보안 규칙과 품질 기준 설정
-- 팀 커밋 메시지 규칙 통일
+- Define project structure and basic coding style.
+- Set essential security rules and quality standards.
+- Unify team commit message rules.
 
-**2단계: 환경별 설정 분리 (2주)**
+**Step 2: Separate Environment-Specific Settings (2 weeks)**
 
-- 개발/스테이징/프로덕션 환경별 규칙 세분화
-- 자동화 스크립트와 CI/CD 설정 통합
-- 코드 리뷰 프로세스 표준화
+- Refine rules for dev/staging/production environments.
+- Integrate automation scripts and CI/CD settings.
+- Standardize code review process.
 
-**3단계: 고도화와 최적화 (지속적)**
+**Step 3: Advancement and Optimization (Continuous)**
 
-- 팀 피드백을 바탕으로 한 규칙 개선
-- 성능 메트릭 기반의 품질 기준 조정
-- 새로운 기술 도입 시 가이드라인 업데이트
+- Improve rules based on team feedback.
+- Adjust quality standards based on performance metrics.
+- Update guidelines when introducing new technologies.
 
-### CLAUDE.md의 전략적 가치
+### Strategic Value of CLAUDE.md
 
-1. **일관성 보장**: 모든 팀원이 동일한 품질 기준으로 코드 생성
-2. **학습 가속화**: 새로운 팀원의 빠른 온보딩과 생산성 향상
-3. **지식 체계화**: 팀의 암묵적 지식을 명시적 규칙으로 전환
-4. **품질 자동화**: 수동 검토 없이도 일정 품질 이상 보장
-5. **문화 전파**: 팀의 개발 철학과 가치관을 코드에 반영
+1. **Ensures Consistency**: All team members generate code to the same quality standard.
+2. **Accelerates Learning**: Faster onboarding and productivity improvement for new team members.
+3. **Systematizes Knowledge**: Converts team's tacit knowledge into explicit rules.
+4. **Automates Quality**: Guarantees a certain level of quality without manual review.
+5. **Propagates Culture**: Reflects team's development philosophy and values in code.
 
-**중요한 것은 CLAUDE.md가 단순한 규칙 문서가 아니라, 팀의 개발 문화와 철학을 담은 살아있는 가이드북이라는 점입니다.** 정기적인 업데이트와 지속적인 개선을 통해 팀의 성장과 함께 진화하는 도구로 활용해야 합니다.
+**The important thing is that CLAUDE.md is not just a rule document, but a living guidebook embodying the team's development culture and philosophy.** It should be utilized as a tool that evolves with the team's growth through regular updates and continuous improvement.
 
-다음 장에서는 이러한 설정을 바탕으로 다양한 프레임워크별로 Claude Code를 효과적으로 활용하는 구체적인 전략과 베스트 프랙티스를 알아보겠습니다.
+In the next chapter, based on these settings, we will explore specific strategies and best practices for effectively utilizing Claude Code with various frameworks.
 
 \newpage
 
-# 제5장: 프레임워크별 베스트 프랙티스
+# Chapter 5: Best Practices for Each Framework
 
-> "올바른 도구를 올바른 작업에 사용하라" - 프로그래밍 격언
+> "Use the right tool for the right job." - Programming Proverb
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 mindmap
-  root((학습 목표))
-    전략 수립
-      프레임워크별 특성 이해
-      최적화된 활용 전략
-      개발 패턴 정립
-    주요 프레임워크
-      React/Next.js 마스터
-      Node.js/Express 활용
-      Django 개발 패턴
-    코드 품질 관리
-      CLAUDE.md 설정
-      일관된 품질 유지
-      팀 협업 규칙
-    마이그레이션
-      프레임워크 전환 지원
-      효과적 활용 방법
-      실전 적용 능력
+  root((Learning Objectives))
+    Strategy Formulation
+      Understanding framework-specific characteristics
+      Optimized utilization strategies
+      Establishing development patterns
+    Key Frameworks
+      Mastering React/Next.js
+      Utilizing Node.js/Express
+      Django development patterns
+    Code Quality Management
+      CLAUDE.md configuration
+      Maintaining consistent quality
+      Team collaboration rules
+    Migration
+      Framework transition support
+      Effective utilization methods
+      Practical application skills
 ```
 
-## 학습 목표
+## Learning Objectives
 
-## 개요
+## Overview
 
-현대 소프트웨어 개발에서 프레임워크는 개발 효율성과 코드 품질을 결정하는 핵심 요소입니다. 각 프레임워크는 고유한 철학, 설계 패턴, 그리고 모범 사례를 가지고 있어, 동일한 기능이라도 프레임워크에 따라 전혀 다른 접근 방식이 요구됩니다.
+In modern software development, frameworks are key factors that determine development efficiency and code quality. Each framework has its own unique philosophy, design patterns, and best practices, requiring completely different approaches for the same functionality depending on the framework.
 
-Claude Code는 이러한 프레임워크별 특성을 깊이 이해하고, 각 프레임워크의 관용구와 모범 사례를 준수하는 코드를 생성할 수 있습니다. 이 장에서는 주요 프레임워크별로 Claude Code를 최적화하는 전략과 실전 활용법을 체계적으로 살펴보겠습니다.
+Claude Code deeply understands these framework-specific characteristics and can generate code that adheres to the idioms and best practices of each framework. This chapter will systematically explore strategies and practical applications for optimizing Claude Code for major frameworks.
 
-## 5.1 React/Next.js 프로젝트
+## 5.1 React/Next.js Projects
 
-React와 Next.js는 현대 프론트엔드 개발의 핵심 기술로, 컴포넌트 기반 아키텍처와 선언적 프로그래밍을 통해 복잡한 사용자 인터페이스를 효율적으로 구축할 수 있게 해줍니다. Claude Code는 React의 함수형 컴포넌트 패턴, Next.js의 App Router 구조, 그리고 현대적인 상태 관리 라이브러리들과의 통합을 완벽히 지원합니다.
+React and Next.js are core technologies in modern frontend development, enabling efficient construction of complex user interfaces through component-based architecture and declarative programming. Claude Code fully supports React's functional component patterns, Next.js's App Router structure, and integration with modern state management libraries.
 
-### React 프로젝트 초기 설정
+### Initial Setup for React Projects
 
-React 프로젝트를 시작할 때는 프로젝트의 규모와 요구사항에 맞는 도구 선택이 중요합니다. Claude Code는 업계 표준 도구들을 조합하여 확장 가능하고 유지보수하기 쉬운 프로젝트 구조를 생성할 수 있습니다.
+When starting a React project, selecting tools appropriate for the project's scale and requirements is crucial. Claude Code can combine industry-standard tools to create a scalable and maintainable project structure.
 
 ```bash
-# Vite를 사용한 React 프로젝트 생성
-claude "Vite로 새로운 React TypeScript 프로젝트를 만들어줘. 
-Tailwind CSS, React Router, React Query를 포함하고,
-폴더 구조도 모범 사례에 따라 설정해줘"
+# Create a React project using Vite
+claude "Create a new React TypeScript project with Vite.
+Include Tailwind CSS, React Router, and React Query,
+and set up the folder structure according to best practices."
 ```
 
-Claude Code는 다음과 같은 구조를 생성합니다.
+Claude Code generates the following structure:
 
 ```
 src/
 ├── components/
-│   ├── common/        # Button, Input 등 공통 컴포넌트
-│   ├── features/      # 기능별 컴포넌트
-│   └── layouts/       # Header, Footer 등
-├── hooks/            # 커스텀 훅
-├── pages/            # 라우트별 페이지 컴포넌트
-├── services/         # API 통신
-├── store/            # 전역 상태 관리
-├── utils/            # 유틸리티 함수
-└── types/            # TypeScript 타입 정의
+│   ├── common/        # Common components like Button, Input
+│   ├── features/      # Feature-specific components
+│   └── layouts/       # Header, Footer, etc.
+├── hooks/            # Custom hooks
+├── pages/            # Page components for each route
+├── services/         # API communication
+├── store/            # Global state management
+├── utils/            # Utility functions
+└── types/            # TypeScript type definitions
 ```
 
-### React 컴포넌트 개발 패턴
+### React Component Development Patterns
 
-React 컴포넌트는 재사용 가능하고 테스트 가능한 단위로 설계되어야 합니다. Claude Code는 컴포넌트의 역할과 책임을 명확히 분리하고, 적절한 추상화 수준을 유지하는 컴포넌트를 생성할 수 있습니다.
+React components should be designed as reusable and testable units. Claude Code can create components that clearly separate roles and responsibilities and maintain an appropriate level of abstraction.
 
-**1. 컴포넌트 생성 요청 - 실전 예시**
+**1. Component Creation Request - Practical Examples**
 
-효과적인 컴포넌트 개발을 위해서는 명확한 요구사항 정의와 함께 테스트와 문서화를 포함한 완성도 높은 요청이 필요합니다. 다음은 실제 프로젝트에서 자주 사용되는 패턴들입니다.
+Effective component development requires clear requirement definitions and comprehensive requests that include testing and documentation. The following are commonly used patterns in real projects.
 
 ```bash
-# 기본 컴포넌트 생성
-claude "UserProfile 컴포넌트를 만들어줘. 
-프로필 이미지, 이름, 소개를 표시하고,
-편집 모드를 지원해야 해. 
-Storybook 스토리와 테스트 코드도 함께 작성해줘"
+# Basic component creation
+claude "Create a UserProfile component.
+It should display a profile image, name, and introduction,
+and support an edit mode.
+Also, write Storybook stories and test code."
 
-# 고급 데이터 테이블 컴포넌트
-claude "DataTable 컴포넌트를 만들어줘.
-- 정렬, 필터링, 페이지네이션 지원
-- 선택 가능한 행과 대량 작업
-- 가상 스크롤링으로 성능 최적화
-- TypeScript 제네릭으로 타입 안전성 보장
-- 접근성(a11y) 준수"
+# Advanced data table component
+claude "Create a DataTable component.
+- Support sorting, filtering, and pagination
+- Selectable rows and bulk actions
+- Performance optimization with virtual scrolling
+- Type safety with TypeScript generics
+- Accessibility (a11y) compliance"
 
-# 복잡한 폼 컴포넌트
-claude "MultiStepForm 컴포넌트를 만들어줘.
-- React Hook Form과 Zod 검증 통합
-- 단계별 진행 표시와 네비게이션
-- 자동 저장과 임시 저장 기능
-- 오류 상태 처리와 사용자 피드백
-- 각 단계별 조건부 필드 표시"
+# Complex form component
+claude "Create a MultiStepForm component.
+- Integrate React Hook Form and Zod validation
+- Step-by-step progress display and navigation
+- Auto-save and draft functionality
+- Error state handling and user feedback
+- Conditional field display for each step"
 ```
 
-**2. 상태 관리 패턴**
+**2. State Management Patterns**
 
 ```bash
-# 인증 상태 관리
-claude "사용자 인증 상태를 전역으로 관리하는 
-Context와 커스텀 훅을 만들어줘.
-로그인, 로그아웃, 토큰 갱신 기능이 필요해"
+# Authentication state management
+claude "Create a Context and custom hook to manage user
+authentication state globally.
+It needs login, logout, and token refresh functionality."
 
-# 복잡한 비즈니스 로직 상태 관리
-claude "전자상거래 장바구니 상태 관리를 구현해줘.
-- Zustand로 상태 저장소 구성
-- 상품 추가/제거/수량 변경 로직
-- 할인 쿠폰 적용과 가격 계산
-- 로컬스토리지 동기화
-- 비관적/낙관적 업데이트 처리"
+# Complex business logic state management
+claude "Implement e-commerce shopping cart state management.
+- Configure state store with Zustand
+- Logic for adding/removing/changing quantity of products
+- Apply discount coupons and calculate prices
+- Synchronize with localStorage
+- Handle pessimistic/optimistic updates"
 
-# 서버 상태와 캐싱
-claude "React Query를 활용한 서버 상태 관리를 설정해줘.
-- API 응답 캐싱 전략
-- 백그라운드 리페칭과 스테일 타임 설정
-- 무한 스크롤 데이터 페칭
-- 에러 재시도 로직과 오프라인 지원"
+# Server state and caching
+claude "Set up server state management using React Query.
+- API response caching strategy
+- Background refetching and stale time settings
+- Infinite scroll data fetching
+- Error retry logic and offline support"
 ```
 
-**3. 성능 최적화 전략**
+**3. Performance Optimization Strategies**
 
 ```bash
-# 리렌더링 최적화
-claude "이 컴포넌트의 불필요한 리렌더링을 방지하도록 
-React.memo, useMemo, useCallback을 적용해줘"
+# Re-rendering optimization
+claude "Apply React.memo, useMemo, and useCallback to this
+component to prevent unnecessary re-renders."
 
-# 코드 스플리팅과 지연 로딩
-claude "이 애플리케이션에 코드 스플리팅을 적용해줘.
-- 라우트 레벨 지연 로딩
-- 무거운 컴포넌트의 동적 임포트
-- 라이브러리 번들 분리
-- 로딩 스피너와 에러 바운더리 추가"
+# Code splitting and lazy loading
+claude "Apply code splitting to this application.
+- Route-level lazy loading
+- Dynamic import of heavy components
+- Library bundle splitting
+- Add loading spinners and error boundaries"
 
-# 대용량 리스트 최적화
-claude "10,000개 아이템을 효율적으로 렌더링하는 
-가상 스크롤 컴포넌트를 구현해줘.
-- react-window 라이브러리 활용
-- 동적 아이템 높이 지원
-- 무한 스크롤과 페이지네이션 통합"
+# Large list optimization
+claude "Implement a virtual scroll component that efficiently
+renders 10,000 items.
+- Utilize react-window library
+- Support dynamic item height
+- Integrate infinite scroll and pagination"
 
-# 이미지 최적화
-claude "이미지 갤러리의 성능을 최적화해줘.
-- 지연 로딩과 프리로딩 전략
-- WebP 포맷 지원과 폴백
-- 이미지 압축과 리사이징
-- Progressive loading 구현"
+# Image optimization
+claude "Optimize the performance of the image gallery.
+- Lazy loading and preloading strategies
+- WebP format support and fallback
+- Image compression and resizing
+- Implement progressive loading"
 ```
 
-### Next.js 특화 기능 - 실전 활용
+### Next.js Specific Features - Practical Application
 
-**1. App Router 고급 패턴**
+**1. App Router Advanced Patterns**
 
 ```bash
-# 종합적인 블로그 시스템
-claude "Next.js 14 App Router로 블로그를 만들어줘.
-동적 라우팅, 메타데이터 최적화, 
-그리고 ISR(Incremental Static Regeneration)을 활용해줘"
+# Comprehensive blog system
+claude "Create a blog with Next.js 14 App Router.
+Utilize dynamic routing, metadata optimization,
+and ISR (Incremental Static Regeneration)."
 
-# 다국어 지원과 국제화
-claude "Next.js에서 다국어 지원을 구현해줘.
-- i18n 라우팅 설정
-- 서버 컴포넌트에서 번역 처리
-- 동적 번역 로딩과 폴백
-- SEO 최적화를 위한 hreflang 태그"
+# Multilingual support and internationalization
+claude "Implement multilingual support in Next.js.
+- i18n routing setup
+- Translation handling in Server Components
+- Dynamic translation loading and fallback
+- hreflang tags for SEO optimization"
 
-# 복잡한 인증 시스템
-claude "NextAuth.js로 다중 인증 제공자를 지원하는 시스템을 구현해줘.
-- OAuth (Google, GitHub), 이메일, 자격증명 로그인
-- 역할 기반 접근 제어 (RBAC)
-- 세션 관리와 보안 강화
-- API 라우트 보호 미들웨어"
+# Complex authentication system
+claude "Implement a system supporting multiple authentication providers with NextAuth.js.
+- OAuth (Google, GitHub), email, credential login
+- Role-Based Access Control (RBAC)
+- Session management and security hardening
+- API route protection middleware"
 ```
 
-**2. Server Components 패턴**
+**2. Server Components Patterns**
 
 ```bash
-claude "이 페이지를 Server Component로 리팩토링해줘.
-데이터 페칭은 서버에서, 인터랙션은 Client Component로 분리해줘"
+claude "Refactor this page into a Server Component.
+Fetch data on the server and separate interactions into Client Components."
 ```
 
-**3. API Routes 설계**
+**3. API Routes Design**
 
 ```bash
-claude "RESTful API를 Next.js API routes로 구현해줘.
-미들웨어로 인증을 처리하고, Zod로 요청 검증을 추가해줘"
+claude "Implement a RESTful API with Next.js API routes.
+Handle authentication with middleware and add request validation with Zod."
 ```
 
-### React/Next.js CLAUDE.md 예시
+### React/Next.js CLAUDE.md Example
 
 ```markdown
 # React/Next.js Project Guidelines
 
-## 컴포넌트 규칙
-- 함수형 컴포넌트만 사용
-- Props는 인터페이스로 정의
-- 컴포넌트당 하나의 파일
+## Component Rules
+- Use only functional components
+- Define Props with interfaces
+- One file per component
 
-## 상태 관리
-- 로컬 상태: useState
-- 서버 상태: React Query (TanStack Query)
-- 전역 상태: Zustand
+## State Management
+- Local state: useState
+- Server state: React Query (TanStack Query)
+- Global state: Zustand
 
-## 폴더 구조
+## Folder Structure
 ```
 components/
 ├── Button/
@@ -2693,52 +2693,52 @@ components/
 │   └── index.ts
 ```
 
-## 성능 최적화
-- 이미지는 next/image 사용
-- 동적 import로 코드 스플리팅
-- Lighthouse 점수 90+ 유지
+## Performance Optimization
+- Use next/image for images
+- Code splitting with dynamic imports
+- Maintain Lighthouse score 90+
 ```
 
-## 5.2 Node.js/Express 백엔드
+## 5.2 Node.js/Express Backend
 
-Node.js와 Express는 JavaScript 생태계에서 가장 널리 사용되는 백엔드 기술 스택입니다. 이벤트 기반 비동기 아키텍처의 장점을 활용하여 높은 성능과 확장성을 제공하며, Claude Code는 견고하고 유지보수 가능한 서버 애플리케이션 구축을 지원합니다.
+Node.js and Express are the most widely used backend technology stack in the JavaScript ecosystem. Leveraging the advantages of event-driven asynchronous architecture, they offer high performance and scalability, and Claude Code supports the construction of robust and maintainable server applications.
 
-### Express 서버 구조화 - 엔터프라이즈 패턴
+### Structuring Express Servers - Enterprise Patterns
 
-확장 가능한 Express 애플리케이션을 위해서는 계층화된 아키텍처와 관심사의 분리가 핵심입니다. Claude Code는 업계 표준 아키텍처 패턴을 따르는 서버 구조를 생성할 수 있습니다.
+For scalable Express applications, layered architecture and separation of concerns are key. Claude Code can generate server structures that follow industry-standard architectural patterns.
 
 ```bash
-# 기본 REST API 서버
-claude "Express.js로 확장 가능한 REST API 서버를 만들어줘.
-계층화된 아키텍처(Controller-Service-Repository)를 사용하고,
-TypeScript, JWT 인증, 에러 핸들링, 로깅을 포함해줘"
+# Basic REST API server
+claude "Create a scalable REST API server with Express.js.
+Use a layered architecture (Controller-Service-Repository),
+and include TypeScript, JWT authentication, error handling, and logging."
 
-# 마이크로서비스 패턴
-claude "Express로 마이크로서비스 아키텍처를 구현해줘.
-- 서비스 간 통신 (HTTP/gRPC)
-- API Gateway 패턴
-- 서비스 디스커버리와 로드 밸런싱
-- 분산 로깅과 트레이싱
-- Circuit Breaker 패턴"
+# Microservice pattern
+claude "Implement a microservice architecture with Express.
+- Inter-service communication (HTTP/gRPC)
+- API Gateway pattern
+- Service discovery and load balancing
+- Distributed logging and tracing
+- Circuit Breaker pattern"
 
-# 고성능 API 서버
-claude "대용량 트래픽을 처리하는 Express API를 만들어줘.
-- 클러스터링과 워커 프로세스 관리
-- Redis를 활용한 세션과 캐싱
-- 요청 제한과 DDoS 방어
-- 데이터베이스 커넥션 풀링
-- APM 모니터링 통합"
+# High-performance API server
+claude "Create an Express API to handle high-volume traffic.
+- Clustering and worker process management
+- Session and caching with Redis
+- Request limiting and DDoS protection
+- Database connection pooling
+- APM monitoring integration"
 
-# GraphQL API 서버
-claude "Express에 GraphQL을 통합한 API 서버를 만들어줘.
-- Apollo Server 설정
-- 스키마 stitching과 federation
-- DataLoader를 활용한 N+1 쿼리 방지
-- 인증과 권한 부여
-- 쿼리 복잡도 제한"
+# GraphQL API server
+claude "Create an API server integrating GraphQL with Express.
+- Apollo Server setup
+- Schema stitching and federation
+- Prevent N+1 queries with DataLoader
+- Authentication and authorization
+- Query complexity limiting"
 ```
 
-**엔터프라이즈급 프로젝트 구조**
+**Enterprise-Grade Project Structure**
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
@@ -2755,20 +2755,20 @@ graph TD
     A --> K[tests/]
     A --> L[docs/]
     
-    B -.-> |HTTP 요청/응답 처리| B1[Request Handler]
-    C -.-> |비즈니스 로직| C1[Business Logic]
-    D -.-> |데이터 액세스 계층| D1[Data Access]
-    E -.-> |데이터 모델과 스키마| E1[Schema Definition]
-    F -.-> |인증, 로깅, 검증| F1[Middleware Functions]
-    G -.-> |API 라우트 정의| G1[Route Definitions]
-    H -.-> |환경 설정| H1[Configuration]
-    I -.-> |공통 유틸리티| I1[Utility Functions]
-    J -.-> |TypeScript 타입 정의| J1[Type Definitions]
-    K -.-> |테스트 파일| K1[Test Suites]
-    L -.-> |API 문서| L1[Documentation]
+    B -.-> |HTTP Request/Response Handling| B1[Request Handler]
+    C -.-> |Business Logic| C1[Business Logic]
+    D -.-> |Data Access Layer| D1[Data Access]
+    E -.-> |Data Models and Schemas| E1[Schema Definition]
+    F -.-> |Authentication, Logging, Validation| F1[Middleware Functions]
+    G -.-> |API Route Definitions| G1[Route Definitions]
+    H -.-> |Environment Configuration| H1[Configuration]
+    I -.-> |Common Utilities| I1[Utility Functions]
+    J -.-> |TypeScript Type Definitions| J1[Type Definitions]
+    K -.-> |Test Files| K1[Test Suites]
+    L -.-> |API Documentation| L1[Documentation]
 ```
 
-**계층별 책임 분리**
+**Separation of Responsibilities by Layer**
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
@@ -2777,10 +2777,10 @@ graph LR
     B --> C[Repositories]
     C --> D[Models]
     
-    A1[요청/응답 처리] -.-> A
-    B1[비즈니스 로직] -.-> B
-    C1[데이터 접근] -.-> C
-    D1[데이터 모델] -.-> D
+    A1[Request/Response Handling] -.-> A
+    B1[Business Logic] -.-> B
+    C1[Data Access] -.-> C
+    D1[Data Models] -.-> D
     
     E[Middlewares] -.-> A
     F[Utils] -.-> B
@@ -2790,50 +2790,50 @@ graph LR
     H -.-> C
 ```
 
-### 백엔드 개발 패턴
+### Backend Development Patterns
 
-**1. RESTful API 설계**
-
-```bash
-claude "사용자 관리를 위한 RESTful API를 설계해줘.
-CRUD 작업, 페이지네이션, 필터링, 정렬을 지원하고,
-OpenAPI(Swagger) 문서도 자동 생성되도록 해줘"
-```
-
-**2. 데이터베이스 통합**
+**1. RESTful API Design**
 
 ```bash
-claude "Prisma ORM을 사용해서 User, Post, Comment 모델을 만들어줘.
-관계 설정, 마이그레이션, 시드 데이터도 포함해줘"
+claude "Design a RESTful API for user management.
+Support CRUD operations, pagination, filtering, and sorting,
+and automatically generate OpenAPI (Swagger) documentation."
 ```
 
-**3. 인증/인가 구현**
+**2. Database Integration**
 
 ```bash
-claude "JWT 기반 인증 시스템을 구현해줘.
-액세스 토큰과 리프레시 토큰을 사용하고,
-역할 기반 접근 제어(RBAC)도 추가해줘"
+claude "Create User, Post, and Comment models using Prisma ORM.
+Include relationship setup, migrations, and seed data."
 ```
 
-### 마이크로서비스 아키텍처
+**3. Authentication/Authorization Implementation**
 
 ```bash
-claude "이 모놀리식 앱을 마이크로서비스로 분해해줘.
-User Service, Product Service, Order Service로 나누고,
-API Gateway와 서비스 간 통신 방법도 설계해줘"
+claude "Implement a JWT-based authentication system.
+Use access tokens and refresh tokens,
+and add Role-Based Access Control (RBAC)."
 ```
 
-### Node.js/Express CLAUDE.md 예시
+### Microservice Architecture
+
+```bash
+claude "Decompose this monolithic app into microservices.
+Divide into User Service, Product Service, and Order Service,
+and design an API Gateway and inter-service communication methods."
+```
+
+### Node.js/Express CLAUDE.md Example
 
 ```markdown
 # Node.js/Express API Guidelines
 
-## API 설계 원칙
-- RESTful 원칙 준수
-- 일관된 응답 형식
-- 적절한 HTTP 상태 코드 사용
+## API Design Principles
+- Adhere to RESTful principles
+- Consistent response format
+- Use appropriate HTTP status codes
 
-## 응답 형식
+## Response Format
 ```json
 {
   "success": true,
@@ -2843,173 +2843,173 @@ API Gateway와 서비스 간 통신 방법도 설계해줘"
 }
 ```
 
-## 에러 처리
-- 모든 에러는 중앙 에러 핸들러로
-- 에러 로깅 필수
-- 클라이언트에게는 일반화된 메시지
+## Error Handling
+- All errors to a central error handler
+- Error logging mandatory
+- Generalized messages to clients
 
-## 보안
-- 모든 엔드포인트 rate limiting
-- SQL Injection 방지
-- 입력 검증 필수
+## Security
+- Rate limiting for all endpoints
+- SQL Injection prevention
+- Input validation mandatory
 ```
 
-## 5.3 Python/Django 애플리케이션
+## 5.3 Python/Django Applications
 
-Django는 "battery included" 철학을 기반으로 하는 Python 웹 프레임워크로, 강력한 ORM, 관리자 인터페이스, 그리고 보안 기능을 내장하고 있습니다. Django REST Framework와 함께 사용하면 견고한 API 서버를 빠르게 구축할 수 있으며, Claude Code는 Django의 모범 사례를 준수하는 확장 가능한 애플리케이션 개발을 지원합니다.
+Django is a Python web framework based on the "batteries included" philosophy, featuring a powerful ORM, admin interface, and built-in security features. When used with Django REST Framework, robust API servers can be quickly built, and Claude Code supports the development of scalable applications adhering to Django's best practices.
 
-### Django 프로젝트 설정
+### Django Project Setup
 
-Django 프로젝트의 성공은 초기 설정과 아키텍처 설계에서 결정됩니다. Claude Code는 Django의 앱 기반 모듈화와 설정 관리 모범 사례를 따르는 프로젝트 구조를 생성할 수 있습니다.
+The success of a Django project is determined by initial setup and architectural design. Claude Code can generate project structures that follow Django's app-based modularization and configuration management best practices.
 
 ```bash
-claude "Django REST Framework로 블로그 API를 만들어줘.
-사용자 인증, 포스트 CRUD, 댓글, 태그 기능을 포함하고,
-테스트 코드와 API 문서화도 설정해줘"
+claude "Create a blog API with Django REST Framework.
+Include user authentication, post CRUD, comments, and tag functionality,
+and set up test code and API documentation."
 ```
 
-### Django 개발 패턴
+### Django Development Patterns
 
-**1. 모델 설계**
+**1. Model Design**
 
 ```bash
-claude "전자상거래를 위한 Django 모델을 설계해줘.
-Product, Category, Order, User 모델과 관계를 정의하고,
-Admin 인터페이스도 커스터마이징해줘"
+claude "Design Django models for e-commerce.
+Define Product, Category, Order, and User models and their relationships,
+and customize the Admin interface."
 ```
 
-**2. ViewSet과 Serializer**
+**2. ViewSet and Serializer**
 
 ```bash
-claude "Product 모델에 대한 ViewSet과 Serializer를 만들어줘.
-필터링, 검색, 정렬을 지원하고,
-중첩된 관계도 효율적으로 처리해줘"
+claude "Create a ViewSet and Serializer for the Product model.
+Support filtering, searching, and sorting,
+and efficiently handle nested relationships."
 ```
 
-**3. 비동기 태스크**
+**3. Asynchronous Tasks**
 
 ```bash
-claude "Celery를 사용해서 이메일 발송과 
-이미지 처리를 비동기로 처리하도록 설정해줘"
+claude "Set up email sending and image processing
+to be handled asynchronously using Celery."
 ```
 
-### Python/Django CLAUDE.md 예시
+### Python/Django CLAUDE.md Example
 
 ```markdown
 # Django Project Guidelines
 
-## 앱 구조
-- 기능별로 앱 분리
-- 앱당 최대 10개 모델
-- 순환 의존성 금지
+## App Structure
+- Separate apps by feature
+- Max 10 models per app
+- No circular dependencies
 
-## 모델 설계
-- 모든 모델에 created_at, updated_at
-- soft delete 사용 (is_deleted 필드)
-- 관계는 명시적으로 정의
+## Model Design
+- created_at, updated_at for all models
+- Use soft delete (is_deleted field)
+- Define relationships explicitly
 
-## API 설계
-- ViewSet 사용 권장
-- 커스텀 액션은 @action 데코레이터
-- 페이지네이션 기본 20개
+## API Design
+- ViewSet usage recommended
+- Custom actions with @action decorator
+- Default pagination 20 items
 
-## 테스트
-- 모델, 뷰, 시리얼라이저 각각 테스트
-- Factory Boy로 테스트 데이터 생성
-- 커버리지 80% 이상
+## Testing
+- Test models, views, and serializers separately
+- Generate test data with Factory Boy
+- Coverage 80% or higher
 ```
 
-## 5.4 모바일 앱 개발 (React Native/Flutter)
+## 5.4 Mobile App Development (React Native/Flutter)
 
-모바일 앱 개발 영역에서 크로스 플랫폼 솔루션은 개발 효율성과 유지보수성을 크게 향상시킵니다. React Native는 JavaScript와 React 지식을 활용한 네이티브 앱 개발을, Flutter는 Dart 언어를 통한 고성능 UI 구현을 가능하게 합니다. Claude Code는 각 플랫폼의 특성을 이해하고 플랫폼별 최적화된 코드를 생성할 수 있습니다.
+In mobile app development, cross-platform solutions significantly improve development efficiency and maintainability. React Native enables native app development using JavaScript and React knowledge, while Flutter allows for high-performance UI implementation with the Dart language. Claude Code understands the characteristics of each platform and can generate platform-optimized code.
 
-### React Native 프로젝트
+### React Native Projects
 
-React Native는 React의 컴포넌트 모델을 모바일 환경에 적용한 프레임워크로, 웹 개발 경험을 활용하여 네이티브 모바일 앱을 개발할 수 있게 해줍니다.
+React Native is a framework that applies React's component model to the mobile environment, allowing native mobile app development using web development experience.
 
 ```bash
-claude "Expo로 크로스 플랫폼 모바일 앱을 만들어줘.
-네비게이션, 상태 관리, 네이티브 기능 접근을 설정하고,
-iOS와 Android 스타일 차이도 처리해줘"
+claude "Create a cross-platform mobile app with Expo.
+Set up navigation, state management, and native feature access,
+and handle iOS and Android style differences."
 ```
 
-### React Native 개발 패턴
+### React Native Development Patterns
 
-**1. 네비게이션 구조**
+**1. Navigation Structure**
 
 ```bash
-claude "React Navigation으로 복잡한 네비게이션을 구현해줘.
-Tab Navigator, Stack Navigator, Drawer를 조합하고,
-딥링킹도 설정해줘"
+claude "Implement complex navigation with React Navigation.
+Combine Tab Navigator, Stack Navigator, and Drawer,
+and set up deep linking."
 ```
 
-**2. 네이티브 모듈 통합**
+**2. Native Module Integration**
 
 ```bash
-claude "카메라와 위치 정보에 접근하는 기능을 구현해줘.
-권한 요청 처리와 에러 핸들링도 포함해줘"
+claude "Implement functionality to access camera and location information.
+Include permission request handling and error handling."
 ```
 
-### Flutter 프로젝트
+### Flutter Projects
 
 ```bash
-claude "Flutter로 Material Design 앱을 만들어줘.
-다국어 지원, 다크 모드, 반응형 레이아웃을 포함하고,
-Clean Architecture 패턴을 적용해줘"
+claude "Create a Material Design app with Flutter.
+Include multilingual support, dark mode, and responsive layout,
+and apply the Clean Architecture pattern."
 ```
 
-### 모바일 앱 CLAUDE.md 예시
+### Mobile App CLAUDE.md Example
 
 ```markdown
 # Mobile App Guidelines
 
-## 아키텍처
-- MVVM 패턴 사용
-- 비즈니스 로직은 ViewModel에
-- View는 상태만 표시
+## Architecture
+- Use MVVM pattern
+- Business logic in ViewModel
+- View displays state only
 
-## 성능
-- 리스트는 가상화 필수
-- 이미지 최적화 및 캐싱
-- 애니메이션 60fps 유지
+## Performance
+- Virtualization mandatory for lists
+- Image optimization and caching
+- Maintain 60fps animations
 
-## 플랫폼별 처리
+## Platform-Specific Handling
 ```javascript
 Platform.select({
-  ios: { /* iOS 스타일 */ },
-  android: { /* Android 스타일 */ }
+  ios: { /* iOS styles */ },
+  android: { /* Android styles */ }
 })
 ```
 
-## 테스트
-- 컴포넌트 테스트: Jest
-- E2E 테스트: Detox
-- 플랫폼별 테스트 필수
+## Testing
+- Component tests: Jest
+- E2E tests: Detox
+- Platform-specific tests mandatory
 ```
 
-## 5.5 데이터 과학 프로젝트 - MLOps 통합
+## 5.5 Data Science Projects - MLOps Integration
 
-데이터 과학과 머신러닝 분야는 탐색적 분석에서 프로덕션 배포까지 다양한 단계를 거치는 복잡한 워크플로우를 가지고 있습니다. Claude Code는 데이터 과학자들이 사용하는 주요 도구들과 현대적인 MLOps 파이프라인을 이해하여, 실험부터 배포까지 전체 프로세스를 지원할 수 있습니다.
+Data science and machine learning fields involve complex workflows with various stages from exploratory analysis to production deployment. Claude Code understands the main tools used by data scientists and modern MLOps pipelines, supporting the entire process from experimentation to deployment.
 
-### 현대적 데이터 과학 스택
+### Modern Data Science Stack
 
-데이터 과학 프로젝트의 성공을 위해서는 단순한 분석 도구를 넘어서 재현 가능하고 확장 가능한 MLOps 파이프라인이 필요합니다.
+For the success of data science projects, reproducible and scalable MLOps pipelines are needed beyond simple analysis tools.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph TB
-    subgraph "데이터 수집"
+    subgraph "Data Collection"
         A1[Raw Data] --> A2[Data Pipeline]
         A2 --> A3[Clean Data]
     end
     
-    subgraph "실험 및 개발"
+    subgraph "Experimentation & Development"
         B1[Jupyter Notebooks] --> B2[Feature Engineering]
         B2 --> B3[Model Training]
         B3 --> B4[Experiment Tracking]
     end
     
-    subgraph "모델 운영"
+    subgraph "Model Operations"
         C1[Model Registry] --> C2[API Serving]
         C2 --> C3[Monitoring]
         C3 --> C4[Retraining]
@@ -3021,198 +3021,198 @@ graph TB
     C3 --> A2
 ```
 
-### Jupyter Notebook 환경
+### Jupyter Notebook Environment
 
-Jupyter Notebook은 데이터 과학 프로젝트의 핵심 도구로, 코드, 시각화, 문서를 하나의 환경에서 통합적으로 관리할 수 있게 해줍니다. Claude Code는 재현 가능하고 체계적인 분석 환경 구축을 지원합니다.
-
-```bash
-claude "머신러닝 프로젝트를 위한 Jupyter 환경을 설정해줘.
-데이터 분석, 시각화, 모델 학습 파이프라인을 구축하고,
-실험 추적도 설정해줘"
-```
-
-### 데이터 분석 워크플로우 - 산업 표준 접근
-
-**1. 데이터 전처리 파이프라인**
+Jupyter Notebook is a core tool for data science projects, allowing integrated management of code, visualizations, and documentation in a single environment. Claude Code supports the construction of reproducible and systematic analysis environments.
 
 ```bash
-# 기본 데이터 전처리
-claude "이 CSV 데이터를 분석하고 전처리해줘.
-결측치 처리, 이상치 탐지, 특성 엔지니어링을 수행하고,
-각 단계를 시각화해줘"
-
-# 고급 특성 엔지니어링
-claude "시계열 데이터의 특성 엔지니어링을 구현해줘.
-- 시간 기반 특성 생성 (lag, rolling window)
-- 계절성과 트렌드 분해
-- Fourier 변환을 통한 주기 특성
-- 스케일링과 정규화 파이프라인
-- 범주형 변수 인코딩 전략"
-
-# 대용량 데이터 처리
-claude "Dask를 활용한 대용량 데이터 전처리 파이프라인을 만들어줘.
-- 청크 단위 병렬 처리
-- 메모리 효율적인 데이터 로딩
-- 분산 컴퓨팅 환경 설정
-- 진행 상황 모니터링"
+claude "Set up a Jupyter environment for a machine learning project.
+Build data analysis, visualization, and model training pipelines,
+and set up experiment tracking."
 ```
 
-**2. 모델 개발과 실험 관리**
+### Data Analysis Workflow - Industry Standard Approach
+
+**1. Data Preprocessing Pipeline**
 
 ```bash
-# AutoML과 모델 비교
-claude "여러 머신러닝 모델을 비교 평가해줘.
-교차 검증, 하이퍼파라미터 튜닝을 수행하고,
-결과를 표로 정리해줘"
+# Basic data preprocessing
+claude "Analyze and preprocess this CSV data.
+Perform missing value imputation, outlier detection, and feature engineering,
+and visualize each step."
 
-# 딥러닝 모델 개발
-claude "PyTorch로 이미지 분류 모델을 구현해줘.
-- 전이학습 (Transfer Learning) 활용
-- 데이터 증강과 정규화
-- 학습률 스케줄링과 조기 종료
-- 모델 체크포인트와 재개 기능
-- TensorBoard 시각화"
+# Advanced feature engineering
+claude "Implement feature engineering for time series data.
+- Create time-based features (lag, rolling window)
+- Decompose seasonality and trend
+- Periodic features via Fourier transform
+- Scaling and normalization pipeline
+- Categorical variable encoding strategies"
 
-# MLflow 실험 추적
-claude "MLflow를 활용한 실험 추적 시스템을 구축해줘.
-- 모델 메트릭과 파라미터 로깅
-- 아티팩트 버전 관리
-- 모델 레지스트리 설정
-- A/B 테스트 프레임워크
-- 실험 비교 대시보드"
+# Large-scale data processing
+claude "Create a large-scale data preprocessing pipeline using Dask.
+- Chunk-wise parallel processing
+- Memory-efficient data loading
+- Distributed computing environment setup
+- Progress monitoring"
 ```
 
-**3. 모델 배포와 운영**
+**2. Model Development and Experiment Management**
 
 ```bash
-# API 서빙
-claude "학습된 모델을 FastAPI로 서빙하는 API를 만들어줘.
-입력 검증, 예측, 모니터링 기능을 포함해줘"
+# AutoML and model comparison
+claude "Compare and evaluate multiple machine learning models.
+Perform cross-validation, hyperparameter tuning,
+and summarize results in a table."
 
-# 실시간 예측 시스템
-claude "Kafka와 Redis를 활용한 실시간 ML 파이프라인을 구축해줘.
-- 스트리밍 데이터 전처리
-- 실시간 특성 저장소
-- 배치와 온라인 예측 통합
-- 모델 성능 모니터링
-- 자동 재학습 트리거"
+# Deep learning model development
+claude "Implement an image classification model with PyTorch.
+- Utilize Transfer Learning
+- Data augmentation and normalization
+- Learning rate scheduling and early stopping
+- Model checkpointing and resume functionality
+- TensorBoard visualization"
 
-# 컨테이너 배포
-claude "Docker와 Kubernetes로 ML 모델을 배포해줘.
-- 멀티 스테이지 Docker 빌드
-- GPU 지원 컨테이너
-- 오토스케일링 설정
-- 헬스체크와 로그 수집
-- CI/CD 파이프라인 통합"
-
-# 모델 모니터링
-claude "프로덕션 ML 모델 모니터링 시스템을 구축해줘.
-- 데이터 드리프트 탐지
-- 모델 성능 저하 알림
-- 편향성 모니터링
-- 설명 가능한 AI 대시보드
-- 사고 대응 플레이북"
+# MLflow experiment tracking
+claude "Build an experiment tracking system using MLflow.
+- Log model metrics and parameters
+- Version control artifacts
+- Set up model registry
+- A/B testing framework
+- Experiment comparison dashboard"
 ```
 
-### 데이터 과학 CLAUDE.md 예시
+**3. Model Deployment and Operations**
 
-현대적인 데이터 과학 프로젝트를 위한 포괄적인 가이드라인
+```bash
+# API serving
+claude "Create an API to serve the trained model with FastAPI.
+Include input validation, prediction, and monitoring features."
+
+# Real-time prediction system
+claude "Build a real-time ML pipeline using Kafka and Redis.
+- Streaming data preprocessing
+- Real-time feature store
+- Integrate batch and online predictions
+- Model performance monitoring
+- Automated retraining triggers"
+
+# Container deployment
+claude "Deploy ML models with Docker and Kubernetes.
+- Multi-stage Docker build
+- GPU-supported containers
+- Autoscaling setup
+- Health checks and log collection
+- CI/CD pipeline integration"
+
+# Model monitoring
+claude "Build a production ML model monitoring system.
+- Data drift detection
+- Model performance degradation alerts
+- Bias monitoring
+- Explainable AI dashboard
+- Incident response playbook"
+```
+
+### Data Science CLAUDE.md Example
+
+Comprehensive guidelines for modern data science projects.
 
 ```markdown
 # Data Science Project Guidelines
 
-## 프로젝트 구조
+## Project Structure
 ```
 project/
-├── data/           # 원본 데이터
-├── notebooks/      # 실험 노트북
-├── src/           # 재사용 가능한 코드
-├── models/        # 학습된 모델
-└── reports/       # 분석 결과
+├── data/           # Raw data
+├── notebooks/      # Experiment notebooks
+├── src/           # Reusable code
+├── models/        # Trained models
+└── reports/       # Analysis results
 ```
 
-## 코딩 규칙
-- 노트북은 실험용, 프로덕션 코드는 .py로
-- 모든 실험은 추적 가능하게
-- 재현 가능성 보장 (시드 고정)
+## Coding Rules
+- Notebooks for experimentation, production code in .py
+- All experiments must be trackable
+- Ensure reproducibility (fix seeds)
 
-## 데이터 처리
-- 원본 데이터는 수정하지 않음
-- 전처리 파이프라인 문서화
-- 데이터 버전 관리
+## Data Handling
+- Do not modify original data
+- Document preprocessing pipelines
+- Data version control
 
-## 모델 관리
-- MLflow로 실험 추적
-- 모델 버전 관리
-- A/B 테스트 지원
+## Model Management
+- Track experiments with MLflow
+- Model version control
+- Support A/B testing
 ```
 
-## 프레임워크 독립적인 베스트 프랙티스
+## Framework-Independent Best Practices
 
-프레임워크별 특화된 접근 방식 외에도, 모든 프레임워크에 공통적으로 적용할 수 있는 핵심 원칙들이 있습니다. 이러한 원칙들을 이해하고 적용하면 어떤 프레임워크를 사용하든 일관된 품질의 결과를 얻을 수 있습니다.
+In addition to framework-specific approaches, there are core principles applicable to all frameworks. Understanding and applying these principles will yield consistent quality results regardless of the framework used.
 
-### 1. 초기 탐색 전략
+### 1. Initial Exploration Strategy
 
-새로운 프로젝트나 기존 프로젝트에 참여할 때는 체계적인 탐색과 이해가 성공의 핵심입니다. Claude Code는 프로젝트의 전체적인 구조와 맥락을 파악하는 데 도움을 줄 수 있습니다.
+Systematic exploration and understanding are key to success when joining new or existing projects. Claude Code can help grasp the overall structure and context of a project.
 
 ```bash
-# 새 프로젝트 시작 시
-claude "이 프로젝트의 구조와 사용된 기술 스택을 분석해줘.
-주요 파일들의 역할과 데이터 흐름을 설명해줘"
+# When starting a new project
+claude "Analyze the structure and technology stack used in this project.
+Explain the roles of major files and the data flow."
 ```
 
-### 2. 점진적 개선
+### 2. Incremental Improvement
 
 ```bash
-# 기존 코드 개선
-claude "이 코드를 리팩토링해줘. 
-먼저 테스트를 작성해서 동작을 보장한 후,
-단계별로 개선해줘"
+# Improving existing code
+claude "Refactor this code.
+First, write tests to ensure functionality,
+then improve it step by step."
 ```
 
-### 3. 문서화 자동화
+### 3. Documentation Automation
 
 ```bash
-# 문서 생성
-claude "프로젝트의 README.md를 업데이트해줘.
-설치 방법, 사용법, API 문서, 기여 가이드를 포함해줘"
+# Generate documentation
+claude "Update the project's README.md.
+Include installation instructions, usage, API documentation, and contribution guidelines."
 ```
 
-### 4. 성능 프로파일링
+### 4. Performance Profiling
 
 ```bash
-# 성능 분석
-claude "이 애플리케이션의 성능을 프로파일링하고,
-병목 지점을 찾아서 최적화 방안을 제시해줘"
+# Performance analysis
+claude "Profile the performance of this application,
+find bottlenecks, and suggest optimization measures."
 ```
 
-## 실전 팁: 프레임워크 전환과 현대화
+## Practical Tip: Framework Transition and Modernization
 
-프레임워크 마이그레이션은 기술 부채 해결과 성능 개선을 위한 중요한 프로젝트입니다. Claude Code는 체계적이고 위험을 최소화하는 마이그레이션 전략을 수립하고 실행하는 데 도움을 줄 수 있습니다.
+Framework migration is an important project for resolving technical debt and improving performance. Claude Code can help establish and execute systematic, risk-minimizing migration strategies.
 
-### 레거시 시스템 현대화 전략
+### Legacy System Modernization Strategy
 
-기존 시스템을 현대적인 아키텍처로 전환하는 것은 단순한 코드 변환을 넘어서 전체적인 시스템 재설계를 의미합니다.
+Transitioning an existing system to a modern architecture means more than just code conversion; it implies a complete system redesign.
 
-### 마이그레이션 전략 수립 - 실전 사례
+### Migration Strategy Formulation - Real-world Case
 
-기존 프로젝트를 다른 프레임워크로 마이그레이션할 때는 단계적이고 점진적인 접근이 필요합니다.
+A phased and incremental approach is needed when migrating an existing project to a different framework.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph TD
-    A[현재 시스템 분석] --> B[마이그레이션 계획 수립]
-    B --> C[파일럿 프로젝트]
-    C --> D{성공 여부}
-    D -->|성공| E[단계별 마이그레이션]
-    D -->|실패| F[계획 수정]
+    A[Analyze Current System] --> B[Formulate Migration Plan]
+    B --> C[Pilot Project]
+    C --> D{Success?}
+    D -->|Success| E[Phased Migration]
+    D -->|Failure| F[Revise Plan]
     F --> C
-    E --> G[성능 검증]
-    G --> H{목표 달성}
-    H -->|아니오| I[최적화]
+    E --> G[Performance Validation]
+    G --> H{Goal Achieved?}
+    H -->|No| I[Optimization]
     I --> G
-    H -->|예| J[전체 시스템 전환]
-    J --> K[모니터링 및 유지보수]
+    H -->|Yes| J[Full System Transition]
+    J --> K[Monitoring & Maintenance]
     
     style A fill:#e2e8f0
     style J fill:#dcfce7
@@ -3220,221 +3220,221 @@ graph TD
 ```
 
 ```bash
-# 1. 의존성 및 아키텍처 분석
-claude "이 Express 앱의 핵심 기능과 구조를 분석해줘.
-- 의존성 트리와 순환 참조 확인
-- 비즈니스 크리티컬 모듈 식별
-- 테스트 커버리지 평가
-- 성능 병목 지점 파악"
+# 1. Dependency and Architecture Analysis
+claude "Analyze the core functionality and structure of this Express app.
+- Check dependency tree and circular references
+- Identify business-critical modules
+- Evaluate test coverage
+- Identify performance bottlenecks"
 
-# 2. 상세한 마이그레이션 로드맵
-claude "이 앱을 Fastify로 마이그레이션하는 계획을 세워줘.
-- Strangler Fig 패턴 적용
-- 단계별 롤백 계획
-- 성능 벤치마크 설정
-- 팀 교육 일정 포함
-- 리스크 평가와 완화 전략"
+# 2. Detailed Migration Roadmap
+claude "Create a plan to migrate this app to Fastify.
+- Apply Strangler Fig pattern
+- Phased rollback plan
+- Set performance benchmarks
+- Include team training schedule
+- Risk assessment and mitigation strategy"
 
-# 3. 점진적 마이그레이션 실행
-claude "인증 모듈부터 Fastify로 마이그레이션해줘.
-- 트래픽 스플리팅 구현
-- 모니터링과 알림 설정
-- 데이터 일관성 보장
-- 자동화된 테스트 스위트
-- 성능 회귀 감지"
+# 3. Incremental Migration Execution
+claude "Migrate the authentication module to Fastify first.
+- Implement traffic splitting
+- Set up monitoring and alerts
+- Ensure data consistency
+- Automated test suite
+- Detect performance regressions"
 
-# 4. 복잡한 프론트엔드 마이그레이션
-claude "React 클래스 컴포넌트를 함수형으로 마이그레이션해줘.
-- 생명주기를 훅으로 변환
-- 상태 관리 현대화
-- 코드 분할과 지연 로딩 적용
-- TypeScript 타입 안전성 강화
-- 성능 최적화 기회 식별"
+# 4. Complex Frontend Migration
+claude "Migrate React class components to functional components.
+- Convert lifecycle methods to hooks
+- Modernize state management
+- Apply code splitting and lazy loading
+- Enhance TypeScript type safety
+- Identify performance optimization opportunities"
 
-# 5. 데이터베이스 마이그레이션
-claude "MySQL에서 PostgreSQL로 마이그레이션 계획을 세워줘.
-- 스키마 변환과 데이터 타입 매핑
-- 무중단 데이터 이전 전략
-- 쿼리 최적화와 성능 튜닝
-- 백업과 복구 절차
-- 검증과 테스트 계획"
+# 5. Database Migration
+claude "Create a plan to migrate from MySQL to PostgreSQL.
+- Schema conversion and data type mapping
+- Zero-downtime data migration strategy
+- Query optimization and performance tuning
+- Backup and recovery procedures
+- Validation and testing plan"
 ```
 
-### 프레임워크별 성공 지표
+### Framework-Specific Success Metrics
 
-각 프레임워크 전환 프로젝트의 성공을 측정하기 위한 구체적인 KPI를 설정하는 것이 중요합니다.
+It's crucial to set specific KPIs to measure the success of each framework transition project.
 
 ```bash
-# 성능 지표 모니터링
-claude "마이그레이션 전후 성능 비교 대시보드를 만들어줘.
-- 응답 시간과 처리량 비교
-- 메모리 사용량과 CPU 효율성
-- 번들 크기와 로딩 시간
-- 사용자 경험 메트릭 (LCP, FID, CLS)
-- 개발자 생산성 지표"
+# Performance Metrics Monitoring
+claude "Create a dashboard comparing performance before and after migration.
+- Compare response time and throughput
+- Memory usage and CPU efficiency
+- Bundle size and loading time
+- User experience metrics (LCP, FID, CLS)
+- Developer productivity metrics"
 
-# 품질 지표 추적
-claude "코드 품질 개선 사항을 추적하는 시스템을 구축해줘.
-- 테스트 커버리지 변화
-- 코드 복잡도 감소
-- 보안 취약점 해결
-- 기술 부채 감소
-- 팀 만족도 조사"
+# Quality Metrics Tracking
+claude "Build a system to track code quality improvements.
+- Changes in test coverage
+- Reduction in code complexity
+- Resolution of security vulnerabilities
+- Reduction in technical debt
+- Team satisfaction surveys"
 ```
 
-## 마치며
+## Conclusion
 
-프레임워크별 베스트 프랙티스를 숙지하는 것은 Claude Code를 효과적으로 활용하는 핵심입니다. 각 프레임워크는 고유한 철학과 설계 원칙을 가지고 있으며, 이를 이해하고 적용하는 것이 성공적인 개발의 기반이 됩니다.
+Mastering framework-specific best practices is key to effectively utilizing Claude Code. Each framework has its unique philosophy and design principles, and understanding and applying them is the foundation for successful development.
 
-### 핵심 성공 요소
+### Core Success Factors
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 mindmap
-  root((프레임워크 성공 요소))
-    생태계 이해
-      철학과 원칙
-        핵심 개념 숙지
-        설계 원칙 준수
-      관용구와 패턴
-        커뮤니티 모범 사례
-        검증된 관례 적용
-      도구 체인
-        전용 도구 활용
-        라이브러리 생태계
-    실전 적용
-      점진적 도입
-        단계적 접근
-        리스크 최소화
-      성능 중심
-        최적화 전략
-        벤치마킹
-      팀 교육
-        체계적 학습
-        지식 공유
-    지속적 개선
-      모니터링
-        정량적 측정
-        성과 추적
-      피드백 루프
-        프로세스 개선
-        팀 의견 수렴
-      최신 동향
-        업데이트 추적
-        신기능 학습
+  root((Framework Success Factors))
+    Ecosystem Understanding
+      Philosophy and Principles
+        Mastering core concepts
+        Adhering to design principles
+      Idioms and Patterns
+        Community best practices
+        Applying proven conventions
+      Toolchain
+        Utilizing dedicated tools
+        Library ecosystem
+    Practical Application
+      Incremental Adoption
+        Phased approach
+        Minimizing risk
+      Performance-Oriented
+        Optimization strategies
+        Benchmarking
+      Team Training
+        Systematic learning
+        Knowledge sharing
+    Continuous Improvement
+      Monitoring
+        Quantitative measurement
+        Performance tracking
+      Feedback Loop
+        Process improvement
+        Incorporating team feedback
+      Latest Trends
+        Tracking updates
+        Learning new features
 ```
 
-### 실무 체크리스트
+### Practical Checklist
 
-**프로젝트 시작**
+**Project Kick-off**
 
-- [ ] 프레임워크별 CLAUDE.md 파일 작성
-- [ ] 팀 코딩 컨벤션과 스타일 가이드 수립
-- [ ] 개발 환경과 도구 체인 표준화
-- [ ] 성능 벤치마크와 품질 기준 설정
+- [ ] Create framework-specific CLAUDE.md file
+- [ ] Establish team coding conventions and style guides
+- [ ] Standardize development environment and toolchain
+- [ ] Set performance benchmarks and quality standards
 
-**개발 과정**
+**Development Process**
 
-- [ ] 프레임워크 모범 사례 준수 여부 코드 리뷰
-- [ ] 정기적인 성능 프로파일링과 최적화
-- [ ] 자동화된 테스트와 CI/CD 파이프라인 운영
-- [ ] 기술 부채 관리와 리팩토링 계획
+- [ ] Code review for adherence to framework best practices
+- [ ] Regular performance profiling and optimization
+- [ ] Operate automated testing and CI/CD pipelines
+- [ ] Manage technical debt and plan refactoring
 
-**마이그레이션 프로젝트**
+**Migration Projects**
 
-- [ ] 상세한 마이그레이션 로드맵과 리스크 평가
-- [ ] 점진적 전환을 위한 브리징 전략
-- [ ] 성능과 안정성 회귀 방지 체계
-- [ ] 팀 교육과 지식 전수 프로그램
+- [ ] Detailed migration roadmap and risk assessment
+- [ ] Bridging strategy for incremental transition
+- [ ] System to prevent performance and stability regressions
+- [ ] Team training and knowledge transfer program
 
-**Claude Code의 진정한 가치는 단순히 코드를 생성하는 것이 아니라, 각 프레임워크의 철학과 모범 사례를 팀 전체가 일관되게 적용할 수 있도록 돕는 데 있습니다.** 이를 통해 개발 품질의 표준화와 팀 생산성의 극대화를 동시에 달성할 수 있습니다.
+**The true value of Claude Code lies not merely in generating code, but in helping the entire team consistently apply the philosophy and best practices of each framework.** This enables the simultaneous achievement of standardized development quality and maximized team productivity.
 
-다음 장에서는 프로그래밍 언어별로 Claude Code를 최적화하는 전략을 살펴보겠습니다. 언어의 고유한 특성과 생태계를 이해하여 더욱 효과적인 개발 환경을 구축하는 방법을 탐구해봅시다.
+In the next chapter, we will explore strategies for optimizing Claude Code for specific programming languages. Let's delve into how to build a more effective development environment by understanding the unique characteristics and ecosystems of languages.
 
 \newpage
 
-# 제6장: 언어별 활용 전략
+# Chapter 6: Language-Specific Utilization Strategies
 
-> "언어는 사고를 형성한다" - 벤자민 리 워프
+> "Language shapes the way we think." - Benjamin Lee Whorf
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 mindmap
-  root((학습 목표))
-    전략 수립
-      언어별 최적화 전략
-      개발 환경 구성
-      도구 체인 선택
-    타입 시스템 활용
-      타입 안전성 보장
-      정적 분석 도구
-      런타임 검증
-    멀티 언어 프로젝트
-      언어 간 상호 운용성
-      API 인터페이스 설계
-      타입 공유 전략
-    언어 선택 가이드
-      요구사항 분석
-      성능 vs 생산성
-      팀 역량 고려
+  root((Learning Objectives))
+    Strategy Formulation
+      Language-specific optimization strategies
+      Development environment configuration
+      Toolchain selection
+    Type System Utilization
+      Ensuring type safety
+      Static analysis tools
+      Runtime validation
+    Multi-language Projects
+      Interoperability between languages
+      API interface design
+      Type sharing strategies
+    Language Selection Guide
+      Requirements analysis
+      Performance vs. productivity
+      Team competency consideration
 ```
 
-## 학습 목표
+## Learning Objectives
 
-이 장을 완료하면 다음을 할 수 있습니다.
+Upon completing this chapter, you will be able to:
 
-- 주요 프로그래밍 언어별 Claude Code 최적화 전략을 수립할 수 있습니다.
-- 언어별 타입 시스템과 안전성 기능을 효과적으로 활용할 수 있습니다.
-- 언어 간 상호 운용성을 고려한 멀티 언어 프로젝트를 설계할 수 있습니다.
-- 프로젝트 요구사항에 따라 최적의 프로그래밍 언어를 선택할 수 있습니다.
+- Formulate Claude Code optimization strategies for major programming languages.
+- Effectively utilize language-specific type systems and safety features.
+- Design multi-language projects considering interoperability between languages.
+- Select the optimal programming language based on project requirements.
 
-## 개요
+## Overview
 
-프로그래밍 언어는 단순한 도구를 넘어서 개발자의 사고 방식과 문제 해결 접근법을 형성하는 중요한 요소입니다. 각 언어는 고유한 철학, 문법, 그리고 생태계를 가지고 있으며, 이러한 특성을 깊이 이해하고 활용하는 것이 성공적인 개발의 핵심입니다.
+Programming languages are more than just tools; they are crucial elements that shape a developer's way of thinking and problem-solving approach. Each language has its own unique philosophy, syntax, and ecosystem, and deeply understanding and utilizing these characteristics is key to successful development.
 
-Claude Code는 다양한 프로그래밍 언어의 특성과 모범 사례를 이해하고 있어, 각 언어의 장점을 최대한 활용하는 코드를 생성할 수 있습니다. 이 장에서는 주요 프로그래밍 언어별로 Claude Code를 최적화하는 전략과 실전 활용법을 체계적으로 살펴보겠습니다.
+Claude Code understands the characteristics and best practices of various programming languages, enabling it to generate code that maximizes the strengths of each language. This chapter will systematically explore strategies and practical applications for optimizing Claude Code for major programming languages.
 
 ## 6.1 TypeScript/JavaScript
 
-TypeScript와 JavaScript는 현대 웹 개발 생태계의 중심이며, 동적 타이핑의 유연성과 정적 타이핑의 안전성을 모두 제공합니다. Claude Code는 TypeScript의 강력한 타입 시스템을 활용하여 안전하고 유지보수 가능한 코드를 생성하며, JavaScript의 함수형 프로그래밍 패러다임과 비동기 처리 특성을 최적화할 수 있습니다.
+TypeScript and JavaScript are central to the modern web development ecosystem, offering both the flexibility of dynamic typing and the safety of static typing. Claude Code leverages TypeScript's powerful type system to generate safe and maintainable code, and can optimize JavaScript's functional programming paradigm and asynchronous processing features.
 
-### TypeScript 엔터프라이즈 프로젝트 설정
+### TypeScript Enterprise Project Setup
 
-견고한 TypeScript 프로젝트는 엄격한 타입 체크와 현대적인 개발 도구의 통합에서 시작됩니다. Claude Code는 프로젝트의 규모와 요구사항에 맞는 최적의 설정을 제안할 수 있습니다.
+A robust TypeScript project starts with strict type checking and integration of modern development tools. Claude Code can suggest optimal configurations tailored to the project's scale and requirements.
 
 ```bash
-# 기본 TypeScript 프로젝트 설정
-claude "엄격한 타입 체크를 사용하는 TypeScript 프로젝트를 설정해줘.
-tsconfig.json을 최적화하고, ESLint와 Prettier도 TypeScript에 맞게 구성해줘"
+# Basic TypeScript project setup
+claude "Set up a TypeScript project using strict type checking.
+Optimize tsconfig.json, and configure ESLint and Prettier for TypeScript."
 
-# 대규모 모노레포 설정
-claude "대규모 TypeScript 모노레포를 설정해줘.
-- Nx 워크스페이스 구성
-- 프로젝트 간 의존성 관리
-- 공유 라이브러리 빌드 시스템
-- 컨시스턴트 코드 스타일 적용
-- 사이클릭 의존성 감지"
+# Large-scale monorepo setup
+claude "Set up a large-scale TypeScript monorepo.
+- Configure Nx workspace
+- Manage inter-project dependencies
+- Build system for shared libraries
+- Apply consistent code style
+- Detect cyclic dependencies"
 
-# 마이크로프론트엔드 아키텍처
-claude "TypeScript 마이크로프론트엔드 아키텍처를 구성해줘.
-- Module Federation 설정
-- 런타임 타입 안전성 보장
-- 사이드카 로딩과 버전 관리
-- 공유 상태 및 이벤트 처리
-- 테스트 전략과 목 설정"
+# Micro-frontend architecture
+claude "Configure a TypeScript micro-frontend architecture.
+- Set up Module Federation
+- Ensure runtime type safety
+- Sidecar loading and version management
+- Shared state and event handling
+- Testing strategy and mock setup"
 ```
 
-**엔터프라이즈급 tsconfig.json 설정**
+**Enterprise-grade tsconfig.json Configuration**
 
 ```json
 {
   "compilerOptions": {
-    // 최신 자바스크립트 표준 지원
+    // Support for latest JavaScript standards
     "target": "ES2022",
     "module": "ESNext",
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     
-    // 최대 타입 안전성
+    // Maximum type safety
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
@@ -3443,23 +3443,23 @@ claude "TypeScript 마이크로프론트엔드 아키텍처를 구성해줘.
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
     
-    // 추가 엄격성 옵션
+    // Additional strictness options
     "allowUnusedLabels": false,
     "allowUnreachableCode": false,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     
-    // 모든 타입 및 내보내기
+    // All types and exports
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "noEmit": true,
     "isolatedModules": true,
     
-    // 성능 최적화
+    // Performance optimization
     "incremental": true,
     "tsBuildInfoFile": ".tsbuildinfo",
     
-    // 경로 매핑
+    // Path mapping
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
@@ -3482,110 +3482,110 @@ claude "TypeScript 마이크로프론트엔드 아키텍처를 구성해줘.
 }
 ```
 
-### 고급 TypeScript 타입 패턴
+### Advanced TypeScript Type Patterns
 
-TypeScript의 진정한 장점은 단순한 타입 체크를 넘어서 복잡한 비즈니스 로직을 타입 레벨에서 강제할 수 있다는 점입니다.
+The true advantage of TypeScript lies beyond simple type checking; it's the ability to enforce complex business logic at the type level.
 
 ```bash
-# Branded Types로 비즈니스 규칙 적용
-claude "Branded Types를 사용해서 비즈니스 로직 안전성을 보장해줘.
-- UserId, Email, PhoneNumber 등 도메인 타입 정의
-- 런타임 검증 함수와 연동
-- API 응답 타입 안전성 보장
-- 데이터베이스 스키마와 동기화"
+# Apply business rules with Branded Types
+claude "Use Branded Types to ensure business logic safety.
+- Define domain types like UserId, Email, PhoneNumber
+- Integrate with runtime validation functions
+- Ensure API response type safety
+- Synchronize with database schema"
 
-# Conditional Types로 API 타입 자동 생성
-claude "Conditional Types를 활용해서 OpenAPI 스키마에서 
-TypeScript 타입을 자동 생성하는 시스템을 만들어줘.
-- Path Parameter와 Query Parameter 타입 추론
-- Response 타입 자동 매핑
-- HTTP Status Code별 타입 구분
-- 에러 타입 유니온 생성"
+# Auto-generate API types with Conditional Types
+claude "Create a system to automatically generate TypeScript types
+from an OpenAPI schema using Conditional Types.
+- Infer Path Parameter and Query Parameter types
+- Automatically map Response types
+- Differentiate types by HTTP Status Code
+- Create error type unions"
 
-# Template Literal Types로 DSL 구현
-claude "Template Literal Types를 사용해서 타입 안전한 DSL을 만들어줘.
-- CSS-in-JS 타입 체크
-- SQL 쿼리 빌더 타입 안전성
-- Event Name 자동 완성
-- i18n 키 유효성 검사"
+# Implement DSL with Template Literal Types
+claude "Use Template Literal Types to create a type-safe DSL.
+- Type check CSS-in-JS
+- Type safety for SQL query builder
+- Autocomplete Event Names
+- Validate i18n keys"
 ```
 
-### 성능 최적화된 TypeScript 패턴
+### Performance-Optimized TypeScript Patterns
 
-대규모 TypeScript 애플리케이션에서는 컴파일 시간과 런타임 성능 모두를 고려해야 합니다.
-
-```bash
-# 점진적 타입 로딩
-claude "대규모 프로젝트의 TypeScript 컴파일 성능을 최적화해줘.
-- Project References로 점진적 빌드
-- Type-only imports 활용
-- 사용하지 않는 타입 제거
-- 동적 import로 타입 로딩 최적화
-- Watch mode 성능 튜닝"
-
-# 런타임 타입 검증 최적화
-claude "런타임 타입 검증을 성능에 영향 없이 구현해줘.
-- Zod로 런타임 스키마 검증
-- Type Guards 최적화
-- 비동기 검증 배칭
-- 캐시 전략과 메모이제이션
-- 에러 바운더리와 로깅"
-
-### 타입 안전성 극대화
-
-**1. 고급 타입 활용**
+In large-scale TypeScript applications, both compile time and runtime performance must be considered.
 
 ```bash
-claude "이 JavaScript 코드를 TypeScript로 마이그레이션해줘.
-유니온 타입, 제네릭, 조건부 타입을 활용해서
-타입 안전성을 최대한 확보해줘"
+# Incremental type loading
+claude "Optimize TypeScript compilation performance for a large project.
+- Incremental builds with Project References
+- Utilize Type-only imports
+- Remove unused types
+- Optimize type loading with dynamic imports
+- Tune Watch mode performance"
+
+# Runtime type validation optimization
+claude "Implement runtime type validation without impacting performance.
+- Runtime schema validation with Zod
+- Optimize Type Guards
+- Batch asynchronous validations
+- Caching strategy and memoization
+- Error boundaries and logging"
+
+### Maximizing Type Safety
+
+**1. Advanced Type Utilization**
+
+```bash
+claude "Migrate this JavaScript code to TypeScript.
+Utilize union types, generics, and conditional types
+to ensure maximum type safety."
 ```
 
-**2. 타입 추론 개선**
+**2. Improving Type Inference**
 
 ```bash
-claude "이 함수의 반환 타입이 너무 넓게 추론되고 있어.
-타입 가드와 const assertion을 사용해서 더 정확한 타입을 추론하도록 해줘"
+claude "The return type of this function is inferred too broadly.
+Use type guards and const assertions to infer a more precise type."
 ```
 
-**3. Zod를 활용한 런타임 검증**
+**3. Runtime Validation with Zod**
 
 ```bash
-claude "API 응답을 Zod 스키마로 검증하는 시스템을 만들어줘.
-타입스크립트 타입도 자동으로 생성되도록 해줘"
+claude "Create a system to validate API responses with Zod schemas.
+Ensure TypeScript types are also generated automatically."
 ```
 
-### JavaScript 모던 패턴
+### Modern JavaScript Patterns
 
-**1. 함수형 프로그래밍**
+**1. Functional Programming**
 
 ```bash
-claude "이 명령형 코드를 함수형 스타일로 리팩토링해줘.
-불변성을 유지하고, 순수 함수를 사용하며,
-함수 조합으로 로직을 구성해줘"
+claude "Refactor this imperative code into a functional style.
+Maintain immutability, use pure functions,
+and compose logic with function composition."
 ```
 
-**2. 비동기 처리 최적화**
+**2. Asynchronous Processing Optimization**
 
 ```bash
-claude "여러 API 호출을 효율적으로 처리하도록 최적화해줘.
-Promise.all, Promise.allSettled를 적절히 사용하고,
-에러 처리와 재시도 로직도 추가해줘"
+claude "Optimize the efficient handling of multiple API calls.
+Use Promise.all and Promise.allSettled appropriately,
+and add error handling and retry logic."
 ```
 
-### TypeScript/JavaScript CLAUDE.md 예시
+### TypeScript/JavaScript CLAUDE.md Example
 
 ```markdown
 # TypeScript/JavaScript Guidelines
 
-## 타입 정의 규칙
-- 인터페이스 > 타입 별칭 (확장 가능한 경우)
-- any 사용 금지 (unknown 사용)
-- 명시적 반환 타입 선호
+## Type Definition Rules
+- Interface > Type Alias (if extensible)
+- Prohibit `any` (use `unknown`)
+- Prefer explicit return types
 
-## 비동기 처리
+## Asynchronous Processing
 ```typescript
-// 좋은 예
+// Good example
 const fetchData = async (): Promise<Result<Data, Error>> => {
   try {
     const data = await api.get('/data');
@@ -3596,77 +3596,77 @@ const fetchData = async (): Promise<Result<Data, Error>> => {
 };
 ```
 
-## 불변성
-- Object.freeze() 활용
-- Spread 연산자로 복사
-- Immer 라이브러리 사용 고려
+## Immutability
+- Utilize `Object.freeze()`
+- Copy with spread operator
+- Consider using Immer library
 
-## 에러 처리
-- Error 클래스 상속하여 커스텀 에러 생성
-- 에러 바운더리 활용
-- 타입 안전한 에러 처리
+## Error Handling
+- Create custom errors by inheriting from `Error` class
+- Utilize error boundaries
+- Type-safe error handling
 ```
 
-### TypeScript 실전 디버깅과 모니터링
+### TypeScript Practical Debugging and Monitoring
 
 ```bash
-# 고급 디버깅 설정
-claude "TypeScript 프로젝트에 고급 디버깅 환경을 설정해줘.
-- Source Map 최적화로 디버깅 성능 향상
-- Chrome DevTools 연동
-- TypeScript 컴파일러 에러 추적
-- 런타임 성능 프로파일링
-- 메모리 누수 탐지 도구"
+# Advanced debugging setup
+claude "Set up an advanced debugging environment for a TypeScript project.
+- Improve debugging performance with Source Map optimization
+- Integrate with Chrome DevTools
+- Track TypeScript compiler errors
+- Runtime performance profiling
+- Memory leak detection tools"
 
-# 프로덕션 모니터링
-claude "TypeScript 애플리케이션의 프로덕션 모니터링을 설정해줘.
-- 런타임 타입 에러 수집
-- 성능 병목 지점 추적
-- 번들 크기 모니터링
-- TypeScript 컴파일 시간 추적
-- 코드 커버리지 리포트"
+# Production monitoring
+claude "Set up production monitoring for a TypeScript application.
+- Collect runtime type errors
+- Track performance bottlenecks
+- Monitor bundle size
+- Track TypeScript compilation time
+- Code coverage reports"
 ```
 
-## 6.2 Python - 엔터프라이즈 파이썬
+## 6.2 Python - Enterprise Python
 
-Python은 "읽기 쉬운 코드"를 철학으로 하는 언어로, 명확하고 간결한 문법을 통해 복잡한 문제를 우아하게 해결할 수 있게 해줍니다. Claude Code는 Python의 동적 특성과 Duck Typing의 장점을 활용하면서도, 타입 힌트와 정적 분석 도구를 통해 코드의 안정성을 높이는 모던 Python 개발 패턴을 지원합니다.
+Python is a language with a philosophy of "readable code," enabling elegant solutions to complex problems through clear and concise syntax. Claude Code leverages Python's dynamic nature and Duck Typing advantages while supporting modern Python development patterns that enhance code stability through type hints and static analysis tools.
 
-### Python 엔터프라이즈 프로젝트 구조화
+### Structuring Python Enterprise Projects
 
-확장 가능한 Python 프로젝트는 명확한 패키지 구조와 의존성 관리에서 시작됩니다. Claude Code는 PEP 표준을 준수하는 프로젝트 구조와 현대적인 개발 도구 설정을 제안할 수 있습니다.
+Scalable Python projects start with clear package structures and dependency management. Claude Code can suggest project structures adhering to PEP standards and modern development tool setups.
 
 ```bash
-# 기본 Python 프로젝트 설정
-claude "Python 패키지 구조를 모범 사례에 따라 설정해줘.
-pyproject.toml, 가상 환경, 타입 힌트, 
-그리고 테스트 설정을 포함해줘"
+# Basic Python project setup
+claude "Set up a Python package structure according to best practices.
+Include pyproject.toml, virtual environment, type hints,
+and test setup."
 
-# 대규모 FastAPI 애플리케이션
-claude "FastAPI로 엔터프라이즈급 API 서버를 구축해줘.
-- 비동기 데이터베이스 연동 (SQLAlchemy 2.0)
-- Pydantic v2로 데이터 검증
-- OAuth2/JWT 인증 시스템
-- 마이크로서비스 아키텍처 대비
-- 모니터링과 로깅 시스템"
+# Large-scale FastAPI application
+claude "Build an enterprise-grade API server with FastAPI.
+- Asynchronous database integration (SQLAlchemy 2.0)
+- Data validation with Pydantic v2
+- OAuth2/JWT authentication system
+- Preparation for microservice architecture
+- Monitoring and logging system"
 
-# 데이터 엔지니어링 파이프라인
-claude "Apache Airflow로 대용량 데이터 파이프라인을 구축해줘.
-- ETL 워크플로우 자동화
-- Pandas/Polars 성능 최적화
-- 대용량 데이터 비동기 처리
-- 에러 복구와 재시도 로직
-- 모니터링과 알림 시스템"
+# Data engineering pipeline
+claude "Build a large-scale data pipeline with Apache Airflow.
+- Automate ETL workflows
+- Optimize Pandas/Polars performance
+- Asynchronous processing of large data
+- Error recovery and retry logic
+- Monitoring and notification system"
 
-# 머신러닝 프로덕션 시스템
-claude "MLOps 파이프라인을 Python으로 구축해줘.
-- MLflow로 실험 추적과 모델 버전 관리
-- Celery로 비동기 매치 학습
-- FastAPI로 모델 서빙 API
-- 실시간 모델 모니터링
-- A/B 테스트 프레임워크"
+# Machine learning production system
+claude "Build an MLOps pipeline with Python.
+- Experiment tracking and model versioning with MLflow
+- Asynchronous batch training with Celery
+- Model serving API with FastAPI
+- Real-time model monitoring
+- A/B testing framework"
 ```
 
-**엔터프라이즈급 pyproject.toml 설정**
+**Enterprise-grade pyproject.toml Configuration**
 
 ```toml
 [build-system]
@@ -3702,12 +3702,12 @@ black = "^23.11.0"
 ruff = "^0.1.0"
 pre-commit = "^3.5.0"
 
-# 마이크로서비스 도구
-locust = "^2.17.0"  # 로드 테스트
-opentelemetry-api = "^1.21.0"  # 분산 추적
-jinja2 = "^3.1.0"  # 템플릿 엔진
+# Microservice tools
+locust = "^2.17.0"  # Load testing
+opentelemetry-api = "^1.21.0"  # Distributed tracing
+jinja2 = "^3.1.0"  # Template engine
 
-# 코드 품질 도구
+# Code quality tools
 [tool.mypy]
 python_version = "3.11"
 strict = true
@@ -3774,37 +3774,37 @@ python_functions = ["test_*"]
 asyncio_mode = "auto"
 ```
 
-### 고급 타입 시스템과 정적 분석
+### Advanced Type System and Static Analysis
 
-Python의 동적 특성을 유지하면서도 타입 안전성을 확보하는 것이 현대 Python 개발의 핵심입니다.
+Ensuring type safety while maintaining Python's dynamic nature is key to modern Python development.
 
 ```bash
-# 고급 타입 힌트 패턴
-claude "이 Python 코드에 고급 타입 힌트를 추가해줘.
-- 제네릭과 프로토콜을 활용한 추상화
-- Union과 Literal을 이용한 정확한 타입 정의
-- TypeGuard로 런타임 타입 체크
-- NewType으로 도메인 타입 생성
-- mypy strict 모드 통과 보장"
+# Advanced type hint patterns
+claude "Add advanced type hints to this Python code.
+- Abstraction with generics and protocols
+- Precise type definitions with Union and Literal
+- Runtime type checking with TypeGuard
+- Create domain types with NewType
+- Ensure mypy strict mode passes"
 
-# Pydantic v2 고급 기능
-claude "Pydantic v2로 고급 데이터 검증 시스템을 구축해줘.
-- Field validators와 model validators
-- 비동기 검증자와 커스텀 시리얼라이저
-- Discriminated Unions로 복잡한 데이터 구조
-- JSON Schema 자동 생성
-- 성능 최적화된 설정"
+# Pydantic v2 advanced features
+claude "Build an advanced data validation system with Pydantic v2.
+- Field validators and model validators
+- Asynchronous validators and custom serializers
+- Complex data structures with Discriminated Unions
+- Automatic JSON Schema generation
+- Performance-optimized settings"
 
-# 정적 분석 도구 통합
-claude "Python 코드 품질을 위한 정적 분석 도구를 설정해줘.
-- mypy + Pylance로 최대 타입 체크
-- ruff로 빠른 린팅과 포매팅
-- bandit으로 보안 취약점 검사
-- vulture로 사용하지 않는 코드 탐지
-- 전체 CI/CD 파이프라인 통합"
+# Static analysis tool integration
+claude "Set up static analysis tools for Python code quality.
+- Maximum type checking with mypy + Pylance
+- Fast linting and formatting with ruff
+- Security vulnerability scanning with bandit
+- Detect unused code with vulture
+- Full CI/CD pipeline integration"
 ```
 
-**실전 타입 힌트 예시**
+**Practical Type Hint Example**
 
 ```python
 from typing import (
@@ -3894,45 +3894,45 @@ class AsyncDatabaseTransaction:
             await self._transaction.rollback()
 ```
 
-### Python 성능 최적화 - 엔터프라이즈 수준
+### Python Performance Optimization - Enterprise Level
 
-대규모 Python 애플리케이션에서는 처리량, 메모리 효율성, 동시성 처리가 모두 중요합니다.
+In large-scale Python applications, throughput, memory efficiency, and concurrency handling are all crucial.
 
 ```bash
-# 고성능 비동기 시스템
-claude "대용량 비동기 처리 시스템을 구축해줘.
-- asyncio + aiohttp로 대량 HTTP 요청 처리
-- asyncpg로 비동기 데이터베이스 연동
-- 비동기 컨텍스트 매니저와 세마포어
-- 백프레셔와 서킷 관리
-- 에러 전파와 로깅 전략"
+# High-performance asynchronous system
+claude "Build a high-volume asynchronous processing system.
+- Handle large HTTP requests with asyncio + aiohttp
+- Asynchronous database integration with asyncpg
+- Async context managers and semaphores
+- Backpressure and circuit management
+- Error propagation and logging strategy"
 
-# 메모리 최적화 전략
-claude "Pandas/Polars로 대용량 데이터 처리를 최적화해줘.
-- 청크 단위 스트리밍 처리
-- 제너레이터와 이터레이터 최적화
-- 메모리 매핑 파일과 파켓 형식
-- 병렬 처리와 멀티프로세싱
-- 가비지 컴렉션 최적화"
+# Memory optimization strategy
+claude "Optimize large-scale data processing with Pandas/Polars.
+- Chunk-wise streaming processing
+- Optimize generators and iterators
+- Memory-mapped files and Parquet format
+- Parallel processing and multiprocessing
+- Optimize garbage collection"
 
-# Celery로 백그라운드 작업 처리
-claude "Celery로 엔터프라이즈급 비동기 작업 시스템을 구축해줘.
-- Redis Sentinel로 고가용성 브로커
-- 동적 워커 스케일링
-- 작업 우선순위와 라우팅
-- 실패 처리와 재시도 전략
-- 모니터링과 메트릭 수집"
+# Background task processing with Celery
+claude "Build an enterprise-grade asynchronous task system with Celery.
+- High-availability broker with Redis Sentinel
+- Dynamic worker scaling
+- Task priority and routing
+- Failure handling and retry strategy
+- Monitoring and metrics collection"
 
-# 성능 프로파일링과 병목 분석
-claude "Python 애플리케이션의 성능 병목을 찾아서 최적화해줘.
-- cProfile과 py-spy로 프로파일링
-- 메모리 사용량 분석 (memory_profiler)
-- 데이터베이스 쿼리 최적화
-- 캐시 전략 및 메모이제이션
-- JIT 컴파일러 (Numba) 활용"
+# Performance profiling and bottleneck analysis
+claude "Find and optimize performance bottlenecks in a Python application.
+- Profiling with cProfile and py-spy
+- Memory usage analysis (memory_profiler)
+- Database query optimization
+- Caching strategy and memoization
+- Utilize JIT compiler (Numba)"
 ```
 
-**고성능 비동기 패턴 예시**
+**High-Performance Asynchronous Pattern Example**
 
 ```python
 import asyncio
@@ -3944,7 +3944,7 @@ import structlog
 from dataclasses import dataclass
 from datetime import datetime
 
-# 비동기 데이터베이스 커넥션 풀
+# Asynchronous database connection pool
 class AsyncDatabasePool:
     def __init__(self, dsn: str, min_size: int = 10, max_size: int = 100):
         self.dsn = dsn
@@ -3954,7 +3954,7 @@ class AsyncDatabasePool:
         self.logger = structlog.get_logger()
     
     async def initialize(self) -> None:
-        """Ãˆ비동기 커넥션 풀 초기화"""
+        """Initialize asynchronous connection pool"""
         self.pool = await asyncpg.create_pool(
             self.dsn,
             min_size=self.min_size,
@@ -3966,7 +3966,7 @@ class AsyncDatabasePool:
     
     @asynccontextmanager
     async def acquire(self) -> AsyncIterator[asyncpg.Connection]:
-        """Ãˆ커넥션 획득 및 자동 반납"""
+        """Acquire and automatically release connection"""
         if not self.pool:
             raise RuntimeError("Pool not initialized")
         
@@ -3978,12 +3978,12 @@ class AsyncDatabasePool:
                 raise
     
     async def close(self) -> None:
-        """Ãˆ커넥션 풀 종료"""
+        """Close connection pool"""
         if self.pool:
             await self.pool.close()
             self.logger.info("Database pool closed")
 
-# 비동기 HTTP 클라이언트 래퍼
+# Asynchronous HTTP client wrapper
 class AsyncHTTPClient:
     def __init__(self, timeout: int = 30, max_connections: int = 100):
         self.timeout = aiohttp.ClientTimeout(total=timeout)
@@ -4008,7 +4008,7 @@ class AsyncHTTPClient:
     
     async def get_multiple(self, urls: list[str], 
                           concurrency: int = 10) -> AsyncIterator[dict]:
-        """Ãˆ여러 URL을 동시에 요청하고 결과를 스트리밍"""
+        """Request multiple URLs concurrently and stream results"""
         semaphore = asyncio.Semaphore(concurrency)
         
         async def fetch_one(url: str) -> dict:
@@ -4021,19 +4021,19 @@ class AsyncHTTPClient:
                     self.logger.error("HTTP request failed", url=url, error=str(e))
                     return {"url": url, "status": 500, "error": str(e)}
         
-        # 비동기 제너레이터로 결과 스트리밍
+        # Stream results with async generator
         tasks = [fetch_one(url) for url in urls]
         for task in asyncio.as_completed(tasks):
             result = await task
             yield result
 
-# 대용량 데이터 처리를 위한 제너레이터 패턴
+# Generator pattern for processing large datasets
 async def process_large_dataset_chunks(
     query: str, 
     db_pool: AsyncDatabasePool,
     chunk_size: int = 10000
 ) -> AsyncIterator[list[dict]]:
-    """Ãˆ대용량 데이터셋을 청크 단위로 처리"""
+    """Process large datasets in chunks"""
     offset = 0
     
     while True:
@@ -4045,23 +4045,23 @@ async def process_large_dataset_chunks(
         if not rows:
             break
             
-        # dict로 변환하여 리턴
+        # Convert to dict and return
         chunk = [dict(row) for row in rows]
         yield chunk
         
         offset += chunk_size
         
-        # 내부 처리를 위한 비동기 지연
+        # Async delay for internal processing
         await asyncio.sleep(0.01)
 
-# 무제한 재시도와 지수 백오프
+# Unlimited retries with exponential backoff
 async def retry_with_exponential_backoff(
     func: Callable[[], Awaitable[T]],
     max_retries: int = 3,
     base_delay: float = 1.0,
     max_delay: float = 60.0
 ) -> T:
-    """Ãˆ지수 백오프와 함께 재시도"""
+    """Retry with exponential backoff"""
     logger = structlog.get_logger()
     
     for attempt in range(max_retries + 1):
@@ -4082,37 +4082,37 @@ async def retry_with_exponential_backoff(
             )
             await asyncio.sleep(delay)
     
-    # 이 지점에 도달할 수 없음
+    # This point should not be reached
     raise RuntimeError("Unexpected execution path")
 ```
 
-### Python 엔터프라이즈 CLAUDE.md 예시
+### Python Enterprise CLAUDE.md Example
 
-대규모 Python 프로젝트를 위한 포괄적인 가이드라인
+Comprehensive guidelines for large-scale Python projects.
 
 ```markdown
 # Enterprise Python Guidelines
 
-## 프로젝트 구조
+## Project Structure
 ```
 src/
 ├── app/
-│   ├── api/           # FastAPI 라우터와 엔드포인트
-│   ├── core/          # 비즈니스 로직과 도메인 모델
-│   ├── db/            # 데이터베이스 모델과 마이그레이션
-│   ├── services/      # 비즈니스 로직 서비스
-│   └── utils/         # 유틸리티 함수
+│   ├── api/           # FastAPI routers and endpoints
+│   ├── core/          # Business logic and domain models
+│   ├── db/            # Database models and migrations
+│   ├── services/      # Business logic services
+│   └── utils/         # Utility functions
 ├── tests/
-└── scripts/          # 마이그레이션과 운영 스크립트
+└── scripts/          # Migration and operational scripts
 ```
 
-## 코드 품질 기준
-- **PEP 8 + ruff**: 모든 코드는 ruff 린터 통과 필수
-- **타입 힌트**: mypy strict 모드 100% 커버리지
-- **복잡도**: 함수당 맥동 복잡도 10 이하
-- **돁스트링**: 고품질 돁스트링 필수 (Google Style)
+## Code Quality Standards
+- **PEP 8 + ruff**: All code must pass ruff linter
+- **Type Hints**: 100% coverage with mypy strict mode
+- **Complexity**: Cyclomatic complexity per function <= 10
+- **Docstrings**: High-quality docstrings mandatory (Google Style)
 
-## 타입 힌트 규칙
+## Type Hint Rules
 ```python
 from typing import TypeVar, Generic, Protocol, TypeGuard, NewType
 from datetime import datetime
@@ -4136,48 +4136,48 @@ def is_valid_email(value: str) -> TypeGuard[Email]:
 
 # Pydantic Models
 class UserCreate(BaseModel):
-    email: Email = Field(..., description="사용자 이메일")
+    email: Email = Field(..., description="User email")
     name: str = Field(..., min_length=1, max_length=100)
     
     @field_validator('email')
     @classmethod
     def validate_email(cls, v: str) -> str:
         if not is_valid_email(v):
-            raise ValueError('유효하지 않은 이메일 형식')
+            raise ValueError('Invalid email format')
         return v
 ```
 
-## 비동기 처리 규칙
-- **컨텍스트 매니저**: 모든 리소스는 async context manager 사용
-- **에러 처리**: 비동기 작업에 대한 체계적 예외 처리
-- **리소스 관리**: 커넥션 풀과 세마포어 사용
-- **로깅**: structlog로 구조화된 로깅
+## Asynchronous Processing Rules
+- **Context Managers**: Use async context managers for all resources
+- **Error Handling**: Systematic exception handling for async tasks
+- **Resource Management**: Use connection pools and semaphores
+- **Logging**: Structured logging with structlog
 
-## 성능 기준
-- **API 응답 시간**: 95% 요청 200ms 이하
-- **데이터베이스 쿼리**: 모든 쿼리 100ms 이하
-- **메모리 사용량**: 프로세스당 512MB 이하
-- **동시 사용자**: 10,000명 동시 접속 지원
+## Performance Standards
+- **API Response Time**: 95% requests <= 200ms
+- **Database Query**: All queries <= 100ms
+- **Memory Usage**: <= 512MB per process
+- **Concurrent Users**: Support 10,000 concurrent users
 
-## 테스트 전략
-- **커버리지**: 단위 테스트 90% 이상
-- **통합 테스트**: 주요 API 엔드포인트 100% 커버
-- **E2E 테스트**: 비즈니스 크리티컬 시나리오
-- **성능 테스트**: Locust로 로드 테스트
+## Test Strategy
+- **Coverage**: Unit tests >= 90%
+- **Integration Tests**: 100% coverage for major API endpoints
+- **E2E Tests**: Business-critical scenarios
+- **Performance Tests**: Load testing with Locust
 
-## 보안 규칙
-- **입력 검증**: 모든 사용자 입력에 대한 Pydantic 검증
-- **SQL Injection**: SQLAlchemy ORM 사용, 직접 쿼리 금지
-- **비밀번호**: bcrypt로 해싱, 최소 12자리
-- **API 키**: 환경 변수로만 관리, 코드에 하드코딩 금지
+## Security Rules
+- **Input Validation**: Pydantic validation for all user inputs
+- **SQL Injection**: Use SQLAlchemy ORM, prohibit direct queries
+- **Passwords**: Hash with bcrypt, minimum 12 characters
+- **API Keys**: Manage only via environment variables, no hardcoding in code
 
-## 로깅과 모니터링
+## Logging and Monitoring
 ```python
 import structlog
 
 logger = structlog.get_logger()
 
-# 비즈니스 로직
+# Business logic
 logger.info(
     "User created successfully", 
     user_id=user.id,
@@ -4185,7 +4185,7 @@ logger.info(
     timestamp=datetime.now().isoformat()
 )
 
-# 에러 로깅
+# Error logging
 logger.error(
     "Database connection failed",
     error=str(e),
@@ -4194,86 +4194,86 @@ logger.error(
 )
 ```
 
-## CI/CD 체크리스트
-- [ ] ruff linting 통과
-- [ ] mypy 타입 체크 통과  
-- [ ] pytest 모든 테스트 통과
-- [ ] bandit 보안 스캔 통과
-- [ ] 코드 커버리지 90% 이상
-- [ ] 성능 테스트 기준 통과
+## CI/CD Checklist
+- [ ] ruff linting passes
+- [ ] mypy type checking passes
+- [ ] pytest all tests pass
+- [ ] bandit security scan passes
+- [ ] Code coverage >= 90%
+- [ ] Performance test criteria pass
 ```
 
-### Python 실전 디버깅과 모니터링
+### Python Practical Debugging and Monitoring
 
 ```bash
-# 프로덕션 디버깅 환경
-claude "Python 애플리케이션의 프로덕션 디버깅 환경을 설정해줘.
-- 원격 디버깅과 로그 수집
-- APM 도구 (New Relic, DataDog) 연동
-- 성능 병목 지점 실시간 추적
-- 예외 및 오류 자동 수집
-- 비동기 작업 모니터링"
+# Production debugging environment
+claude "Set up a production debugging environment for a Python application.
+- Remote debugging and log collection
+- Integrate APM tools (New Relic, DataDog)
+- Real-time tracking of performance bottlenecks
+- Automatic collection of exceptions and errors
+- Monitor asynchronous tasks"
 
-# 대용량 시스템 모니터링
-claude "Python 마이크로서비스의 종합 모니터링을 설정해줘.
-- Prometheus + Grafana 메트릭 수집
-- 분산 로깅 (ELK Stack)
-- 비동기 작업 대시보드
-- 자동 알림과 에스케일레이션
-- 성능 회귀 감지"
+# Large-scale system monitoring
+claude "Set up comprehensive monitoring for Python microservices.
+- Metrics collection with Prometheus + Grafana
+- Distributed logging (ELK Stack)
+- Asynchronous task dashboard
+- Automated alerts and escalation
+- Performance regression detection"
 ```
 
-## 6.3 Java/Kotlin - 엔터프라이즈 JVM
+## 6.3 Java/Kotlin - Enterprise JVM
 
-Java는 엔터프라이즈 애플리케이션 개발의 표준이며, Kotlin은 Java와의 완벽한 호환성을 유지하면서도 현대적이고 간결한 문법을 제공합니다. Claude Code는 Java의 강력한 생태계와 JVM의 성능 최적화 기능을 활용하며, Kotlin의 null 안전성과 함수형 프로그래밍 기능을 통해 더욱 안전하고 표현력 있는 코드를 생성할 수 있습니다.
+Java is the standard for enterprise application development, and Kotlin offers modern, concise syntax while maintaining perfect compatibility with Java. Claude Code leverages Java's robust ecosystem and the JVM's performance optimization features, and can generate safer, more expressive code using Kotlin's null safety and functional programming features.
 
-### Java 엔터프라이즈 프로젝트 현대화
+### Modernizing Java Enterprise Projects
 
-레거시 Java 시스템을 현대적인 아키텍처로 전환하는 것은 단순한 버전 업그레이드를 넘어서 전체적인 개발 패러다임의 변화를 의미합니다. Claude Code는 이러한 복잡한 마이그레이션을 체계적으로 지원할 수 있습니다.
+Transitioning legacy Java systems to modern architectures means more than just version upgrades; it implies a shift in the overall development paradigm. Claude Code can systematically support these complex migrations.
 
 ```bash
-# 기본 현대화 작업
-claude "이 레거시 Java 8 코드를 Java 17+ 기능을 활용해서 현대화해줘.
-- Records로 데이터 클래스 변환
-- Pattern Matching으로 instanceof 간소화
-- Text Blocks로 가독성 향상
-- Optional로 null 안전성 강화
-- Stream API로 컬렉션 처리 최적화"
+# Basic modernization tasks
+claude "Modernize this legacy Java 8 code using Java 17+ features.
+- Convert data classes with Records
+- Simplify instanceof with Pattern Matching
+- Improve readability with Text Blocks
+- Enhance null safety with Optional
+- Optimize collection processing with Stream API"
 
-# 대규모 시스템 마이그레이션
-claude "모놀리식 Spring 애플리케이션을 마이크로서비스로 분해해줘.
-- 도메인 경계 식별과 서비스 분리
-- Spring Cloud Gateway로 API 게이트웨이 구성
-- 분산 트랜잭션과 사가 패턴 적용
-- 서비스 메시와 분산 추적 설정
-- 데이터베이스 분리 전략"
+# Large-scale system migration
+claude "Decompose a monolithic Spring application into microservices.
+- Identify domain boundaries and separate services
+- Configure API gateway with Spring Cloud Gateway
+- Apply distributed transactions and Saga pattern
+- Set up service mesh and distributed tracing
+- Database separation strategy"
 
-# 성능 최적화
-claude "Java 애플리케이션의 성능을 프로파일링하고 최적화해줘.
-- JVM 튜닝과 GC 최적화
-- 메모리 누수 탐지와 해결
-- 스레드 풀 설정 최적화
-- 데이터베이스 커넥션 풀링
-- JIT 컴파일러 최적화"
+# Performance optimization
+claude "Profile and optimize the performance of a Java application.
+- JVM tuning and GC optimization
+- Detect and resolve memory leaks
+- Optimize thread pool settings
+- Database connection pooling
+- JIT compiler optimization"
 ```
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 graph TD
-    A[src/main/java/com/company/app/] --> B[config/<br/>Spring 설정 클래스]
-    A --> C[domain/<br/>비즈니스 영역]
-    A --> D[infrastructure/<br/>외부 시스템 연동]
-    A --> E[presentation/<br/>컨트롤러와 DTO]
-    A --> F[shared/<br/>공통 유틸리티]
-    A --> G[security/<br/>보안 설정]
+    A[src/main/java/com/company/app/] --> B[config/<br/>Spring configuration classes]
+    A --> C[domain/<br/>Business domain]
+    A --> D[infrastructure/<br/>External system integration]
+    A --> E[presentation/<br/>Controllers and DTOs]
+    A --> F[shared/<br/>Common utilities]
+    A --> G[security/<br/>Security configuration]
     
-    C --> H[model/<br/>도메인 모델]
-    C --> I[service/<br/>비즈니스 서비스]
-    C --> J[repository/<br/>데이터 액세스]
+    C --> H[model/<br/>Domain models]
+    C --> I[service/<br/>Business services]
+    C --> J[repository/<br/>Data access]
     
-    K[resources/] --> L[application.yml<br/>환경별 설정]
-    K --> M[logback.xml<br/>로깅 설정]
-    K --> N[schema.sql<br/>데이터베이스 스키마]
+    K[resources/] --> L[application.yml<br/>Environment-specific config]
+    K --> M[logback.xml<br/>Logging configuration]
+    K --> N[schema.sql<br/>Database schema]
     
     classDef configStyle fill:#e2e8f0,stroke:#334155,stroke-width:2px,color:#1e293b
     classDef domainStyle fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
@@ -4282,75 +4282,75 @@ graph TD
     class A,C,K configStyle
 ```
 
-**엔터프라이즈급 Java 프로젝트 구조**
+**Enterprise-grade Java Project Structure**
 
-### Spring Boot 엔터프라이즈 패턴
+### Spring Boot Enterprise Patterns
 
-**1. 고급 의존성 주입과 설정 관리**
-
-```bash
-# 복잡한 의존성 그래프 최적화
-claude "Spring Boot 애플리케이션의 의존성 주입을 최적화해줘.
-- Constructor injection으로 불변성 보장
-- 순환 의존성 탐지와 해결
-- Configuration Properties로 타입 안전한 설정
-- Profile별 Bean 조건부 생성
-- 테스트용 Test Configuration 분리"
-
-# 멀티 모듈 프로젝트 설정
-claude "대규모 Spring Boot 멀티 모듈 프로젝트를 설정해줘.
-- 공통 모듈과 도메인별 모듈 분리
-- 모듈 간 의존성 관리
-- 통합 테스트와 단위 테스트 전략
-- 빌드 최적화와 병렬 컴파일
-- 도커 이미지 계층화"
-```
-
-**2. 반응형 프로그래밍과 비동기 처리**
+**1. Advanced Dependency Injection and Configuration Management**
 
 ```bash
-# WebFlux 마이그레이션
-claude "기존 Spring MVC REST API를 Spring WebFlux로 마이그레이션해줘.
-- Mono와 Flux를 활용한 논블로킹 처리
-- R2DBC로 반응형 데이터베이스 연동
-- WebClient로 외부 API 호출 최적화
-- 백프레셔 처리와 에러 복구
-- 성능 벤치마크와 비교 분석"
+# Optimize complex dependency graphs
+claude "Optimize dependency injection in a Spring Boot application.
+- Ensure immutability with constructor injection
+- Detect and resolve circular dependencies
+- Type-safe configuration with Configuration Properties
+- Conditional Bean creation per profile
+- Separate Test Configuration for testing"
 
-# 하이브리드 아키텍처
-claude "Spring MVC와 WebFlux를 혼합한 하이브리드 시스템을 구축해줘.
-- CPU 집약적 작업은 MVC로 처리
-- I/O 집약적 작업은 WebFlux로 처리
-- 공통 보안 설정과 인증 처리
-- 모니터링과 메트릭 통합
-- 로드 밸런싱 전략"
+# Multi-module project setup
+claude "Set up a large-scale Spring Boot multi-module project.
+- Separate common modules and domain-specific modules
+- Manage inter-module dependencies
+- Integration and unit testing strategy
+- Build optimization and parallel compilation
+- Docker image layering"
 ```
 
-### Kotlin 엔터프라이즈 개발 패턴
-
-Kotlin은 Java의 표현력 부족을 해결하면서도 기존 Java 생태계와 완벽하게 호환되는 현대적인 언어입니다. 엔터프라이즈 환경에서는 특히 null 안전성과 간결한 문법이 개발 생산성을 크게 향상시킵니다.
+**2. Reactive Programming and Asynchronous Processing**
 
 ```bash
-# Java 코드베이스 점진적 Kotlin 전환
-claude "기존 Java Spring Boot 프로젝트를 점진적으로 Kotlin으로 전환해줘.
-- 새 기능은 Kotlin으로 작성
-- data class로 DTO 간소화
-- sealed class로 상태 관리
-- extension functions로 유틸리티 함수 정리
-- coroutines로 비동기 처리 개선"
+# WebFlux migration
+claude "Migrate an existing Spring MVC REST API to Spring WebFlux.
+- Non-blocking processing with Mono and Flux
+- Reactive database integration with R2DBC
+- Optimize external API calls with WebClient
+- Backpressure handling and error recovery
+- Performance benchmark and comparative analysis"
 
-# Kotlin DSL 활용
-claude "Kotlin DSL을 활용해서 설정과 빌드 스크립트를 개선해줘.
-- build.gradle.kts로 빌드 스크립트 타입 안전성 확보
-- Spring Security DSL로 보안 설정 간소화
-- 테스트 DSL로 가독성 높은 테스트 작성
-- 도메인 특화 언어 구현"
+# Hybrid architecture
+claude "Build a hybrid system combining Spring MVC and WebFlux.
+- Handle CPU-intensive tasks with MVC
+- Handle I/O-intensive tasks with WebFlux
+- Common security configuration and authentication
+- Monitoring and metrics integration
+- Load balancing strategy"
 ```
 
-**Kotlin 엔터프라이즈 코드 예시**
+### Kotlin Enterprise Development Patterns
+
+Kotlin is a modern language that addresses Java's verbosity while being perfectly compatible with the existing Java ecosystem. In enterprise environments, null safety and concise syntax significantly improve development productivity.
+
+```bash
+# Gradual Kotlin transition for Java codebase
+claude "Gradually transition an existing Java Spring Boot project to Kotlin.
+- Write new features in Kotlin
+- Simplify DTOs with data classes
+- Manage state with sealed classes
+- Organize utility functions with extension functions
+- Improve asynchronous processing with coroutines"
+
+# Utilize Kotlin DSLs
+claude "Improve configuration and build scripts using Kotlin DSLs.
+- Ensure build script type safety with build.gradle.kts
+- Simplify security configuration with Spring Security DSL
+- Write readable tests with test DSLs
+- Implement domain-specific languages"
+```
+
+**Kotlin Enterprise Code Example**
 
 ```kotlin
-// 타입 안전한 설정 관리
+// Type-safe configuration management
 @ConfigurationProperties(prefix = "app")
 data class AppProperties(
     val database: DatabaseProperties,
@@ -4375,7 +4375,7 @@ data class AppProperties(
     )
 }
 
-// 결과 타입으로 에러 처리
+// Error handling with Result type
 sealed class Result<out T> {
     data class Success<T>(val value: T) : Result<T>()
     data class Error(val exception: Throwable) : Result<Nothing>()
@@ -4391,7 +4391,7 @@ sealed class Result<out T> {
     }
 }
 
-// 코루틴을 활용한 서비스 계층
+// Service layer using coroutines
 @Service
 class UserService(
     private val userRepository: UserRepository,
@@ -4399,7 +4399,7 @@ class UserService(
     private val auditService: AuditService
 ) {
     suspend fun createUser(request: CreateUserRequest): Result<User> = runCatching {
-        // 병렬 검증
+        // Parallel validation
         val (emailExists, usernameExists) = coroutineScope {
             val emailCheck = async { userRepository.existsByEmail(request.email) }
             val usernameCheck = async { userRepository.existsByUsername(request.username) }
@@ -4417,7 +4417,7 @@ class UserService(
             hashedPassword = hashPassword(request.password)
         )
         
-        // 병렬 처리
+        // Parallel processing
         coroutineScope {
             val saveUser = async { userRepository.save(user) }
             val sendEmail = async { emailService.sendWelcomeEmail(user.email) }
@@ -4434,7 +4434,7 @@ class UserService(
     )
 }
 
-// Extension functions로 유틸리티 확장
+// Utility extension with extension functions
 fun String.isValidEmail(): Boolean = 
     matches("""^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$""".toRegex())
 
@@ -4444,7 +4444,7 @@ fun <T> List<T>.chunkedParallel(size: Int, block: suspend (List<T>) -> Unit) = r
     }.awaitAll()
 }
 
-// 타입 안전한 쿼리 빌더
+// Type-safe query builder
 class UserQueryBuilder {
     private val criteria = mutableListOf<String>()
     private val parameters = mutableMapOf<String, Any>()
@@ -4473,64 +4473,64 @@ class UserQueryBuilder {
 }
 ```
 
-### Java/Kotlin 성능 최적화 전략
+### Java/Kotlin Performance Optimization Strategy
 
 ```bash
-# JVM 성능 튜닝
-claude "Java/Kotlin 애플리케이션의 JVM 성능을 최적화해줘.
-- G1GC vs ZGC vs Parallel GC 비교 분석
-- 힙 크기와 메타스페이스 튜닝
-- JIT 컴파일러 최적화 옵션
-- 스레드 로컬 할당 버퍼(TLAB) 설정
-- Flight Recorder로 성능 프로파일링"
+# JVM performance tuning
+claude "Optimize JVM performance for a Java/Kotlin application.
+- Compare and analyze G1GC vs ZGC vs Parallel GC
+- Tune heap size and metaspace
+- JIT compiler optimization options
+- Configure Thread-Local Allocation Buffers (TLAB)
+- Performance profiling with Flight Recorder"
 
-# 메모리 최적화
-claude "메모리 사용량을 최적화하고 GC 압박을 줄여줘.
-- 객체 풀링과 재사용 전략
-- 오프힙 캐싱 구현
-- WeakReference와 SoftReference 활용
-- 메모리 누수 탐지와 해결
-- 대용량 데이터 스트리밍 처리"
+# Memory optimization
+claude "Optimize memory usage and reduce GC pressure.
+- Object pooling and reuse strategy
+- Implement off-heap caching
+- Utilize WeakReference and SoftReference
+- Detect and resolve memory leaks
+- Process large data streams"
 
-# 동시성 최적화
-claude "Java/Kotlin의 동시성 기능을 최적화해줘.
-- Virtual Threads (Project Loom) 활용
-- CompletableFuture vs Kotlin Coroutines 비교
-- 락프리 자료구조 구현
-- Actor 모델과 CSP 패턴
-- 백프레셔와 플로우 제어"
+# Concurrency optimization
+claude "Optimize concurrency features in Java/Kotlin.
+- Utilize Virtual Threads (Project Loom)
+- Compare CompletableFuture vs Kotlin Coroutines
+- Implement lock-free data structures
+- Actor model and CSP patterns
+- Backpressure and flow control"
 ```
 
-### Java/Kotlin 엔터프라이즈 CLAUDE.md 예시
+### Java/Kotlin Enterprise CLAUDE.md Example
 
-대규모 엔터프라이즈 환경에서의 종합적인 개발 가이드라인
+Comprehensive development guidelines for large-scale enterprise environments.
 
 ```markdown
 # Java/Kotlin Enterprise Guidelines
 
-## 언어 선택 기준
-- **신규 개발**: Kotlin 우선, 복잡한 비즈니스 로직 표현
-- **레거시 통합**: Java 유지, 점진적 Kotlin 도입
-- **성능 크리티컬**: 프로파일링 후 결정
-- **팀 역량**: 학습 곡선 고려한 단계적 도입
+## Language Selection Criteria
+- **New Development**: Kotlin first, for expressing complex business logic
+- **Legacy Integration**: Maintain Java, gradual Kotlin adoption
+- **Performance Critical**: Decide after profiling
+- **Team Competency**: Phased adoption considering learning curve
 
-## Java 개발 규칙
-- **버전**: Java 17+ LTS 버전 사용
-- **기능 활용**: Records, Pattern Matching, Sealed Classes
-- **Null 처리**: Optional 적극 활용, null 리턴 금지
-- **스트림**: 컬렉션 처리는 Stream API 사용
-- **문자열**: Text Blocks로 가독성 향상
+## Java Development Rules
+- **Version**: Use Java 17+ LTS version
+- **Feature Utilization**: Records, Pattern Matching, Sealed Classes
+- **Null Handling**: Actively use Optional, prohibit null returns
+- **Streams**: Use Stream API for collection processing
+- **Strings**: Improve readability with Text Blocks
 
-## Kotlin 개발 규칙
-- **Null Safety**: nullable 타입 명시적 처리
-- **불변성**: val 선호, 불변 컬렉션 사용
-- **확장 함수**: 기존 클래스 확장, 유틸리티 대체
-- **데이터 클래스**: DTO와 Value Object 표현
-- **코루틴**: 비동기 처리의 기본 선택
+## Kotlin Development Rules
+- **Null Safety**: Explicitly handle nullable types
+- **Immutability**: Prefer `val`, use immutable collections
+- **Extension Functions**: Extend existing classes, replace utilities
+- **Data Classes**: Represent DTOs and Value Objects
+- **Coroutines**: Default choice for asynchronous processing
 
-## Spring Boot 패턴
+## Spring Boot Patterns
 ```kotlin
-// 컨트롤러 (RESTful API)
+// Controller (RESTful API)
 @RestController
 @RequestMapping("/api/v1/users")
 @Validated
@@ -4559,7 +4559,7 @@ class UserController(
             .getOrElse { ResponseEntity.badRequest().build() }
 }
 
-// 서비스 계층 (비즈니스 로직)
+// Service Layer (Business Logic)
 @Service
 @Transactional
 class UserService(
@@ -4584,14 +4584,14 @@ class UserService(
 }
 ```
 
-## 테스트 전략
-- **프레임워크**: JUnit 5 + AssertJ + MockK(Kotlin) / Mockito(Java)
-- **통합 테스트**: @SpringBootTest 최소화, TestContainers 활용
-- **슬라이스 테스트**: @WebMvcTest, @DataJpaTest 등 적극 활용
-- **픽스처**: 객체 생성 빌더 패턴, 테스트 데이터 빌더
+## Test Strategy
+- **Frameworks**: JUnit 5 + AssertJ + MockK(Kotlin) / Mockito(Java)
+- **Integration Tests**: Minimize `@SpringBootTest`, utilize TestContainers
+- **Slice Tests**: Actively use `@WebMvcTest`, `@DataJpaTest`, etc.
+- **Fixtures**: Object creation builder pattern, test data builders
 
 ```kotlin
-// 테스트 예시
+// Test Example
 @ExtendWith(MockKExtension::class)
 class UserServiceTest {
     @MockK
@@ -4624,75 +4624,75 @@ class UserServiceTest {
 }
 ```
 
-## 성능 기준
-- **응답 시간**: REST API 95% 요청 200ms 이하
-- **처리량**: 초당 1000 요청 처리 가능
-- **메모리**: 힙 사용률 80% 이하 유지
-- **GC**: Full GC 1분 이하, Stop-the-world 10ms 이하
+## Performance Standards
+- **Response Time**: 95% of REST API requests <= 200ms
+- **Throughput**: Capable of handling 1000 requests per second
+- **Memory**: Maintain heap usage <= 80%
+- **GC**: Full GC <= 1 minute, Stop-the-world <= 10ms
 
-## 모니터링과 관찰 가능성
-- **메트릭**: Micrometer + Prometheus
-- **로깅**: Logback + Structured Logging
-- **트레이싱**: Spring Cloud Sleuth + Zipkin
-- **프로파일링**: Java Flight Recorder
+## Monitoring and Observability
+- **Metrics**: Micrometer + Prometheus
+- **Logging**: Logback + Structured Logging
+- **Tracing**: Spring Cloud Sleuth + Zipkin
+- **Profiling**: Java Flight Recorder
 
-## 배포와 운영
-- **컨테이너**: Multi-stage Docker build
-- **JVM 설정**: 환경별 최적화된 JVM 옵션
-- **헬스체크**: Actuator 엔드포인트 활용
-- **그레이스풀 셧다운**: 진행 중인 요청 완료 후 종료
+## Deployment and Operations
+- **Containers**: Multi-stage Docker build
+- **JVM Settings**: Environment-specific optimized JVM options
+- **Health Checks**: Utilize Actuator endpoints
+- **Graceful Shutdown**: Complete ongoing requests before termination
 
 
-### Java/Kotlin 실전 디버깅과 문제 해결
+### Java/Kotlin Practical Debugging and Problem Solving
 
 ```bash
-# 복잡한 동시성 문제 해결
-claude "멀티스레드 환경에서 발생하는 데드락을 탐지하고 해결해줘.
-- 스레드 덤프 분석과 해석
-- 락 경합 지점 식별
-- 락프리 알고리즘 적용
-- Virtual Threads 마이그레이션
-- 성능 벤치마크와 검증"
+# Resolve complex concurrency issues
+claude "Detect and resolve deadlocks occurring in a multithreaded environment.
+- Analyze and interpret thread dumps
+- Identify lock contention points
+- Apply lock-free algorithms
+- Migrate to Virtual Threads
+- Performance benchmark and validation"
 
-# 메모리 누수 진단
-claude "Java 애플리케이션의 메모리 누수를 진단하고 해결해줘.
-- 힙 덤프 분석과 MAT 도구 활용
-- 강한 참조 체인 추적
-- 리스너와 콜백 누수 탐지
-- 오프힙 메모리 누수 확인
-- 메모리 사용 패턴 최적화"
+# Diagnose memory leaks
+claude "Diagnose and resolve memory leaks in a Java application.
+- Analyze heap dumps and use MAT tool
+- Trace strong reference chains
+- Detect listener and callback leaks
+- Check for off-heap memory leaks
+- Optimize memory usage patterns"
 
-# 프로덕션 이슈 대응
-claude "프로덕션 환경의 성능 저하를 실시간으로 진단해줘.
-- APM 도구로 병목 지점 식별
-- 데이터베이스 쿼리 성능 분석
-- GC 로그 분석과 튜닝
-- JIT 컴파일러 최적화 확인
-- 자동 복구 메커니즘 구현"
+# Respond to production issues
+claude "Diagnose production performance degradation in real-time.
+- Identify bottlenecks with APM tools
+- Analyze database query performance
+- Analyze and tune GC logs
+- Verify JIT compiler optimizations
+- Implement automated recovery mechanisms"
 ```
 
 ## 6.4 Go
 
-Go는 단순함과 성능을 동시에 추구하는 언어로, 명시적이고 읽기 쉬운 코드를 통해 확장 가능한 시스템을 구축할 수 있게 해줍니다. 강력한 동시성 모델과 컴파일 속도, 그리고 최소한의 런타임 의존성으로 클라우드 네이티브 애플리케이션과 마이크로서비스 개발에 이상적입니다. Claude Code는 Go의 관용구적 패턴과 동시성 프리미티브를 활용한 효율적인 코드를 생성할 수 있습니다.
+Go is a language that pursues both simplicity and performance, enabling the construction of scalable systems through explicit and readable code. Its strong concurrency model, compilation speed, and minimal runtime dependencies make it ideal for cloud-native applications and microservice development. Claude Code can generate efficient code utilizing Go's idiomatic patterns and concurrency primitives.
 
-### Go 프로젝트 구조
+### Go Project Structure
 
-Go 프로젝트의 성공은 명확한 패키지 구조와 의존성 관리에서 시작됩니다. Claude Code는 Go 커뮤니티의 표준 프로젝트 레이아웃과 Clean Architecture 원칙을 적용한 구조를 제안할 수 있습니다.
+The success of a Go project starts with clear package structure and dependency management. Claude Code can suggest structures applying Go community's standard project layout and Clean Architecture principles.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 graph TD
-    A[Go 프로젝트 구조] --> B[cmd/<br/>메인 애플리케이션<br/>진입점과 실행 파일]
-    A --> C[internal/<br/>내부 패키지<br/>외부에서 import 불가]
-    A --> D[pkg/<br/>공개 패키지<br/>외부에서 사용 가능]
-    A --> E[api/<br/>API 정의<br/>OpenAPI, gRPC 스키마]
-    A --> F[web/<br/>웹 애플리케이션<br/>정적 파일, 템플릿]
-    A --> G[configs/<br/>설정 파일<br/>환경별 구성]
-    
-    C --> H[handler/<br/>HTTP 핸들러]
-    C --> I[service/<br/>비즈니스 로직]
-    C --> J[repository/<br/>데이터 저장소]
-    C --> K[domain/<br/>도메인 모델]
+    A[Go Project Structure] --> B[cmd/<br/>Main application<br/>Entry points and executables]
+    A --> C[internal/<br/>Internal packages<br/>Not importable externally]
+    A --> D[pkg/<br/>Public packages<br/>Usable externally]
+    A --> E[api/<br/>API definitions<br/>OpenAPI, gRPC schemas]
+    A --> F[web/<br/>Web application<br/>Static files, templates]
+    A --> G[configs/<br/>Configuration files<br/>Environment-specific config]
+
+    C --> H[handler/<br/>HTTP handlers]
+    C --> I[service/<br/>Business logic]
+    C --> J[repository/<br/>Data storage]
+    C --> K[domain/<br/>Domain models]
     
     classDef publicStyle fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
     classDef internalStyle fill:#e2e8f0,stroke:#334155,stroke-width:2px,color:#1e293b
@@ -4702,101 +4702,101 @@ graph TD
 ```
 
 ```bash
-claude "Go 모듈을 사용하는 프로젝트 구조를 만들어줘.
-Clean Architecture를 적용하고, 
-의존성 주입과 인터페이스를 활용해서 테스트하기 쉽게 만들어줘"
+claude "Create a project structure using Go modules.
+Apply Clean Architecture, and make it easy to test
+using dependency injection and interfaces."
 ```
 
-### Go 동시성 패턴
+### Go Concurrency Patterns
 
-**1. 고루틴과 채널**
+**1. Goroutines and Channels**
 
 ```bash
-claude "이 순차 처리 코드를 고루틴과 채널을 사용해서 병렬화해줘.
-적절한 에러 처리와 컨텍스트 취소도 구현해줘"
+claude "Parallelize this sequential processing code using goroutines and channels.
+Implement appropriate error handling and context cancellation."
 ```
 
-**2. 동시성 패턴**
+**2. Concurrency Patterns**
 
 ```bash
-claude "Worker Pool 패턴을 구현해줘.
-작업 큐, 워커 고루틴, 결과 수집을 포함하고,
-graceful shutdown도 지원해줘"
+claude "Implement a Worker Pool pattern.
+Include a task queue, worker goroutines, and result collection,
+and support graceful shutdown."
 ```
 
-### Go CLAUDE.md 예시
+### Go CLAUDE.md Example
 
 ```markdown
 # Go Project Guidelines
 
-## 프로젝트 구조
+## Project Structure
 ```
-cmd/           # 메인 애플리케이션
-internal/      # 내부 패키지
-pkg/           # 공개 패키지
-api/           # API 정의
+cmd/           # Main applications
+internal/      # Internal packages
+pkg/           # Public packages
+api/           # API definitions
 ```
 
-## 코딩 규칙
-- 에러는 항상 처리
-- 인터페이스는 사용하는 쪽에서 정의
-- 고루틴 리크 방지
+## Coding Rules
+- Always handle errors
+- Define interfaces on the consumer side
+- Prevent goroutine leaks
 
-## 에러 처리
+## Error Handling
 ```go
 if err != nil {
     return fmt.Errorf("failed to process: %w", err)
 }
 ```
 
-## 테스트
-- 테이블 기반 테스트
-- 인터페이스로 모킹
-- 통합 테스트 포함
+## Testing
+- Table-driven tests
+- Mocking with interfaces
+- Include integration tests
 
 
 ## 6.5 Rust
 
-Rust는 메모리 안전성과 성능을 동시에 보장하는 시스템 프로그래밍 언어로, 소유권 시스템과 타입 시스템을 통해 컴파일 타임에 많은 버그를 방지할 수 있습니다. Claude Code는 Rust의 독특한 소유권 모델과 트레이트 시스템을 이해하고, 안전하면서도 성능이 뛰어난 코드를 생성할 수 있습니다.
+Rust is a systems programming language that guarantees memory safety and performance simultaneously, preventing many bugs at compile time through its ownership system and type system. Claude Code understands Rust's unique ownership model and trait system, and can generate safe yet high-performance code.
 
-### Rust 안전성 활용
+### Utilizing Rust Safety
 
-Rust의 가장 큰 장점은 메모리 안전성을 런타임 비용 없이 보장한다는 점입니다. Claude Code는 소유권, 차용, 생명주기 등 Rust의 핵심 개념을 활용한 안전한 코드를 생성할 수 있습니다.
-
-```bash
-claude "이 C++ 코드를 Rust로 재작성해줘.
-소유권, 생명주기, 트레이트를 활용해서
-메모리 안전성을 보장하면서도 성능을 유지해줘"
-```
-
-### Rust 에러 처리
-
-**1. Result 타입 활용**
+Rust's biggest advantage is guaranteeing memory safety without runtime cost. Claude Code can generate safe code utilizing Rust's core concepts like ownership, borrowing, and lifetimes.
 
 ```bash
-claude "이 함수들의 에러 처리를 개선해줘.
-Result 타입과 ? 연산자를 사용하고,
-커스텀 에러 타입도 정의해줘"
+claude "Rewrite this C++ code in Rust.
+Utilize ownership, lifetimes, and traits
+to ensure memory safety while maintaining performance."
 ```
 
-**2. 비동기 Rust**
+### Rust Error Handling
+
+**1. Utilizing Result Type**
 
 ```bash
-claude "Tokio를 사용해서 비동기 웹 서버를 만들어줘.
-동시 요청 처리, 타임아웃, 그리고 graceful shutdown을 구현해줘"
+claude "Improve error handling in these functions.
+Use the Result type and ? operator,
+and define custom error types."
 ```
 
-### Rust CLAUDE.md 예시
+**2. Asynchronous Rust**
+
+```bash
+claude "Create an asynchronous web server using Tokio.
+Implement concurrent request handling, timeouts, and graceful shutdown."
+```
+
+### Rust CLAUDE.md Example
 
 ```markdown
 # Rust Project Guidelines
 
-## 안전성 규칙
-- unsafe 최소화
-- unwrap() 사용 금지
-- clippy 경고 모두 해결
+## Safety Rules
+- Minimize `unsafe`
+- Prohibit `unwrap()` usage
+- Resolve all clippy warnings
 
-## 에러 처리
+## Error Handling
 ```rust
 use thiserror::Error;
 
@@ -4810,103 +4810,103 @@ pub enum AppError {
 }
 ```
 
-## 성능
-- 불필요한 복사 피하기
-- 제로 코스트 추상화 활용
-- 벤치마크로 검증
+## Performance
+- Avoid unnecessary copying
+- Utilize zero-cost abstractions
+- Verify with benchmarks
 
-## 의존성
-- 최소한의 크레이트 사용
-- 버전 고정
-- 보안 감사 정기 실행
+## Dependencies
+- Use minimal crates
+- Pin versions
+- Run security audits regularly
 ```
 
-## 언어 간 상호 운용성
+## Language Interoperability
 
-현대 소프트웨어 개발에서는 여러 프로그래밍 언어를 조합하여 각 언어의 장점을 활용하는 멀티 언어 아키텍처가 일반적입니다. Claude Code는 언어 간 경계를 넘나드는 통합 솔루션을 설계하고, 타입 안전성을 유지하면서 다양한 언어로 구성된 시스템을 구축할 수 있습니다.
+In modern software development, multi-language architectures that combine programming languages to leverage the strengths of each are common. Claude Code can design integrated solutions that cross language boundaries and build systems composed of various languages while maintaining type safety.
 
-### 다국어 프로젝트
+### Multilingual Projects
 
-서로 다른 언어로 개발된 컴포넌트들을 통합할 때는 API 인터페이스의 일관성과 타입 안전성이 중요합니다. Claude Code는 이러한 통합 과정을 자동화하고 최적화할 수 있습니다.
+When integrating components developed in different languages, API interface consistency and type safety are crucial. Claude Code can automate and optimize this integration process.
 
 ```bash
-claude "Python 백엔드와 TypeScript 프론트엔드를 연결하는
-타입 안전한 API 클라이언트를 생성해줘.
-OpenAPI 스펙을 기반으로 자동 생성되도록 해줘"
+claude "Generate a type-safe API client connecting a Python backend
+and a TypeScript frontend.
+Ensure it's auto-generated based on an OpenAPI spec."
 ```
 
 ### FFI (Foreign Function Interface)
 
 ```bash
-claude "Rust로 작성된 고성능 라이브러리를 
-Python에서 사용할 수 있도록 바인딩을 만들어줘.
-PyO3를 사용하고, 타입 변환도 안전하게 처리해줘"
+claude "Create bindings to use a high-performance library written in Rust
+from Python.
+Use PyO3 and handle type conversions safely."
 ```
 
-## 언어별 최적화 전략
+## Language-Specific Optimization Strategies
 
-각 프로그래밍 언어는 서로 다른 설계 목표와 트레이드오프를 가지고 있어, 언어별로 최적화 접근 방식이 달라야 합니다. Claude Code는 각 언어의 특성에 맞는 최적화 전략을 적용하여 최상의 결과를 달성할 수 있습니다.
+Each programming language has different design goals and trade-offs, so optimization approaches should vary by language. Claude Code can apply optimization strategies tailored to each language's characteristics to achieve the best results.
 
-### 1. 성능 중심 언어 (C++, Rust, Go)
+### 1. Performance-Oriented Languages (C++, Rust, Go)
 
-성능이 핵심 요구사항인 언어들은 실행 속도, 메모리 사용량, 처리량 최적화에 집중해야 합니다. Claude Code는 벤치마킹과 프로파일링을 통한 데이터 기반 최적화를 지원합니다.
+Languages where performance is a key requirement should focus on optimizing execution speed, memory usage, and throughput. Claude Code supports data-driven optimization through benchmarking and profiling.
 
 ```bash
-# 벤치마크 기반 최적화
-claude "이 함수의 성능을 프로파일링하고 최적화해줘.
-벤치마크를 작성하고, 병목 지점을 찾아서 개선해줘"
+# Benchmark-driven optimization
+claude "Profile and optimize the performance of this function.
+Write benchmarks, find bottlenecks, and improve them."
 ```
 
-### 2. 생산성 중심 언어 (Python, Ruby, JavaScript)
+### 2. Productivity-Oriented Languages (Python, Ruby, JavaScript)
 
 ```bash
-# 개발 속도 최적화
-claude "이 프로토타입을 빠르게 구현해줘.
-일단 작동하게 만든 후, 필요한 부분만 최적화해줘"
+# Development speed optimization
+claude "Implement this prototype quickly.
+Make it work first, then optimize only necessary parts."
 ```
 
-### 3. 안전성 중심 언어 (Rust, Haskell, Kotlin)
+### 3. Safety-Oriented Languages (Rust, Haskell, Kotlin)
 
 ```bash
-# 타입 시스템 활용
-claude "이 비즈니스 로직을 타입 시스템으로 보장해줘.
-런타임 에러가 발생할 수 없도록 컴파일 타임에 검증해줘"
+# Utilize type system
+claude "Ensure this business logic with the type system.
+Verify at compile time so runtime errors cannot occur."
 ```
 
-## 실전 팁: 언어 선택 가이드
+## Practical Tip: Language Selection Guide
 
-프로젝트에 적합한 프로그래밍 언어를 선택하는 것은 프로젝트 성공의 핵심 요소입니다. Claude Code는 다양한 요소를 종합적으로 고려하여 최적의 언어 선택을 도와줄 수 있습니다.
+Choosing the right programming language for a project is a key factor in its success. Claude Code can help select the optimal language by comprehensively considering various factors.
 
-### 언어 선택 기준
+### Language Selection Criteria
 
-효과적인 언어 선택을 위해서는 기술적 요구사항뿐만 아니라 팀의 역량, 프로젝트 일정, 장기적 유지보수성 등을 종합적으로 고려해야 합니다.
+Effective language selection requires comprehensive consideration of not only technical requirements but also team capabilities, project timelines, and long-term maintainability.
 
 ```bash
-# 프로젝트 요구사항 분석
-claude "이 프로젝트의 요구사항을 분석하고,
-가장 적합한 프로그래밍 언어를 추천해줘.
-성능, 개발 속도, 팀 역량, 생태계를 고려해줘"
+# Project requirements analysis
+claude "Analyze the requirements of this project and
+recommend the most suitable programming language.
+Consider performance, development speed, team competency, and ecosystem."
 ```
 
-### 언어별 적합한 도메인
+### Suitable Domains for Each Language
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 graph LR
-    subgraph languages [언어별 전문 분야]
-        A[Python<br/>데이터 과학, AI/ML<br/>스크립팅] 
-        B[JavaScript/TS<br/>웹 개발<br/>풀스택]
-        C[Go<br/>마이크로서비스<br/>DevOps]
-        D[Rust<br/>시스템 프로그래밍<br/>WebAssembly]
-        E[Java/Kotlin<br/>엔터프라이즈<br/>Android]
+    subgraph languages [Language Specializations]
+        A[Python<br/>Data Science, AI/ML<br/>Scripting]
+        B[JavaScript/TS<br/>Web Development<br/>Full-stack]
+        C[Go<br/>Microservices<br/>DevOps]
+        D[Rust<br/>Systems Programming<br/>WebAssembly]
+        E[Java/Kotlin<br/>Enterprise<br/>Android]
     end
     
-    subgraph strengths [핵심 강점]
-        F[풍부한 라이브러리<br/>빠른 프로토타이핑]
-        G[유니버설 언어<br/>생태계 통합]
-        H[단순함과 성능<br/>동시성 모델]
-        I[안전성과 성능<br/>메모리 효율성]
-        J[성숙한 생태계<br/>플랫폼 안정성]
+    subgraph strengths [Core Strengths]
+        F[Rich Libraries<br/>Rapid Prototyping]
+        G[Universal Language<br/>Ecosystem Integration]
+        H[Simplicity & Performance<br/>Concurrency Model]
+        I[Safety & Performance<br/>Memory Efficiency]
+        J[Mature Ecosystem<br/>Platform Stability]
     end
     
     A -.-> F
@@ -4922,114 +4922,114 @@ graph LR
     class F,G,H,I,J strengthStyle
 ```
 
-## 마치며
+## Conclusion
 
-언어별 특성을 깊이 이해하고 활용하는 것은 Claude Code를 효과적으로 활용하는 핵심입니다. 각 프로그래밍 언어는 고유한 철학과 강점을 가지고 있으며, 이를 최대한 활용할 때 진정한 가치를 발휘할 수 있습니다.
+Deeply understanding and utilizing language-specific characteristics is key to effectively using Claude Code. Each programming language has its unique philosophy and strengths, and its true value is realized when these are maximized.
 
-### 핵심 원칙 요약
+### Summary of Core Principles
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 mindmap
-  root((핵심 원칙))
-    언어 철학 존중
-      가치와 설계 원칙 이해
-      언어 고유 특성 반영
-      파라다임 일관성 유지
-    생태계 활용
-      표준 도구 적극 활용
-      검증된 라이브러리 사용
-      프레임워크 모범 사례
-      개발 효율성 극대화
-    관용구 따르기
-      커뮤니티 검증 패턴
-      일관된 코딩 스타일
-      팀 협업 향상
-      유지보수성 확보
-    강점 극대화
-      고유 장점 식별
-      적합한 아키텍처 적용
-      성능 특성 활용
-      문제 영역 최적화
+  root((Core Principles))
+    Respect Language Philosophy
+      Understand values and design principles
+      Reflect language-unique characteristics
+      Maintain paradigm consistency
+    Utilize Ecosystem
+      Actively use standard tools
+      Use proven libraries
+      Framework best practices
+      Maximize development efficiency
+    Follow Idioms
+      Community-verified patterns
+      Consistent coding style
+      Improve team collaboration
+      Ensure maintainability
+    Maximize Strengths
+      Identify unique advantages
+      Apply suitable architecture
+      Utilize performance characteristics
+      Optimize problem areas
 ```
 
-1. **언어 철학 존중**: 각 언어가 추구하는 가치와 설계 원칙을 깊이 이해하고 코드에 반영
-2. **생태계 활용**: 언어별 표준 도구, 라이브러리, 프레임워크를 적극 활용하여 개발 효율성 극대화
-3. **관용구 따르기**: 커뮤니티에서 검증된 코딩 스타일과 패턴을 준수하여 일관성 있는 코드 작성
-4. **강점 극대화**: 각 언어의 고유한 장점을 살리는 아키텍처와 설계 패턴 적용
+1. **Respect Language Philosophy**: Deeply understand the values and design principles pursued by each language and reflect them in the code.
+2. **Utilize Ecosystem**: Maximize development efficiency by actively using language-specific standard tools, libraries, and frameworks.
+3. **Follow Idioms**: Write consistent code by adhering to community-verified coding styles and patterns.
+4. **Maximize Strengths**: Apply architectures and design patterns that leverage the unique advantages of each language.
 
-### 실무 적용 전략
+### Practical Application Strategy
 
-- **프로젝트 시작 시**: 요구사항에 가장 적합한 언어 선택과 초기 설정 최적화
-- **개발 중**: 언어별 모범 사례를 준수하는 코드 작성과 지속적인 코드 품질 관리
-- **유지보수**: 언어 생태계의 발전에 맞춘 지속적인 업데이트와 현대화
-- **팀 협업**: 언어별 가이드라인 공유와 코드 리뷰 기준 수립
+- **Project Kick-off**: Select the most suitable language for requirements and optimize initial setup.
+- **During Development**: Write code adhering to language-specific best practices and continuously manage code quality.
+- **Maintenance**: Continuously update and modernize in line with the evolution of the language ecosystem.
+- **Team Collaboration**: Share language-specific guidelines and establish code review standards.
 
-다음 장에서는 이러한 언어별 특성을 활용하여 효율적인 개발 워크플로우를 구축하는 방법을 살펴보겠습니다. 개발 프로세스 전반에 걸쳐 Claude Code를 통합하여 생산성을 극대화하는 전략을 탐구해봅시다.
+In the next chapter, we will explore how to build efficient development workflows by utilizing these language-specific characteristics. Let's delve into strategies for maximizing productivity by integrating Claude Code throughout the development process.
 
 \newpage
 
-# 제7장: 효율적인 개발 워크플로우
+# Chapter 7: Efficient Development Workflows
 
-> "완벽한 계획보다 지속적인 개선이 낫다" - 애자일 원칙
+> "Continuous improvement is better than delayed perfection." - Agile Principle
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 mindmap
-  root((학습 목표))
-    워크플로우 구축
-      EPCC 사이클 마스터
-      체계적 접근 방법
-      반복 가능한 프로세스
-    TDD 실천
-      테스트 주도 개발
-      품질 중심 사고
-      안전한 리팩토링
-    코드 품질 개선
-      코드 스멜 탐지
-      점진적 리팩토링
-      성능 최적화
-    생산성 극대화
-      문서화 자동화
-      워크플로우 최적화
-      도구 활용 전략
+  root((Learning Objectives))
+    Workflow Construction
+      Mastering EPCC Cycle
+      Systematic Approach
+      Repeatable Process
+    Practicing TDD
+      Test-Driven Development
+      Quality-focused Mindset
+      Safe Refactoring
+    Code Quality Improvement
+      Detecting Code Smells
+      Incremental Refactoring
+      Performance Optimization
+    Productivity Maximization
+      Documentation Automation
+      Workflow Optimization
+      Tool Utilization Strategy
 ```
 
-## 학습 목표
+## Learning Objectives
 
-이 장을 완료하면 다음을 할 수 있습니다.
+Upon completing this chapter, you will be able to:
 
-- EPCC(Explore-Plan-Code-Commit) 워크플로우를 구축하고 실행할 수 있습니다.
-- TDD(Test-Driven Development)를 Claude Code와 함께 효과적으로 실천할 수 있습니다.
-- 체계적인 리팩토링과 코드 품질 개선 프로세스를 수립할 수 있습니다.
-- 문서화 자동화와 워크플로우 최적화를 통해 개발 생산성을 극대화할 수 있습니다.
+- Construct and execute an EPCC (Explore-Plan-Code-Commit) workflow.
+- Effectively practice TDD (Test-Driven Development) with Claude Code.
+- Establish systematic refactoring and code quality improvement processes.
+- Maximize development productivity through documentation automation and workflow optimization.
 
-## 개요
+## Overview
 
-효율적인 개발 워크플로우는 단순히 빠르게 코딩하는 것이 아닙니다. 체계적인 접근 방식, 적절한 자동화, 그리고 지속적인 개선을 통해 높은 품질의 소프트웨어를 일관되게 제공하는 것이 핵심입니다.
+An efficient development workflow is not just about coding quickly. The key is to consistently deliver high-quality software through a systematic approach, appropriate automation, and continuous improvement.
 
-현대 소프트웨어 개발에서 워크플로우는 개발자의 생산성과 코드 품질을 직접적으로 좌우하는 중요한 요소입니다. Claude Code는 이러한 워크플로우의 각 단계에서 지능적인 지원을 제공하여, 개발자가 창조적인 작업에 더 집중할 수 있도록 도와줍니다.
+In modern software development, workflow is a critical factor that directly influences developer productivity and code quality. Claude Code provides intelligent support at each stage of this workflow, helping developers focus more on creative tasks.
 
-## 7.1 탐색-계획-코딩-커밋 사이클
+## 7.1 Explore-Plan-Code-Commit Cycle
 
-EPCC(Explore-Plan-Code-Commit) 워크플로우는 체계적이고 반복 가능한 개발 프로세스를 제공합니다. 이 워크플로우는 무작정 코딩을 시작하는 대신, 충분한 이해와 계획을 바탕으로 한 신중한 개발을 가능하게 합니다.
+The EPCC (Explore-Plan-Code-Commit) workflow provides a systematic and repeatable development process. This workflow enables deliberate development based on sufficient understanding and planning, instead of starting to code haphazardly.
 
-### EPCC (Explore-Plan-Code-Commit) 워크플로우
+### EPCC (Explore-Plan-Code-Commit) Workflow
 
-각 단계는 고유한 목적과 산출물을 가지며, 순환적으로 반복되어 지속적인 품질 향상을 달성합니다.
+Each stage has a unique purpose and deliverables, and is cyclically repeated to achieve continuous quality improvement.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 flowchart TD
-    A[Explore<br/>코드베이스 이해] --> B[Plan<br/>접근 방법 설계]
-    B --> C[Code<br/>구현 및 테스트]
-    C --> D[Commit<br/>검증 및 커밋]
+    A[Explore<br/>Understand Codebase] --> B[Plan<br/>Design Approach]
+    B --> C[Code<br/>Implement & Test]
+    C --> D[Commit<br/>Verify & Commit]
     D --> A
     
-    E[체계적 분석<br/>아키텍처 파악<br/>기술 부채 식별] -.-> A
-    F[구현 전략 수립<br/>작업 분해<br/>리스크 평가] -.-> B
-    G[점진적 구현<br/>TDD 적용<br/>통합 테스트] -.-> C
-    H[코드 검증<br/>커밋 메시지<br/>품질 확인] -.-> D
+    E[Systematic Analysis<br/>Identify Architecture<br/>Identify Technical Debt] -.-> A
+    F[Formulate Implementation Strategy<br/>Decompose Tasks<br/>Assess Risks] -.-> B
+    G[Incremental Implementation<br/>Apply TDD<br/>Integration Testing] -.-> C
+    H[Code Verification<br/>Commit Message<br/>Quality Check] -.-> D
     
     classDef primaryStyle fill:#e2e8f0,stroke:#334155,stroke-width:3px,color:#1e293b
     classDef detailStyle fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
@@ -5038,170 +5038,170 @@ flowchart TD
     class E,F,G,H detailStyle
 ```
 
-### 1단계: Explore (탐색) - 체계적 코드베이스 이해
+### Stage 1: Explore - Systematic Codebase Understanding
 
-탐색 단계는 성공적인 개발을 위한 기반을 마련하는 중요한 과정입니다. 충분한 이해 없이 코딩을 시작하는 것은 잘못된 설계와 기술 부채로 이어질 수 있습니다. Claude Code는 복잡한 코드베이스를 체계적으로 분석하여 개발자가 빠르게 전체 구조를 파악할 수 있도록 지원합니다.
+The exploration stage is a crucial process that lays the foundation for successful development. Starting to code without sufficient understanding can lead to flawed designs and technical debt. Claude Code systematically analyzes complex codebases to help developers quickly grasp the overall structure.
 
-**프로젝트 아키텍처 분석**
+**Project Architecture Analysis**
 
 ```bash
-# 고수준 아키텍처 이해
-claude "이 프로젝트의 전체 아키텍처를 분석해줘.
-- 마이크로서비스 vs 모놀리식 구조
-- 주요 도메인과 경계
-- 데이터 흐름과 의존성 방향
-- 외부 시스템과의 통합 지점
-- 보안 경계와 인증 방식"
+# Understand high-level architecture
+claude "Analyze the overall architecture of this project.
+- Microservices vs. Monolithic structure
+- Key domains and boundaries
+- Data flow and dependency directions
+- Integration points with external systems
+- Security boundaries and authentication methods"
 
-# 기술 스택 심층 분석
-claude "사용된 기술 스택을 종합적으로 분석해줘.
-- 프론트엔드: 프레임워크, 상태 관리, 빌드 도구
-- 백엔드: 언어, 프레임워크, ORM, 미들웨어
-- 데이터베이스: 타입, 버전, 스키마 설계 패턴
-- 인프라: 컨테이너화, 오케스트레이션, 모니터링
-- 각 기술 선택의 이유와 장단점 분석"
+# In-depth analysis of technology stack
+claude "Comprehensively analyze the technology stack used.
+- Frontend: Framework, state management, build tools
+- Backend: Language, framework, ORM, middleware
+- Database: Type, version, schema design patterns
+- Infrastructure: Containerization, orchestration, monitoring
+- Reasons for each technology choice and their pros/cons"
 
-# 코드 품질과 컨벤션 평가
-claude "프로젝트의 코드 품질과 개발 관행을 평가해줘.
-- 네이밍 규칙과 일관성 확인
-- 파일/폴더 구조 패턴
-- 테스트 커버리지와 전략
-- 문서화 수준과 품질
-- CI/CD 파이프라인 구성
-- 코드 리뷰 프로세스 흔적"
+# Evaluate code quality and conventions
+claude "Evaluate the project's code quality and development practices.
+- Naming conventions and consistency
+- File/folder structure patterns
+- Test coverage and strategy
+- Documentation level and quality
+- CI/CD pipeline configuration
+- Traces of code review process"
 ```
 
-**기능별 심층 추적과 분석**
+**In-depth Tracking and Analysis by Feature**
 
 ```bash
-# 비즈니스 크리티컬 기능 분석
-claude "사용자 인증 및 권한 관리 시스템을 종합 분석해줘.
-- 인증 플로우 (로그인, 토큰 관리, 세션)
-- 권한 부여 메커니즘 (RBAC, ABAC)
-- 보안 고려사항 (암호화, 검증)
-- 프론트엔드-백엔드 연동 방식
-- 에러 처리와 사용자 경험
-- 확장 가능성과 개선점"
+# Analyze business-critical features
+claude "Comprehensively analyze the user authentication and authorization system.
+- Authentication flow (login, token management, session)
+- Authorization mechanism (RBAC, ABAC)
+- Security considerations (encryption, validation)
+- Frontend-backend integration method
+- Error handling and user experience
+- Scalability and improvement points"
 
-# 데이터 흐름과 상태 관리
-claude "애플리케이션의 데이터 흐름을 추적하고 분석해줘.
-- 사용자 입력부터 데이터 저장까지의 전체 경로
-- 클라이언트 사이드 상태 관리 패턴
-- 서버 사이드 데이터 처리 로직
-- 캐싱 전략과 성능 최적화
-- 데이터 일관성과 동시성 처리"
+# Data flow and state management
+claude "Track and analyze the application's data flow.
+- Entire path from user input to data storage
+- Client-side state management patterns
+- Server-side data processing logic
+- Caching strategy and performance optimization
+- Data consistency and concurrency handling"
 
-# 성능과 확장성 분석
-claude "시스템의 성능 특성과 확장성을 분석해줘.
-- 현재 성능 병목 지점 식별
-- 트래픽 처리 능력과 한계
-- 데이터베이스 쿼리 패턴과 최적화 기회
-- 메모리 사용 패턴과 가비지 컬렉션
-- 확장 전략 (수평적 vs 수직적)"
+# Performance and scalability analysis
+claude "Analyze the system's performance characteristics and scalability.
+- Identify current performance bottlenecks
+- Traffic handling capacity and limits
+- Database query patterns and optimization opportunities
+- Memory usage patterns and garbage collection
+- Scaling strategy (horizontal vs. vertical)"
 ```
 
-**기술적 부채와 개선 기회 식별**
+**Identifying Technical Debt and Improvement Opportunities**
 
-효과적인 탐색은 단순히 현재 상태를 이해하는 것을 넘어서 잠재적 문제와 개선 기회를 사전에 식별하는 것입니다.
-
-```bash
-# 기술 부채 평가
-claude "코드베이스의 기술 부채를 종합 평가해줘.
-- 구식 라이브러리와 보안 취약점
-- 중복 코드와 리팩토링 필요 영역
-- 복잡도가 높은 모듈과 함수
-- 테스트가 부족한 크리티컬 영역
-- 문서화 부족으로 인한 유지보수 어려움
-- 우선순위별 개선 로드맵 제안"
-
-# 아키텍처 진화 가능성
-claude "현재 아키텍처의 발전 방향을 제안해줘.
-- 마이크로서비스 분해 가능성
-- 새로운 기술 스택 도입 기회
-- 성능 개선을 위한 아키텍처 변경
-- 확장성 향상 방안
-- 비용 최적화 기회"
-
-### 2단계: Plan (계획)
-
-**구현 전략 수립**
+Effective exploration goes beyond simply understanding the current state; it involves proactively identifying potential problems and improvement opportunities.
 
 ```bash
-claude "장바구니 기능을 추가하려고 해. 
-현재 아키텍처를 고려해서 구현 계획을 세워줘.
-필요한 컴포넌트, API 엔드포인트, 데이터 모델을 포함해줘"
+# Assess technical debt
+claude "Comprehensively assess the codebase's technical debt.
+- Outdated libraries and security vulnerabilities
+- Duplicate code and areas needing refactoring
+- Modules and functions with high complexity
+- Critical areas lacking tests
+- Maintenance difficulties due to poor documentation
+- Propose a prioritized improvement roadmap"
+
+# Architectural evolution potential
+claude "Suggest potential evolution paths for the current architecture.
+- Possibility of microservice decomposition
+- Opportunities to introduce new technology stacks
+- Architectural changes for performance improvement
+- Scalability enhancement measures
+- Cost optimization opportunities"
+
+### Stage 2: Plan
+
+**Formulating Implementation Strategy**
+
+```bash
+claude "I want to add a shopping cart feature.
+Create an implementation plan considering the current architecture.
+Include necessary components, API endpoints, and data models."
 ```
 
-**작업 분해**
+**Task Decomposition**
 
 ```bash
-claude "이 기능을 구현하기 위한 작업을 단계별로 나눠줘.
-각 단계는 독립적으로 테스트 가능해야 하고,
-예상 소요 시간도 추정해줘"
+claude "Break down the tasks to implement this feature step by step.
+Each step should be independently testable,
+and estimate the time required for each."
 ```
 
-**리스크 평가**
+**Risk Assessment**
 
 ```bash
-claude "이 변경사항이 기존 코드에 미칠 영향을 분석해줘.
-잠재적인 문제점과 해결 방안을 제시해줘"
+claude "Analyze the impact these changes will have on the existing code.
+Identify potential problems and suggest solutions."
 ```
 
-### 3단계: Code (코딩)
+### Stage 3: Code
 
-**점진적 구현**
+**Incremental Implementation**
 
 ```bash
-# 스켈레톤 코드 생성
-claude "계획에 따라 기본 구조를 먼저 만들어줘.
-인터페이스와 빈 메서드로 시작해서 단계적으로 구현할 수 있도록"
+# Generate skeleton code
+claude "Create the basic structure according to the plan first.
+Start with interfaces and empty methods so it can be implemented incrementally."
 
-# 핵심 로직 구현
-claude "이제 핵심 비즈니스 로직을 구현해줘.
-단위 테스트도 함께 작성해서 동작을 검증해줘"
+# Implement core logic
+claude "Now implement the core business logic.
+Write unit tests alongside to verify functionality."
 
-# 통합 및 연결
-claude "구현한 기능을 기존 시스템과 통합해줘.
-필요한 어댑터나 미들웨어도 작성해줘"
+# Integration and connection
+claude "Integrate the implemented feature with the existing system.
+Write necessary adapters or middleware as well."
 ```
 
-### 4단계: Commit (커밋)
+### Stage 4: Commit
 
-**코드 검증**
+**Code Verification**
 
 ```bash
-# 자동 검증
-claude "커밋하기 전에 다음을 확인해줘
-- 모든 테스트 통과
-- 린팅 규칙 준수
-- 타입 체크 통과
-- 코드 커버리지 확인"
+# Automated verification
+claude "Before committing, please check the following:
+- All tests pass
+- Adherence to linting rules
+- Type checks pass
+- Code coverage"
 
-# 커밋 메시지 작성
-claude "변경사항을 분석해서 의미 있는 커밋 메시지를 작성해줘.
-conventional commits 형식을 따르고,
-변경 이유와 영향을 명확히 설명해줘"
+# Write commit message
+claude "Analyze the changes and write a meaningful commit message.
+Follow conventional commits format,
+and clearly explain the reason for change and its impact."
 ```
 
-## 7.2 테스트 주도 개발(TDD) 실천
+## 7.2 Practicing Test-Driven Development (TDD)
 
-테스트 주도 개발(TDD)은 높은 품질의 코드를 작성하기 위한 검증된 방법론입니다. Claude Code는 TDD의 각 단계에서 적절한 테스트 케이스 생성, 최소 구현, 그리고 리팩토링을 지원하여 개발자가 TDD 원칙을 효과적으로 실천할 수 있도록 도와줍니다.
+Test-Driven Development (TDD) is a proven methodology for writing high-quality code. Claude Code supports each stage of TDD by generating appropriate test cases, minimal implementations, and refactoring, helping developers effectively practice TDD principles.
 
-### TDD 사이클
+### TDD Cycle
 
-TDD의 Red-Green-Refactor 사이클은 코드 품질과 설계의 점진적 개선을 통해 견고한 소프트웨어를 구축하는 기반이 됩니다.
+The Red-Green-Refactor cycle of TDD is the foundation for building robust software through incremental improvement of code quality and design.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 flowchart LR
-    A[Red<br/>실패하는 테스트 작성] --> B[Green<br/>최소 구현으로 통과]
-    B --> C[Refactor<br/>코드 품질 개선]
+    A[Red<br/>Write a failing test] --> B[Green<br/>Pass with minimal implementation]
+    B --> C[Refactor<br/>Improve code quality]
     C --> A
     
-    subgraph activities [TDD 활동]
-        D[테스트 케이스 정의<br/>엣지 케이스 고려<br/>실패 확인]
-        E[최소한의 코드<br/>테스트 통과 집중<br/>성능은 나중에]
-        F[중복 제거<br/>가독성 향상<br/>설계 개선]
+    subgraph activities [TDD Activities]
+        D[Define test cases<br/>Consider edge cases<br/>Confirm failure]
+        E[Minimal code<br/>Focus on passing tests<br/>Performance later]
+        F[Remove duplication<br/>Improve readability<br/>Enhance design]
     end
     
     A -.-> D
@@ -5217,402 +5217,402 @@ flowchart LR
 
 ### TDD with Claude Code
 
-**1. Red Phase - 실패하는 테스트 작성**
+**1. Red Phase - Writing a Failing Test**
 
 ```bash
-claude "calculateDiscount 함수를 위한 테스트를 먼저 작성해줘.
-다음 시나리오를 포함해야 해
-- 일반 할인 (10%)
-- VIP 할인 (20%)
-- 최대 할인 한도
-- 엣지 케이스 (음수, 0, null)"
+claude "Write tests for the calculateDiscount function first.
+It should include the following scenarios:
+- Regular discount (10%)
+- VIP discount (20%)
+- Maximum discount limit
+- Edge cases (negative, 0, null)"
 ```
 
-**2. Green Phase - 최소 구현**
+**2. Green Phase - Minimal Implementation**
 
 ```bash
-claude "작성한 테스트를 통과하는 최소한의 코드를 구현해줘.
-아직 최적화는 하지 말고, 테스트 통과에만 집중해줘"
+claude "Implement the minimal code to pass the written tests.
+Don't optimize yet, just focus on passing the tests."
 ```
 
-**3. Refactor Phase - 개선**
+**3. Refactor Phase - Improvement**
 
 ```bash
-claude "이제 테스트는 유지하면서 코드를 개선해줘.
-중복 제거, 가독성 향상, 성능 최적화를 진행해줘"
+claude "Now improve the code while keeping the tests passing.
+Remove duplication, improve readability, and optimize performance."
 ```
 
-### TDD 실전 예제
+### TDD Practical Example
 
 ```bash
-# 사용자 스토리
-claude "사용자 스토리: '사용자는 비밀번호를 변경할 수 있다'
-이를 위한 TDD 사이클을 시작해줘"
+# User story
+claude "User story: 'As a user, I want to be able to change my password.'
+Start a TDD cycle for this."
 
-# Claude의 응답 과정
-# 1. 테스트 케이스 정의
-# 2. API 엔드포인트 테스트 작성
-# 3. 서비스 레이어 테스트 작성
-# 4. 실제 구현
-# 5. 리팩토링
+# Claude's response process
+# 1. Define test cases
+# 2. Write API endpoint tests
+# 3. Write service layer tests
+# 4. Actual implementation
+# 5. Refactoring
 ```
 
-## 7.3 비주얼 디자인 구현 워크플로우
+## 7.3 Visual Design Implementation Workflow
 
-비주얼 디자인을 정확하고 효율적으로 코드로 구현하는 것은 현대 프론트엔드 개발의 핵심 역량입니다. Claude Code는 디자인 의도를 정확히 파악하고, 반응형 레이아웃과 인터랙션까지 고려한 완성도 높은 구현을 지원합니다.
+Accurately and efficiently implementing visual designs into code is a core competency in modern frontend development. Claude Code accurately grasps design intent and supports high-quality implementation considering responsive layouts and interactions.
 
-### 디자인을 코드로
+### Design to Code
 
-체계적인 디자인 구현 워크플로우는 디자이너와 개발자 간의 협업을 원활하게 하고, 일관된 사용자 경험을 보장합니다.
+A systematic design implementation workflow streamlines collaboration between designers and developers and ensures a consistent user experience.
 
-**1. 스크린샷 기반 개발**
+**1. Screenshot-Based Development**
 
 ```bash
-# 디자인 파일 제공
-claude "이 Figma 디자인 스크린샷을 보고 
-React 컴포넌트로 구현해줘. 
-반응형 디자인과 다크 모드도 지원해야 해"
+# Provide design file
+claude "Implement this Figma design screenshot as a
+React component.
+It should support responsive design and dark mode."
 ```
 
-**2. 반복적 개선**
+**2. Iterative Improvement**
 
 ```bash
-# 초기 구현
-claude "기본 레이아웃과 스타일을 먼저 구현해줘"
+# Initial implementation
+claude "Implement the basic layout and styles first."
 
-# 세부 조정
-claude "패딩을 조금 늘리고, 폰트 크기를 조정해줘.
-호버 효과와 트랜지션도 추가해줘"
+# Fine-tuning
+claude "Increase padding slightly and adjust font size.
+Also add hover effects and transitions."
 
-# 인터랙션 추가
-claude "클릭 시 애니메이션과 로딩 상태를 추가해줘"
+# Add interactions
+claude "Add click animations and loading states."
 ```
 
-### 컴포넌트 라이브러리 구축
+### Building a Component Library
 
 ```bash
-claude "디자인 시스템을 기반으로 컴포넌트 라이브러리를 만들어줘.
-Button, Card, Modal 등 기본 컴포넌트를 포함하고,
-Storybook으로 문서화해줘"
+claude "Create a component library based on the design system.
+Include basic components like Button, Card, Modal,
+and document it with Storybook."
 ```
 
-## 7.4 리팩토링과 코드 품질 개선
+## 7.4 Refactoring and Code Quality Improvement
 
-리팩토링은 코드의 외부 동작을 변경하지 않으면서 내부 구조를 개선하는 중요한 활동입니다. Claude Code는 코드 스멜을 자동으로 탐지하고, 안전한 리팩토링 전략을 제시하며, 지속적인 코드 품질 향상을 지원합니다.
+Refactoring is an important activity that improves the internal structure of code without changing its external behavior. Claude Code automatically detects code smells, suggests safe refactoring strategies, and supports continuous code quality improvement.
 
-### 체계적인 리팩토링
+### Systematic Refactoring
 
-효과적인 리팩토링은 단순한 코드 정리를 넘어서, 시스템의 유지보수성과 확장성을 크게 향상시키는 전략적 활동입니다.
+Effective refactoring goes beyond simple code cleanup; it is a strategic activity that significantly improves system maintainability and scalability.
 
-**1. 코드 스멜 탐지**
+**1. Detecting Code Smells**
 
 ```bash
-claude "이 코드베이스에서 리팩토링이 필요한 부분을 찾아줘.
-다음을 중점적으로 확인해줘
-- 중복 코드
-- 긴 함수
-- 복잡한 조건문
-- 부적절한 이름"
+claude "Find areas in this codebase that need refactoring.
+Focus on checking for:
+- Duplicate code
+- Long functions
+- Complex conditional statements
+- Inappropriate names"
 ```
 
-**2. 단계별 리팩토링**
+**2. Step-by-Step Refactoring**
 
 ```bash
-# 1단계: 테스트 확보
-claude "리팩토링 전에 현재 동작을 보장하는 테스트를 작성해줘"
+# Step 1: Ensure tests
+claude "Write tests to guarantee current functionality before refactoring."
 
-# 2단계: 작은 단위로 개선
-claude "한 번에 하나씩 리팩토링을 진행해줘.
-각 단계마다 테스트가 통과하는지 확인해줘"
+# Step 2: Improve in small units
+claude "Proceed with refactoring one step at a time.
+Confirm that tests pass after each step."
 
-# 3단계: 성능 검증
-claude "리팩토링 전후의 성능을 비교해줘.
-벤치마크를 실행하고 결과를 분석해줘"
+# Step 3: Performance validation
+claude "Compare performance before and after refactoring.
+Run benchmarks and analyze the results."
 ```
 
-### 코드 품질 메트릭
+### Code Quality Metrics
 
 ```bash
-claude "코드 품질을 측정하고 개선 방안을 제시해줘
-- 순환 복잡도
-- 코드 커버리지
-- 기술 부채
-- 의존성 복잡도"
+claude "Measure code quality and suggest improvements for:
+- Cyclomatic complexity
+- Code coverage
+- Technical debt
+- Dependency complexity"
 ```
 
-## 7.5 문서화 자동화
+## 7.5 Documentation Automation
 
-문서화는 코드의 지속적인 유지보수와 팀 협업에 필수적인 요소입니다. Claude Code는 코드에서 자동으로 문서를 생성하고, 시각적 다이어그램을 작성하여 복잡한 시스템을 이해하기 쉽게 만드는 문서화 자동화를 지원합니다.
+Documentation is essential for ongoing code maintenance and team collaboration. Claude Code supports documentation automation by automatically generating documents from code and creating visual diagrams to make complex systems easier to understand.
 
-### 코드에서 문서로
+### Code to Documentation
 
-효과적인 문서화는 코드와 함께 진화하며, 개발자의 수작업을 최소화하면서도 항상 최신 상태를 유지해야 합니다.
+Effective documentation evolves with the code, minimizing manual effort for developers while always staying up-to-date.
 
-**1. API 문서 자동 생성**
+**1. Auto-generating API Documentation**
 
 ```bash
-claude "코드를 분석해서 API 문서를 자동으로 생성해줘.
-OpenAPI(Swagger) 스펙으로 만들고,
-예제 요청/응답도 포함해줘"
+claude "Analyze the code and automatically generate API documentation.
+Create it in OpenAPI (Swagger) spec,
+and include example requests/responses."
 ```
 
-**2. 코드 주석에서 문서로**
+**2. Documentation from Code Comments**
 
 ```bash
-claude "JSDoc/TSDoc 주석을 파싱해서 
-개발자 문서를 생성해줘.
-함수 설명, 파라미터, 반환값, 예제를 포함해줘"
+claude "Parse JSDoc/TSDoc comments and generate
+developer documentation.
+Include function descriptions, parameters, return values, and examples."
 ```
 
-### 다이어그램 생성
+### Diagram Generation
 
 ```bash
-claude "시스템 아키텍처를 Mermaid 다이어그램으로 그려줘.
-컴포넌트 간 관계와 데이터 흐름을 표시해줘"
+claude "Draw the system architecture as a Mermaid diagram.
+Show relationships between components and data flow."
 ```
 
-## 실전 워크플로우: 기능 추가 시나리오
+## Practical Workflow: Feature Addition Scenario
 
-실제 개발 환경에서 EPCC 워크플로우가 어떻게 적용되는지 구체적인 예시를 통해 살펴보겠습니다. 새로운 결제 기능을 추가하는 3일간의 전체 워크플로우를 통해 각 단계별 Claude Code 활용법을 확인할 수 있습니다.
+Let's look at a concrete example of how the EPCC workflow is applied in a real development environment. We will examine how Claude Code is used at each stage through a 3-day workflow for adding a new payment feature.
 
-### 프로젝트 개요: 새로운 결제 기능 추가
+### Project Overview: Adding a New Payment Feature
 
-복잡한 기능 개발 시 체계적인 접근 방식이 어떻게 위험을 줄이고 품질을 향상시키는지 확인해보겠습니다.
+Let's see how a systematic approach can reduce risks and improve quality when developing complex features.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 gantt
-    title 3일간 결제 기능 추가 워크플로우
+    title 3-Day Payment Feature Addition Workflow
     dateFormat  X
     axisFormat %d
     
-    section Day 1: 탐색과 계획
-    기존 시스템 분석     :active, d1-morning, 0, 1
-    결제 기능 설계      :d1-afternoon, after d1-morning, 1
-    아키텍처 문서화     :d1-doc, after d1-afternoon, 1
+    section Day 1: Exploration and Planning
+    Analyze Existing System     :active, d1-morning, 0, 1
+    Design Payment Feature      :d1-afternoon, after d1-morning, 1
+    Document Architecture     :d1-doc, after d1-afternoon, 1
     
-    section Day 2: 구현
-    백엔드 API 개발     :d2-backend, 1, 1
-    프론트엔드 UI      :d2-frontend, after d2-backend, 1
-    단위 테스트 작성    :d2-test, after d2-frontend, 1
+    section Day 2: Implementation
+    Develop Backend API     :d2-backend, 1, 1
+    Develop Frontend UI      :d2-frontend, after d2-backend, 1
+    Write Unit Tests    :d2-test, after d2-frontend, 1
     
-    section Day 3: 통합과 배포
-    통합 테스트        :d3-integration, 2, 1
-    E2E 테스트        :d3-e2e, after d3-integration, 1
-    문서화 및 배포 준비  :d3-deploy, after d3-e2e, 1
+    section Day 3: Integration and Deployment
+    Integration Testing        :d3-integration, 2, 1
+    E2E Testing        :d3-e2e, after d3-integration, 1
+    Documentation & Deployment Prep  :d3-deploy, after d3-e2e, 1
 ```
 
-### Day 1: 탐색과 계획
+### Day 1: Exploration and Planning
 
 ```bash
-# 오전: 기존 시스템 이해
-claude "현재 주문 시스템이 어떻게 구현되어 있는지 분석해줘"
+# Morning: Understand existing system
+claude "Analyze how the current ordering system is implemented."
 
-# 오후: 결제 기능 설계
-claude "Stripe를 사용한 결제 기능을 설계해줘.
-보안, 에러 처리, 재시도 로직을 고려해줘"
+# Afternoon: Design payment feature
+claude "Design a payment feature using Stripe.
+Consider security, error handling, and retry logic."
 ```
 
-### Day 2: 구현
+### Day 2: Implementation
 
 ```bash
-# 오전: 백엔드 구현
-claude "결제 API 엔드포인트를 TDD로 구현해줘"
+# Morning: Backend implementation
+claude "Implement the payment API endpoint using TDD."
 
-# 오후: 프론트엔드 구현
-claude "결제 UI를 구현해줘. 
-카드 정보 입력, 검증, 로딩 상태를 포함해줘"
+# Afternoon: Frontend implementation
+claude "Implement the payment UI.
+Include card information input, validation, and loading states."
 ```
 
-### Day 3: 통합과 테스트
+### Day 3: Integration and Testing
 
 ```bash
-# 오전: 통합 테스트
-claude "결제 플로우 전체를 테스트하는 E2E 테스트를 작성해줘"
+# Morning: Integration testing
+claude "Write E2E tests for the entire payment flow."
 
-# 오후: 문서화와 배포
-claude "결제 기능 사용 가이드를 작성하고,
-배포 체크리스트를 만들어줘"
+# Afternoon: Documentation and deployment
+claude "Write a user guide for the payment feature,
+and create a deployment checklist."
 ```
 
-## 워크플로우 최적화 팁
+## Workflow Optimization Tips
 
-### 1. 컨텍스트 관리
+### 1. Context Management
 
 ```bash
-# 긴 작업 시 컨텍스트 저장
-claude "지금까지의 작업을 요약하고,
-다음에 해야 할 일을 정리해줘"
+# Save context during long tasks
+claude "Summarize the work done so far,
+and outline what needs to be done next."
 
-# 컨텍스트 복원
-claude "이전에 작업하던 결제 기능 구현을 계속해줘.
-마지막으로 작업한 부분부터 시작해줘"
+# Restore context
+claude "Continue working on the payment feature implementation.
+Start from where I left off."
 ```
 
-### 2. 병렬 작업
+### 2. Parallel Work
 
 ```bash
-# 독립적인 작업 식별
-claude "이 기능들 중 동시에 진행할 수 있는 작업을 찾아줘"
+# Identify independent tasks
+claude "Find tasks among these features that can be done concurrently."
 
-# 멀티 인스턴스 활용
-# Terminal 1: 백엔드 개발
-# Terminal 2: 프론트엔드 개발
-# Terminal 3: 테스트 작성
+# Utilize multi-instances
+# Terminal 1: Backend development
+# Terminal 2: Frontend development
+# Terminal 3: Writing tests
 ```
 
-### 3. 자동화 스크립트
+### 3. Automation Scripts
 
 ```bash
-claude "반복적인 작업을 자동화하는 스크립트를 만들어줘
-- 새 컴포넌트 생성
-- 테스트 파일 생성
-- 배포 전 체크
-- 성능 측정"
+claude "Create scripts to automate repetitive tasks:
+- New component generation
+- Test file creation
+- Pre-deployment checks
+- Performance measurement"
 ```
 
-## 워크플로우 CLAUDE.md 예시
+## Workflow CLAUDE.md Example
 
 ```markdown
 # Development Workflow
 
-## 기능 개발 프로세스
-1. 이슈 생성 및 브랜치 생성
-2. 탐색: 관련 코드 분석 (30분)
-3. 계획: 구현 전략 수립 (30분)
-4. 구현: TDD로 개발 (2-4시간)
-5. 리뷰: 자체 코드 리뷰 (30분)
-6. PR 생성 및 리뷰 요청
+## Feature Development Process
+1. Create issue and branch
+2. Explore: Analyze related code (30 min)
+3. Plan: Formulate implementation strategy (30 min)
+4. Implement: Develop with TDD (2-4 hours)
+5. Review: Self code review (30 min)
+6. Create PR and request review
 
-## 일일 루틴
-- 09:00: 이슈 확인 및 우선순위 정리
-- 09:30: 집중 코딩 (포모도로 기법)
-- 14:00: 코드 리뷰
-- 16:00: 문서 업데이트
-- 17:00: 다음 날 계획
+## Daily Routine
+- 09:00: Check issues and prioritize
+- 09:30: Focused coding (Pomodoro technique)
+- 14:00: Code review
+- 16:00: Update documentation
+- 17:00: Plan for next day
 
-## 품질 체크리스트
-- [ ] 테스트 커버리지 80% 이상
-- [ ] 모든 함수에 JSDoc
-- [ ] 성능 프로파일링 완료
-- [ ] 접근성 검사 통과
-- [ ] 보안 스캔 통과
+## Quality Checklist
+- [ ] Test coverage >= 80%
+- [ ] JSDoc for all functions
+- [ ] Performance profiling complete
+- [ ] Accessibility check passed
+- [ ] Security scan passed
 ```
 
-## 마치며
+## Conclusion
 
-효율적인 개발 워크플로우는 개발자와 팀의 생산성을 결정하는 핵심 요소입니다. Claude Code는 이러한 워크플로우의 각 단계에서 지능적인 지원을 제공하여, 개발자가 더 높은 수준의 문제 해결에 집중할 수 있도록 도와줍니다.
+An efficient development workflow is a key factor determining the productivity of developers and teams. Claude Code provides intelligent support at each stage of this workflow, helping developers focus on higher-level problem-solving.
 
-### 핵심 원칙 요약
+### Summary of Core Principles
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 mindmap
-  root((핵심 원칙))
-    체계적 접근
-      EPCC 사이클 적용
-      예측 가능한 프로세스
-      반복 가능한 개발
-      리스크 최소화
-    품질 우선
-      TDD 실천
-      지속적 리팩토링
-      코드 리뷰 문화
-      자동화된 테스트
-    자동화 극대화
-      반복 작업 제거
-      도구 활용
-      스크립트 개발
-      효율성 향상
-    지속적 개선
-      메트릭 수집
-      프로세스 분석
-      피드백 반영
-      메타 개선
+  root((Core Principles))
+    Systematic Approach
+      Apply EPCC Cycle
+      Predictable Process
+      Repeatable Development
+      Minimize Risks
+    Quality First
+      Practice TDD
+      Continuous Refactoring
+      Code Review Culture
+      Automated Testing
+    Maximize Automation
+      Eliminate Repetitive Tasks
+      Utilize Tools
+      Develop Scripts
+      Enhance Efficiency
+    Continuous Improvement
+      Collect Metrics
+      Analyze Processes
+      Incorporate Feedback
+      Meta-Improvement
 ```
 
-1. **체계적 접근**: EPCC(탐색-계획-코딩-커밋) 사이클을 통한 예측 가능하고 반복 가능한 개발 프로세스
-2. **품질 우선**: TDD와 지속적인 리팩토링을 통한 코드 품질의 지속적 향상
-3. **자동화 극대화**: 반복적인 작업의 자동화를 통한 개발자 시간의 효율적 활용
-4. **지속적 개선**: 워크플로우 자체도 지속적으로 측정하고 개선하는 메타 프로세스
+1. **Systematic Approach**: Predictable and repeatable development process through the EPCC (Explore-Plan-Code-Commit) cycle.
+2. **Quality First**: Continuous improvement of code quality through TDD and continuous refactoring.
+3. **Maximize Automation**: Efficient use of developer time through automation of repetitive tasks.
+4. **Continuous Improvement**: A meta-process of continuously measuring and improving the workflow itself.
 
-### 실무 적용 전략
+### Practical Application Strategy
 
-- **개인 개발자**: 일관된 개발 리듬 구축과 품질 기준 수립
-- **팀 리더**: 팀 전체의 워크플로우 표준화와 모범 사례 공유
-- **조직**: 워크플로우 메트릭 수집과 지속적인 프로세스 개선
-- **프로젝트 관리**: 예측 가능한 개발 속도와 품질 보장
+- **Individual Developer**: Establish a consistent development rhythm and quality standards.
+- **Team Leader**: Standardize team-wide workflow and share best practices.
+- **Organization**: Collect workflow metrics and continuously improve processes.
+- **Project Management**: Ensure predictable development speed and quality.
 
-다음 장에서는 여러 Claude Code 인스턴스를 활용한 멀티태스킹과 병렬 처리 전략을 살펴보겠습니다. 복잡한 프로젝트에서 개발 속도를 극대화하는 고급 활용법을 탐구해봅시다.
+In the next chapter, we will explore multitasking and parallel processing strategies using multiple Claude Code instances. Let's delve into advanced utilization methods for maximizing development speed in complex projects.
 
 \newpage
 
-# 제8장: 멀티태스킹과 병렬 처리
+# Chapter 8: Multitasking and Parallel Processing
 
-> "병렬로 일하되, 동시에 생각하라" - 소프트웨어 아키텍처 원칙
+> "Work in parallel, but think concurrently." - Software Architecture Principle
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 mindmap
-  root((학습 목표))
-    멀티 인스턴스 관리
-      효과적인 역할 분담
-      컨텍스트 최적화
-      작업 동기화
-    병렬 개발 환경
-      Git Worktree 활용
-      독립적 개발 공간
-      브랜치별 특화 설정
-    마이크로서비스 개발
-      서비스별 전문화
-      동시 개발 전략
-      통합 관리
-    정보 공유 최적화
-      컨텍스트 관리
-      인스턴스 간 협업
-      지식 동기화
+  root((Learning Objectives))
+    Multi-Instance Management
+      Effective role delegation
+      Context optimization
+      Task synchronization
+    Parallel Development Environment
+      Utilizing Git Worktree
+      Independent development spaces
+      Branch-specific configurations
+    Microservice Development
+      Service-specific specialization
+      Concurrent development strategies
+      Integrated management
+    Information Sharing Optimization
+      Context management
+      Inter-instance collaboration
+      Knowledge synchronization
 ```
 
-## 학습 목표
+## Learning Objectives
 
-이 장을 완료하면 다음을 할 수 있습니다.
+Upon completing this chapter, you will be able to:
 
-- 여러 Claude Code 인스턴스를 효과적으로 관리하고 활용할 수 있습니다.
-- Git Worktree와 연동한 병렬 개발 환경을 구축할 수 있습니다.
-- 마이크로서비스 환경에서 동시 개발을 수행할 수 있습니다.
-- 컨텍스트 관리와 인스턴스 간 정보 공유를 최적화할 수 있습니다.
+- Effectively manage and utilize multiple Claude Code instances.
+- Build a parallel development environment integrated with Git Worktree.
+- Perform concurrent development in a microservice environment.
+- Optimize context management and information sharing between instances.
 
-## 개요
+## Overview
 
-현대 소프트웨어 개발은 복잡한 시스템을 빠르게 구축해야 하는 요구사항으로 인해 필연적으로 멀티태스킹이 필요한 환경이 되었습니다. Claude Code의 멀티 인스턴스 활용은 단순히 여러 작업을 동시에 하는 것을 넘어서, 각 인스턴스가 특화된 역할을 수행하며 시너지를 창출하는 고급 개발 전략입니다.
+Modern software development inevitably requires multitasking due to the demand for rapid construction of complex systems. Utilizing multiple Claude Code instances is an advanced development strategy that goes beyond simply performing multiple tasks simultaneously; it involves each instance performing specialized roles to create synergy.
 
-이 장에서는 여러 Claude Code 인스턴스를 체계적으로 관리하고, 각각의 특성에 맞는 역할을 부여하여 개발 효율성을 극대화하는 방법을 다룹니다.
+This chapter covers methods for systematically managing multiple Claude Code instances and assigning roles tailored to their specific characteristics to maximize development efficiency.
 
-## 8.1 여러 Claude 인스턴스 활용
+## 8.1 Utilizing Multiple Claude Instances
 
-멀티 인스턴스 전략은 각 인스턴스가 특정 도메인에 특화되어 일관성 있는 결과를 생성하도록 하는 것이 핵심입니다. 이를 통해 컨텍스트 스위칭 비용을 줄이고 각 영역별 전문성을 확보할 수 있습니다.
+The core of a multi-instance strategy is to have each instance specialize in a specific domain to generate consistent results. This reduces context switching costs and ensures expertise in each area.
 
-현대 소프트웨어 개발에서 멀티 인스턴스 활용은 단순한 병렬 작업을 넘어서 전략적 아키텍처 관점에서 접근해야 합니다. 각 인스턴스는 마치 전문 팀원처럼 고유한 역할과 책임을 가지며, 서로 다른 기술적 맥락과 비즈니스 도메인에 최적화되어 운영됩니다.
+In modern software development, utilizing multiple instances should be approached from a strategic architectural perspective, rather than just parallel task execution. Each instance, like a specialized team member, has unique roles and responsibilities, optimized for different technical contexts and business domains.
 
-### 엔터프라이즈급 멀티 인스턴스 아키텍처
+### Enterprise-Grade Multi-Instance Architecture
 
-효과적인 멀티 인스턴스 전략은 단순한 작업 분할을 넘어서 각 인스턴스의 전문성과 상호 보완성을 고려한 체계적 설계가 필요합니다.
+An effective multi-instance strategy requires systematic design that considers the expertise and complementarity of each instance, going beyond simple task division.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 graph TD
-    subgraph core [핵심 개발 영역]
-        A[Frontend Studio<br/>인스턴스 #1<br/>UX/UI 전문가] 
-        B[Backend Engine<br/>인스턴스 #2<br/>시스템 아키텍트]
+    subgraph core [Core Development Areas]
+        A[Frontend Studio<br/>Instance #1<br/>UX/UI Expert]
+        B[Backend Engine<br/>Instance #2<br/>System Architect]
     end
     
-    subgraph ops [운영 및 품질 관리]
-        C[DevOps Pipeline<br/>인스턴스 #3<br/>클라우드 네이티브 전문가]
-        D[QA & Monitoring<br/>인스턴스 #4<br/>품질 보증 전문가]
+    subgraph ops [Operations & Quality Management]
+        C[DevOps Pipeline<br/>Instance #3<br/>Cloud Native Expert]
+        D[QA & Monitoring<br/>Instance #4<br/>Quality Assurance Expert]
     end
     
-    subgraph integration [통합 관리]
-        E[Integration Hub<br/>인스턴스 #5<br/>아키텍처 조정자]
+    subgraph integration [Integration Management]
+        E[Integration Hub<br/>Instance #5<br/>Architecture Coordinator]
     end
     
     A <--> B
@@ -5624,9 +5624,9 @@ graph TD
     C --> E
     D --> E
     
-    F[크로스 도메인 이슈 해결] -.-> E
-    G[아키텍처 일관성 검증] -.-> E
-    H[팀 간 커뮤니케이션 조정] -.-> E
+    F[Cross-Domain Issue Resolution] -.-> E
+    G[Architectural Consistency Verification] -.-> E
+    H[Inter-Team Communication Coordination] -.-> E
     
     classDef coreStyle fill:#e2e8f0,stroke:#334155,stroke-width:2px,color:#1e293b
     classDef opsStyle fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
@@ -5639,306 +5639,306 @@ graph TD
     class F,G,H activityStyle
 ```
 
-### 인스턴스별 역할 분담
+### Role Delegation per Instance
 
-**Frontend Studio (인스턴스 #1) - 사용자 경험 전문가**
+**Frontend Studio (Instance #1) - User Experience Expert**
 
-프론트엔드 전용 인스턴스는 단순한 UI 개발을 넘어서 사용자 경험의 모든 측면을 담당하는 전문가 역할을 수행합니다.
+A dedicated frontend instance acts as an expert responsible for all aspects of user experience, beyond simple UI development.
 
 ```bash
 # Terminal 1 (Frontend Studio)
 cd frontend/
-claude "당신은 프론트엔드 UX 전문가입니다. 
-다음 역할에 집중해주세요
-- React/Vue/Angular 컴포넌트 아키텍처 설계
-- 반응형 디자인과 접근성 최적화
-- 성능 중심의 상태 관리 구현
-- 브라우저 호환성과 Progressive Web App 기능
-- 사용자 인터랙션 패턴과 애니메이션 최적화
+claude "You are a frontend UX expert.
+Focus on the following roles:
+- Designing React/Vue/Angular component architecture
+- Optimizing responsive design and accessibility
+- Implementing performance-focused state management
+- Browser compatibility and Progressive Web App features
+- Optimizing user interaction patterns and animations
 
-현재 프로젝트: [프로젝트명]
-기술 스택: React 18 + TypeScript + Vite
-품질 기준: Lighthouse 95+ 점수 유지"
+Current Project: [Project Name]
+Tech Stack: React 18 + TypeScript + Vite
+Quality Standard: Maintain Lighthouse score 95+"
 ```
 
-**고급 프론트엔드 패턴 예시**
+**Advanced Frontend Pattern Examples**
 
 ```bash
-# 컴포넌트 아키텍처 설계
-claude "엔터프라이즈급 디자인 시스템을 구축해줘
-- Atomic Design 방법론 적용
-- 타입 안전한 테마 시스템
-- 자동화된 스토리북 문서화
-- 컴포넌트 성능 벤치마킹
-- 시각적 회귀 테스트 통합"
+# Component architecture design
+claude "Build an enterprise-grade design system.
+- Apply Atomic Design methodology
+- Type-safe theming system
+- Automated Storybook documentation
+- Component performance benchmarking
+- Visual regression testing integration"
 
-# 상태 관리 최적화
-claude "복잡한 애플리케이션 상태를 효율적으로 관리해줘
-- 서버 상태와 클라이언트 상태 분리
-- 옵티미스틱 업데이트 패턴
-- 백그라운드 동기화 전략
-- 오프라인 모드 지원
-- 실시간 데이터 바인딩"
+# State management optimization
+claude "Efficiently manage complex application state.
+- Separate server state and client state
+- Optimistic update patterns
+- Background synchronization strategy
+- Offline mode support
+- Real-time data binding"
 ```
 
-**Backend Engine (인스턴스 #2) - 시스템 아키텍처 마스터**
+**Backend Engine (Instance #2) - System Architecture Master**
 
-백엔드 인스턴스는 확장 가능하고 안전한 서버 시스템을 구축하는 전문가로서 운영됩니다.
+The backend instance operates as an expert in building scalable and secure server systems.
 
 ```bash
 # Terminal 2 (Backend Engine)
 cd backend/
-claude "당신은 백엔드 시스템 아키텍트입니다.
-다음 영역에 전문성을 발휘해주세요
-- 마이크로서비스 아키텍처와 도메인 주도 설계
-- RESTful/GraphQL API 설계와 버전 관리
-- 데이터베이스 최적화와 캐싱 전략
-- 보안, 인증, 권한 관리 시스템
-- 비동기 처리와 메시지 큐 아키텍처
-- 모니터링, 로깅, 알림 시스템
+claude "You are a backend system architect.
+Demonstrate expertise in the following areas:
+- Microservice architecture and Domain-Driven Design
+- RESTful/GraphQL API design and versioning
+- Database optimization and caching strategies
+- Security, authentication, and authorization systems
+- Asynchronous processing and message queue architecture
+- Monitoring, logging, and alerting systems
 
-현재 환경: Node.js/Python + PostgreSQL + Redis
-성능 목표: 99.9% 가용성, 200ms 이하 응답시간
-보안 기준: OWASP Top 10 완전 준수"
+Current Environment: Node.js/Python + PostgreSQL + Redis
+Performance Goal: 99.9% availability, <200ms response time
+Security Standard: Full OWASP Top 10 compliance"
 ```
 
-**엔터프라이즈 백엔드 패턴**
+**Enterprise Backend Patterns**
 
 ```bash
-# 마이크로서비스 설계
-claude "확장 가능한 마이크로서비스 아키텍처를 설계해줘
-- 서비스 경계와 데이터 소유권 정의
-- API Gateway와 서비스 메시 구성
-- 분산 트랜잭션과 사가 패턴
-- 서킷 브레이커와 벌크헤드 패턴
-- 이벤트 소싱과 CQRS 적용"
+# Microservice design
+claude "Design a scalable microservice architecture.
+- Define service boundaries and data ownership
+- Configure API Gateway and service mesh
+- Distributed transactions and Saga pattern
+- Circuit Breaker and Bulkhead patterns
+- Apply Event Sourcing and CQRS"
 
-# 고성능 데이터 처리
-claude "대용량 데이터 처리 파이프라인을 구축해줘
-- 스트리밍 데이터 처리 (Kafka/RabbitMQ)
-- 배치 처리 최적화와 병렬화
-- 데이터베이스 샤딩과 레플리케이션
-- 캐시 계층화 전략 (L1/L2/L3)
-- 실시간 분석과 메트릭 수집"
+# High-performance data processing
+claude "Build a high-volume data processing pipeline.
+- Streaming data processing (Kafka/RabbitMQ)
+- Optimize and parallelize batch processing
+- Database sharding and replication
+- Cache layering strategy (L1/L2/L3)
+- Real-time analytics and metrics collection"
 ```
 
-**DevOps Pipeline (인스턴스 #3) - 클라우드 네이티브 전문가**
+**DevOps Pipeline (Instance #3) - Cloud Native Expert**
 
-인프라 인스턴스는 현대적인 클라우드 네이티브 환경의 구축과 운영을 전담합니다.
+The infrastructure instance is dedicated to building and operating modern cloud-native environments.
 
 ```bash
 # Terminal 3 (DevOps Pipeline)
 cd infrastructure/
-claude "당신은 DevOps와 클라우드 아키텍처 전문가입니다.
-다음 영역을 담당해주세요
+claude "You are a DevOps and Cloud Architecture expert.
+Handle the following areas:
 - Infrastructure as Code (Terraform/Pulumi)
-- 컨테이너 오케스트레이션 (Kubernetes/Docker Swarm)
-- CI/CD 파이프라인 자동화 (GitLab CI/GitHub Actions)
-- 클라우드 플랫폼 최적화 (AWS/GCP/Azure)
-- 보안 강화와 컴플라이언스 관리
-- 성능 모니터링과 자동 스케일링
-- 재해 복구와 백업 전략
+- Container orchestration (Kubernetes/Docker Swarm)
+- CI/CD pipeline automation (GitLab CI/GitHub Actions)
+- Cloud platform optimization (AWS/GCP/Azure)
+- Security hardening and compliance management
+- Performance monitoring and auto-scaling
+- Disaster recovery and backup strategy
 
-목표 환경: Production-Ready Kubernetes Cluster
-가용성 목표: 99.99% uptime
-보안 기준: SOC 2 Type II 준수"
+Target Environment: Production-Ready Kubernetes Cluster
+Availability Goal: 99.99% uptime
+Security Standard: SOC 2 Type II compliance"
 ```
 
-**고급 DevOps 패턴**
+**Advanced DevOps Patterns**
 
 ```bash
-# GitOps 파이프라인 구축
-claude "완전 자동화된 GitOps 파이프라인을 구현해줘
-- 멀티 환경 배포 전략 (dev/staging/prod)
-- 블루-그린 배포와 카나리 릴리스
-- 자동 롤백과 헬스체크 시스템
-- 시크릿 관리와 암호화 (Vault/Sealed Secrets)
-- 코드 품질 게이트와 보안 스캔
-- 성능 테스트 자동화"
+# Build GitOps pipeline
+claude "Implement a fully automated GitOps pipeline.
+- Multi-environment deployment strategy (dev/staging/prod)
+- Blue-green deployment and canary releases
+- Automated rollback and health check system
+- Secret management and encryption (Vault/Sealed Secrets)
+- Code quality gates and security scans
+- Automated performance testing"
 
-# 관찰 가능성 플랫폼
-claude "종합적인 관찰 가능성 플랫폼을 구축해줘
-- 메트릭 수집과 시각화 (Prometheus/Grafana)
-- 분산 추적 (Jaeger/Zipkin)
-- 구조화된 로깅 (ELK/Fluentd)
-- 알림과 인시던트 관리 (PagerDuty/Slack)
-- SLI/SLO 정의와 에러 버짓 관리"
+# Observability platform
+claude "Build a comprehensive observability platform.
+- Metrics collection and visualization (Prometheus/Grafana)
+- Distributed tracing (Jaeger/Zipkin)
+- Structured logging (ELK/Fluentd)
+- Alerting and incident management (PagerDuty/Slack)
+- SLI/SLO definition and error budget management"
 ```
 
-**QA & Monitoring (인스턴스 #4) - 품질 보증 전문가**
+**QA & Monitoring (Instance #4) - Quality Assurance Expert**
 
-QA 인스턴스는 소프트웨어 품질의 모든 측면을 책임지는 전문가입니다.
+The QA instance is an expert responsible for all aspects of software quality.
 
 ```bash
 # Terminal 4 (QA & Monitoring)
-claude "당신은 품질 보증과 테스트 자동화 전문가입니다.
-다음 품질 영역을 담당해주세요
-- 테스트 피라미드 전략 (Unit/Integration/E2E)
-- 성능 테스트와 부하 테스트 (JMeter/k6)
-- 보안 테스트와 취약점 스캔 (OWASP ZAP)
-- 접근성 테스트와 사용성 평가
-- 브라우저 호환성과 크로스 플랫폼 테스트
-- 테스트 데이터 관리와 환경 구성
-- 품질 메트릭 수집과 리포팅
+claude "You are a Quality Assurance and Test Automation expert.
+Handle the following quality areas:
+- Test pyramid strategy (Unit/Integration/E2E)
+- Performance testing and load testing (JMeter/k6)
+- Security testing and vulnerability scanning (OWASP ZAP)
+- Accessibility testing and usability evaluation
+- Browser compatibility and cross-platform testing
+- Test data management and environment configuration
+- Quality metrics collection and reporting
 
-품질 목표: 테스트 커버리지 90%+
-성능 기준: 응답시간 200ms 이하
-보안 수준: Zero known vulnerabilities"
+Quality Goal: Test coverage 90%+
+Performance Standard: Response time <200ms
+Security Level: Zero known vulnerabilities"
 ```
 
-**고급 QA 자동화 패턴**
+**Advanced QA Automation Patterns**
 
 ```bash
-# 지능형 테스트 자동화
-claude "AI 기반 테스트 자동화 시스템을 구축해줘
-- 시각적 회귀 테스트 (Applitools/Percy)
-- 자동 테스트 케이스 생성과 유지보수
-- 플레이키 테스트 탐지와 해결
-- 테스트 실행 최적화와 병렬화
-- 실패 분석과 자동 버그 리포팅"
+# Intelligent test automation
+claude "Build an AI-based test automation system.
+- Visual regression testing (Applitools/Percy)
+- Automated test case generation and maintenance
+- Flaky test detection and resolution
+- Test execution optimization and parallelization
+- Failure analysis and automated bug reporting"
 
-# 프로덕션 모니터링
-claude "실시간 품질 모니터링 시스템을 구현해줘
-- 실사용자 모니터링 (RUM)
-- 합성 트랜잭션 모니터링
-- 에러 추적과 크래시 리포팅
-- A/B 테스트 플랫폼
-- 사용자 피드백 수집과 분석"
+# Production monitoring
+claude "Implement a real-time quality monitoring system.
+- Real User Monitoring (RUM)
+- Synthetic transaction monitoring
+- Error tracking and crash reporting
+- A/B testing platform
+- User feedback collection and analysis"
 ```
 
-### 컨텍스트 특화
+### Context Specialization
 
-각 인스턴스에 특화된 CLAUDE.md 설정
+CLAUDE.md settings specialized for each instance.
 
 **frontend/CLAUDE.md**
 ```markdown
 # Frontend Development Context
 
-## 주요 기술 스택
+## Key Tech Stack
 - React 18 + TypeScript
 - Tailwind CSS
 - React Query + Zustand
 
-## 컴포넌트 규칙
-- 함수형 컴포넌트만 사용
-- Props는 인터페이스로 정의
-- Storybook 스토리 필수
+## Component Rules
+- Use only functional components
+- Define Props with interfaces
+- Storybook stories mandatory
 
-## 성능 최적화
-- React.memo 적극 활용
-- 번들 크기 최적화
-- 이미지 최적화
+## Performance Optimization
+- Actively use React.memo
+- Optimize bundle size
+- Image optimization
 ```
 
 **backend/CLAUDE.md**
 ```markdown
 # Backend Development Context
 
-## 주요 기술 스택
+## Key Tech Stack
 - Node.js + Express + TypeScript
 - PostgreSQL + Prisma
 - Redis for caching
 
-## API 설계 원칙
-- RESTful 설계
-- 일관된 에러 응답
-- Rate limiting 적용
+## API Design Principles
+- RESTful design
+- Consistent error responses
+- Apply rate limiting
 
-## 보안 요구사항
-- JWT 토큰 인증
-- 입력 검증 필수
-- SQL Injection 방지
+## Security Requirements
+- JWT token authentication
+- Input validation mandatory
+- SQL Injection prevention
 ```
 
-**Integration Hub (인스턴스 #5) - 아키텍처 조정자**
+**Integration Hub (Instance #5) - Architecture Coordinator**
 
-통합 허브는 모든 인스턴스 간의 일관성과 협업을 보장하는 중앙 조정 역할을 수행합니다.
+The integration hub plays a central coordination role, ensuring consistency and collaboration among all instances.
 
 ```bash
 # Terminal 5 (Integration Hub)
-claude "당신은 시스템 통합과 아키텍처 조정 전문가입니다.
-다음 통합 영역을 담당해주세요
-- 크로스 도메인 이슈 해결과 의사결정
-- 아키텍처 일관성 검증과 가이드라인 적용
-- 팀 간 커뮤니케이션과 지식 공유
-- 기술 부채 관리와 리팩토링 계획
-- 성능 병목 지점 분석과 최적화 방향
-- 프로젝트 로드맵과 우선순위 조정
+claude "You are a System Integration and Architecture Coordination expert.
+Handle the following integration areas:
+- Cross-domain issue resolution and decision-making
+- Architectural consistency verification and guideline application
+- Inter-team communication and knowledge sharing
+- Technical debt management and refactoring planning
+- Performance bottleneck analysis and optimization direction
+- Project roadmap and priority adjustment
 
-책임 범위: 전체 시스템 아키텍처
-목표: 일관된 사용자 경험과 개발자 경험
-원칙: 단순성, 확장성, 유지보수성"
+Scope of Responsibility: Overall System Architecture
+Goal: Consistent User Experience and Developer Experience
+Principles: Simplicity, Scalability, Maintainability"
 ```
 
-## 8.2 Git Worktree와의 고급 통합 전략
+## 8.2 Advanced Integration Strategy with Git Worktree
 
-### 엔터프라이즈급 Worktree 아키텍처
+### Enterprise-Grade Worktree Architecture
 
-Git Worktree를 활용한 병렬 개발은 단순한 브랜치 분리를 넘어서 각 작업 영역의 독립성과 안전성을 보장하는 전략적 접근이 필요합니다.
+Parallel development using Git Worktree requires a strategic approach that ensures the independence and safety of each work area, going beyond simple branch separation.
 
 ```bash
-# 엔터프라이즈급 워크트리 아키텍처 구성
-# 1. 기능별 격리된 개발 환경
+# Configure enterprise-grade worktree architecture
+# 1. Isolated development environment per feature
 git worktree add ../project-auth-service feature/auth-microservice
 git worktree add ../project-payment-gateway feature/payment-integration
 git worktree add ../project-user-dashboard feature/dashboard-redesign
 git worktree add ../project-mobile-api feature/mobile-optimization
 git worktree add ../project-security-audit hotfix/security-vulnerabilities
 
-# 2. 각 워크트리에 특화된 Claude 설정
+# 2. Claude settings specialized for each worktree
 cd ../project-auth-service
 echo "# Authentication Service Context" > CLAUDE.md
 echo "Focus: OAuth2/JWT implementation, security best practices" >> CLAUDE.md
 echo "Tech Stack: Node.js + Express + Passport" >> CLAUDE.md
 echo "Security Level: CRITICAL - all inputs must be validated" >> CLAUDE.md
-claude "당신은 보안 인증 시스템 전문가입니다. 
-OAuth2와 JWT를 활용한 엔터프라이즈급 인증 시스템을 구축해주세요.
-보안 모범 사례와 OWASP 가이드라인을 엄격히 준수해주세요."
+claude "You are a security authentication systems expert.
+Build an enterprise-grade authentication system using OAuth2 and JWT.
+Strictly adhere to security best practices and OWASP guidelines."
 
 cd ../project-payment-gateway
 echo "# Payment Gateway Context" > CLAUDE.md
 echo "Focus: PCI DSS compliance, payment processing" >> CLAUDE.md
 echo "Tech Stack: Python + FastAPI + Stripe/PayPal" >> CLAUDE.md
 echo "Compliance: PCI DSS Level 1, SOX compliance required" >> CLAUDE.md
-claude "당신은 결제 시스템 전문가입니다.
-PCI DSS 준수와 금융 보안 요구사항을 충족하는
-안전하고 확장 가능한 결제 게이트웨이를 구현해주세요."
+claude "You are a payment systems expert.
+Implement a secure and scalable payment gateway that meets
+PCI DSS compliance and financial security requirements."
 
 cd ../project-user-dashboard
 echo "# User Dashboard Context" > CLAUDE.md
 echo "Focus: React performance, user experience" >> CLAUDE.md
 echo "Tech Stack: React 18 + TypeScript + Tailwind" >> CLAUDE.md
 echo "Performance: Lighthouse 95+, Core Web Vitals optimized" >> CLAUDE.md
-claude "당신은 프론트엔드 UX 전문가입니다.
-사용자 중심의 대시보드를 설계하고 구현해주세요.
-성능 최적화와 접근성을 최우선으로 고려해주세요."
+claude "You are a frontend UX expert.
+Design and implement a user-centric dashboard.
+Prioritize performance optimization and accessibility."
 ```
 
-### 지능형 Worktree 관리 시스템
+### Intelligent Worktree Management System
 
-Worktree 관리를 자동화하여 개발자의 인지 부담을 줄이고 일관된 개발 환경을 보장합니다.
+Automate Worktree management to reduce developers' cognitive load and ensure a consistent development environment.
 
 ```bash
-# 고급 워크트리 관리 자동화
-claude "엔터프라이즈급 Git Worktree 관리 시스템을 구축해줘
+# Advanced Worktree Management Automation
+claude "Build an enterprise-grade Git Worktree management system.
 
-주요 기능
-1. 기능별 템플릿 기반 워크트리 생성
-2. 환경별 CLAUDE.md 자동 설정
-3. 의존성 충돌 탐지와 해결
-4. 작업 진행률 추적과 리포팅
-5. 자동 정리와 아카이빙
-6. 팀 협업을 위한 워크트리 공유
+Key Features:
+1. Template-based Worktree creation per feature
+2. Automated CLAUDE.md setup per environment
+3. Dependency conflict detection and resolution
+4. Task progress tracking and reporting
+5. Automated cleanup and archiving
+6. Worktree sharing for team collaboration
 
-기술 요구사항
+Technical Requirements:
 - Shell scripting with error handling
-- JSON/YAML 설정 파일 지원
-- 크로스 플랫폼 호환성 (Linux/macOS/Windows)
-- 로깅과 감사 추적
-- 백업과 복구 메커니즘"
+- Support for JSON/YAML configuration files
+- Cross-platform compatibility (Linux/macOS/Windows)
+- Logging and audit trails
+- Backup and recovery mechanisms"
 ```
 
-생성되는 스크립트 예시
+Example of generated script:
 
 ```bash
 #!/bin/bash
@@ -5947,40 +5947,40 @@ claude "엔터프라이즈급 Git Worktree 관리 시스템을 구축해줘
 FEATURE_NAME=$1
 WORKTREE_PATH="../project-$FEATURE_NAME"
 
-# 브랜치 생성
+# Create branch
 git checkout -b "feature/$FEATURE_NAME"
 
-# Worktree 추가
+# Add Worktree
 git worktree add "$WORKTREE_PATH" "feature/$FEATURE_NAME"
 
-# 새 터미널에서 Claude 시작
+# Start Claude in a new terminal
 cd "$WORKTREE_PATH"
 osascript -e "tell app \"Terminal\" to do script \"cd $WORKTREE_PATH && claude\""
 
 echo "Feature branch 'feature/$FEATURE_NAME' created in $WORKTREE_PATH"
 ```
 
-## 8.3 마이크로서비스 동시 개발
+## 8.3 Microservice Concurrent Development
 
-### 서비스별 개발 환경 분리
+### Separating Development Environments per Service
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 graph TB
-    subgraph project [마이크로서비스 프로젝트 구조]
-        A[user-service<br/>Terminal 1<br/>사용자 관리]
-        B[product-service<br/>Terminal 2<br/>상품 관리]
-        C[order-service<br/>Terminal 3<br/>주문 처리]
-        D[payment-service<br/>Terminal 4<br/>결제 처리]
-        E[api-gateway<br/>Terminal 5<br/>통합 관리]
+    subgraph project [Microservice Project Structure]
+        A[user-service<br/>Terminal 1<br/>User Management]
+        B[product-service<br/>Terminal 2<br/>Product Management]
+        C[order-service<br/>Terminal 3<br/>Order Processing]
+        D[payment-service<br/>Terminal 4<br/>Payment Processing]
+        E[api-gateway<br/>Terminal 5<br/>Integration Management]
     end
     
-    subgraph terminals [병렬 개발 환경]
-        T1[Claude Instance 1<br/>사용자 인증 및 프로필]
-        T2[Claude Instance 2<br/>상품 카탈로그 및 검색]
-        T3[Claude Instance 3<br/>주문 워크플로우]
-        T4[Claude Instance 4<br/>결제 통합]
-        T5[Claude Instance 5<br/>API 라우팅 및 보안]
+    subgraph terminals [Parallel Development Environment]
+        T1[Claude Instance 1<br/>User Auth & Profile]
+        T2[Claude Instance 2<br/>Product Catalog & Search]
+        T3[Claude Instance 3<br/>Order Workflow]
+        T4[Claude Instance 4<br/>Payment Integration]
+        T5[Claude Instance 5<br/>API Routing & Security]
     end
     
     A -.-> T1
@@ -6001,161 +6001,161 @@ graph TB
     class T1,T2,T3,T4,T5 terminalStyle
 ```
 
-### 서비스 간 통신 관리
+### Inter-Service Communication Management
 
-**API 게이트웨이 개발**
+**API Gateway Development**
 
 ```bash
 # Terminal 1 (API Gateway)
-claude "API Gateway를 구현해줘.
-라우팅, 인증, 로드 밸런싱, 모니터링을 포함해줘"
+claude "Implement an API Gateway.
+Include routing, authentication, load balancing, and monitoring."
 ```
 
-**개별 서비스 개발**
+**Individual Service Development**
 
 ```bash
 # Terminal 2 (User Service)
-claude "사용자 관리 마이크로서비스를 개발해줘.
-회원가입, 로그인, 프로필 관리 기능을 포함해줘"
+claude "Develop a user management microservice.
+Include sign-up, login, and profile management features."
 
 # Terminal 3 (Product Service)  
-claude "상품 관리 마이크로서비스를 개발해줘.
-상품 CRUD, 재고 관리, 검색 기능을 포함해줘"
+claude "Develop a product management microservice.
+Include product CRUD, inventory management, and search functionality."
 ```
 
-### 서비스 간 계약 관리
+### Inter-Service Contract Management
 
 ```bash
-# OpenAPI 스펙 동기화
-claude "각 서비스의 OpenAPI 스펙을 생성하고,
-API Gateway에서 통합 문서를 만들어줘"
+# OpenAPI spec synchronization
+claude "Generate OpenAPI specs for each service,
+and create integrated documentation in the API Gateway."
 ```
 
-## 8.4 프론트엔드-백엔드 병렬 작업
+## 8.4 Frontend-Backend Parallel Work
 
-### API 우선 개발
+### API-First Development
 
-**1단계: API 스펙 정의**
+**Step 1: Define API Spec**
 
 ```bash
-# 공통 작업
-claude "사용자 관리 API의 OpenAPI 스펙을 정의해줘.
-엔드포인트, 요청/응답 스키마, 에러 코드를 포함해줘"
+# Common task
+claude "Define the OpenAPI spec for the user management API.
+Include endpoints, request/response schemas, and error codes."
 ```
 
-**2단계: 병렬 개발**
+**Step 2: Parallel Development**
 
 ```bash
 # Terminal 1 (Backend)
-claude "정의된 API 스펙에 따라 백엔드를 구현해줘.
-Mock 데이터로 먼저 동작하게 만들어줘"
+claude "Implement the backend according to the defined API spec.
+Make it work with mock data first."
 
 # Terminal 2 (Frontend)  
-claude "API 스펙을 기반으로 프론트엔드를 구현해줘.
-MSW를 사용해서 API를 모킹해줘"
+claude "Implement the frontend based on the API spec.
+Mock the API using MSW."
 ```
 
-### 타입 공유 전략
+### Type Sharing Strategy
 
 ```bash
-# 공통 타입 정의
-claude "백엔드와 프론트엔드에서 공유할 타입 정의를 만들어줘.
-Zod 스키마에서 TypeScript 타입을 자동 생성하도록 해줘"
+# Define common types
+claude "Create type definitions to be shared between backend and frontend.
+Auto-generate TypeScript types from Zod schemas."
 ```
 
-### 실시간 동기화
+### Real-time Synchronization
 
 ```bash
-# API 변경 시 자동 업데이트
-claude "백엔드 API가 변경되면 프론트엔드 타입도 
-자동으로 업데이트하는 시스템을 구축해줘"
+# Auto-update on API changes
+claude "Build a system to automatically update frontend types
+when the backend API changes."
 ```
 
-## 8.5 효율적인 컨텍스트 관리
+## 8.5 Efficient Context Management
 
-### 컨텍스트 스위칭 최적화
+### Optimizing Context Switching
 
-**작업 컨텍스트 저장**
+**Saving Task Context**
 
 ```bash
-# Terminal 1에서 작업 중단 시
-claude "현재 작업 상황을 요약해줘.
-다음에 다시 시작할 때 필요한 정보를 포함해줘"
+# When pausing work in Terminal 1
+claude "Summarize the current work status.
+Include information needed to resume next time."
 ```
 
-**컨텍스트 복원**
+**Restoring Context**
 
 ```bash
-# 다시 작업 시작 시
-claude "이전에 작업하던 사용자 인증 기능을 계속해줘.
-마지막 상태부터 이어서 진행해줘"
+# When resuming work
+claude "Continue working on the user authentication feature I was previously working on.
+Proceed from the last state."
 ```
 
-### 브랜치별 컨텍스트 관리
+### Branch-Specific Context Management
 
 ```bash
-# 브랜치 전환 시 컨텍스트 자동 로드
-claude "현재 브랜치(feature/user-auth)의 컨텍스트를 로드해줘.
-관련 파일들과 작업 기록을 확인해줘"
+# Auto-load context on branch switch
+claude "Load the context for the current branch (feature/user-auth).
+Check related files and work history."
 ```
 
-### 인스턴스 간 정보 공유
+### Information Sharing Between Instances
 
-**공통 문서 활용**
+**Utilizing Common Documents**
 
 ```markdown
 # shared/context.md
-## 현재 진행 상황
-- Frontend: 로그인 컴포넌트 50% 완료
-- Backend: 인증 API 80% 완료  
-- Database: 스키마 완료, 마이그레이션 필요
-- Testing: 단위 테스트 작성 중
+## Current Progress
+- Frontend: Login component 50% complete
+- Backend: Auth API 80% complete
+- Database: Schema complete, migration needed
+- Testing: Writing unit tests
 
-## 공통 결정사항
-- JWT 토큰 만료 시간: 1시간
-- API 응답 형식: { success, data, message }
-- 에러 코드 체계: HTTP 상태 코드 + 커스텀 코드
+## Common Decisions
+- JWT token expiration time: 1 hour
+- API response format: { success, data, message }
+- Error code system: HTTP status code + custom code
 ```
 
-## 8.6 병렬 처리 실전 예제
+## 8.6 Parallel Processing Practical Example
 
-### 시나리오: 전자상거래 플랫폼 구축
+### Scenario: Building an E-commerce Platform
 
-**프로젝트 구조**
+**Project Structure**
 
 ```
 ecommerce/
-├── frontend/          # React 앱
+├── frontend/          # React app
 ├── backend/           # Node.js API  
-├── admin-panel/       # 관리자 페이지
+├── admin-panel/       # Admin page
 ├── mobile-app/        # React Native
 └── infrastructure/    # Docker, K8s
 ```
 
-**팀 구성과 인스턴스 배치**
+**Team Composition and Instance Deployment**
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}, "flowchart": {"htmlLabels": false, "useMaxWidth": false}}}%%
 graph LR
-    subgraph devA [개발자 A: 프론트엔드]
-        A1[Terminal A1<br/>Frontend 개발<br/>React + TypeScript]
-        A2[Terminal A2<br/>Mobile App 개발<br/>React Native]
+    subgraph devA [Developer A: Frontend]
+        A1[Terminal A1<br/>Frontend Development<br/>React + TypeScript]
+        A2[Terminal A2<br/>Mobile App Development<br/>React Native]
     end
     
-    subgraph devB [개발자 B: 백엔드]
-        B1[Terminal B1<br/>Backend API 개발<br/>Node.js + Express]
-        B2[Terminal B2<br/>Infrastructure 관리<br/>Docker + K8s]
+    subgraph devB [Developer B: Backend]
+        B1[Terminal B1<br/>Backend API Development<br/>Node.js + Express]
+        B2[Terminal B2<br/>Infrastructure Management<br/>Docker + K8s]
     end
     
-    subgraph devC [개발자 C: 관리 및 품질]
-        C1[Terminal C1<br/>Admin Panel 개발<br/>Next.js + Dashboard]
-        C2[Terminal C2<br/>전체 테스트 및 QA<br/>Jest + Cypress]
+    subgraph devC [Developer C: Admin & QA]
+        C1[Terminal C1<br/>Admin Panel Development<br/>Next.js + Dashboard]
+        C2[Terminal C2<br/>Overall Testing & QA<br/>Jest + Cypress]
     end
     
-    subgraph shared [공유 리소스]
-        S1[공통 API 스펙<br/>OpenAPI]
-        S2[공유 컴포넌트<br/>Design System]
-        S3[통합 문서<br/>Architecture Docs]
+    subgraph shared [Shared Resources]
+        S1[Common API Spec<br/>OpenAPI]
+        S2[Shared Components<br/>Design System]
+        S3[Integrated Docs<br/>Architecture Docs]
     end
     
     A1 --> S1
@@ -6175,203 +6175,203 @@ graph LR
     class S1,S2,S3 sharedStyle
 ```
 
-### 1주차: 프로젝트 설정
+### Week 1: Project Setup
 
-**Day 1-2: 기반 구조**
+**Day 1-2: Infrastructure**
 
 ```bash
 # Terminal A1 (Frontend)
-claude "React + TypeScript + Vite 프로젝트를 설정해줘.
-상태 관리, 라우팅, UI 라이브러리를 포함해줘"
+claude "Set up a React + TypeScript + Vite project.
+Include state management, routing, and UI library."
 
 # Terminal B1 (Backend)
-claude "Express + TypeScript + Prisma 프로젝트를 설정해줘.
-인증, 로깅, 에러 핸들링을 포함해줘"
+claude "Set up an Express + TypeScript + Prisma project.
+Include authentication, logging, and error handling."
 
 # Terminal B2 (Infrastructure)
-claude "Docker Compose로 개발 환경을 구성해줘.
-PostgreSQL, Redis, Nginx를 포함해줘"
+claude "Configure a development environment with Docker Compose.
+Include PostgreSQL, Redis, and Nginx."
 ```
 
-**Day 3-5: 핵심 기능**
+**Day 3-5: Core Features**
 
 ```bash
-# 병렬 개발 시작
-# Terminal A1: 제품 목록 컴포넌트
-# Terminal A2: 모바일 네비게이션
-# Terminal B1: 제품 API
-# Terminal B2: 인증 시스템
-# Terminal C1: 관리자 대시보드
+# Start parallel development
+# Terminal A1: Product list component
+# Terminal A2: Mobile navigation
+# Terminal B1: Product API
+# Terminal B2: Authentication system
+# Terminal C1: Admin dashboard
 ```
 
-### 2주차: 통합과 테스트
+### Week 2: Integration and Testing
 
 ```bash
-# Terminal A1: 프론트엔드 통합 테스트
-claude "React Testing Library로 핵심 플로우를 테스트해줘"
+# Terminal A1: Frontend integration tests
+claude "Test core flows with React Testing Library."
 
-# Terminal B1: API 통합 테스트  
-claude "Jest + Supertest로 API 엔드포인트를 테스트해줘"
+# Terminal B1: API integration tests
+claude "Test API endpoints with Jest + Supertest."
 
-# Terminal C2: E2E 테스트
-claude "Playwright로 전체 사용자 플로우를 테스트해줘"
+# Terminal C2: E2E tests
+claude "Test overall user flows with Playwright."
 ```
 
-## 멀티태스킹 최적화 팁
+## Multitasking Optimization Tips
 
-### 1. 작업 우선순위 관리
+### 1. Task Priority Management
 
 ```bash
-# 우선순위 매트릭스
-claude "현재 진행 중인 작업들의 우선순위를 정리해줘.
-긴급도와 중요도를 기준으로 매트릭스를 만들어줘"
+# Priority matrix
+claude "Organize the priorities of ongoing tasks.
+Create a matrix based on urgency and importance."
 ```
 
-### 2. 종속성 관리
+### 2. Dependency Management
 
 ```bash
-# 의존성 그래프 생성
-claude "작업 간 의존성을 분석해서 최적의 순서를 제안해줘.
-병렬 처리 가능한 작업도 식별해줘"
+# Generate dependency graph
+claude "Analyze inter-task dependencies and suggest an optimal order.
+Identify tasks that can be processed in parallel."
 ```
 
-### 3. 리소스 모니터링
+### 3. Resource Monitoring
 
 ```bash
-# 시스템 리소스 확인
-claude "현재 실행 중인 Claude 인스턴스들이 
-시스템 리소스를 얼마나 사용하는지 확인해줘"
+# Check system resources
+claude "Check how much system resources are being used
+by currently running Claude instances."
 ```
 
-### 4. 동기화 포인트 설정
+### 4. Setting Synchronization Points
 
 ```bash
-# 정기적인 동기화
-claude "팀 작업 진행 상황을 정리하고,
-다음 마일스톤까지의 계획을 세워줘"
+# Regular synchronization
+claude "Summarize team task progress and
+plan for the next milestone."
 ```
 
-## 멀티태스킹 CLAUDE.md 예시
+## Multitasking CLAUDE.md Example
 
 ```markdown
 # Multi-Instance Development
 
-## 인스턴스 역할 분담
+## Instance Role Delegation
 - Terminal 1: Frontend (React/Next.js)
 - Terminal 2: Backend (Node.js/Python)  
 - Terminal 3: Mobile (React Native/Flutter)
 - Terminal 4: DevOps (Docker/K8s)
 - Terminal 5: Testing (Jest/Cypress)
 
-## 컨텍스트 스위칭 규칙
-- 작업 중단 시 상태 저장 필수
-- 30분마다 진행 상황 공유
-- 중요한 결정은 모든 인스턴스에 전파
+## Context Switching Rules
+- Mandatory state saving when pausing work
+- Share progress every 30 minutes
+- Propagate important decisions to all instances
 
-## 동기화 포인트
-- 매일 오전 9시: 일일 계획 공유
-- 매일 오후 5시: 진행 상황 정리
-- 주 2회: 아키텍처 리뷰
+## Synchronization Points
+- Daily 9 AM: Share daily plan
+- Daily 5 PM: Summarize progress
+- Twice a week: Architecture review
 
-## 충돌 해결 절차
-1. Git 충돌 시 우선순위 규칙 적용
-2. API 변경 시 관련 팀 즉시 알림
-3. 공통 파일 수정 시 락 메커니즘 사용
+## Conflict Resolution Procedure
+1. Apply priority rules for Git conflicts
+2. Notify relevant teams immediately of API changes
+3. Use locking mechanism for common file modifications
 ```
 
-## 마치며
+## Conclusion
 
-멀티태스킹과 병렬 처리는 현대 개발의 필수 역량이며, Claude Code의 다중 인스턴스 활용은 개발 생산성을 혁신적으로 향상시킬 수 있는 강력한 전략입니다.
+Multitasking and parallel processing are essential competencies in modern development, and utilizing multiple Claude Code instances is a powerful strategy that can revolutionize development productivity.
 
-### 핵심 원칙 요약
+### Summary of Core Principles
 
-1. **효율성 극대화**: 여러 작업의 동시 진행을 통한 개발 속도 향상
-2. **컨텍스트 분리**: 각 작업에 특화된 환경 구성으로 품질 일관성 확보
-3. **유연한 협업**: 팀원 간 효율적인 분업과 동기화 체계 구축
-4. **빠른 반복**: 신속한 개발 사이클과 즉각적인 피드백 시스템
+1. **Maximize Efficiency**: Improve development speed through concurrent execution of multiple tasks.
+2. **Context Separation**: Ensure quality consistency by configuring specialized environments for each task.
+3. **Flexible Collaboration**: Establish efficient division of labor and synchronization systems among team members.
+4. **Rapid Iteration**: Swift development cycles and immediate feedback systems.
 
-### 실무 적용 가이드
+### Practical Application Guide
 
-- **프로젝트 시작**: 작업 분해와 인스턴스별 역할 정의
-- **개발 중**: 정기적인 동기화와 진행 상황 공유
-- **통합 단계**: 체계적인 머지 전략과 충돌 해결
-- **최적화**: 리소스 모니터링과 워크플로우 개선
+- **Project Kick-off**: Decompose tasks and define roles for each instance.
+- **During Development**: Regularly synchronize and share progress.
+- **Integration Phase**: Systematic merge strategy and conflict resolution.
+- **Optimization**: Monitor resources and improve workflow.
 
-다음 장에서는 이러한 병렬 처리 환경을 자동화하고 CI/CD 파이프라인에 통합하여 지속적인 개발 프로세스를 구축하는 방법을 살펴보겠습니다.
+In the next chapter, we will explore how to automate this parallel processing environment and integrate it into CI/CD pipelines to build a continuous development process.
 
 \newpage
 
-# 제9장: 자동화와 CI/CD 통합
+# Chapter 9: Automation and CI/CD Integration
 
-> "자동화의 힘은 반복을 제거하고 창의성을 해방시키는 것이다" - 마틴 파울러
+> "The power of automation is to eliminate repetition and liberate creativity." - Martin Fowler
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 mindmap
-  root((학습 목표))
-    CI/CD 통합
-      Headless 모드 활용
-      파이프라인 자동화
-      배포 전략 수립
-    자동 코드 리뷰
-      품질 게이트 구축
-      지능형 분석 시스템
-      팀 협업 강화
-    문서화 자동화
-      API 문서 생성
-      아키텍처 다이어그램
-      배포 가이드 작성
-    모니터링 대시보드
-      실시간 품질 추적
-      성능 메트릭 수집
-      알림 시스템 구축
+  root((Learning Objectives))
+    CI/CD Integration
+      Utilizing Headless Mode
+      Pipeline Automation
+      Deployment Strategy Formulation
+    Automated Code Review
+      Building Quality Gates
+      Intelligent Analysis System
+      Enhancing Team Collaboration
+    Documentation Automation
+      API Document Generation
+      Architecture Diagrams
+      Deployment Guide Creation
+    Monitoring Dashboard
+      Real-time Quality Tracking
+      Performance Metrics Collection
+      Alert System Implementation
 ```
 
-## 학습 목표
+## Learning Objectives
 
-이 장을 완료하면 다음을 할 수 있습니다.
+Upon completing this chapter, you will be able to:
 
-- Claude Code를 CI/CD 파이프라인에 통합하여 자동화된 개발 프로세스를 구축할 수 있습니다.
-- Headless 모드를 활용하여 자동 코드 리뷰와 품질 검사 시스템을 구현할 수 있습니다.
-- 문서 자동 생성과 배포 프로세스 자동화를 설정할 수 있습니다.
-- 품질 게이트와 통합 대시보드를 구축하여 지속적인 모니터링을 수행할 수 있습니다.
+- Integrate Claude Code into CI/CD pipelines to build automated development processes.
+- Implement automated code review and quality inspection systems using Headless Mode.
+- Set up automated document generation and deployment process automation.
+- Build quality gates and integrated dashboards for continuous monitoring.
 
-## 개요
+## Overview
 
-현대 소프트웨어 개발에서 자동화는 선택이 아닌 필수 요소가 되었습니다. 빠른 배포 주기, 높은 품질 요구사항, 그리고 지속적인 전달 필요성이 자동화를 넘어설 수 없는 환경을 만들었습니다.
+In modern software development, automation has become an essential element, not an option. Rapid deployment cycles, high quality demands, and the need for continuous delivery have created an environment where automation is indispensable.
 
-Claude Code를 CI/CD 파이프라인에 통합하는 것은 단순한 도구 추가를 넘어서, 지능적인 자동화 시스템을 구축하는 것입니다. 이를 통해 코드 품질 향상, 배포 안정성 증대, 그리고 지속적인 개선 문화를 동시에 달성할 수 있습니다.
+Integrating Claude Code into CI/CD pipelines is more than just adding a tool; it's about building an intelligent automation system. This allows for simultaneous achievement of improved code quality, increased deployment stability, and a culture of continuous improvement.
 
-전통적인 CI/CD가 정적인 규칙 기반 자동화에 의존했다면, Claude Code 통합 시스템은 컨텍스트를 이해하고 적응하는 지능형 자동화를 제공합니다. 이는 개발 프로세스의 패러다임 변화를 의미하며, 개발자가 창의적 작업에 더 집중할 수 있는 환경을 조성합니다.
+While traditional CI/CD relies on static rule-based automation, a Claude Code integrated system provides intelligent automation that understands and adapts to context. This signifies a paradigm shift in the development process, creating an environment where developers can focus more on creative tasks.
 
-## 9.1 지능형 Headless 모드 아키텍처
+## 9.1 Intelligent Headless Mode Architecture
 
-### 엔터프라이즈급 Headless 통합 전략
+### Enterprise-Grade Headless Integration Strategy
 
-Claude Code의 Headless 모드는 단순한 명령행 도구를 넘어서 엔터프라이즈급 자동화 생태계의 핵심 인프라로 기능합니다. 이 모드는 다양한 자동화 시나리오에 맞춰 유연하게 확장되며, 대규모 개발 조직의 복잡한 요구사항을 충족합니다.
+Claude Code's Headless Mode functions as core infrastructure for an enterprise-grade automation ecosystem, going beyond a simple command-line tool. This mode flexibly expands to suit various automation scenarios and meets the complex requirements of large development organizations.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph TD
-    A[Headless 모드] --> B[환경 감지]
-    A --> C[컨텍스트 분석]
-    A --> D[전략 수립]
+    A[Headless Mode] --> B[Environment Detection]
+    A --> C[Context Analysis]
+    A --> D[Strategy Formulation]
     
-    B --> E[Production<br/>최고 품질 모델]
-    B --> F[Staging<br/>표준 검증]
-    B --> G[Development<br/>빠른 피드백]
+    B --> E[Production<br/>Highest Quality Model]
+    B --> F[Staging<br/>Standard Validation]
+    B --> G[Development<br/>Fast Feedback]
     
-    C --> H[프로젝트 규모]
-    C --> I[기술 스택]
-    C --> J[팀 구조]
+    C --> H[Project Scale]
+    C --> I[Tech Stack]
+    C --> J[Team Structure]
     
-    D --> K[분석 깊이]
-    D --> L[우선순위 영역]
-    D --> M[리소스 할당]
+    D --> K[Analysis Depth]
+    D --> L[Priority Areas]
+    D --> M[Resource Allocation]
     
-    E --> N[종합 품질 분석]
-    F --> O[표준 검증 프로세스]
-    G --> P[빠른 피드백 루프]
+    E --> N[Comprehensive Quality Analysis]
+    F --> O[Standard Validation Process]
+    G --> P[Fast Feedback Loop]
     
     classDef envStyle fill:#e2e8f0,stroke:#334155,stroke-width:2px,color:#1e293b
     classDef analysisStyle fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
@@ -6380,34 +6380,34 @@ graph TD
     class E,F,G,H,I,J,K,L,M,N,O,P analysisStyle
 ```
 
-**지능형 컨텍스트 인식 시스템**
+**Intelligent Context Awareness System**
 
-Headless 모드는 실행 환경, 프로젝트 상태, 팀 규칙을 자동으로 감지하여 최적화된 분석을 제공합니다. 이는 단순한 명령 실행을 넘어서 프로젝트의 전체적인 맥락을 이해하고 적절한 판단을 내리는 지능형 시스템입니다.
+Headless Mode automatically detects the execution environment, project status, and team rules to provide optimized analysis. This is an intelligent system that understands the overall project context and makes appropriate judgments, going beyond simple command execution.
 
-**고급 Headless 실행 패턴**
+**Advanced Headless Execution Patterns**
 
 ```bash
-# 환경별 적응형 분석
+# Adaptive analysis by environment
 claude --headless --context production \
-  "프로덕션 배포를 위한 종합 위험도 평가를 수행해주세요.
-   보안, 성능, 안정성, 비즈니스 임팩트를 종합 분석하고
-   배포 승인 여부를 JSON 형태로 제공해주세요."
+  "Perform a comprehensive risk assessment for production deployment.
+   Analyze security, performance, stability, and business impact,
+   and provide deployment approval status in JSON format."
 
-# 실시간 스트리밍 분석
+# Real-time streaming analysis
 claude --headless --stream --output-format json \
-  "대용량 코드 변경사항을 실시간으로 분석하며
-   중요한 이슈 발견 시 즉시 알림을 제공해주세요."
+  "Analyze large-scale code changes in real-time and
+   provide immediate notifications for critical issues found."
 
-# 지능형 조건부 실행
+# Intelligent conditional execution
 #!/bin/bash
 # advanced-quality-gate.sh
 
 set -euo pipefail
 
-# 환경 감지 및 설정
+# Environment detection and configuration
 DETECT_ENV=$(claude --headless --quiet \
-  "현재 Git 브랜치와 변경사항을 분석하여
-   적절한 품질 검증 수준을 결정해주세요 (minimal/standard/strict)")
+  "Analyze the current Git branch and changes to determine
+   the appropriate quality validation level (minimal/standard/strict).")
 
 case $DETECT_ENV in
   "strict")
@@ -6427,53 +6427,53 @@ case $DETECT_ENV in
     ;;
 esac
 
-# 적응형 품질 분석
+# Adaptive quality analysis
 QUALITY_RESULT=$(claude --headless --output quality-report.json \
-  "코드 품질을 $QUALITY_THRESHOLD% 기준으로 분석해주세요.
-   기준: 복잡도, 중복도, 테스트 커버리지, 문서화 수준
-   결과: pass/fail과 상세 개선 방안")
+  "Analyze code quality against a $QUALITY_THRESHOLD% standard.
+   Criteria: complexity, duplication, test coverage, documentation level
+   Result: pass/fail and detailed improvement suggestions.")
 
-# 조건부 보안 스캔
+# Conditional security scan
 if [ "$SECURITY_SCAN" = true ]; then
   SECURITY_RESULT=$(claude --headless --output security-report.json \
-    "OWASP Top 10과 SANS Top 25 기준으로
-     보안 취약점을 종합 분석해주세요.
-     심각도별 분류와 수정 우선순위 포함")
+    "Perform a comprehensive security vulnerability analysis
+     based on OWASP Top 10 and SANS Top 25.
+     Include classification by severity and remediation priority.")
 fi
 
-# 지능형 의사결정
+# Intelligent decision-making
 DECISION=$(claude --headless \
-  "품질 리포트와 보안 리포트를 종합하여
-   배포 승인 여부를 결정해주세요.
-   결정 근거와 함께 명확한 approve/reject 답변")
+  "Synthesize the quality and security reports to
+   determine deployment approval.
+   Provide a clear approve/reject answer with justification.")
 
 if [[ $DECISION == *"approve"* ]]; then
-  echo "✅ 품질 게이트 통과 - 배포 승인"
+  echo "✅ Quality Gate Passed - Deployment Approved"
   exit 0
 else
-  echo "❌ 품질 게이트 실패 - 개선 필요"
-  claude --headless "개선 방안과 예상 소요 시간을 제시해주세요"
+  echo "❌ Quality Gate Failed - Improvement Needed"
+  claude --headless "Suggest improvement measures and estimated time."
   exit 1
 fi
 ```
 
-### 엔터프라이즈 환경 구성 관리
+### Enterprise Environment Configuration Management
 
-**다층 구성 시스템**
+**Multi-layered Configuration System**
 
 ```bash
-# 기본 환경 변수 (모든 환경 공통)
+# Basic environment variables (common to all environments)
 export CLAUDE_API_KEY="sk-ant-..."
-export CLAUDE_MODEL="claude-3-sonnet-20240229"  # 비용 효율적 기본 모델
+export CLAUDE_MODEL="claude-3-sonnet-20240229"  # Cost-effective default model
 export CLAUDE_HEADLESS=true
-export CLAUDE_TIMEOUT=300  # 5분 타임아웃
+export CLAUDE_TIMEOUT=300  # 5-minute timeout
 export CLAUDE_RETRY_COUNT=3
 export CLAUDE_LOG_LEVEL="info"
 
-# 환경별 세부 구성
+# Environment-specific detailed configuration
 case "$ENVIRONMENT" in
   "production")
-    export CLAUDE_MODEL="claude-3-opus-20240229"  # 최고 품질
+    export CLAUDE_MODEL="claude-3-opus-20240229"  # Highest quality
     export CLAUDE_OUTPUT_FORMAT="structured-json"
     export CLAUDE_VALIDATION_STRICT=true
     export CLAUDE_AUDIT_ENABLED=true
@@ -6484,55 +6484,55 @@ case "$ENVIRONMENT" in
     export CLAUDE_VALIDATION_STANDARD=true
     ;;
   "development")
-    export CLAUDE_MODEL="claude-3-haiku-20240307"  # 빠른 반응
+    export CLAUDE_MODEL="claude-3-haiku-20240307"  # Fast response
     export CLAUDE_OUTPUT_FORMAT="markdown"
     export CLAUDE_VALIDATION_MINIMAL=true
     ;;
 esac
 
-# 프로젝트별 컨텍스트 구성
+# Project-specific context configuration
 export CLAUDE_PROJECT_TYPE="web-application"
 export CLAUDE_TECH_STACK="react,node,typescript,postgresql"
 export CLAUDE_TEAM_SIZE="12"
-export CLAUDE_COMPLIANCE_LEVEL="SOC2"  # SOC2, HIPAA, PCI-DSS 등
+export CLAUDE_COMPLIANCE_LEVEL="SOC2"  # SOC2, HIPAA, PCI-DSS, etc.
 export CLAUDE_QUALITY_GATES="security,performance,accessibility"
 
-# 고급 기능 설정
+# Advanced feature settings
 export CLAUDE_CACHE_ENABLED=true
-export CLAUDE_CACHE_TTL=3600  # 1시간
+export CLAUDE_CACHE_TTL=3600  # 1 hour
 export CLAUDE_PARALLEL_ANALYSIS=true
 export CLAUDE_MAX_CONCURRENT=4
 export CLAUDE_MEMORY_LIMIT="2GB"
 
-# 보안 및 규정 준수
+# Security and compliance
 export CLAUDE_DATA_RESIDENCY="us-east-1"
 export CLAUDE_PII_DETECTION=true
 export CLAUDE_SENSITIVE_DATA_MASKING=true
 export CLAUDE_AUDIT_LOG_RETENTION="90d"
 ```
 
-**동적 구성 로더**
+**Dynamic Configuration Loader**
 
 ```bash
 #!/bin/bash
 # claude-config-loader.sh
 
-# 프로젝트별 동적 구성 로드
+# Project-specific dynamic configuration loading
 load_claude_config() {
     local project_root="$(git rev-parse --show-toplevel)"
     local config_file="$project_root/.claude/ci-config.json"
     
     if [[ -f "$config_file" ]]; then
-        # JSON 구성 파일에서 환경 변수 로드
+        # Load environment variables from JSON config file
         eval "$(jq -r 'to_entries[] | "export CLAUDE_\(.key | ascii_upcase)=\(.value)"' "$config_file")"
     fi
     
-    # Git 메타데이터 기반 자동 설정
+    # Automatic configuration based on Git metadata
     export CLAUDE_GIT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
     export CLAUDE_GIT_COMMIT="$(git rev-parse HEAD)"
     export CLAUDE_GIT_AUTHOR="$(git log -1 --pretty=format:'%an')"
     
-    # 프로젝트 규모 자동 탐지
+    # Automatic project scale detection
     local file_count=$(find . -name "*.ts" -o -name "*.js" -o -name "*.py" | wc -l)
     if (( file_count > 1000 )); then
         export CLAUDE_PROJECT_SCALE="large"
@@ -6546,34 +6546,34 @@ load_claude_config() {
     fi
 }
 
-# 사용법
+# Usage
 load_claude_config
 ```
 
-## 9.2 지능형 자동 코드 리뷰 생태계
+## 9.2 Intelligent Automated Code Review Ecosystem
 
-### GitHub Actions 엔터프라이즈 통합
+### GitHub Actions Enterprise Integration
 
-지능형 코드 리뷰 시스템은 단순한 정적 분석을 넘어서 프로젝트 맥락을 이해하고 적응하는 동적 분석 플랫폼입니다.
+An intelligent code review system is a dynamic analysis platform that understands and adapts to project context, going beyond simple static analysis.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph LR
-    subgraph trigger [트리거 이벤트]
+    subgraph trigger [Trigger Events]
         A[Pull Request] 
         B[Scheduled Analysis]
         C[Manual Trigger]
     end
     
-    subgraph analysis [병렬 분석 엔진]
+    subgraph analysis [Parallel Analysis Engine]
         D[Security Scan<br/>OWASP, SANS]
-        E[Performance Analysis<br/>복잡도, 메모리]
-        F[Architecture Review<br/>SOLID, 패턴]
-        G[Testing Coverage<br/>커버리지, 품질]
-        H[Documentation<br/>API, 가이드]
+        E[Performance Analysis<br/>Complexity, Memory]
+        F[Architecture Review<br/>SOLID, Patterns]
+        G[Testing Coverage<br/>Coverage, Quality]
+        H[Documentation<br/>API, Guides]
     end
     
-    subgraph integration [통합 및 결과]
+    subgraph integration [Integration & Results]
         I[Comprehensive Review]
         J[PR Comment]
         K[Dashboard Update]
@@ -6615,14 +6615,14 @@ on:
   pull_request:
     types: [opened, synchronize, ready_for_review]
   schedule:
-    - cron: '0 2 * * *'  # 매일 새벽 2시 전체 코드베이스 분석
+    - cron: '0 2 * * *'  # Daily full codebase analysis at 2 AM
 
 env:
   CLAUDE_PROJECT_CONTEXT: ${{ github.repository }}
   CLAUDE_ENVIRONMENT: ${{ github.ref_name == 'main' && 'production' || 'development' }}
 
 jobs:
-  # 사전 분석 단계
+  # Pre-analysis stage
   pre-analysis:
     runs-on: ubuntu-latest
     outputs:
@@ -6654,17 +6654,17 @@ jobs:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
         run: |
           claude --headless --output strategy.json \
-            "변경된 파일들을 분석하여 최적의 리뷰 전략을 결정해주세요:
-             - 변경 범위와 복잡도 평가
-             - 우선순위 영역 식별
-             - 리뷰 깊이 수준 결정
-             - 예상 분석 시간
-             결과는 JSON 형태로 제공"
+            "Analyze the changed files to determine the optimal review strategy:
+             - Assess scope and complexity of changes
+             - Identify priority areas
+             - Determine review depth level
+             - Estimate analysis time
+             Provide results in JSON format."
           
           STRATEGY=$(jq -r '.strategy' strategy.json)
           echo "strategy=$STRATEGY" >> $GITHUB_OUTPUT
   
-  # 병렬 코드 분석
+  # Parallel code analysis
   parallel-analysis:
     runs-on: ubuntu-latest
     needs: pre-analysis
@@ -6680,7 +6680,7 @@ jobs:
       - name: Setup Analysis Environment
         run: |
           npm install -g @anthropic-ai/claude-code
-          # 분석 타입별 전용 도구 설치
+          # Install specialized tools per analysis type
           case "${{ matrix.analysis-type }}" in
             security) npm install -g eslint-plugin-security ;;
             performance) npm install -g clinic autocannon ;;
@@ -6696,53 +6696,53 @@ jobs:
           case "$ANALYSIS_TYPE" in
             "security")
               claude --headless --output security-analysis.json \
-                "보안 중심 코드 분석을 수행해주세요
-                 - OWASP Top 10 취약점 스캔
-                 - 민감 정보 노출 검사
-                 - 인증/인가 로직 검증
-                 - SQL Injection 및 XSS 가능성
-                 - 암호화 및 해시 적용 검토
-                 심각도별 분류와 즉시 수정 필요 항목 표시"
+                "Perform security-focused code analysis:
+                 - Scan for OWASP Top 10 vulnerabilities
+                 - Check for sensitive information exposure
+                 - Verify authentication/authorization logic
+                 - Assess SQL Injection and XSS possibilities
+                 - Review cryptography and hashing application
+                 Classify by severity and flag items needing immediate fixing."
               ;;
             "performance")
               claude --headless --output performance-analysis.json \
-                "성능 중심 코드 분석을 수행해주세요
-                 - 알고리즘 복잡도 분석
-                 - 메모리 사용 패턴 검토
-                 - 데이터베이스 쿼리 최적화 기회
-                 - 캐싱 전략 개선점
-                 - 번들 크기 및 로딩 성능
-                 성능 임팩트 예측과 개선 방안 제시"
+                "Perform performance-focused code analysis:
+                 - Analyze algorithm complexity
+                 - Review memory usage patterns
+                 - Identify database query optimization opportunities
+                 - Suggest caching strategy improvements
+                 - Assess bundle size and loading performance
+                 Predict performance impact and suggest improvements."
               ;;
             "architecture")
               claude --headless --output architecture-analysis.json \
-                "아키텍처 중심 코드 분석을 수행해주세요
-                 - SOLID 원칙 준수 여부
-                 - 디자인 패턴 적용 검토
-                 - 의존성 그래프 복잡도
-                 - 모듈화 및 결합도 분석
-                 - 확장성 및 유지보수성
-                 리팩토링 우선순위와 방법 제안"
+                "Perform architecture-focused code analysis:
+                 - Check adherence to SOLID principles
+                 - Review application of design patterns
+                 - Assess dependency graph complexity
+                 - Analyze modularity and coupling
+                 - Evaluate scalability and maintainability
+                 Suggest refactoring priorities and methods."
               ;;
             "testing")
               claude --headless --output testing-analysis.json \
-                "테스트 중심 코드 분석을 수행해주세요
-                 - 테스트 커버리지 부족 영역
-                 - 테스트 품질 및 신뢰성
-                 - Edge case 및 예외 상황 처리
-                 - Mock 및 Stub 적절성
-                 - 통합 테스트 시나리오
-                 누락된 테스트 케이스와 생성 방법 제안"
+                "Perform testing-focused code analysis:
+                 - Identify areas with insufficient test coverage
+                 - Assess test quality and reliability
+                 - Check handling of edge cases and exceptions
+                 - Evaluate appropriateness of mocks and stubs
+                 - Review integration test scenarios
+                 Suggest missing test cases and generation methods."
               ;;
             "documentation")
               claude --headless --output documentation-analysis.json \
-                "문서화 중심 코드 분석을 수행해주세요
-                 - API 문서 완성도
-                 - 코드 주석 품질
-                 - README 및 가이드 적절성
-                 - 아키텍처 문서 동기화
-                 - 온보딩 문서 현황
-                 문서화 개선 방안과 자동화 기회 제시"
+                "Perform documentation-focused code analysis:
+                 - Assess completeness of API documentation
+                 - Evaluate quality of code comments
+                 - Check appropriateness of READMEs and guides
+                 - Verify synchronization of architecture documents
+                 - Review status of onboarding documentation
+                 Suggest documentation improvements and automation opportunities."
               ;;
           esac
       
@@ -6753,7 +6753,7 @@ jobs:
           path: ${{ matrix.analysis-type }}-analysis.json
           retention-days: 30
   
-  # 종합 리뷰 생성
+  # Generate comprehensive review
   comprehensive-review:
     runs-on: ubuntu-latest
     needs: [pre-analysis, parallel-analysis]
@@ -6770,21 +6770,21 @@ jobs:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
         run: |
           claude --headless --output comprehensive-review.json \
-            "모든 분석 결과를 종합하여 포괄적인 코드 리뷰를 생성해주세요:
+            "Synthesize all analysis results to generate a comprehensive code review:
              
-             분석 결과 파일들:
+             Analysis result files:
              $(find analysis-results -name '*.json' | head -10)
              
-             종합 요구사항:
-             1. 전체적인 코드 품질 평가 (0-100점)
-             2. 카테고리별 세부 점수
-             3. 가장 우선적으로 해결할 이슈 Top 5
-             4. 긍정적인 변화와 개선사항
-             5. 장기적 기술 부채 관리 방안
-             6. 팀 학습 기회 및 지식 공유 포인트
+             Comprehensive requirements:
+             1. Overall code quality assessment (0-100 points)
+             2. Detailed scores by category
+             3. Top 5 issues to resolve with highest priority
+             4. Positive changes and improvements
+             5. Long-term technical debt management plan
+             6. Team learning opportunities and knowledge sharing points
              
-             리뷰 형식: GitHub PR 댓글에 적합한 마크다운
-             톤: 건설적이고 교육적, 구체적 개선 방안 포함"
+             Review format: Markdown suitable for GitHub PR comments
+             Tone: Constructive and educational, including specific improvement suggestions."
       
       - name: Advanced PR Comment with Rich Formatting
         uses: actions/github-script@v7
@@ -6793,37 +6793,37 @@ jobs:
             const fs = require('fs');
             const review = JSON.parse(fs.readFileSync('comprehensive-review.json', 'utf8'));
             
-            // 동적 배지 생성
+            // Dynamic badge generation
             const qualityBadge = review.overall_score >= 90 ? '🟢' : 
                                review.overall_score >= 75 ? '🟡' : '🔴';
             
             const comment = `
             ## ${qualityBadge} Claude Enterprise Code Review
             
-            > **전체 품질 점수: ${review.overall_score}/100** | 분석 완료: ${new Date().toLocaleString()}
+            > **Overall Quality Score: ${review.overall_score}/100** | Analysis Completed: ${new Date().toLocaleString()}
             
-            ### 📊 카테고리별 점수
-            | 영역 | 점수 | 상태 |
+            ### 📊 Scores by Category
+            | Area | Score | Status |
             |------|------|------|
-            | 🔒 보안 | ${review.security_score}/100 | ${review.security_score >= 85 ? '✅' : '⚠️'} |
-            | ⚡ 성능 | ${review.performance_score}/100 | ${review.performance_score >= 85 ? '✅' : '⚠️'} |
-            | 🏗️ 아키텍처 | ${review.architecture_score}/100 | ${review.architecture_score >= 85 ? '✅' : '⚠️'} |
-            | 🧪 테스트 | ${review.testing_score}/100 | ${review.testing_score >= 85 ? '✅' : '⚠️'} |
-            | 📚 문서화 | ${review.documentation_score}/100 | ${review.documentation_score >= 85 ? '✅' : '⚠️'} |
+            | 🔒 Security | ${review.security_score}/100 | ${review.security_score >= 85 ? '✅' : '⚠️'} |
+            | ⚡ Performance | ${review.performance_score}/100 | ${review.performance_score >= 85 ? '✅' : '⚠️'} |
+            | 🏗️ Architecture | ${review.architecture_score}/100 | ${review.architecture_score >= 85 ? '✅' : '⚠️'} |
+            | 🧪 Testing | ${review.testing_score}/100 | ${review.testing_score >= 85 ? '✅' : '⚠️'} |
+            | 📚 Documentation | ${review.documentation_score}/100 | ${review.documentation_score >= 85 ? '✅' : '⚠️'} |
             
-            ### 🚨 우선 해결 항목
+            ### 🚨 Priority Items
             ${review.priority_issues.map((issue, index) => 
               `${index + 1}. **${issue.title}** (${issue.severity})
-                 - 📍 위치: ${issue.location}
-                 - 💡 해결방안: ${issue.solution}`
+                 - 📍 Location: ${issue.location}
+                 - 💡 Solution: ${issue.solution}`
             ).join('\n\n')}
             
-            ### 🎉 긍정적 변화
+            ### 🎉 Positive Changes
             ${review.positive_changes.map(change => `- ✨ ${change}`).join('\n')}
             
-            ### 💡 개선 제안
+            ### 💡 Improvement Suggestions
             <details>
-            <summary>상세 개선 방안 보기</summary>
+            <summary>View Detailed Improvement Suggestions</summary>
             
             ${review.improvements.map(improvement => 
               `#### ${improvement.category}
@@ -6831,16 +6831,16 @@ jobs:
             ).join('\n\n')}
             </details>
             
-            ### 📈 기술 부채 관리
+            ### 📈 Technical Debt Management
             ${review.tech_debt.map(debt => 
-              `- **${debt.area}**: ${debt.description} (예상 해결 시간: ${debt.effort})`
+              `- **${debt.area}**: ${debt.description} (Estimated resolution time: ${debt.effort})`
             ).join('\n')}
             
-            ### 🎓 학습 기회
+            ### 🎓 Learning Opportunities
             ${review.learning_opportunities.map(opportunity => `- 📖 ${opportunity}`).join('\n')}
             
             ---
-            <sub>🤖 Generated by Claude Enterprise Code Review System | 분석 범위: ${process.env.ANALYSIS_SCOPE} | 전략: ${process.env.REVIEW_STRATEGY}</sub>
+            <sub>🤖 Generated by Claude Enterprise Code Review System | Analysis Scope: ${process.env.ANALYSIS_SCOPE} | Strategy: ${process.env.REVIEW_STRATEGY}</sub>
             `;
             
             github.rest.issues.createComment({
@@ -6853,11 +6853,11 @@ jobs:
       - name: Create Review Summary for Dashboard
         run: |
           claude --headless --output dashboard-summary.json \
-            "코드 리뷰 결과를 팀 대시보드용으로 요약해주세요
-             - 주요 메트릭 및 트렌드
-             - 팀 성과 지표
-             - 권장 액션 아이템
-             JSON 형태로 제공"
+            "Summarize the code review results for the team dashboard:
+             - Key metrics and trends
+             - Team performance indicators
+             - Recommended action items
+             Provide in JSON format."
       
       - name: Send Slack Notification for Critical Issues
         if: ${{ contains(fromJSON(readFile('comprehensive-review.json')).priority_issues[*].severity, 'critical') }}
@@ -6867,7 +6867,7 @@ jobs:
             ${{ secrets.SLACK_WEBHOOK_URL }}
 ```
 
-### GitLab CI 엔터프라이즈 통합
+### GitLab CI Enterprise Integration
 
 ```yaml
 # .gitlab-ci.yml
@@ -10248,163 +10248,163 @@ Claude Code와 CI/CD 파이프라인의 통합은 단순한 도구 활용을 넘
 
 \newpage
 
-# 제10장: 웹 애플리케이션 구축
+# Chapter 10: Building a Web Application
 
-> "실습은 이론을 현실로 만든다" - 벤자민 프랭클린
+> "Practice makes theory reality." - Benjamin Franklin
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 mindmap
-  root((학습 목표))
-    아키텍처 설계
-      엔터프라이즈급 시스템 설계
-      마이크로서비스 아키텍처
-      확장 가능한 구조
-    풀스택 개발
-      백엔드 API 구축
-      프론트엔드 최적화
-      실시간 통신
-    품질 보장
-      테스트 자동화
-      성능 최적화
-      보안 강화
-    DevOps 실천
-      컨테이너화
-      CI/CD 파이프라인
-      모니터링 시스템
+  root((Learning Objectives))
+    Architecture Design
+      Enterprise-grade system design
+      Microservices architecture
+      Scalable structure
+    Full-Stack Development
+      Building backend APIs
+      Frontend optimization
+      Real-time communication
+    Quality Assurance
+      Test automation
+      Performance optimization
+      Security hardening
+    DevOps Practices
+      Containerization
+      CI/CD pipeline
+      Monitoring system
 ```
 
-## 학습 목표
+## Learning Objectives
 
-이 장을 완료하면 다음을 할 수 있습니다.
+Upon completing this chapter, you will be able to:
 
-- 전체적인 웹 애플리케이션 아키텍처를 설계하고 구현할 수 있습니다.
-- Claude Code를 활용하여 백엔드와 프론트엔드를 체계적으로 개발할 수 있습니다.
-- 실시간 기능과 대화형 UI를 구현하고 최적화할 수 있습니다.
-- 테스트, 배포, 모니터링을 포함한 전체 개발 라이프사이클을 관리할 수 있습니다.
+- Design and implement a comprehensive web application architecture.
+- Systematically develop backend and frontend components using Claude Code.
+- Implement and optimize real-time features and interactive UIs.
+- Manage the entire development lifecycle, including testing, deployment, and monitoring.
 
-## 개요
+## Overview
 
-이 장에서는 지금까지 학습한 모든 이론과 기법을 실제 프로젝트에 적용하는 종합적 실습을 진행합니다. Claude Code를 활용해 실시간 채팅이 있는 협업 도구 ‘CollabSpace’를 처음부터 끝까지 구축하면서, 전문적인 웹 애플리케이션 개발의 전 과정을 경험해보겠습니다.
+In this chapter, we will conduct a comprehensive practical exercise applying all the theories and techniques learned so far to a real project. By building 'CollabSpace', a collaboration tool with real-time chat, from scratch using Claude Code, we will experience the entire process of professional web application development.
 
-이 프로젝트를 통해 아키텍처 설계부터 배포와 모니터링까지, 전체적인 개발 라이프사이클을 경험하고 실무에서 직접 활용할 수 있는 실전 역량을 배양하겠습니다.
+Through this project, we will experience the entire development lifecycle from architecture design to deployment and monitoring, and cultivate practical skills that can be directly applied in real-world scenarios.
 
-## 10.1 엔터프라이즈 프로젝트 설계와 아키텍처
+## 10.1 Enterprise Project Design and Architecture
 
-성공적인 웹 애플리케이션 구축은 체계적인 설계와 명확한 아키텍처에서 시작됩니다. 특히 실시간 협업 플랫폼과 같은 복잡한 시스템에서는 초기 설계 결정이 전체 프로젝트의 성패를 좌우합니다. 
+Successful web application development begins with systematic design and a clear architecture. Especially in complex systems like real-time collaboration platforms, initial design decisions determine the success or failure of the entire project.
 
-엔터프라이즈급 애플리케이션은 단순한 기능 구현을 넘어서 확장성, 안정성, 보안성, 유지보수성을 모두 고려해야 합니다. Claude Code는 이러한 다차원적 요구사항을 종합적으로 분석하고, 검증된 아키텍처 패턴을 제안하여 프로젝트의 기술적 위험을 최소화합니다.
+Enterprise-grade applications must consider not only functional implementation but also scalability, stability, security, and maintainability. Claude Code comprehensively analyzes these multi-dimensional requirements and proposes validated architectural patterns to minimize the project's technical risks.
 
-**아키텍처 설계의 핵심 원칙**
+**Key Principles of Architectural Design**
 
-1. **도메인 주도 설계(DDD)**: 비즈니스 로직을 중심으로 한 서비스 경계 정의
-2. **관심사의 분리**: 각 컴포넌트의 책임과 역할을 명확히 구분
-3. **느슨한 결합**: 서비스 간 의존성을 최소화하여 독립적 개발과 배포 가능
-4. **높은 응집도**: 관련 기능들을 논리적으로 그룹화하여 코드 품질 향상
-5. **확장성 고려**: 사용자 증가와 기능 확장에 대비한 유연한 구조
+1.  **Domain-Driven Design (DDD)**: Defining service boundaries centered on business logic.
+2.  **Separation of Concerns**: Clearly distinguishing the responsibilities and roles of each component.
+3.  **Loose Coupling**: Minimizing dependencies between services to enable independent development and deployment.
+4.  **High Cohesion**: Logically grouping related functionalities to improve code quality.
+5.  **Scalability Consideration**: Flexible structure to prepare for user growth and feature expansion.
 
-### 프로젝트 개요: "CollabSpace" - 엔터프라이즈급 협업 플랫폼
+### Project Overview: "CollabSpace" - An Enterprise-Grade Collaboration Platform
 
-CollabSpace는 현대적인 원격 협업 환경의 모든 요구사항을 충족하는 포괄적인 협업 플랫폼입니다. Slack과 Notion의 장점을 결합하면서도 개발팀을 위한 전문적인 기능들을 추가로 제공합니다.
+CollabSpace is a comprehensive collaboration platform that meets all the requirements of a modern remote collaboration environment. It combines the strengths of Slack and Notion while providing additional professional features for development teams.
 
-**핵심 기능 및 비즈니스 가치**
+**Core Features and Business Value**
 
-**1. 실시간 협업 엔진**
+**1. Real-time Collaboration Engine**
 
-- WebSocket 기반 실시간 통신 (1000+ 동시 사용자 지원)
-- 동시 편집과 충돌 해결 알고리즘
-- 실시간 커서 추적과 사용자 인식
-- 오프라인 동기화와 충돌 해결
+- WebSocket-based real-time communication (supporting 1000+ concurrent users)
+- Concurrent editing and conflict resolution algorithms
+- Real-time cursor tracking and user presence
+- Offline synchronization and conflict resolution
 
-**2. 지능형 워크스페이스 관리**
+**2. Intelligent Workspace Management**
 
-- 계층적 조직 구조 (Organization > Team > Project)
-- 역할 기반 접근 제어 (RBAC) 시스템
-- 동적 권한 위임과 임시 액세스
-- 감사 로그와 활동 추적
+- Hierarchical organizational structure (Organization > Team > Project)
+- Role-Based Access Control (RBAC) system
+- Dynamic permission delegation and temporary access
+- Audit logs and activity tracking
 
-**3. 통합 커뮤니케이션 허브**
+**3. Integrated Communication Hub**
 
-- 멀티미디어 지원 실시간 채팅
-- 스레드 기반 대화 구조
-- 지능형 알림 시스템
-- 통합 검색과 콘텐츠 발견
+- Real-time chat with multimedia support
+- Thread-based conversation structure
+- Intelligent notification system
+- Integrated search and content discovery
 
-**4. 프로젝트 관리 도구**
+**4. Project Management Tools**
 
-- 사용자 정의 가능한 칸반 보드
-- 간트 차트와 타임라인 뷰
-- 자동화된 워크플로우
-- 진행률 추적과 리포팅
+- Customizable Kanban boards
+- Gantt charts and timeline views
+- Automated workflows
+- Progress tracking and reporting
 
-**5. 파일과 지식 관리**
+**5. File and Knowledge Management**
 
-- 버전 관리가 있는 파일 시스템
-- 실시간 문서 협업 편집기
-- 위키 시스템과 지식베이스
-- 통합 코드 리뷰 도구
+- File system with version control
+- Real-time collaborative document editor
+- Wiki system and knowledge base
+- Integrated code review tools
 
-### 엔터프라이즈급 아키텍처 설계
+### Enterprise-Grade Architecture Design
 
-복잡한 협업 플랫폼의 아키텍처 설계는 기능적 요구사항뿐만 아니라 비기능적 요구사항(성능, 확장성, 가용성, 보안)을 모두 고려해야 합니다. 
+Designing the architecture for a complex collaboration platform must consider not only functional requirements but also non-functional requirements (performance, scalability, availability, security).
 
-**아키텍처 설계 방법론**
+**Architecture Design Methodology**
 
-현대적인 웹 애플리케이션 설계는 다음과 같은 체계적 접근법을 따릅니다:
+Modern web application design follows a systematic approach:
 
-1. **요구사항 분석**: 비즈니스 요구사항과 기술적 제약사항을 명확히 정의
-2. **도메인 모델링**: 핵심 비즈니스 엔티티와 그들 간의 관계 설계
-3. **서비스 분해**: 마이크로서비스 경계 설정과 API 인터페이스 정의
-4. **데이터 아키텍처**: 데이터 저장, 캐싱, 검색 전략 수립
-5. **통신 패턴**: 동기/비동기 통신, 이벤트 기반 아키텍처 설계
-6. **보안 아키텍처**: 인증, 인가, 데이터 보호 전략 구축
-7. **운영 아키텍처**: 모니터링, 로깅, 배포 전략 설계
+1.  **Requirements Analysis**: Clearly define business requirements and technical constraints.
+2.  **Domain Modeling**: Design core business entities and their relationships.
+3.  **Service Decomposition**: Define microservice boundaries and API interfaces.
+4.  **Data Architecture**: Establish strategies for data storage, caching, and retrieval.
+5.  **Communication Patterns**: Design synchronous/asynchronous communication and event-driven architecture.
+6.  **Security Architecture**: Build strategies for authentication, authorization, and data protection.
+7.  **Operational Architecture**: Design strategies for monitoring, logging, and deployment.
 
-Claude Code를 활용하여 이러한 전체적인 설계 과정을 체계적이고 검증된 방식으로 진행해보겠습니다.
+We will use Claude Code to proceed with this overall design process in a systematic and validated manner.
 
-**시스템 요구사항 정의**
+**System Requirements Definition**
 
 ```bash
-claude "CollabSpace 엔터프라이즈 협업 플랫폼의 아키텍처를 설계해줘.
+claude "Design the architecture for the CollabSpace enterprise collaboration platform.
 
-비기능적 요구사항
-- 성능: 1000+ 동시 사용자, 100ms 이하 API 응답
-- 확장성: 수평적 확장 가능한 마이크로서비스 구조
-- 가용성: 99.9% 업타임, 다중 가용 영역 배포
-- 보안: 제로 트러스트 아키텍처, 종단간 암호화
-- 데이터 일관성: 이벤트 소싱과 CQRS 패턴 적용
+Non-functional Requirements:
+- Performance: 1000+ concurrent users, API response time < 100ms
+- Scalability: Horizontally scalable microservices architecture
+- Availability: 99.9% uptime, multi-availability zone deployment
+- Security: Zero Trust architecture, end-to-end encryption
+- Data Consistency: Event sourcing and CQRS pattern application
 
-기능적 요구사항
-- 실시간 협업: WebSocket 기반 실시간 통신
-- 멀티 테넌시: 조직별 데이터 격리
-- 파일 시스템: 대용량 파일 처리와 CDN 연동
-- 검색 엔진: 전문 검색과 자동 완성
-- 분석 시스템: 사용 패턴 분석과 인사이트
+Functional Requirements:
+- Real-time Collaboration: WebSocket-based real-time communication
+- Multi-tenancy: Data isolation per organization
+- File System: Large file handling and CDN integration
+- Search Engine: Full-text search and auto-completion
+- Analytics System: User pattern analysis and insights
 
-기술 제약사항
-- 클라우드 네이티브 (Kubernetes 기반)
-- 컨테이너 우선 아키텍처
-- API 우선 설계 (API-First)
-- 이벤트 기반 아키텍처
-- 관찰 가능성 내장 (모니터링, 로깅, 추적)"
+Technical Constraints:
+- Cloud-native (Kubernetes-based)
+- Container-first architecture
+- API-first design
+- Event-driven architecture
+- Built-in observability (monitoring, logging, tracing)"
 ```
 
-**Claude Code가 제안하는 아키텍처 개요**
+**Architecture Overview Proposed by Claude Code**
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph TB
-    subgraph frontend [프론트엔드 계층]
+    subgraph frontend [Frontend Layer]
         A[Web App<br/>Next.js]
         B[Mobile App<br/>React Native]
         C[Desktop App<br/>Electron]
     end
     
-    subgraph gateway [API Gateway 계층]
-        D[API Gateway<br/>Kong/Istio<br/>인증/인가, Rate Limiting<br/>로드 밸런싱, 서비스 디스커버리]
+    subgraph gateway [API Gateway Layer]
+        D[API Gateway<br/>Kong/Istio<br/>Auth/AuthZ, Rate Limiting<br/>Load Balancing, Service Discovery]
     end
     
-    subgraph microservices [마이크로서비스 계층]
+    subgraph microservices [Microservices Layer]
         E[Auth Service]
         F[User Service]
         G[Workspace Service]
@@ -10419,7 +10419,7 @@ graph TB
         P[Email Service]
     end
     
-    subgraph data [데이터 계층]
+    subgraph data [Data Layer]
         Q[PostgreSQL<br/>Primary DB]
         R[Redis<br/>Cache]
         S[Elasticsearch<br/>Search]
@@ -10470,113 +10470,113 @@ graph TB
     class Q,R,S,T,U,V,W dataStyle
 ```
 
-**상세 아키텍처 설계 요청**
+**Detailed Architecture Design Request**
 
 ```bash
-# 마이크로서비스 경계 정의
-claude "CollabSpace의 마이크로서비스 경계를 DDD 원칙에 따라 정의해줘.
+# Define microservice boundaries
+claude "Define the microservice boundaries for CollabSpace according to DDD principles.
 
-도메인 컨텍스트 분석
-- 각 바운디드 컨텍스트의 책임과 경계
-- 서비스 간 통신 패턴 (동기 vs 비동기)
-- 데이터 소유권과 일관성 전략
-- 이벤트 스토밍 결과 반영
+Domain Context Analysis:
+- Responsibilities and boundaries of each bounded context
+- Communication patterns between services (synchronous vs. asynchronous)
+- Data ownership and consistency strategies
+- Reflection of event storming results
 
-서비스별 상세 설계
-1. 인증 서비스: OAuth2/OIDC, JWT, 다중 ID 제공자
-2. 사용자 관리: 프로필, 설정, 팀 멤버십
-3. 워크스페이스: 조직 구조, 권한 관리
-4. 실시간 통신: WebSocket 연결 관리, 메시지 라우팅
-5. 파일 서비스: 업로드, 저장, CDN 연동
-6. 검색 서비스: 인덱싱, 전문 검색, 자동 완성
-7. 알림 서비스: 실시간 알림, 이메일, 푸시
+Detailed Design per Service:
+1. Authentication Service: OAuth2/OIDC, JWT, multiple ID providers
+2. User Management: Profile, settings, team membership
+3. Workspace: Organizational structure, permission management
+4. Real-time Communication: WebSocket connection management, message routing
+5. File Service: Upload, storage, CDN integration
+6. Search Service: Indexing, full-text search, auto-completion
+7. Notification Service: Real-time notifications, email, push
 
-각 서비스는
-- 독립적 배포 가능
-- 자체 데이터베이스 소유
-- API 버전 관리 지원
-- 헬스체크와 모니터링 내장"
+Each service should:
+- Be independently deployable
+- Own its database
+- Support API version management
+- Have built-in health checks and monitoring"
 
-# 실시간 통신 아키텍처
-claude "대규모 실시간 협업을 위한 WebSocket 아키텍처를 설계해줘.
+# Real-time communication architecture
+claude "Design a WebSocket architecture for large-scale real-time collaboration.
 
-요구사항
-- 1000+ 동시 연결 지원
-- 메시지 보장과 순서 유지
-- 연결 복구와 재동기화
-- 수평적 확장 가능성
+Requirements:
+- Support 1000+ concurrent connections
+- Message guarantee and order preservation
+- Connection recovery and resynchronization
+- Horizontal scalability
 
-설계 요소
-1. WebSocket 클러스터 관리
-2. 메시지 브로커 (Redis Streams/Kafka)
-3. 세션 관리와 로드 밸런싱
-4. 백프레셔와 플로우 제어
-5. 연결 상태 모니터링
+Design Elements:
+1. WebSocket cluster management
+2. Message broker (Redis Streams/Kafka)
+3. Session management and load balancing
+4. Backpressure and flow control
+5. Connection status monitoring
 
-성능 최적화
-- 연결 풀링과 재사용
-- 메시지 배칭과 압축
-- 네임스페이스별 격리
-- 지리적 분산 배포"
+Performance Optimization:
+- Connection pooling and reuse
+- Message batching and compression
+- Namespace-specific isolation
+- Geo-distributed deployment"
 
-# 데이터 아키텍처 설계
-claude "멀티 테넌트 데이터 아키텍처를 설계해줘.
+# Data architecture design
+claude "Design a multi-tenant data architecture.
 
-격리 전략
-- 행 수준 보안 (Row-Level Security)
-- 스키마 분리 vs 데이터베이스 분리
-- 암호화와 접근 제어
+Isolation Strategy:
+- Row-Level Security
+- Schema separation vs. Database separation
+- Encryption and access control
 
-일관성 모델
-- ACID vs BASE 트레이드오프
-- 이벤트 소싱 적용 영역
-- CQRS 패턴 구현
-- 분산 트랜잭션 관리
+Consistency Model:
+- ACID vs. BASE trade-offs
+- Event sourcing application areas
+- CQRS pattern implementation
+- Distributed transaction management
 
-성능 최적화
-- 샤딩 전략
-- 읽기 복제본 활용
-- 캐싱 계층 설계
-- 인덱스 최적화"
+Performance Optimization:
+- Sharding strategy
+- Read replica utilization
+- Caching layer design
+- Index optimization"
 ```
 
-### 전략적 기술 스택 선정
+### Strategic Technology Stack Selection
 
-기술 스택 선정은 단순한 기술적 선호도를 넘어서 비즈니스 목표, 팀 역량, 장기적 유지보수성을 모두 고려해야 하는 전략적 의사결정입니다. Claude Code를 활용하여 각 계층별로 최적의 기술을 체계적으로 선택해보겠습니다.
+Selecting a technology stack is a strategic decision that must consider not only technical preferences but also business goals, team capabilities, and long-term maintainability. We will systematically select the optimal technology for each layer using Claude Code.
 
-**종합적 기술 스택 평가 요청**
+**Comprehensive Technology Stack Evaluation Request**
 
 ```bash
-claude "CollabSpace 엔터프라이즈 플랫폼을 위한 최적의 기술 스택을 추천해줘.
+claude "Recommend the optimal technology stack for the CollabSpace enterprise platform.
 
-평가 기준
-1. 성능과 확장성: 1000+ 동시 사용자 처리 능력
-2. 개발 생산성: 팀 러닝 커브와 개발 속도
-3. 생태계 성숙도: 라이브러리, 도구, 커뮤니티 지원
-4. 운영 안정성: 프로덕션 검증과 장기 지원
-5. 비용 효율성: 라이선스, 인프라, 인력 비용
-6. 보안: 보안 패치와 취약점 대응
-7. 인재 확보: 시장에서 개발자 확보 용이성
+Evaluation Criteria:
+1. Performance and Scalability: Ability to handle 1000+ concurrent users
+2. Development Productivity: Team learning curve and development speed
+3. Ecosystem Maturity: Library, tool, and community support
+4. Operational Stability: Production validation and long-term support
+5. Cost-Effectiveness: License, infrastructure, and personnel costs
+6. Security: Security patches and vulnerability response
+7. Talent Acquisition: Ease of acquiring developers in the market
 
-기술 영역별 후보
-- 프론트엔드: React/Next.js vs Vue/Nuxt vs Angular vs Svelte
-- 백엔드 언어: Node.js vs Python vs Java vs Go vs Rust
-- 웹 프레임워크: Express vs FastAPI vs Spring Boot vs Gin
-- 데이터베이스: PostgreSQL vs MySQL vs MongoDB vs Cassandra
-- 캐시: Redis vs Memcached vs Hazelcast
-- 메시지 큐: Kafka vs RabbitMQ vs Redis Streams vs NATS
-- 검색 엔진: Elasticsearch vs Solr vs Algolia vs Typesense
-- 컨테이너: Docker vs Podman vs containerd
-- 오케스트레이션: Kubernetes vs Docker Swarm vs Nomad
-- 클라우드: AWS vs GCP vs Azure vs 멀티 클라우드
+Technology Candidates per Area:
+- Frontend: React/Next.js vs. Vue/Nuxt vs. Angular vs. Svelte
+- Backend Language: Node.js vs. Python vs. Java vs. Go vs. Rust
+- Web Framework: Express vs. FastAPI vs. Spring Boot vs. Gin
+- Database: PostgreSQL vs. MySQL vs. MongoDB vs. Cassandra
+- Cache: Redis vs. Memcached vs. Hazelcast
+- Message Queue: Kafka vs. RabbitMQ vs. Redis Streams vs. NATS
+- Search Engine: Elasticsearch vs. Solr vs. Algolia vs. Typesense
+- Container: Docker vs. Podman vs. containerd
+- Orchestration: Kubernetes vs. Docker Swarm vs. Nomad
+- Cloud: AWS vs. GCP vs. Azure vs. Multi-cloud
 
-각 선택에 대한 상세한 근거와 트레이드오프 분석을 포함해줘."
+Include detailed justifications and trade-off analyses for each choice."
 ```
 
-**Claude Code가 추천하는 최종 기술 스택**
+**Final Technology Stack Recommended by Claude Code**
 
 ```yaml
-# 프론트엔드 스택
+# Frontend Stack
 frontend:
   framework: "Next.js 14"
   language: "TypeScript"
@@ -10587,14 +10587,14 @@ frontend:
   testing: "Vitest + Testing Library + Playwright"
   bundler: "Turbopack (Next.js built-in)"
   
-  선택_근거:
-    - "Next.js 14: App Router의 서버 컴포넌트로 성능 최적화"
-    - "TypeScript: 대규모 팀 개발에서 타입 안전성 보장"
-    - "Tailwind CSS: 일관된 디자인 시스템과 빠른 프로토타이핑"
-    - "Zustand: 간단하지만 강력한 상태 관리, Redux 대비 보일러플레이트 최소화"
-    - "Radix UI: 접근성 기본 제공, 기업 환경 필수 요구사항"
+  Rationale:
+    - "Next.js 14: Performance optimization with App Router's server components"
+    - "TypeScript: Type safety assurance in large team development"
+    - "Tailwind CSS: Consistent design system and rapid prototyping"
+    - "Zustand: Simple yet powerful state management, minimal boilerplate compared to Redux"
+    - "Radix UI: Accessibility built-in, essential for enterprise environments"
 
-# 백엔드 스택
+# Backend Stack
 backend:
   runtime: "Node.js 20 LTS"
   framework: "Fastify 4.x"
@@ -10606,13 +10606,13 @@ backend:
   api_documentation: "OpenAPI 3.0 + Swagger"
   testing: "Jest + Supertest"
   
-  선택_근거:
-    - "Node.js: 프론트엔드와 동일 언어로 팀 효율성 극대화"
-    - "Fastify: Express 대비 2배 성능, 플러그인 생태계 우수"
-    - "Prisma: 타입 안전한 데이터베이스 액세스, 마이그레이션 관리 우수"
-    - "Socket.io: 실시간 통신의 산업 표준, 폴백 메커니즘 내장"
+  Rationale:
+    - "Node.js: Maximizes team efficiency with the same language as frontend"
+    - "Fastify: Twice the performance of Express, excellent plugin ecosystem"
+    - "Prisma: Type-safe database access, excellent migration management"
+    - "Socket.io: Industry standard for real-time communication, built-in fallback mechanisms"
 
-# 데이터베이스 스택
+# Database Stack
 database:
   primary: "PostgreSQL 15"
   cache: "Redis 7.x"
@@ -10621,13 +10621,13 @@ database:
   message_queue: "Redis Streams"
   object_storage: "MinIO (S3 compatible)"
   
-  선택_근거:
-    - "PostgreSQL: ACID 보장, JSON 지원, 확장성 우수"
-    - "Redis: 고성능 캐싱, pub/sub, 스트림 처리 모두 지원"
-    - "Elasticsearch: 전문 검색, 실시간 분석, 자동 완성 최적화"
-    - "TimescaleDB: 시계열 데이터 처리에 특화된 PostgreSQL 확장"
+  Rationale:
+    - "PostgreSQL: ACID compliance, JSON support, excellent scalability"
+    - "Redis: Supports high-performance caching, pub/sub, and stream processing"
+    - "Elasticsearch: Optimized for full-text search, real-time analytics, auto-completion"
+    - "TimescaleDB: PostgreSQL extension specialized for time-series data processing"
 
-# 인프라 스택
+# Infrastructure Stack
 infrastructure:
   containerization: "Docker + Docker Compose"
   orchestration: "Kubernetes 1.28+"
@@ -10639,13 +10639,13 @@ infrastructure:
   ci_cd: "GitLab CI + ArgoCD"
   cloud: "AWS (multi-AZ deployment)"
   
-  선택_근거:
-    - "Kubernetes: 컨테이너 오케스트레이션 표준, 멀티 클라우드 지원"
-    - "Istio: 서비스 메시로 보안, 관찰성, 트래픽 관리 통합"
-    - "Kong: 엔터프라이즈급 API 게이트웨이, 플러그인 생태계"
-    - "Prometheus: 클라우드 네이티브 모니터링 표준"
+  Rationale:
+    - "Kubernetes: Container orchestration standard, multi-cloud support"
+    - "Istio: Integrates security, observability, and traffic management with service mesh"
+    - "Kong: Enterprise-grade API gateway, plugin ecosystem"
+    - "Prometheus: Cloud-native monitoring standard"
 
-# 개발 도구
+# Development Tools
 development:
   package_manager: "pnpm"
   monorepo: "Turborepo"
@@ -10654,11 +10654,11 @@ development:
   testing: "Jest + Playwright + k6"
   documentation: "Storybook + Docusaurus"
   
-  선택_근거:
-    - "pnpm: npm 대비 3배 빠른 설치 속도, 디스크 공간 절약"
-    - "Turborepo: 모노레포 빌드 최적화, 캐싱으로 CI 시간 단축"
+  Rationale:
+    - "pnpm: 3x faster installation speed than npm, saves disk space"
+    - "Turborepo: Monorepo build optimization, reduces CI time with caching"
 
-# 보안 스택
+# Security Stack
 security:
   authentication: "OAuth 2.0 + OpenID Connect"
   authorization: "RBAC + ABAC hybrid"
@@ -10668,54 +10668,54 @@ security:
   compliance: "SOC 2 Type II ready"
 ```
 
-**기술 스택 의사결정 매트릭스**
+**Technology Stack Decision Matrix**
 
 ```bash
-claude "선정된 기술 스택의 의사결정 과정을 투명하게 문서화해줘.
+claude "Transparently document the decision-making process for the selected technology stack.
 
-비교 매트릭스 생성
-- 각 기술 선택지에 대한 점수화 (1-10점)
-- 가중치 적용 (성능 30%, 개발 생산성 25%, 운영 안정성 20%, 비용 15%, 학습 곡선 10%)
-- 총점과 순위
-- 선택하지 않은 기술의 배제 이유
+Create Comparison Matrix:
+- Score for each technology option (1-10 points)
+- Apply weights (Performance 30%, Development Productivity 25%, Operational Stability 20%, Cost 15%, Learning Curve 10%)
+- Total score and ranking
+- Reasons for excluding unselected technologies
 
-리스크 분석
-- 기술별 주요 리스크와 완화 전략
-- 업그레이드 경로와 마이그레이션 계획
-- 벤더 종속성과 대안 기술
-- 팀 교육 계획과 일정
+Risk Analysis:
+- Key risks and mitigation strategies for each technology
+- Upgrade paths and migration plans
+- Vendor lock-in and alternative technologies
+- Team training plans and schedules
 
-성능 벤치마크
-- 예상 성능 지표
-- 병목 지점 예측
-- 확장성 시나리오
-- 모니터링 포인트"
+Performance Benchmarks:
+- Expected performance metrics
+- Predicted bottleneck points
+- Scalability scenarios
+- Monitoring points"
 ```
 
-**프로토타입 검증**
+**Prototype Validation**
 
 ```bash
-claude "기술 스택 검증을 위한 프로토타입을 만들어줘.
+claude "Create a prototype to validate the technology stack.
 
-검증 목표
-1. 성능 벤치마크: 동시 사용자 수, 응답 시간, 처리량
-2. 개발 생산성: 기능 개발 속도, 디버깅 용이성
-3. 운영 복잡성: 배포, 모니터링, 문제 해결
-4. 통합성: 서비스 간 연동, 데이터 일관성
+Validation Objectives:
+1. Performance Benchmark: Concurrent users, response time, throughput
+2. Development Productivity: Feature development speed, debugging ease
+3. Operational Complexity: Deployment, monitoring, problem-solving
+4. Integration: Inter-service communication, data consistency
 
-프로토타입 범위
-- 사용자 인증과 세션 관리
-- 실시간 채팅 (100명 동시 연결)
-- 파일 업로드와 다운로드
-- 검색 기능
-- 기본적인 모니터링과 로깅
+Prototype Scope:
+- User authentication and session management
+- Real-time chat (100 concurrent connections)
+- File upload and download
+- Search functionality
+- Basic monitoring and logging
 
-성공 기준
-- API 응답 시간 < 100ms (95%)
-- WebSocket 메시지 지연 < 50ms
-- 파일 업로드 처리량 > 10MB/s
-- 검색 응답 시간 < 200ms
-- 시스템 리소스 사용률 < 70%"
+Success Criteria:
+- API response time < 100ms (95%)
+- WebSocket message latency < 50ms
+- File upload throughput > 10MB/s
+- Search response time < 200ms
+- System resource utilization < 70%"
 ```
 
 ## 10.2 엔터프라이즈급 프로젝트 초기 설정
@@ -11511,39 +11511,38 @@ Closes #123
 최신 버전은 항상 프로젝트 루트의 CLAUDE.md 파일을 참조하세요.
 ````
 
-## 10.3 백엔드 개발
+## 10.3 Backend Development
 
-백엔드 개발은 애플리케이션의 핵심 비즈니스 로직과 데이터 관리를 담당하는 중요한 영역입니다. CollabSpace의 백엔드는 사용자 인증, 실시간 통신, 데이터 저장 등 다양한 기능을 안정적으로 제공해야 합니다.
+Backend development is a crucial area responsible for the application's core business logic and data management. CollabSpace's backend must reliably provide various functions such as user authentication, real-time communication, and data storage.
 
-### 인증 시스템 구현
+### Authentication System Implementation
 
-사용자 인증은 모든 협업 도구의 기반이 되는 핵심 기능입니다. JWT(JSON Web Token)를 활용한 인증 시스템은 확장성과 보안성을 모두 갖춘 현대적인 접근 방식입니다.
-
-```bash
-claude "JWT 기반 인증 시스템을 구현해줘.
-회원가입, 로그인, 토큰 갱신, 권한 미들웨어를 포함하고
-보안 베스트 프랙티스를 적용해줘"
-```
-
-**주요 구현 요소**
-
-1. **토큰 기반 인증**: 상태 비저장(stateless) 방식으로 서버 확장성 확보
-2. **역할 기반 접근 제어**: 워크스페이스별로 다른 권한 수준 관리
-3. **토큰 갱신 메커니즘**: 보안과 사용자 편의성의 균형
-4. **암호 해싱**: bcrypt를 활용한 안전한 패스워드 저장
-5. **입력 검증**: 악의적인 입력으로부터 시스템 보호
-
-### 데이터베이스 설계
-
-데이터베이스 스키마는 애플리케이션의 데이터 구조와 비즈니스 규칙을 반영하는 핵심 설계입니다. 협업 도구의 특성상 사용자, 워크스페이스, 프로젝트 간의 복잡한 관계를 명확히 정의해야 합니다.
+User authentication is a core function that forms the basis of all collaboration tools. An authentication system using JWT (JSON Web Token) is a modern approach that offers both scalability and security.
 
 ```bash
-claude "Prisma를 사용해서 데이터베이스 스키마를 설계해줘.
-User, Workspace, Project, Message, Task 엔티티와
-관계를 정의해줘"
+claude "Implement a JWT-based authentication system.
+Include sign-up, login, token refresh, and authorization middleware,
+and apply security best practices."
 ```
 
-생성된 스키마
+**Key Implementation Elements**
+
+1.  **Token-Based Authentication**: Ensures server scalability with a stateless approach.
+2.  **Role-Based Access Control**: Manages different permission levels per workspace.
+3.  **Token Refresh Mechanism**: Balances security and user convenience.
+4.  **Password Hashing**: Secure password storage using bcrypt.
+5.  **Input Validation**: Protects the system from malicious input.
+
+### Database Design
+
+The database schema is a core design that reflects the application's data structure and business rules. Due to the nature of collaboration tools, complex relationships between users, workspaces, and projects must be clearly defined.
+
+```bash
+claude "Design the database schema using Prisma.
+Define User, Workspace, Project, Message, and Task entities and their relationships."
+```
+
+Generated Schema:
 ```prisma
 // schema.prisma
 model User {
@@ -11591,416 +11590,415 @@ enum Role {
 }
 ```
 
-**스키마 설계 원칙**
+**Schema Design Principles**
 
-1. **정규화**: 데이터 중복을 최소화하여 일관성 보장
-2. **관계 정의**: 외래 키와 인덱스를 통한 효율적인 조인 연산
-3. **확장성**: 미래 요구사항을 고려한 유연한 구조
-4. **성능**: 자주 조회되는 필드에 대한 적절한 인덱싱
+1.  **Normalization**: Minimize data redundancy to ensure consistency.
+2.  **Relationship Definition**: Efficient join operations through foreign keys and indexes.
+3.  **Scalability**: Flexible structure considering future requirements.
+4.  **Performance**: Appropriate indexing for frequently queried fields.
 
-### 실시간 통신 구현
+### Real-time Communication Implementation
 
-실시간 통신은 협업 도구의 핵심 요소입니다. Socket.io를 활용하여 사용자 간의 즉시적인 정보 교환과 협업을 가능하게 합니다.
-
-```bash
-claude "Socket.io를 사용해서 실시간 채팅을 구현해줘.
-네임스페이스별 방 관리, 메시지 저장, 온라인 사용자 표시,
-타이핑 인디케이터를 포함해줘"
-```
-
-**실시간 통신 핵심 기능**
-
-1. **연결 관리**: 사용자 연결/해제 상태 추적 및 관리
-2. **방 기반 메시징**: 워크스페이스별 독립적인 채팅 공간
-3. **이벤트 처리**: 메시지, 타이핑, 상태 변경 등 다양한 이벤트 관리
-4. **에러 처리**: 연결 실패 및 재연결 로직 구현
-5. **성능 최적화**: 메시지 배치 처리 및 대역폭 효율성
-
-### API 엔드포인트 개발
-
-RESTful API는 프론트엔드와 백엔드 간의 표준화된 통신 인터페이스를 제공합니다. 체계적인 API 설계는 유지보수성과 확장성을 크게 향상시킵니다.
+Real-time communication is a core element of collaboration tools. Socket.io enables instant information exchange and collaboration between users.
 
 ```bash
-claude "RESTful API를 체계적으로 구현해줘.
-라우터 구조, 미들웨어, 에러 처리, 입력 검증을 포함하고
-OpenAPI 스펙도 자동 생성되도록 해줘"
+claude "Implement real-time chat using Socket.io.
+Include namespace-specific room management, message storage, online user display,
+and typing indicators."
 ```
 
-**API 설계 원칙**
+**Core Real-time Communication Features**
 
-1. **일관된 명명 규칙**: 직관적이고 예측 가능한 엔드포인트 구조
-2. **적절한 HTTP 메서드**: GET, POST, PUT, DELETE의 의미론적 사용
-3. **에러 핸들링**: 표준화된 에러 응답 형식과 적절한 HTTP 상태 코드
-4. **입력 검증**: 보안과 데이터 무결성을 위한 철저한 유효성 검사
-5. **문서화**: 자동 생성되는 API 문서로 개발 효율성 증대
+1.  **Connection Management**: Track and manage user connection/disconnection status.
+2.  **Room-Based Messaging**: Independent chat spaces per workspace.
+3.  **Event Handling**: Manage various events like messages, typing, status changes.
+4.  **Error Handling**: Implement connection failure and reconnection logic.
+5.  **Performance Optimization**: Message batch processing and bandwidth efficiency.
 
-## 10.4 프론트엔드 개발
+### API Endpoint Development
 
-프론트엔드는 사용자가 직접 상호작용하는 인터페이스입니다. 현대적인 웹 애플리케이션은 단순한 정적 페이지를 넘어서 반응성과 성능을 모두 갖춘 복잡한 시스템입니다.
-
-### 프로젝트 설정
-
-Next.js 14는 React 생태계에서 가장 성숙한 풀스택 프레임워크 중 하나입니다. App Router, 서버 컴포넌트, 스트리밍 등 최신 웹 기술을 활용하여 뛰어난 성능과 개발자 경험을 제공합니다.
+RESTful APIs provide a standardized communication interface between frontend and backend. Systematic API design significantly improves maintainability and scalability.
 
 ```bash
-claude "Next.js 14 프로젝트를 설정해줘.
-App Router, TypeScript, Tailwind CSS, 
-상태 관리 (Zustand), UI 라이브러리 (shadcn/ui)를 포함해줘"
+claude "Systematically implement RESTful APIs.
+Include router structure, middleware, error handling, input validation,
+and ensure OpenAPI specs are auto-generated."
 ```
 
-**기술 스택 선택 이유**
+**API Design Principles**
 
-1. **Next.js 14**: 서버 사이드 렌더링과 정적 생성으로 최적화된 성능
-2. **TypeScript**: 컴파일 타임 타입 검사로 런타임 에러 방지
-3. **Tailwind CSS**: 유틸리티 기반 CSS로 빠르고 일관된 스타일링
-4. **Zustand**: 가벼우면서도 강력한 상태 관리 라이브러리
-5. **shadcn/ui**: 접근성과 디자인을 모두 고려한 컴포넌트 라이브러리
+1.  **Consistent Naming Conventions**: Intuitive and predictable endpoint structure.
+2.  **Appropriate HTTP Methods**: Semantic use of GET, POST, PUT, DELETE.
+3.  **Error Handling**: Standardized error response format and appropriate HTTP status codes.
+4.  **Input Validation**: Thorough validation for security and data integrity.
+5.  **Documentation**: Improve development efficiency with auto-generated API documentation.
 
-### 인증 구현
+## 10.4 Frontend Development
 
-프론트엔드 인증은 사용자 경험과 보안의 균형을 맞추는 중요한 요소입니다. NextAuth.js는 다양한 인증 제공자와의 통합을 간소화하고 보안 베스트 프랙티스를 자동으로 적용합니다.
+The frontend is the interface users directly interact with. Modern web applications are complex systems that require both responsiveness and performance, going beyond simple static pages.
+
+### Project Setup
+
+Next.js 14 is one of the most mature full-stack frameworks in the React ecosystem. It offers excellent performance and developer experience by utilizing the latest web technologies such as App Router, server components, and streaming.
 
 ```bash
-claude "NextAuth.js를 사용해서 프론트엔드 인증을 구현해줘.
-소셜 로그인 (Google, GitHub), 세션 관리,
-보호된 라우트를 포함해줘"
+claude "Set up a Next.js 14 project.
+Include App Router, TypeScript, Tailwind CSS,
+state management (Zustand), and UI library (shadcn/ui)."
 ```
 
-**인증 시스템 핵심 요소**
+**Technology Stack Selection Rationale**
 
-1. **소셜 로그인**: OAuth 2.0을 통한 간편하고 안전한 인증
-2. **세션 관리**: JWT와 쿠키를 활용한 상태 유지
-3. **보호된 라우트**: 인증되지 않은 사용자의 접근 제한
-4. **토큰 갱신**: 자동 토큰 리프레시로 끊김 없는 사용자 경험
+1.  **Next.js 14**: Optimized performance with server-side rendering and static generation.
+2.  **TypeScript**: Prevents runtime errors with compile-time type checking.
+3.  **Tailwind CSS**: Fast and consistent styling with utility-based CSS.
+4.  **Zustand**: Lightweight yet powerful state management library.
+5.  **shadcn/ui**: Component library considering both accessibility and design.
 
-### 실시간 기능 구현
+### Authentication Implementation
 
-실시간 기능은 협업 도구의 핵심입니다. Socket.io 클라이언트는 서버와의 양방향 통신을 통해 즉시적인 데이터 동기화를 가능하게 합니다.
+Frontend authentication is an important element that balances user experience and security. NextAuth.js simplifies integration with various authentication providers and automatically applies security best practices.
 
 ```bash
-claude "Socket.io 클라이언트를 구현해줘.
-연결 관리, 이벤트 리스너, 재연결 로직,
-React 컴포넌트와의 통합을 포함해줘"
+claude "Implement frontend authentication using NextAuth.js.
+Include social login (Google, GitHub), session management,
+and protected routes."
 ```
 
-**실시간 통신 클라이언트 설계**
+**Core Authentication System Elements**
 
-1. **연결 관리**: 네트워크 상태에 따른 적응적 연결 처리
-2. **이벤트 시스템**: 타입 안전한 이벤트 리스너와 에미터
-3. **재연결 로직**: 네트워크 장애 시 자동 복구 메커니즘
-4. **상태 동기화**: 서버와 클라이언트 간 데이터 일관성 보장
+1.  **Social Login**: Simple and secure authentication via OAuth 2.0.
+2.  **Session Management**: State persistence using JWT and cookies.
+3.  **Protected Routes**: Restrict access for unauthenticated users.
+4.  **Token Refresh**: Seamless user experience with automatic token refresh.
 
-### UI 컴포넌트 개발
+### Real-time Feature Implementation
 
-사용자 인터페이스는 기능적 요구사항과 사용자 경험을 모두 만족시켜야 합니다. 특히 채팅 인터페이스는 실시간성과 접근성을 고려한 세심한 설계가 필요합니다.
+Real-time features are core to collaboration tools. The Socket.io client enables instant data synchronization through bidirectional communication with the server.
 
 ```bash
-claude "채팅 인터페이스를 구현해줘.
-메시지 목록, 입력창, 파일 업로드, 이모지 선택기,
-반응형 디자인을 포함해줘"
+claude "Implement the Socket.io client.
+Include connection management, event listeners, reconnection logic,
+and integration with React components."
 ```
 
-**UI 설계 고려사항**
+**Real-time Communication Client Design**
 
-1. **성능 최적화**: 가상화된 리스트로 대량 메시지 처리
-2. **접근성**: 키보드 내비게이션과 스크린 리더 지원
-3. **반응형 디자인**: 다양한 디바이스에서 일관된 경험
-4. **사용자 경험**: 직관적인 인터랙션과 명확한 피드백
+1.  **Connection Management**: Adaptive connection handling based on network status.
+2.  **Event System**: Type-safe event listeners and emitters.
+3.  **Reconnection Logic**: Automatic recovery mechanism for network failures.
+4.  **State Synchronization**: Ensure data consistency between server and client.
 
-### 상태 관리
+### UI Component Development
 
-복잡한 애플리케이션에서 상태 관리는 데이터 흐름의 예측 가능성과 디버깅 용이성을 결정하는 핵심 요소입니다. Zustand는 간단하면서도 강력한 상태 관리 솔루션을 제공합니다.
+The user interface must satisfy both functional requirements and user experience. Chat interfaces, in particular, require careful design considering real-time aspects and accessibility.
 
 ```bash
-claude "Zustand를 사용해서 전역 상태를 관리해줘.
-사용자 정보, 워크스페이스, 채팅 메시지, 
-실시간 연결 상태를 포함해줘"
+claude "Implement the chat interface.
+Include message list, input field, file upload, emoji picker,
+and responsive design."
 ```
 
-**상태 관리 전략**
+**UI Design Considerations**
 
-1. **모듈화**: 기능별로 분리된 스토어 구조
-2. **타입 안전성**: TypeScript와의 완벽한 통합
-3. **성능**: 필요한 컴포넌트만 리렌더링하는 선택적 구독
-4. **지속성**: 로컬 스토리지와 연동한 상태 영속화
+1.  **Performance Optimization**: Handle large message volumes with virtualized lists.
+2.  **Accessibility**: Support keyboard navigation and screen readers.
+3.  **Responsive Design**: Consistent experience across various devices.
+4.  **User Experience**: Intuitive interactions and clear feedback.
 
-## 10.5 실시간 기능 추가
+### State Management
 
-실시간 기능은 협업 도구를 단순한 정보 공유 도구에서 진정한 팀워크 플랫폼으로 변모시키는 핵심 요소입니다. 사용자 간의 즉시적인 상호작용을 통해 물리적 거리에 상관없이 효율적인 협업이 가능해집니다.
-
-### 채팅 시스템
-
-채팅 시스템은 팀 커뮤니케이션의 중심축입니다. 단순한 메시지 교환을 넘어서 파일 공유, 멘션, 읽음 확인 등 다양한 커뮤니케이션 요구사항을 지원해야 합니다.
+In complex applications, state management is a key element that determines the predictability of data flow and debugging ease. Zustand provides a simple yet powerful state management solution.
 
 ```bash
-claude "실시간 채팅 시스템을 완성해줘.
-메시지 전송/수신, 읽음 확인, 메시지 편집/삭제,
-파일 첨부, 멘션 기능을 포함해줘"
+claude "Manage global state using Zustand.
+Include user information, workspace, chat messages,
+and real-time connection status."
 ```
 
-**채팅 시스템 핵심 기능**
+**State Management Strategy**
 
-1. **메시지 관리**: 실시간 전송/수신과 영구 저장의 조화
-2. **읽음 확인**: 팀원 간의 정보 공유 상태 추적
-3. **리치 미디어**: 파일, 이미지, 링크 프리뷰 지원
-4. **멘션 시스템**: 특정 사용자에게 주의를 환기하는 기능
-5. **메시지 편집**: 오타 수정과 내용 업데이트 지원
+1.  **Modularization**: Store structure separated by feature.
+2.  **Type Safety**: Perfect integration with TypeScript.
+3.  **Performance**: Selective subscription that only re-renders necessary components.
+4.  **Persistence**: State persistence integrated with local storage.
 
-### 협업 기능
+## 10.5 Adding Real-time Features
 
-실시간 협업 기능은 팀원들이 마치 같은 공간에서 작업하는 것처럼 느낄 수 있게 해주는 고급 기능입니다. 동시 편집과 실시간 피드백을 통해 생산성을 크게 향상시킵니다.
+Real-time features are core elements that transform collaboration tools from simple information sharing tools into true teamwork platforms. Instant interaction between users enables efficient collaboration regardless of physical distance.
+
+### Chat System
+
+The chat system is the central hub for team communication. It must support various communication needs beyond simple message exchange, such as file sharing, mentions, and read receipts.
 
 ```bash
-claude "실시간 협업 기능을 추가해줘.
-동시 편집 표시, 커서 위치 공유, 
-실시간 알림, 활동 피드를 구현해줘"
+claude "Complete the real-time chat system.
+Include message sending/receiving, read receipts, message editing/deletion,
+file attachments, and mention functionality."
 ```
 
-**협업 기능 설계 원칙**
+**Core Chat System Features**
 
-1. **시각적 피드백**: 다른 사용자의 활동을 직관적으로 표시
-2. **충돌 방지**: 동시 편집 시 데이터 무결성 보장
-3. **컨텍스트 보존**: 사용자의 작업 흐름 방해 최소화
-4. **선택적 알림**: 중요도에 따른 차별화된 알림 시스템
+1.  **Message Management**: Balance real-time sending/receiving with permanent storage.
+2.  **Read Receipts**: Track information sharing status among team members.
+3.  **Rich Media**: Support for files, images, and link previews.
+4.  **Mention System**: Feature to draw specific users' attention.
+5.  **Message Editing**: Support for typo correction and content updates.
 
-### 칸반 보드
+### Collaboration Features
 
-칸반 보드는 시각적 작업 관리의 핵심 도구입니다. 드래그 앤 드롭 인터페이스와 실시간 동기화를 통해 팀의 작업 현황을 직관적으로 파악하고 관리할 수 있습니다.
+Real-time collaboration features are advanced functions that make team members feel as if they are working in the same space. Productivity is greatly enhanced through concurrent editing and real-time feedback.
 
 ```bash
-claude "드래그 앤 드롭이 가능한 칸반 보드를 구현해줘.
-실시간 동기화, 카드 이동, 상태 변경,
-다중 사용자 편집을 지원해줘"
+claude "Add real-time collaboration features.
+Implement concurrent editing display, cursor position sharing,
+real-time notifications, and activity feeds."
 ```
 
-**칸반 보드 핵심 기능**
+**Collaboration Feature Design Principles**
 
-1. **직관적 인터랙션**: 드래그 앤 드롭으로 자연스러운 작업 관리
-2. **실시간 동기화**: 모든 팀원에게 즉시 반영되는 변경사항
-3. **상태 추적**: 작업 진행 상황의 시각적 표현
-4. **다중 사용자 지원**: 동시 편집과 충돌 해결 메커니즘
+1.  **Visual Feedback**: Intuitively display other users' activities.
+2.  **Conflict Prevention**: Ensure data integrity during concurrent editing.
+3.  **Context Preservation**: Minimize disruption to users' workflow.
+4.  **Selective Notifications**: Differentiated notification system based on importance.
 
-## 10.6 테스트 구현
+### Kanban Board
 
-소프트웨어 테스트는 코드의 품질과 안정성을 보장하는 필수적인 과정입니다. 특히 실시간 기능과 복잡한 상호작용을 가진 협업 도구에서는 체계적인 테스트 전략이 더욱 중요합니다.
-
-### 백엔드 테스트
-
-백엔드 테스트는 API의 정확성, 보안, 성능을 검증하는 핵심 과정입니다. 비즈니스 로직의 무결성과 데이터 일관성을 보장하기 위해 다층적인 테스트 접근법이 필요합니다.
+Kanban boards are core tools for visual task management. Drag-and-drop interfaces and real-time synchronization allow teams to intuitively grasp and manage task status.
 
 ```bash
-claude "백엔드 API에 대한 종합적인 테스트를 작성해줘.
-단위 테스트, 통합 테스트, Socket.io 테스트를 포함하고
-테스트 데이터베이스 설정도 해줘"
+claude "Implement a drag-and-drop enabled Kanban board.
+Support real-time synchronization, card movement, status changes,
+and multi-user editing."
 ```
 
-**백엔드 테스트 전략**
+**Core Kanban Board Features**
 
-1. **단위 테스트**: 개별 함수와 모듈의 정확성 검증
-2. **통합 테스트**: API 엔드포인트와 데이터베이스 상호작용 검증
-3. **실시간 통신 테스트**: Socket.io 이벤트와 연결 상태 검증
-4. **테스트 격리**: 각 테스트 간의 독립성 보장
-5. **모킹과 스텁**: 외부 의존성 제어를 통한 안정적인 테스트
+1.  **Intuitive Interaction**: Natural task management with drag-and-drop.
+2.  **Real-time Synchronization**: Changes instantly reflected for all team members.
+3.  **Status Tracking**: Visual representation of task progress.
+4.  **Multi-User Support**: Concurrent editing and conflict resolution mechanisms.
 
-### 프론트엔드 테스트
+## 10.6 Implementing Tests
 
-프론트엔드 테스트는 사용자 관점에서 애플리케이션의 동작을 검증합니다. 컴포넌트의 렌더링, 사용자 상호작용, 상태 변화를 포함한 전체적인 사용자 경험을 테스트해야 합니다.
+Software testing is an essential process to ensure code quality and stability. A systematic test strategy is even more crucial for collaboration tools with real-time features and complex interactions.
+
+### Backend Testing
+
+Backend testing is a core process for verifying API accuracy, security, and performance. A multi-layered testing approach is needed to ensure business logic integrity and data consistency.
 
 ```bash
-claude "React 컴포넌트 테스트를 작성해줘.
-React Testing Library, Jest를 사용하고
-사용자 상호작용, 실시간 기능, 상태 변경을 테스트해줘"
+claude "Write comprehensive tests for the backend API.
+Include unit tests, integration tests, Socket.io tests,
+and set up a test database."
 ```
 
-**프론트엔드 테스트 핵심 영역**
+**Backend Test Strategy**
 
-1. **컴포넌트 렌더링**: 올바른 UI 요소 표시 검증
-2. **사용자 상호작용**: 클릭, 입력, 드래그 앤 드롭 등의 이벤트 처리
-3. **상태 관리**: 전역 상태와 로컬 상태의 올바른 업데이트
-4. **비동기 동작**: API 호출과 실시간 데이터 업데이트 검증
-5. **에러 처리**: 예외 상황에서의 적절한 사용자 피드백
+1.  **Unit Tests**: Verify the correctness of individual functions and modules.
+2.  **Integration Tests**: Verify API endpoint and database interactions.
+3.  **Real-time Communication Tests**: Verify Socket.io events and connection status.
+4.  **Test Isolation**: Ensure independence between each test.
+5.  **Mocking and Stubbing**: Stable testing through control of external dependencies.
 
-### E2E 테스트
+### Frontend Testing
 
-End-to-End 테스트는 실제 사용자 시나리오를 통해 전체 시스템의 통합성을 검증합니다. 개별 컴포넌트와 서비스가 완전한 워크플로우에서 올바르게 작동하는지 확인합니다.
+Frontend testing verifies application behavior from the user's perspective. The entire user experience, including component rendering, user interactions, and state changes, must be tested.
 
 ```bash
-claude "Playwright를 사용해서 E2E 테스트를 작성해줘.
-사용자 시나리오 (회원가입, 로그인, 채팅, 협업)를
-전체적으로 테스트해줘"
+claude "Write React component tests.
+Use React Testing Library, Jest, and
+test user interactions, real-time features, and state changes."
 ```
 
-**E2E 테스트 시나리오**
+**Core Frontend Testing Areas**
 
-1. **사용자 여정**: 회원가입부터 주요 기능 사용까지의 완전한 플로우
-2. **크로스 브라우저**: 다양한 브라우저 환경에서의 동작 검증
-3. **실시간 기능**: 여러 사용자 간의 동시 작업 시나리오
-4. **에러 복구**: 네트워크 장애나 서버 오류 상황에서의 복구 능력
-5. **성능 기준**: 응답 시간과 로딩 성능의 기준값 검증
+1.  **Component Rendering**: Verify correct display of UI elements.
+2.  **User Interaction**: Event handling for clicks, inputs, drag-and-drop, etc.
+3.  **State Management**: Correct updates of global and local state.
+4.  **Asynchronous Behavior**: Verification of API calls and real-time data updates.
+5.  **Error Handling**: Appropriate user feedback in exceptional situations.
 
-## 10.7 성능 최적화
+### E2E Testing
 
-성능 최적화는 사용자 경험을 직접적으로 좌우하는 핵심 요소입니다. 로딩 시간, 응답성, 메모리 효율성을 개선하여 모든 사용자에게 쾌적한 환경을 제공해야 합니다.
-
-### 프론트엔드 최적화
-
-프론트엔드 성능은 사용자가 체감하는 애플리케이션의 반응성에 직접적인 영향을 미칩니다. 번들 크기 최적화, 렌더링 성능 개선, 네트워크 요청 최적화를 통해 전반적인 사용자 경험을 향상시킬 수 있습니다.
+End-to-End testing verifies the integration of the entire system through real user scenarios. It confirms that individual components and services work correctly in a complete workflow.
 
 ```bash
-claude "프론트엔드 성능을 최적화해줘.
-코드 스플리팅, 이미지 최적화, 메모이제이션,
-가상 스크롤링을 적용해줘"
+claude "Write E2E tests using Playwright.
+Comprehensively test user scenarios (sign-up, login, chat, collaboration)."
 ```
 
-**프론트엔드 최적화 전략**
+**E2E Test Scenarios**
 
-1. **코드 스플리팅**: 필요한 코드만 로드하여 초기 로딩 시간 단축
-2. **이미지 최적화**: WebP 포맷, 지연 로딩, 반응형 이미지 적용
-3. **메모이제이션**: React.memo, useMemo, useCallback을 통한 불필요한 리렌더링 방지
-4. **가상 스크롤링**: 대량 데이터 표시 시 렌더링 성능 최적화
-5. **캐시 활용**: 브라우저 캐시와 서비스 워커를 통한 리소스 캐싱
+1.  **User Journey**: Complete flow from sign-up to main feature usage.
+2.  **Cross-Browser**: Behavior verification in various browser environments.
+3.  **Real-time Features**: Concurrent task scenarios among multiple users.
+4.  **Error Recovery**: Recovery capability in case of network or server errors.
+5.  **Performance Baseline**: Baseline verification of response time and loading performance.
 
-### 백엔드 최적화
+## 10.7 Performance Optimization
 
-백엔드 성능은 시스템의 처리량과 응답 시간을 결정합니다. 데이터베이스 쿼리 최적화, 캐싱 전략, 연결 관리를 통해 서버의 효율성을 극대화할 수 있습니다.
+Performance optimization is a core element that directly impacts user experience. Loading time, responsiveness, and memory efficiency must be improved to provide a pleasant environment for all users.
+
+### Frontend Optimization
+
+Frontend performance directly affects the application's perceived responsiveness. Overall user experience can be improved through bundle size optimization, rendering performance improvement, and network request optimization.
 
 ```bash
-claude "백엔드 성능을 최적화해줘.
-데이터베이스 쿼리 최적화, 캐싱 (Redis),
-Connection pooling, 응답 압축을 적용해줘"
+claude "Optimize frontend performance.
+Apply code splitting, image optimization, memoization,
+and virtual scrolling."
 ```
 
-**백엔드 최적화 핵심 요소**
+**Frontend Optimization Strategy**
 
-1. **쿼리 최적화**: 인덱스 활용, N+1 문제 해결, 쿼리 계획 분석
-2. **캐싱 전략**: Redis를 활용한 다층 캐시 시스템 구축
-3. **연결 풀링**: 데이터베이스 연결 재사용을 통한 오버헤드 감소
-4. **응답 압축**: gzip, brotli 압축을 통한 네트워크 트래픽 최적화
-5. **비동기 처리**: 무거운 작업의 백그라운드 처리로 응답성 향상
+1.  **Code Splitting**: Reduce initial loading time by loading only necessary code.
+2.  **Image Optimization**: Apply WebP format, lazy loading, and responsive images.
+3.  **Memoization**: Prevent unnecessary re-renders with React.memo, useMemo, useCallback.
+4.  **Virtual Scrolling**: Optimize rendering performance when displaying large amounts of data.
+5.  **Cache Utilization**: Resource caching through browser cache and service workers.
 
-### 실시간 통신 최적화
+### Backend Optimization
 
-실시간 통신은 많은 동시 연결과 빈번한 메시지 교환으로 인해 특별한 최적화 접근법이 필요합니다. 메모리 효율성과 네트워크 대역폭 관리가 핵심입니다.
+Backend performance determines system throughput and response time. Server efficiency can be maximized through database query optimization, caching strategies, and connection management.
 
 ```bash
-claude "Socket.io 성능을 최적화해줘.
-네임스페이스 관리, 메모리 사용량 최적화,
-연결 수 제한, 메시지 큐잉을 구현해줘"
+claude "Optimize backend performance.
+Apply database query optimization, caching (Redis),
+connection pooling, and response compression."
 ```
 
-**실시간 통신 최적화 전략**
+**Core Backend Optimization Elements**
 
-1. **네임스페이스 관리**: 논리적 분리를 통한 효율적인 이벤트 라우팅
-2. **메모리 최적화**: 연결 정보와 메시지 버퍼의 효율적 관리
-3. **연결 제한**: 서버 용량에 맞는 동시 연결 수 제어
-4. **메시지 큐잉**: 백프레셔 제어와 순차 처리 보장
-5. **부하 분산**: 여러 서버 인스턴스 간의 연결 분산
+1.  **Query Optimization**: Index utilization, N+1 problem resolution, query plan analysis.
+2.  **Caching Strategy**: Build a multi-layer cache system using Redis.
+3.  **Connection Pooling**: Reduce overhead by reusing database connections.
+4.  **Response Compression**: Optimize network traffic with gzip, brotli compression.
+5.  **Asynchronous Processing**: Improve responsiveness by processing heavy tasks in the background.
 
-## 10.8 보안 강화
+### Real-time Communication Optimization
 
-보안은 협업 도구에서 가장 중요한 요소 중 하나입니다. 사용자 데이터 보호, 인증/인가 시스템, 악성 공격 방지를 통해 신뢰할 수 있는 서비스를 구축해야 합니다.
-
-### 인증/인가 보안
-
-웹 애플리케이션의 보안은 다층적 방어 체계를 통해 구축되어야 합니다. 각각의 보안 위협에 대해 적절한 대응책을 마련하여 시스템의 전반적인 보안 수준을 향상시킵니다.
+Real-time communication requires special optimization approaches due to many concurrent connections and frequent message exchanges. Memory efficiency and network bandwidth management are key.
 
 ```bash
-claude "보안을 강화해줘.
-CSRF 방지, Rate limiting, 
-입력 검증, SQL Injection 방지,
-XSS 방지를 구현해줘"
+claude "Optimize Socket.io performance.
+Implement namespace management, memory usage optimization,
+connection count limits, and message queuing."
 ```
 
-**핵심 보안 요소**
+**Real-time Communication Optimization Strategy**
 
-1. **CSRF 방지**: 크로스 사이트 요청 위조 공격 차단
-2. **Rate Limiting**: 무차별 대입 공격과 DDoS 공격 방지
-3. **입력 검증**: 모든 사용자 입력에 대한 엄격한 검증과 정제
-4. **SQL Injection 방지**: 매개변수화된 쿼리와 ORM 활용
-5. **XSS 방지**: 출력 인코딩과 콘텐츠 보안 정책 적용
+1.  **Namespace Management**: Efficient event routing through logical separation.
+2.  **Memory Optimization**: Efficient management of connection information and message buffers.
+3.  **Connection Limits**: Control concurrent connection count according to server capacity.
+4.  **Message Queuing**: Backpressure control and sequential processing assurance.
+5.  **Load Balancing**: Distribute connections among multiple server instances.
 
-**추가 보안 고려사항**
+## 10.8 Security Hardening
 
-- **HTTPS 강제**: 모든 통신의 암호화 적용
-- **세션 관리**: 안전한 세션 생성과 만료 처리
-- **권한 분리**: 최소 권한 원칙과 역할 기반 접근 제어
-- **보안 헤더**: HSTS, X-Frame-Options 등 보안 헤더 설정
+Security is one of the most important elements in collaboration tools. A reliable service must be built through user data protection, authentication/authorization systems, and malicious attack prevention.
 
-### 실시간 통신 보안
+### Authentication/Authorization Security
 
-실시간 통신은 지속적인 연결과 빈번한 데이터 교환으로 인해 특별한 보안 고려사항이 필요합니다. 연결 인증, 메시지 검증, 악용 방지를 통해 안전한 실시간 환경을 구축합니다.
+Web application security must be built through a multi-layered defense system. The overall security level of the system is improved by preparing appropriate countermeasures for each security threat.
 
 ```bash
-claude "Socket.io 보안을 강화해줘.
-네임스페이스별 권한 검사, 메시지 검증,
-스팸 방지, 악성 사용자 차단을 구현해줘"
+claude "Enhance security.
+Implement CSRF prevention, rate limiting,
+input validation, SQL Injection prevention,
+and XSS prevention."
 ```
 
-**실시간 통신 보안 전략**
+**Core Security Elements**
 
-1. **연결 인증**: Socket.io 연결 시 JWT 토큰 검증
-2. **권한 검사**: 네임스페이스와 룸별 접근 권한 확인
-3. **메시지 검증**: 실시간 메시지의 형식과 내용 검증
-4. **스팸 방지**: 메시지 빈도 제한과 패턴 분석
-5. **악성 사용자 차단**: 실시간 모니터링과 자동 차단 시스템
+1.  **CSRF Prevention**: Block cross-site request forgery attacks.
+2.  **Rate Limiting**: Prevent brute-force and DDoS attacks.
+3.  **Input Validation**: Strict validation and sanitization for all user inputs.
+4.  **SQL Injection Prevention**: Parameterized queries and ORM utilization.
+5.  **XSS Prevention**: Output encoding and Content Security Policy application.
 
-## 10.9 배포 및 인프라
+**Additional Security Considerations**
 
-현대적인 애플리케이션 배포는 단순한 서버 업로드를 넘어서 자동화, 확장성, 안정성을 모두 고려한 체계적인 접근이 필요합니다. 컨테이너화와 클라우드 네이티브 아키텍처를 통해 효율적인 배포 환경을 구축합니다.
+-   **HTTPS Enforcement**: Apply encryption to all communications.
+-   **Session Management**: Secure session creation and expiration handling.
+-   **Permission Separation**: Principle of least privilege and role-based access control.
+-   **Security Headers**: Set security headers like HSTS, X-Frame-Options.
 
-### Docker 컨테이너화
+### Real-time Communication Security
 
-컨테이너화는 애플리케이션의 일관된 실행 환경을 보장하고 배포의 복잡성을 크게 줄여줍니다. 멀티 스테이지 빌드와 최적화를 통해 효율적인 컨테이너 이미지를 생성할 수 있습니다.
+Real-time communication requires special security considerations due to persistent connections and frequent data exchange. A secure real-time environment is built through connection authentication, message validation, and abuse prevention.
 
 ```bash
-claude "애플리케이션을 Docker로 컨테이너화해줘.
-멀티 스테이지 빌드, 최적화된 이미지 크기,
-개발/프로덕션 환경 분리를 적용해줘"
+claude "Enhance Socket.io security.
+Implement namespace-specific permission checks, message validation,
+spam prevention, and malicious user blocking."
 ```
 
-**컨테이너화 핵심 원칙**
+**Real-time Communication Security Strategy**
 
-1. **멀티 스테이지 빌드**: 빌드 의존성과 런타임 환경 분리
-2. **이미지 최적화**: 필요한 파일만 포함하여 이미지 크기 최소화
-3. **보안 강화**: 비특권 사용자 실행과 취약점 스캔
-4. **환경 분리**: 개발, 스테이징, 프로덕션 환경별 최적화
-5. **헬스 체크**: 컨테이너 상태 모니터링과 자동 복구
+1.  **Connection Authentication**: JWT token validation upon Socket.io connection.
+2.  **Permission Checks**: Access permission verification per namespace and room.
+3.  **Message Validation**: Validation of real-time message format and content.
+4.  **Spam Prevention**: Message frequency limits and pattern analysis.
+5.  **Malicious User Blocking**: Real-time monitoring and automatic blocking system.
 
-### CI/CD 파이프라인
+## 10.9 Deployment and Infrastructure
 
-지속적 통합과 배포는 코드 변경부터 프로덕션 배포까지의 전체 과정을 자동화합니다. 테스트, 보안 검사, 배포를 체계적으로 관리하여 안정적인 릴리스를 보장합니다.
+Modern application deployment requires a systematic approach that considers automation, scalability, and stability, going beyond simple server uploads. An efficient deployment environment is built through containerization and cloud-native architecture.
+
+### Docker Containerization
+
+Containerization ensures a consistent execution environment for the application and significantly reduces deployment complexity. Efficient container images can be created through multi-stage builds and optimization.
 
 ```bash
-claude "GitHub Actions를 사용해서 CI/CD 파이프라인을 구축해줘.
-테스트 자동화, 보안 스캔, 
-자동 배포, 롤백 절차를 포함해줘"
+claude "Containerize the application with Docker.
+Apply multi-stage builds, optimized image size,
+and separation of development/production environments."
 ```
 
-**CI/CD 파이프라인 구성 요소**
+**Core Containerization Principles**
 
-1. **소스 코드 관리**: Git 기반 버전 관리와 브랜치 전략
-2. **자동 빌드**: 코드 변경 시 즉시 빌드와 테스트 실행
-3. **품질 게이트**: 코드 품질 기준과 보안 요구사항 검증
-4. **배포 자동화**: 환경별 자동 배포와 설정 관리
-5. **모니터링과 롤백**: 배포 후 모니터링과 필요 시 자동 롤백
+1.  **Multi-Stage Builds**: Separate build dependencies and runtime environment.
+2.  **Image Optimization**: Minimize image size by including only necessary files.
+3.  **Security Hardening**: Run as non-privileged user and scan for vulnerabilities.
+4.  **Environment Separation**: Optimization per development, staging, and production environment.
+5.  **Health Checks**: Container status monitoring and automatic recovery.
 
-### AWS 배포
+### CI/CD Pipeline
 
-클라우드 인프라는 확장성, 가용성, 비용 효율성을 모두 고려한 아키텍처가 필요합니다. AWS의 관리형 서비스를 활용하여 운영 부담을 줄이고 안정성을 확보합니다.
+Continuous Integration and Deployment automates the entire process from code changes to production deployment. Stable releases are ensured through systematic management of testing, security checks, and deployment.
 
 ```bash
-claude "AWS에 배포 가능한 인프라를 구성해줘.
-ECS, RDS, ElastiCache, CloudFront,
-로드 밸런서, 오토 스케일링을 포함해줘"
+claude "Build a CI/CD pipeline using GitHub Actions.
+Include test automation, security scanning,
+automatic deployment, and rollback procedures."
 ```
 
-**AWS 인프라 아키텍처**
+**CI/CD Pipeline Components**
 
-1. **컨테이너 오케스트레이션**: ECS/EKS를 통한 컨테이너 관리
-2. **데이터베이스**: RDS 다중 AZ 배포로 고가용성 확보
-3. **캐싱**: ElastiCache로 성능 최적화
-4. **CDN**: CloudFront를 통한 글로벌 콘텐츠 배포
-5. **부하 분산**: Application Load Balancer와 오토 스케일링
+1.  **Source Code Management**: Git-based version control and branching strategy.
+2.  **Automatic Builds**: Instant build and test execution upon code changes.
+3.  **Quality Gates**: Verification of code quality standards and security requirements.
+4.  **Deployment Automation**: Automatic deployment and configuration management per environment.
+5.  **Monitoring and Rollback**: Post-deployment monitoring and automatic rollback if needed.
+
+### AWS Deployment
+
+Cloud infrastructure requires an architecture that considers scalability, availability, and cost-effectiveness. Operational burden is reduced and stability is ensured by utilizing AWS managed services.
+
+```bash
+claude "Configure AWS deployable infrastructure.
+Include ECS, RDS, ElastiCache, CloudFront,
+load balancer, and auto-scaling."
+```
+
+**AWS Infrastructure Architecture**
+
+1.  **Container Orchestration**: Container management via ECS/EKS.
+2.  **Database**: High availability with RDS Multi-AZ deployment.
+3.  **Caching**: Performance optimization with ElastiCache.
+4.  **CDN**: Global content delivery via CloudFront.
+5.  **Load Balancing**: Application Load Balancer and auto-scaling.
 
 ## 10.10 모니터링과 로깅
 
@@ -15542,82 +15540,82 @@ Claude Code Action을 통한 GitHub 워크플로우 혁신은 이제 시작에 �
 
 \newpage
 
-# 제12장: 팀에서 Claude Code 활용하기
+# Chapter 12: Utilizing Claude Code in a Team
 
-> "혼자 가면 빨리 갈 수 있지만, 함께 가면 멀리 갈 수 있다" - 아프리카 속담
+> "If you want to go fast, go alone. If you want to go far, go together." - African Proverb
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 mindmap
-  root((팀 활용 목표))
-    도입 전략
-      조직 성숙도 평가
-      규모별 맞춤 접근
-      단계적 확산 모델
-      성과 측정 체계
-    협업 문화
-      AI-First 마인드셋
-      지식 공유 활성화
-      코드 리뷰 혁신
-      집단 지능 증폭
-    거버넌스
-      가이드라인 수립
-      품질 기준 정의
-      보안 정책 구축
-      규정 준수 관리
-    생산성 극대화
-      워크플로우 최적화
-      자동화 확대
-      병목 제거
-      혁신 가속화
+  root((Team Utilization Objectives))
+    Adoption Strategy
+      Organizational Maturity Assessment
+      Tailored Approach by Scale
+      Phased Rollout Model
+      Performance Measurement Framework
+    Collaboration Culture
+      AI-First Mindset
+      Knowledge Sharing Activation
+      Code Review Innovation
+      Collective Intelligence Amplification
+    Governance
+      Guideline Establishment
+      Quality Standard Definition
+      Security Policy Construction
+      Compliance Management
+    Productivity Maximization
+      Workflow Optimization
+      Automation Expansion
+      Bottleneck Elimination
+      Innovation Acceleration
 ```
 
-## 학습 목표
+## Learning Objectives
 
-이 장을 완료하면 다음을 할 수 있습니다.
+Upon completing this chapter, you will be able to:
 
-- 조직 규모별 Claude Code 도입 전략을 수립하고 실행할 수 있습니다.
-- 팀 성숙도에 따른 체계적인 가이드라인과 거버넌스를 구축할 수 있습니다.
-- AI 기반 협업 워크플로우를 통해 팀 생산성을 극대화할 수 있습니다.
-- 데이터 기반 성과 측정과 지속적인 프로세스 개선을 달성할 수 있습니다.
-- 글로벌 분산팀과 대규모 엔터프라이즈 환경에서의 고급 활용법을 적용할 수 있습니다.
+- Establish and execute Claude Code adoption strategies tailored to organizational scale.
+- Build systematic guidelines and governance according to team maturity.
+- Maximize team productivity through AI-based collaboration workflows.
+- Achieve data-driven performance measurement and continuous process improvement.
+- Apply advanced utilization methods in global distributed teams and large enterprise environments.
 
-## 개요
+## Overview
 
-Claude Code의 진정한 혁신적 가치는 개인의 코딩 역량 향상을 넘어서 조직 전체의 개발 DNA를 근본적으로 재정의하는 데 있습니다. 성공적인 팀 도입은 단순한 도구 전환이 아니라, 협업 문화의 진화와 집단 지능의 증폭을 의미합니다.
+The true innovative value of Claude Code lies beyond enhancing individual coding capabilities; it fundamentally redefines the entire organization's development DNA. Successful team adoption signifies not just a tool transition, but an evolution of collaboration culture and an amplification of collective intelligence.
 
-현대 소프트웨어 개발 조직이 직면한 복잡성은 개인의 역량만으로는 해결할 수 없는 수준에 도달했습니다. 이 장에서는 Claude Code를 활용하여 팀의 집단 지능을 극대화하고, 조직의 학습 능력을 가속화하며, 지속 가능한 혁신 생태계를 구축하는 실전 전략을 다룹니다.
+The complexity faced by modern software development organizations has reached a level that cannot be solved by individual capabilities alone. This chapter covers practical strategies for maximizing a team's collective intelligence, accelerating organizational learning capabilities, and building a sustainable innovation ecosystem using Claude Code.
 
-## 12.1 조직 성숙도별 도입 전략
+## 12.1 Adoption Strategy by Organizational Maturity
 
-조직의 기술 성숙도와 팀 규모에 따라 Claude Code 도입 전략은 근본적으로 달라져야 합니다. 일률적인 접근보다는 조직의 현재 상태를 정확히 진단하고, 맞춤형 전략을 수립하는 것이 성공의 핵심입니다.
+The Claude Code adoption strategy must fundamentally differ based on the organization's technical maturity and team size. Accurately diagnosing the organization's current state and establishing a tailored strategy, rather than a one-size-fits-all approach, is key to success.
 
-### 조직 성숙도 평가 프레임워크
+### Organizational Maturity Assessment Framework
 
-팀의 현재 상태를 객관적으로 평가하여 적절한 도입 전략을 선택하는 것이 중요합니다.
+It's important to objectively assess the team's current state to select an appropriate adoption strategy.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph TD
-    A[조직 성숙도 평가] --> B[레벨 1: 기초<br/>개별 작업 중심<br/>표준화 부족]
-    A --> C[레벨 2: 발전<br/>팀워크 시작<br/>일부 자동화]
-    A --> D[레벨 3: 성숙<br/>체계적 프로세스<br/>품질 관리]
-    A --> E[레벨 4: 최적화<br/>데이터 기반 의사결정<br/>고도 자동화]
-    A --> F[레벨 5: 혁신<br/>지속적 학습 문화<br/>AI-native 워크플로우]
-    
-    B --> G[개인 역량 강화 우선<br/>개발 속도 50% 향상]
-    C --> H[팀 규칙과 워크플로우<br/>코드 품질 균일성 80%]
-    D --> I[고급 자동화와 측정<br/>배포 주기 70% 단축]
-    E --> J[AI-native 워크플로우<br/>혁신 프로젝트 200% 증가]
-    F --> K[실험적 기술 도입<br/>산업 표준 창조]
-    
-    subgraph assessment [평가 영역]
-        L[코드 리뷰 문화]
-        M[CI/CD 자동화]
-        N[테스트 품질]
-        O[문서화 수준]
-        P[기술 표준화]
-        Q[팀 역량 편차]
+    A[Organizational Maturity Assessment] --> B[Level 1: Basic<br/>Individual Task Focused<br/>Lack of Standardization]
+    A --> C[Level 2: Developing<br/>Teamwork Initiated<br/>Partial Automation]
+    A --> D[Level 3: Mature<br/>Systematic Processes<br/>Quality Management]
+    A --> E[Level 4: Optimizing<br/>Data-Driven Decisions<br/>Advanced Automation]
+    A --> F[Level 5: Innovating<br/>Continuous Learning Culture<br/>AI-native Workflows]
+
+    B --> G[Prioritize Individual Skill Enhancement<br/>50% Dev Speed Increase]
+    C --> H[Establish Team Rules & Workflows<br/>80% Code Quality Consistency]
+    D --> I[Advanced Automation & Measurement<br/>70% Deployment Cycle Reduction]
+    E --> J[Build AI-native Workflows<br/>200% Increase in Innovation Projects]
+    F --> K[Adopt Experimental Technologies<br/>Create Industry Standards]
+
+    subgraph assessment [Assessment Areas]
+        L[Code Review Culture]
+        M[CI/CD Automation]
+        N[Test Quality]
+        O[Documentation Level]
+        P[Technology Standardization]
+        Q[Team Skill Variance]
     end
     
     A -.-> L
@@ -15637,63 +15635,63 @@ graph TD
 ```
 
 ```bash
-# 조직 성숙도 진단
-claude "우리 팀의 개발 성숙도를 평가해줘.
-다음 영역을 중점적으로 분석해줘
-- 코드 리뷰 문화와 품질 기준
-- CI/CD 파이프라인 자동화 수준
-- 테스트 커버리지와 품질 관리
-- 문서화 수준과 지식 공유 체계
-- 기술 스택 표준화 정도
-- 팀원 간 기술 역량 편차
+# Organizational Maturity Diagnosis
+claude "Assess our team's development maturity.
+Analyze the following areas with a focus on:
+- Code review culture and quality standards
+- CI/CD pipeline automation level
+- Test coverage and quality management
+- Documentation level and knowledge sharing system
+- Degree of technology stack standardization
+- Skill variance among team members
 
-각 영역별로 1-5단계로 평가하고 개선 방안을 제시해줘"
+Evaluate each area on a 1-5 scale and suggest improvement measures."
 ```
 
-**성숙도 레벨별 특성과 전략**
+**Characteristics and Strategies per Maturity Level**
 
-| 레벨 | 특성 | Claude Code 도입 전략 | 핵심 지표 |
+| Level | Characteristic | Claude Code Adoption Strategy | Key Metric |
 |------|------|----------------------|----------|
-| **Level 1: 기초** | 개별 작업 중심, 표준화 부족 | 개인 역량 강화 우선 | 개발 속도 50% 향상 |
-| **Level 2: 발전** | 팀워크 시작, 일부 자동화 | 팀 규칙과 워크플로우 구축 | 코드 품질 균일성 80% |
-| **Level 3: 성숙** | 체계적 프로세스, 품질 관리 | 고급 자동화와 측정 시스템 | 배포 주기 70% 단축 |
-| **Level 4: 최적화** | 데이터 기반 의사결정 | AI-native 워크플로우 구축 | 혁신 프로젝트 200% 증가 |
-| **Level 5: 혁신** | 지속적 학습 문화 | 실험적 기술 도입 리더 | 산업 표준 창조 |
+| **Level 1: Basic** | Individual task focused, Lack of standardization | Prioritize individual skill enhancement | 50% increase in development speed |
+| **Level 2: Developing** | Teamwork initiated, Partial automation | Establish team rules and workflows | 80% code quality consistency |
+| **Level 3: Mature** | Systematic processes, Quality management | Advanced automation and measurement systems | 70% reduction in deployment cycle |
+| **Level 4: Optimizing** | Data-driven decisions | Build AI-native workflows | 200% increase in innovation projects |
+| **Level 5: Innovating** | Continuous learning culture | Lead adoption of experimental technologies | Create industry standards |
 
-### 팀 규모별 도입 모델
+### Adoption Model by Team Size
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 flowchart LR
-    subgraph startup [스타트업 3-10명]
-        A[빠른 실험과 적응]
-        B[1주일 전체 온보딩]
-        C[MVP 개발 가속화]
-        D[기술 부채 최소화]
-        E[ROI 즉시 측정]
+    subgraph startup [Startup 3-10 people]
+        A[Rapid Experimentation & Adaptation]
+        B[1-Week Full Onboarding]
+        C[Accelerate MVP Development]
+        D[Minimize Technical Debt]
+        E[Measure ROI Immediately]
     end
     
-    subgraph growth [성장기 50-200명]
-        F[표준화와 확장성]
-        G[팀간 일관성 유지]
-        H[계층별 역할 정의]
-        I[교육 체계 구축]
-        J[성과 측정 체계]
+    subgraph growth [Growth Stage 50-200 people]
+        F[Standardization & Scalability]
+        G[Maintain Inter-Team Consistency]
+        H[Define Hierarchical Roles]
+        I[Establish Training System]
+        J[Performance Measurement Framework]
     end
     
-    subgraph enterprise [대기업 1000명+]
-        K[거버넌스와 리스크 관리]
-        L[보안 컴플라이언스]
-        M[기존 도구 통합]
-        N[변화 관리]
-        O[글로벌 협업]
+    subgraph enterprise [Large Enterprise 1000+ people]
+        K[Governance & Risk Management]
+        L[Security Compliance]
+        M[Integrate Existing Tools]
+        N[Change Management]
+        O[Global Collaboration]
     end
     
-    subgraph outcomes [기대 성과]
-        P[개발 속도 향상]
-        Q[코드 품질 개선]
-        R[팀 협업 강화]
-        S[혁신 가속화]
+    subgraph outcomes [Expected Outcomes]
+        P[Increased Development Speed]
+        Q[Improved Code Quality]
+        R[Enhanced Team Collaboration]
+        S[Accelerated Innovation]
     end
     
     A --> P
@@ -15725,241 +15723,241 @@ flowchart LR
     class P,Q,R,S outcomeStyle
 ```
 
-**스타트업 (3-10명): 빠른 실험과 적응**
+**Startup (3-10 people): Rapid Experimentation and Adaptation**
 
 ```bash
-# 애자일 도입 전략
-claude "스타트업 개발팀을 위한 Claude Code 도입 계획을 세워줘.
-- 1주일 내 전체 팀 온보딩
-- MVP 개발 속도 극대화
-- 기술 부채 최소화 전략
-- 창업자/CTO 대상 ROI 측정 방법
-- 시리즈 A 준비를 위한 코드 품질 향상
+# Agile Adoption Strategy
+claude "Create a Claude Code adoption plan for a startup development team.
+- Full team onboarding within 1 week
+- Maximize MVP development speed
+- Technical debt minimization strategy
+- ROI measurement method for founders/CTO
+- Code quality improvement for Series A preparation
 
-실제 스타트업 성공 사례와 함께 단계별 실행 계획을 포함해줘"
+Include step-by-step execution plans with actual startup success stories."
 ```
 
-**성장기 기업 (50-200명): 표준화와 확장성**
+**Growth Stage Company (50-200 people): Standardization and Scalability**
 
 ```bash
-# 확장 가능한 도입 전략
-claude "성장기 기업의 다중 팀 Claude Code 도입을 설계해줘.
-- 팀간 일관성 유지 방법
-- 기술 리더십 계층별 역할 정의
-- 교육 프로그램과 인증 체계
-- 성과 측정과 KPI 대시보드
-- 채용과 온보딩 프로세스 통합
+# Scalable Adoption Strategy
+claude "Design a Claude Code adoption plan for multiple teams in a growth-stage company.
+- Methods to maintain inter-team consistency
+- Definition of roles by technical leadership hierarchy
+- Training programs and certification systems
+- Performance measurement and KPI dashboards
+- Integration with hiring and onboarding processes
 
-각 팀의 자율성을 보장하면서도 조직 차원의 시너지를 창출하는 방법을 포함해줘"
+Include methods to create organizational synergy while ensuring team autonomy."
 ```
 
-**대기업 (1000명+): 거버넌스와 리스크 관리**
+**Large Enterprise (1000+ people): Governance and Risk Management**
 
 ```bash
-# 엔터프라이즈 도입 전략
-claude "대기업 환경에서의 Claude Code 전사 도입 전략을 수립해줘.
-- 보안과 컴플라이언스 요구사항 충족
-- 기존 도구와의 통합 전략
-- 변화 관리와 저항 극복 방법
-- 투자 대비 효과(ROI) 측정 체계
-- 글로벌 팀 간 협업 프로세스
+# Enterprise Adoption Strategy
+claude "Establish an enterprise-wide Claude Code adoption strategy for a large corporation.
+- Meeting security and compliance requirements
+- Integration strategy with existing tools
+- Change management and overcoming resistance
+- ROI measurement framework
+- Global team collaboration processes
 
-경영진 승인을 위한 비즈니스 케이스와 파일럿 프로젝트 계획을 포함해줘"
+Include a business case for executive approval and a pilot project plan."
 ```
 
-### 고급 팀 헌장: AI-First 개발 문화
+### Advanced Team Charter: AI-First Development Culture
 
-단순한 사용 규칙을 넘어서 AI와 함께 일하는 새로운 개발 문화를 정의합니다.
+Define a new development culture of working with AI, going beyond simple usage rules.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 mindmap
-  root((AI-First 개발 문화))
-    핵심 가치
-      증강된 창의성
-        창의성 증폭 도구
-        협력적 문제 해결
-        혁신적 접근법 탐구
-      지속적 학습
-        AI 상호작용 학습
-        집단 지능 구축
-        실패 학습 문화
-      책임감 있는 AI 활용
-        인간 최종 검증
-        윤리적 AI 사용
-        보안 우선 원칙
-      투명한 협업
-        AI 활용 과정 공개
-        동료 학습 지원
-        베스트 프랙티스 전파
-    실천 원칙
-      개발 워크플로우
-        기능 개발 검증
-        팀 표준 준수
-        보안 고려사항
-      코드 리뷰
-        자체 검증 프로세스
-        품질 기준 적용
-        건설적 피드백
-      지식 공유
-        주간 학습 공유
-        문제 해결 과정 기록
-        가이드 문서 작성
-    성과 측정
-      개인 KPI
-        학습 속도 지수
-        코드 품질 점수
-        혁신 기여도
-        멘토링 효과
-      팀 KPI
-        집단 생산성
-        기술 부채 감소
-        혁신 프로젝트
-        고객 만족도
-      조직 KPI
-        개발 비용 효율성
-        출시 속도
-        인재 유지율
-        기술 리더십
+  root((AI-First Development Culture))
+    Core Values
+      Augmented Creativity
+        Creativity Amplification Tool
+        Collaborative Problem Solving
+        Exploring Innovative Approaches
+      Continuous Learning
+        Learning via AI Interaction
+        Building Collective Intelligence
+        Culture of Learning from Failure
+      Responsible AI Usage
+        Human Final Verification
+        Ethical AI Use
+        Security-First Principle
+      Transparent Collaboration
+        Openness in AI Utilization
+        Supporting Peer Learning
+        Disseminating Best Practices
+    Guiding Principles
+      Development Workflow
+        Feature Development Validation
+        Adherence to Team Standards
+        Security Considerations
+      Code Review
+        Self-Verification Process
+        Application of Quality Standards
+        Constructive Feedback
+      Knowledge Sharing
+        Weekly Learning Shares
+        Documenting Problem-Solving Processes
+        Creating Guide Documents
+    Performance Measurement
+      Individual KPIs
+        Learning Velocity Index
+        Code Quality Score
+        Innovation Contribution
+        Mentoring Effectiveness
+      Team KPIs
+        Collective Productivity
+        Technical Debt Reduction
+        Innovation Projects
+        Customer Satisfaction
+      Organizational KPIs
+        Development Cost Efficiency
+        Speed to Market
+        Talent Retention Rate
+        Technology Leadership
 ```
 
 ```markdown
-# Claude Code 팀 헌장 2.0: AI-First Development Culture
+# Claude Code Team Charter 2.0: AI-First Development Culture
 
-## 비전 선언문
-"우리는 AI와 인간의 협업을 통해 소프트웨어 개발의 새로운 패러다임을 선도한다"
+## Vision Statement
+"We lead the new paradigm of software development through AI-human collaboration."
 
-## 핵심 가치
+## Core Values
 
-### 1. 증강된 창의성 (Augmented Creativity)
-- AI는 창의성을 대체하는 것이 아니라 증폭시키는 도구
-- 복잡한 문제 해결에 인간과 AI의 서로 다른 강점을 활용
-- 예상치 못한 해결책과 혁신적 접근법 탐구 장려
+### 1. Augmented Creativity
+- AI is a tool that amplifies, not replaces, creativity.
+- Utilize the different strengths of humans and AI for complex problem-solving.
+- Encourage exploration of unexpected solutions and innovative approaches.
 
-### 2. 지속적 학습 (Continuous Learning)
-- AI와의 상호작용을 통한 개인 역량 강화
-- 팀 지식의 집적과 공유를 통한 집단 지능 구축
-- 실패를 학습 기회로 전환하는 실험 문화
+### 2. Continuous Learning
+- Enhance individual capabilities through interaction with AI.
+- Build collective intelligence through accumulation and sharing of team knowledge.
+- Foster an experimental culture that turns failures into learning opportunities.
 
-### 3. 책임감 있는 AI 활용 (Responsible AI Usage)
-- AI 생성 코드에 대한 인간의 최종 책임과 검증
-- 윤리적 AI 사용과 편향성 방지
-- 보안과 프라이버시 보호 우선
+### 3. Responsible AI Usage
+- Human final responsibility and verification for AI-generated code.
+- Ethical AI use and prevention of bias.
+- Prioritize security and privacy protection.
 
-### 4. 투명한 협업 (Transparent Collaboration)
-- AI 활용 과정과 결과의 공개와 공유
-- 동료 학습을 위한 AI 세션 기록과 분석
-- 크로스 팀 베스트 프랙티스 전파
+### 4. Transparent Collaboration
+- Openness and sharing of AI utilization processes and results.
+- AI session recording and analysis for peer learning.
+- Dissemination of cross-team best practices.
 
-## 실천 원칙
+## Guiding Principles
 
-### 개발 워크플로우
+### Development Workflow
 ```bash
-# 모든 기능 개발 시작 시
-claude "이 기능 개발을 시작하기 전에 다음을 확인해줘
-- 기존 코드베이스에서 유사한 구현 패턴
-- 팀 표준과 아키텍처 원칙 준수 방법
-- 잠재적 보안 이슈와 성능 고려사항
-- 테스트 전략과 문서화 방향
+# At the start of all feature development
+claude "Before starting this feature development, please check the following:
+- Similar implementation patterns in the existing codebase
+- How to adhere to team standards and architectural principles
+- Potential security issues and performance considerations
+- Test strategy and documentation direction
 
-팀의 합의된 접근 방식과 일치하는지 검증해줘"
+Verify that it aligns with the team's agreed-upon approach."
 ```
 
-### 코드 리뷰 프로세스
+### Code Review Process
 ```bash
-# PR 생성 전 자체 검증
-claude "내가 작성한 코드를 다음 관점에서 리뷰해줘
-- 팀 코딩 표준 준수 여부
-- 아키텍처 원칙과의 일관성
-- 성능과 보안 고려사항
-- 테스트 커버리지와 품질
-- 문서화 완성도
+# Self-verification before PR creation
+claude "Review the code I've written from the following perspectives:
+- Adherence to team coding standards
+- Consistency with architectural principles
+- Performance and security considerations
+- Test coverage and quality
+- Documentation completeness
 
-시니어 개발자의 관점에서 건설적인 피드백을 제공해줘"
+Provide constructive feedback from a senior developer's perspective."
 ```
 
-### 지식 공유 의무
+### Knowledge Sharing Obligation
 ```bash
-# 주간 학습 공유
-claude "이번 주 Claude Code와 함께 해결한 복잡한 문제를 정리해줘.
-- 문제 상황과 해결 과정
-- Claude의 제안과 인간의 판단
-- 최종 해결책과 교훈
-- 팀에 공유할 베스트 프랙티스
+# Weekly learning share
+claude "Summarize a complex problem solved with Claude Code this week.
+- Problem situation and resolution process
+- Claude's suggestions and human judgment
+- Final solution and lessons learned
+- Best practices to share with the team
 
-다른 팀원들이 유사한 상황에서 참고할 수 있는 가이드를 만들어줘"
+Create a guide that other team members can refer to in similar situations."
 ```
 
-## 성과 측정 지표
+## Performance Measurement Metrics
 
-### 개인 차원 KPI
-- **학습 속도 지수**: 새로운 기술 습득 시간 단축률
-- **코드 품질 점수**: 정적 분석과 리뷰 결과 기반
-- **혁신 기여도**: 창의적 해결책과 개선 제안 빈도
-- **멘토링 효과**: 동료 지원과 지식 전수 실적
+### Individual Level KPIs
+- **Learning Velocity Index**: Rate of reduction in time to acquire new skills.
+- **Code Quality Score**: Based on static analysis and review results.
+- **Innovation Contribution**: Frequency of creative solutions and improvement suggestions.
+- **Mentoring Effectiveness**: Peer support and knowledge transfer performance.
 
-### 팀 차원 KPI
-- **집단 생산성**: 스토리 포인트 완료율과 품질 지표
-- **기술 부채 감소**: 코드 복잡도와 유지보수성 개선
-- **혁신 프로젝트**: 새로운 기술 도입과 실험 성공률
-- **고객 만족도**: 제품 품질과 배포 안정성 지표
+### Team Level KPIs
+- **Collective Productivity**: Story point completion rate and quality metrics.
+- **Technical Debt Reduction**: Improvement in code complexity and maintainability.
+- **Innovation Projects**: Success rate of new technology adoption and experiments.
+- **Customer Satisfaction**: Product quality and deployment stability metrics.
 
-### 조직 차원 KPI
-- **개발 비용 효율성**: 기능당 개발 비용 절감률
-- **출시 속도**: 아이디어에서 프로덕션까지 소요 시간
-- **인재 유지율**: 개발자 만족도와 이직률
-- **기술 리더십**: 업계 내 혁신 인정과 오픈소스 기여
+### Organizational Level KPIs
+- **Development Cost Efficiency**: Reduction rate of development cost per feature.
+- **Speed to Market**: Time from idea to production.
+- **Talent Retention Rate**: Developer satisfaction and attrition rate.
+- **Technology Leadership**: Industry innovation recognition and open-source contributions.
 
-## 위험 관리와 완화 전략
+## Risk Management and Mitigation Strategies
 
-### 기술적 위험
-- **AI 의존성**: 정기적인 "AI 없는 날" 운영으로 기본 역량 유지
-- **보안 취약점**: AI 생성 코드에 대한 강화된 보안 리뷰
-- **품질 회귀**: 자동화된 품질 게이트와 회귀 테스트
+### Technical Risks
+- **AI Dependency**: Maintain basic skills by operating regular "AI-Free Days."
+- **Security Vulnerabilities**: Enhanced security review for AI-generated code.
+- **Quality Regression**: Automated quality gates and regression testing.
 
-### 조직적 위험
-- **역량 격차**: 체계적인 교육 프로그램과 멘토링
-- **문화적 저항**: 변화 관리와 성공 사례 공유
-- **윤리적 이슈**: AI 윤리 가이드라인과 정기 교육
+### Organizational Risks
+- **Skill Gap**: Systematic training programs and mentoring.
+- **Cultural Resistance**: Change management and sharing success stories.
+- **Ethical Issues**: AI ethics guidelines and regular training.
 ```
 
-### 동적 CLAUDE.md 생태계 구축
+### Dynamic CLAUDE.md Ecosystem Building
 
-단순한 정적 문서를 넘어서 프로젝트와 함께 진화하는 지능형 가이드라인 시스템을 구축합니다.
+Build an intelligent guideline system that evolves with the project, going beyond simple static documents.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 flowchart TD
-    A[프로젝트 상태 모니터링] --> B{변화 감지}
-    B -->|코드베이스 진화| C[아키텍처 패턴 분석]
-    B -->|팀 역량 변화| D[역량 프로파일 업데이트]
-    B -->|성능 디그레이데이션| E[병목 분석 리포트]
-    B -->|보안 요구사항 변화| F[보안 가이드라인 갱신]
-    
-    C --> G[컴텍스트 인식 가이드 생성]
-    D --> H[역할별 맞춤형 워크플로우]
-    E --> I[성능 최적화 체크리스트]
-    F --> J[보안 예방 가이드라인]
-    
-    subgraph generation [동적 생성 시스템]
-        G --> K[기본 CLAUDE.md]
-        H --> L[역할별 확장]
-        I --> M[성능 가이드]
-        J --> N[보안 체크리스트]
+    A[Project Status Monitoring] --> B{Change Detection}
+    B -->|Codebase Evolution| C[Architecture Pattern Analysis]
+    B -->|Team Skill Change| D[Update Skill Profiles]
+    B -->|Performance Degradation| E[Bottleneck Analysis Report]
+    B -->|Security Requirement Change| F[Update Security Guidelines]
+
+    C --> G[Generate Context-Aware Guide]
+    D --> H[Role-Specific Tailored Workflow]
+    E --> I[Performance Optimization Checklist]
+    F --> J[Security Prevention Guidelines]
+
+    subgraph generation [Dynamic Generation System]
+        G --> K[Base CLAUDE.md]
+        H --> L[Role-Specific Extensions]
+        I --> M[Performance Guide]
+        J --> N[Security Checklist]
     end
     
-    subgraph features [지능형 기능]
-        K --> O[자동 업데이트 트리거]
-        L --> P[팀 학습 경로 추천]
-        M --> Q[성능 모니터링 연동]
-        N --> R[리스크 예방 알림]
+    subgraph features [Intelligent Features]
+        K --> O[Auto-Update Trigger]
+        L --> P[Recommend Team Learning Paths]
+        M --> Q[Integrate Performance Monitoring]
+        N --> R[Risk Prevention Alerts]
     end
     
-    subgraph feedback [피드백 루프]
-        O --> S[효과성 측정]
-        P --> T[학습 진행도 추적]
-        Q --> U[성능 개선 효과]
-        R --> V[보안 인시던트 감소]
+    subgraph feedback [Feedback Loop]
+        O --> S[Measure Effectiveness]
+        P --> T[Track Learning Progress]
+        Q --> U[Performance Improvement Impact]
+        R --> V[Security Incident Reduction]
     end
     
     S --> A
@@ -15981,175 +15979,175 @@ flowchart TD
 ```
 
 ```bash
-# 적응형 CLAUDE.md 생성
-claude "우리 프로젝트의 현재 상태를 분석하고 동적으로 업데이트되는 CLAUDE.md를 생성해줘.
+# Adaptive CLAUDE.md Generation
+claude "Analyze the current state of our project and generate a dynamically updated CLAUDE.md.
 
-분석 영역
-- 코드베이스 패턴과 아키텍처 진화
-- 팀원별 기술 스택과 선호도
-- 최근 이슈와 반복되는 문제점
-- 성능 병목과 품질 메트릭
-- 외부 의존성과 보안 요구사항
+Analysis Areas:
+- Codebase patterns and architectural evolution
+- Team members' tech stacks and preferences
+- Recent issues and recurring problems
+- Performance bottlenecks and quality metrics
+- External dependencies and security requirements
 
-결과물
-1. 컨텍스트 인식 개발 가이드
-2. 역할별 맞춤형 워크플로우
-3. 자동 업데이트 트리거 조건
-4. 팀 학습 경로 추천
-5. 리스크 예방 체크리스트
+Deliverables:
+1. Context-aware development guide
+2. Role-specific tailored workflows
+3. Auto-update trigger conditions
+4. Recommended team learning paths
+5. Risk prevention checklist
 
-매주 자동으로 업데이트하고 변경사항을 팀에 알림하는 시스템도 설계해줘"
+Also design a system to automatically update it weekly and notify the team of changes."
 ```
 
-**고급 CLAUDE.md 템플릿 - 자가 진화형**
+**Advanced CLAUDE.md Template - Self-Evolving**
 
 ```markdown
 # 🧠 Adaptive CLAUDE.md - v2.3.1
-> 마지막 업데이트: 2024-12-19 | 다음 자동 업데이트: 2024-12-26
-> 팀 성숙도: Level 4 (최적화) | 현재 우선순위: 성능 최적화
+> Last Update: 2024-12-19 | Next Auto-Update: 2024-12-26
+> Team Maturity: Level 4 (Optimizing) | Current Priority: Performance Optimization
 
-## 📊 실시간 프로젝트 상태
+## 📊 Real-time Project Status
 ```bash
-# 현재 프로젝트 핵심 정보
-claude "현재 상황을 파악하고 이에 맞는 개발 전략을 제시해줘
+# Core project information at present
+claude "Understand the current situation and propose a development strategy accordingly.
 
-주요 메트릭
-- 활성 브랜치: 23개
-- 평균 PR 크기: 247 라인 (권장: 200 라인 이하)
-- 테스트 커버리지: 87% (목표: 90%)
-- 배포 빈도: 주 2.3회 (목표: 주 3회)
-- 평균 리뷰 시간: 4.2시간 (목표: 2시간)
+Key Metrics:
+- Active Branches: 23
+- Average PR Size: 247 lines (Recommended: <200 lines)
+- Test Coverage: 87% (Target: 90%)
+- Deployment Frequency: 2.3 times/week (Target: 3 times/week)
+- Average Review Time: 4.2 hours (Target: 2 hours)
 
-현재 핫스팟
-- 결제 모듈 리팩토링 진행 중 (70% 완료)
-- 새로운 인증 시스템 도입 계획
-- 모바일 앱 성능 이슈 (평균 로딩 시간 3.2초)
+Current Hotspots:
+- Payment module refactoring in progress (70% complete)
+- Planning to introduce a new authentication system
+- Mobile app performance issues (Average loading time 3.2s)
 
-이 상황에서 가장 효과적인 개발 접근법을 제안해줘"
+Propose the most effective development approach for this situation."
 ```
 
-## 🎯 역할별 AI 협업 전략
+## 🎯 Role-Specific AI Collaboration Strategies
 
-### Senior Developer - 아키텍처 가디언
+### Senior Developer - Architecture Guardian
 ```bash
-# 시스템 설계 리뷰
-claude "시니어 개발자로서 이 설계를 검토해줘
-- 확장성과 유지보수성 관점
-- 기존 아키텍처와의 일관성
-- 성능과 보안 고려사항
-- 팀원들의 이해도와 구현 난이도
-- 미래 요구사항 대비책
+# System design review
+claude "As a senior developer, review this design from the perspectives of:
+- Scalability and maintainability
+- Consistency with existing architecture
+- Performance and security considerations
+- Team members' understanding and implementation difficulty
+- Preparedness for future requirements
 
-주니어 개발자들이 이해할 수 있도록 설명하고,
-잠재적 위험요소와 완화 방법을 포함해줘"
+Explain it so junior developers can understand,
+and include potential risks and mitigation methods."
 
-# 멘토링 지원
-claude "주니어 개발자가 겪고 있는 이 문제를 교육적으로 해결해줘
-- 근본 원인과 해결 과정 설명
-- 유사한 문제 예방법
-- 관련 개념과 베스트 프랙티스
-- 점진적 학습 로드맵
+# Mentoring support
+claude "Educationally resolve this problem a junior developer is facing:
+- Explain the root cause and resolution process
+- How to prevent similar problems
+- Related concepts and best practices
+- Incremental learning roadmap
 
-'가르쳐주기'보다는 '함께 발견하기' 접근법으로 안내해줘"
+Guide with an approach of 'discovering together' rather than 'teaching'."
 ```
 
-### Mid-level Developer - 브리지 빌더
+### Mid-level Developer - Bridge Builder
 ```bash
-# 기능 구현과 팀 협업
-claude "미드레벨 개발자로서 이 기능을 구현하면서 팀 협업을 최적화해줘
-- 시니어의 설계 의도 정확한 구현
-- 주니어가 참여할 수 있는 작업 분리
-- 코드 리뷰 시 건설적 피드백 방법
-- 기술 부채 예방과 품질 관리
-- 지식 공유와 문서화 전략
+# Feature implementation and team collaboration
+claude "As a mid-level developer, optimize team collaboration while implementing this feature:
+- Accurately implement senior's design intent
+- Decompose tasks so juniors can participate
+- Constructive feedback methods during code review
+- Technical debt prevention and quality management
+- Knowledge sharing and documentation strategy
 
-개인 성장과 팀 기여를 동시에 달성하는 방법을 제시해줘"
+Propose methods to achieve personal growth and team contribution simultaneously."
 ```
 
-### Junior Developer - 가속 학습자
+### Junior Developer - Accelerated Learner
 ```bash
-# 학습 가속화
-claude "주니어 개발자의 빠른 성장을 위해 이 작업을 학습 기회로 활용해줘
-- 단계별 구현 가이드
-- 각 단계에서 배울 수 있는 핵심 개념
-- 흔히 하는 실수와 예방법
-- 시니어에게 질문할 타이밍과 방법
-- 자신의 진전을 측정하는 방법
+# Accelerate learning
+claude "Utilize this task as a learning opportunity for a junior developer's rapid growth:
+- Step-by-step implementation guide
+- Key concepts to learn at each stage
+- Common mistakes and prevention methods
+- When and how to ask seniors questions
+- How to measure their own progress
 
-단순히 정답을 주기보다는 사고 과정을 기를 수 있도록 안내해줘"
+Guide to foster thought processes rather than simply providing answers."
 ```
 
-### Tech Lead - 전략적 조율자
+### Tech Lead - Strategic Orchestrator
 ```bash
-# 팀 생산성 최적화
-claude "테크 리드로서 팀의 기술적 의사결정을 지원해줘
-- 기술 스택 진화 방향성
-- 팀원 별 강점 활용 전략
-- 프로젝트 우선순위 조정
-- 외부 팀과의 기술 협업
-- 기술 부채 관리 전략
+# Team productivity optimization
+claude "As a tech lead, support the team's technical decision-making:
+- Direction of tech stack evolution
+- Strategy to leverage team members' strengths
+- Project priority adjustment
+- Technical collaboration with external teams
+- Technical debt management strategy
 
-데이터를 기반으로 한 의사결정과 팀 합의 도출 방법을 포함해줘"
+Include data-driven decision-making and team consensus building methods."
 ```
 
-### Product Manager - 기술-비즈니스 번역자
+### Product Manager - Tech-Business Translator
 ```bash
-# 기술적 복잡성의 비즈니스 영향 분석
-claude "PM으로서 기술적 결정의 비즈니스 임팩트를 분석해줘
-- 기능 구현 복잡도와 개발 일정 영향
-- 기술적 품질과 사용자 경험 연관성
-- 성능 개선의 비즈니스 지표 영향
-- 기술 부채의 장기적 비용
-- 경쟁 우위 확보를 위한 기술 투자
+# Business impact analysis of technical complexity
+claude "As a PM, analyze the business impact of technical decisions:
+- Feature implementation complexity and development schedule impact
+- Correlation between technical quality and user experience
+- Impact of performance improvements on business metrics
+- Long-term cost of technical debt
+- Technical investment for competitive advantage
 
-개발팀과의 커뮤니케이션과 이해관계자 설득 방법을 포함해줘"
+Include communication methods with the development team and stakeholder persuasion techniques."
 ```
 
-## 🔄 동적 워크플로우 적응
+## 🔄 Dynamic Workflow Adaptation
 
-### 프로젝트 단계별 전략
+### Project Phase-Specific Strategies
 ```bash
-# 현재 프로젝트 단계 분석
-claude "프로젝트의 현재 단계를 분석하고 최적화된 워크플로우를 제안해줘
+# Current project phase analysis
+claude "Analyze the current phase of the project and propose an optimized workflow.
 
-단계 판별 기준
-- 요구사항 안정성 (변경 빈도와 규모)
-- 팀 역량과 기술 스택 숙련도
-- 비즈니스 우선순위와 시간 압박
-- 품질 요구사항과 위험 수용도
-- 외부 의존성과 통합 복잡도
+Phase Determination Criteria:
+- Requirement stability (frequency and scale of changes)
+- Team capabilities and tech stack proficiency
+- Business priorities and time pressure
+- Quality requirements and risk tolerance
+- External dependencies and integration complexity
 
-각 단계별 최적 전략
-1. 탐색 단계: 빠른 프로토타이핑과 실험
-2. 구축 단계: 확장 가능한 아키텍처와 품질
-3. 성숙 단계: 최적화와 안정성
-4. 유지보수 단계: 효율적 운영과 진화
+Optimal Strategy per Phase:
+1. Exploration Phase: Rapid prototyping and experimentation
+2. Construction Phase: Scalable architecture and quality
+3. Maturation Phase: Optimization and stability
+4. Maintenance Phase: Efficient operation and evolution
 
-현재 단계에 맞는 Claude Code 활용법을 상세히 안내해줘"
+Provide detailed guidance on Claude Code utilization tailored to the current phase."
 ```
 
-## 📈 지능형 성과 추적
+## 📈 Intelligent Performance Tracking
 
-### 자동화된 팀 건강도 모니터링
+### Automated Team Health Monitoring
 ```bash
-# 주간 팀 건강도 리포트
-claude "팀의 전반적인 건강도를 분석하고 개선 방안을 제시해줘
+# Weekly team health report
+claude "Analyze the team's overall health and suggest improvement measures.
 
-분석 데이터
-- Git 활동 패턴 (커밋 빈도, 크기, 시간대)
-- 코드 리뷰 품질 (리뷰 시간, 코멘트 수, 변경 요청)
-- 이슈 해결 속도 (버그 수정, 기능 완료)
-- 테스트 안정성 (실패율, 플레이키 테스트)
-- 배포 성공률 (배포 빈도, 롤백률)
-- 팀원 피드백 (만족도, 스트레스 지표)
+Analysis Data:
+- Git activity patterns (commit frequency, size, time of day)
+- Code review quality (review time, comment count, change requests)
+- Issue resolution speed (bug fixes, feature completion)
+- Test stability (failure rate, flaky tests)
+- Deployment success rate (deployment frequency, rollback rate)
+- Team member feedback (satisfaction, stress levels)
 
-건강도 지표
-🟢 Excellent (90-100): 모든 영역에서 최적 성과
-🟡 Good (70-89): 일부 개선 영역 존재
-🟠 Caution (50-69): 즉시 개선 조치 필요
-🔴 Critical (0-49): 긴급 개입 필요
+Health Indicators:
+🟢 Excellent (90-100): Optimal performance in all areas
+🟡 Good (70-89): Some areas for improvement exist
+🟠 Caution (50-69): Immediate improvement actions needed
+🔴 Critical (0-49): Urgent intervention required
 
-각 지표별 구체적인 개선 액션 플랜을 제공해줘"
+Provide specific action plans for improvement for each indicator."
 ```
 
 ## 12.2 AI 증강 코드 리뷰 생태계
@@ -19578,212 +19576,212 @@ Claude Code는 이제 **모든 직무, 모든 팀**이 활용할 수 있는 범�
 
 \newpage
 
-# 결론: AI와 함께하는 개발의 미래
+# Conclusion: The Future of Development with AI
 
-> "미래는 이미 와 있다. 다만 고르게 분포되어 있지 않을 뿐이다" - 윌리엄 깁슨
+> "The future is already here – it's just not evenly distributed." - William Gibson
 
-이 책을 통해 우리는 Claude Code라는 혁신적인 도구를 깊이 탐구했습니다. 단순한 사용법을 넘어, AI와 함께 일하는 새로운 개발 패러다임을 경험했습니다.
+Throughout this book, we have deeply explored the innovative tool called Claude Code. Beyond simple usage, we have experienced a new development paradigm of working alongside AI.
 
-## 여정을 돌아보며
+## Looking Back on the Journey
 
-### 우리가 배운 것들
+### What We've Learned
 
-**기술적 측면**
+**Technical Aspects**
 
-- Claude Code의 핵심 기능과 활용법
-- 프레임워크별, 언어별 최적화 전략
-- 자동화와 CI/CD 통합 방법
-- 팀 협업과 문화 변화
+- Core features and utilization methods of Claude Code
+- Optimization strategies for different frameworks and languages
+- Automation and CI/CD integration methods
+- Team collaboration and cultural change
 
-**철학적 측면**
+**Philosophical Aspects**
 
-- AI는 도구가 아닌 동료
-- 인간의 창의성과 AI의 효율성 결합
-- 지속적인 학습과 적응의 중요성
-- 개발자 역할의 진화
+- AI as a colleague, not just a tool
+- Combining human creativity with AI efficiency
+- The importance of continuous learning and adaptation
+- The evolution of the developer's role
 
-### 변화하는 개발자의 역할
+### The Changing Role of the Developer
 
 **Before AI**
 ```
-개발자 = 코드 작성자
-- 문법과 API 암기
-- 반복적인 보일러플레이트 작성
-- 스택오버플로우 검색
-- 혼자서 모든 문제 해결
+Developer = Code Writer
+- Memorizing syntax and APIs
+- Writing repetitive boilerplate code
+- Searching Stack Overflow
+- Solving all problems alone
 ```
 
 **After AI**
 ```
-개발자 = 문제 해결자 + 아키텍트 + 멘토
-- 비즈니스 문제 이해와 해결
-- 시스템 설계와 아키텍처
-- AI와의 협업을 통한 효율적 구현
-- 팀과 AI를 이끄는 리더십
+Developer = Problem Solver + Architect + Mentor
+- Understanding and solving business problems
+- System design and architecture
+- Efficient implementation through collaboration with AI
+- Leadership in guiding teams and AI
 ```
 
-## 핵심 교훈들
+## Core Lessons
 
-### 1. AI는 증강(Augmentation)이지 대체(Replacement)가 아니다.
+### 1. AI is Augmentation, Not Replacement.
 
-Claude Code는 개발자를 대체하는 것이 아니라 능력을 증강시킵니다.
+Claude Code augments developers' abilities rather than replacing them.
 
 ```
-인간의 창의성 + AI의 효율성 = 무한한 가능성
+Human Creativity + AI Efficiency = Infinite Possibilities
 ```
 
-- **인간**: 문제 정의, 요구사항 이해, 창의적 해결책
-- **AI**: 빠른 구현, 패턴 인식, 최적화 제안
-- **협업**: 서로의 강점을 결합한 시너지
+- **Human**: Problem definition, understanding requirements, creative solutions
+- **AI**: Rapid implementation, pattern recognition, optimization suggestions
+- **Collaboration**: Synergy combining each other's strengths
 
-### 2. 지속적인 학습이 핵심이다.
+### 2. Continuous Learning is Key.
 
-AI 기술은 빠르게 발전합니다. 중요한 것은
+AI technology is evolving rapidly. What's important is:
 
-- **기초 원리 이해**: 프로그래밍 기본기는 여전히 중요
-- **새로운 도구 탐험**: 열린 마음으로 새로운 AI 도구 수용
-- **실험과 실패**: 다양한 접근 방식 시도
-- **공유와 토론**: 경험을 나누며 함께 성장
+- **Understanding Fundamentals**: Programming basics are still crucial.
+- **Exploring New Tools**: Embrace new AI tools with an open mind.
+- **Experimentation and Failure**: Try various approaches.
+- **Sharing and Discussion**: Grow together by sharing experiences.
 
-### 3. 품질은 자동화의 핵심이다.
+### 3. Quality is the Core of Automation.
 
-Claude Code를 활용할 때 품질 관리는 필수입니다.
+Quality management is essential when utilizing Claude Code.
 
-- **테스트 우선**: AI가 생성한 코드도 반드시 테스트
-- **코드 리뷰**: 인간의 검증은 여전히 중요
-- **점진적 개선**: 작은 단위로 개선하며 위험 최소화
-- **메트릭 추적**: 품질 지표를 지속적으로 모니터링
+- **Test First**: AI-generated code must also be tested.
+- **Code Review**: Human verification is still important.
+- **Incremental Improvement**: Minimize risk by improving in small units.
+- **Metric Tracking**: Continuously monitor quality indicators.
 
-### 4. 팀 문화가 성공을 좌우한다.
+### 4. Team Culture Determines Success.
 
-개인의 생산성을 넘어 팀 전체의 혁신이 목표입니다.
+The goal is innovation for the entire team, beyond individual productivity.
 
-- **심리적 안전**: 실험과 실패를 허용하는 문화
-- **지식 공유**: AI 활용 경험과 노하우 공유
-- **지속적 개선**: 프로세스와 도구를 계속 발전시킴
-- **인간 중심**: 기술은 수단, 사람이 목적
+- **Psychological Safety**: A culture that allows experimentation and failure.
+- **Knowledge Sharing**: Sharing AI utilization experiences and know-how.
+- **Continuous Improvement**: Continuously evolving processes and tools.
+- **Human-Centric**: Technology is a means; people are the purpose.
 
-## 미래를 준비하며
+## Preparing for the Future
 
-### 다가올 변화들
+### Upcoming Changes
 
-**기술적 발전**
+**Technological Advancements**
 
-- 더 강력하고 특화된 AI 모델
-- 실시간 협업과 컨텍스트 공유
-- 음성과 제스처 기반 인터페이스
-- AR/VR을 활용한 몰입형 개발 환경
+- More powerful and specialized AI models
+- Real-time collaboration and context sharing
+- Voice and gesture-based interfaces
+- Immersive development environments using AR/VR
 
-**개발 문화 변화**
+**Development Culture Changes**
 
-- AI 페어 프로그래밍이 표준이 되는 시대
-- 인간-AI-인간 협업 패턴의 확산
-- 창의적 문제 해결에 집중하는 개발자
-- 도메인 전문성이 더욱 중요해지는 환경
+- An era where AI pair programming becomes the standard
+- Proliferation of human-AI-human collaboration patterns
+- Developers focusing on creative problem-solving
+- An environment where domain expertise becomes even more important
 
-### 개발자가 준비해야 할 것들
+### What Developers Need to Prepare
 
-**1. 기본기 강화**
+**1. Strengthening Fundamentals**
 ```bash
-# 변하지 않는 것들
-- 알고리즘과 자료구조
-- 시스템 설계 원칙
-- 문제 해결 사고력
-- 커뮤니케이션 능력
+# Things that don't change
+- Algorithms and data structures
+- System design principles
+- Problem-solving thinking skills
+- Communication skills
 ```
 
-**2. 새로운 역량 개발**
+**2. Developing New Competencies**
 ```bash
-# 새롭게 필요한 것들
-- AI와의 효과적인 소통 능력
-- 프롬프트 엔지니어링 스킬
-- 도메인 전문 지식
-- 창의적 사고와 혁신 능력
+# Things newly required
+- Effective communication skills with AI
+- Prompt engineering skills
+- Domain-specific knowledge
+- Creative thinking and innovation skills
 ```
 
-**3. 지속적인 실험**
+**3. Continuous Experimentation**
 ```bash
-# 실험해야 할 것들
-- 새로운 AI 도구와 플랫폼
-- 혁신적인 개발 워크플로우
-- 팀 협업 방식의 변화
-- 자동화 가능한 작업 영역
+# Things to experiment with
+- New AI tools and platforms
+- Innovative development workflows
+- Changes in team collaboration methods
+- Task areas that can be automated
 ```
 
-## 실천 가이드
+## Action Guide
 
-### 오늘부터 시작할 수 있는 것들
+### Things You Can Start Today
 
-**개인 수준**
+**Individual Level**
 
-1. Claude Code 설치하고 첫 프로젝트 시작
-2. 일일 업무에서 반복 작업 하나씩 자동화
-3. 매주 새로운 AI 도구나 기능 실험
-4. 학습한 내용을 블로그나 노트에 기록
+1. Install Claude Code and start your first project.
+2. Automate one repetitive task from your daily work.
+3. Experiment with a new AI tool or feature every week.
+4. Record what you learn in a blog or notes.
 
-**팀 수준**
+**Team Level**
 
-1. 팀 CLAUDE.md 작성하고 공유
-2. 코드 리뷰에 Claude 활용 시범 도입
-3. 주간 AI 활용 사례 공유 세션 시작
-4. 파일럿 프로젝트에서 집중적으로 활용
+1. Create and share a team CLAUDE.md.
+2. Pilot the use of Claude for code reviews.
+3. Start a weekly AI utilization case sharing session.
+4. Utilize it intensively in a pilot project.
 
-**조직 수준**
+**Organizational Level**
 
-1. AI 도구 도입 가이드라인 수립
-2. 교육 프로그램과 워크샵 계획
-3. 성공 사례 수집과 확산 전략
-4. 윤리적 AI 사용 정책 마련
+1. Establish guidelines for AI tool adoption.
+2. Plan training programs and workshops.
+3. Develop a strategy for collecting and disseminating success stories.
+4. Create an ethical AI usage policy.
 
-### 장기적인 로드맵
+### Long-Term Roadmap
 
-**3개월 후**
+**After 3 Months**
 
-- Claude Code 기본 활용법 완전 숙달
-- 개인 워크플로우에 AI 도구 완전 통합
-- 팀 내 AI 활용 문화 정착
+- Complete mastery of basic Claude Code utilization.
+- Full integration of AI tools into personal workflow.
+- Establishment of AI utilization culture within the team.
 
-**6개월 후**
+**After 6 Months**
 
-- 프로젝트별 특화된 AI 활용 패턴 개발
-- 자동화된 품질 관리 시스템 구축
-- 다른 팀과의 AI 활용 경험 공유
+- Development of project-specific AI utilization patterns.
+- Establishment of an automated quality management system.
+- Sharing AI utilization experiences with other teams.
 
-**1년 후**
+**After 1 Year**
 
-- AI와 함께하는 개발이 자연스러운 일상
-- 조직 차원의 AI 활용 성숙도 향상
-- 새로운 AI 도구의 빠른 적응과 활용
+- Development with AI becomes a natural part of daily work.
+- Improved AI utilization maturity at the organizational level.
+- Rapid adaptation and utilization of new AI tools.
 
-## 마지막 메시지
+## Final Message
 
-### 독자 여러분께
+### To Our Readers
 
-이 책을 끝까지 읽어주신 모든 분들께 감사드립니다. 여러분은 이제 AI 시대의 개발자로서 필요한 지식과 도구를 갖추셨습니다.
+Thank you to everyone who has read this book to the end. You are now equipped with the knowledge and tools necessary for a developer in the AI era.
 
-중요한 것은 이 지식을 실제로 적용하는 것입니다. 작은 프로젝트부터 시작해서, 실패를 두려워하지 말고, 지속적으로 실험하고 학습하세요.
+What's important is to actually apply this knowledge. Start with small projects, don't be afraid of failure, and continuously experiment and learn.
 
-### 미래의 개발자들에게
+### To Future Developers
 
-AI와 함께 일하는 것은 선택이 아닌 필수가 될 것입니다. 하지만 두려워할 필요는 없습니다. AI는 여러분의 능력을 대체하는 것이 아니라 확장하는 도구입니다.
+Working with AI will become a necessity, not a choice. But there's no need to be afraid. AI is a tool that expands your abilities, not replaces them.
 
-중요한 것은
+What's important is:
 
-- **호기심을 잃지 마세요**: 새로운 기술과 도구에 열린 마음으로 접근하세요
-- **기본기를 소홀히 하지 마세요**: AI 도구는 강력하지만 기초가 없으면 제대로 활용할 수 없습니다.
-- **함께 성장하세요**: 혼자서는 한계가 있습니다. 동료들과 경험을 나누며 함께 발전하세요
-- **인간다움을 잃지 마세요**: 기술은 수단일 뿐, 결국 중요한 것은 사람입니다.
+- **Stay Curious**: Approach new technologies and tools with an open mind.
+- **Don't Neglect Fundamentals**: AI tools are powerful, but without a foundation, you can't use them properly.
+- **Grow Together**: There are limits to what you can do alone. Share experiences with colleagues and develop together.
+- **Don't Lose Your Humanity**: Technology is just a means; what ultimately matters is people.
 
-### 우리 모두의 미래
+### Our Collective Future
 
-AI와 함께하는 개발의 미래는 우리 모두가 만들어가는 것입니다. 이 책이 그 여정의 출발점이 되기를 바랍니다.
+The future of development with AI is something we all create together. We hope this book will be the starting point of that journey.
 
-지금 이 순간에도 전 세계의 개발자들이 AI와 함께 놀라운 것들을 만들어내고 있습니다. 여러분도 그 일부가 되어, 더 나은 세상을 만드는 데 기여하시기 바랍니다.
+Even at this moment, developers around the world are creating amazing things with AI. We hope you will become a part of it and contribute to making a better world.
 
-**행운을 빕니다. 그리고 즐거운 코딩 되세요!** 🚀
+**Good luck, and happy coding!** 🚀
 
 ---
 
 *"The future belongs to those who learn more skills and combine them in creative ways." - Robert Greene*
 
-이 책은 끝이지만, 여러분의 AI와 함께하는 개발 여정은 이제 시작입니다.
+This book is an end, but your development journey with AI is just beginning.

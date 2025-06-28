@@ -1,6 +1,6 @@
 # Chapter 2: Installation and Initial Setup
 
-> "Well begun is half done." - Korean Proverb
+> "Well begun is half done."
 
 Now let's install Claude Code. This chapter provides **step-by-step installation guides for each operating system**, and also covers potential problems during installation and their solutions.
 
