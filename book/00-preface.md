@@ -1,95 +1,95 @@
-# 서문
+# Preface
 
-**© 2025 황민호 (robin.hwang@kakaocorp.com). All rights reserved.**  
-**무단 배포 금지 - 개인 학습 및 연구 목적으로만 사용 가능**
+**© 2025 Minho Hwang (robin.hwang@kakaocorp.com). All rights reserved.**
+**Unauthorized distribution prohibited - For personal learning and research purposes only**
 
 ---
 
-## AI 시대의 개발 패러다임 변화
+## Paradigm Shift in Development in the AI Era
 
-2025년, 우리는 소프트웨어 개발 역사상 가장 극적인 변화의 한가운데 서 있습니다. 
+In 2025, we stand in the midst of the most dramatic change in the history of software development.
 
-30년 전, 통합 개발 환경(IDE)의 등장이 개발자들의 생산성을 혁명적으로 향상시켰듯이, 오늘날 AI 페어 프로그래밍 도구들은 우리가 코드를 작성하고 문제를 해결하는 방식을 근본적으로 바꾸고 있습니다.
+Just as the emergence of Integrated Development Environments (IDEs) 30 years ago revolutionized developers' productivity, today's AI pair programming tools are fundamentally changing the way we write code and solve problems.
 
-그중에서도 Claude Code는 단순한 코드 자동완성을 넘어, 진정한 의미의 'AI 동료'로서 개발자와 협업하는 새로운 패러다임을 제시합니다. 마치 경험 많은 시니어 개발자와 함께 일하는 것처럼, Claude Code는 여러분의 의도를 이해하고, 최적의 솔루션을 제안하며, 복잡한 작업을 함께 수행합니다.
+Among them, Claude Code goes beyond simple code autocompletion to present a new paradigm of collaboration between developers and a true 'AI colleague'. Like working with an experienced senior developer, Claude Code understands your intentions, proposes optimal solutions, and performs complex tasks together with you.
 
-## 이 책을 읽어야 할 사람
+## Who Should Read This Book
 
-이 책은 다음과 같은 분들을 위해 쓰였습니다.
+This book is written for the following people:
 
-**초급 개발자라면**
+**For Junior Developers**
 
-- AI 도구를 활용해 빠르게 성장하고 싶은 분
-- 복잡한 코드베이스를 효과적으로 탐색하는 방법을 배우고 싶은 분
-- 시니어 개발자의 사고 과정을 학습하고 싶은 분
+- Those who want to grow rapidly by utilizing AI tools
+- Those who want to learn how to effectively explore complex codebases
+- Those who want to learn the thought processes of senior developers
 
-**중급 개발자라면**
+**For Mid-level Developers**
 
-- 반복적인 작업에서 벗어나 창의적인 문제 해결에 집중하고 싶은 분
-- 개발 생산성을 획기적으로 높이고 싶은 분
-- 새로운 기술 스택을 빠르게 습득하고 싶은 분
+- Those who want to escape repetitive tasks and focus on creative problem-solving
+- Those who want to dramatically increase development productivity
+- Those who want to quickly acquire new technology stacks
 
-**시니어 개발자와 팀 리더라면**
+**For Senior Developers and Team Leaders**
 
-- 팀의 개발 프로세스를 혁신하고 싶은 분
-- 주니어 개발자들의 온보딩을 효과적으로 지원하고 싶은 분
-- 복잡한 아키텍처 결정을 AI와 함께 검증하고 싶은 분
+- Those who want to innovate their team's development process
+- Those who want to effectively support the onboarding of junior developers
+- Those who want to validate complex architectural decisions with AI
 
-**기술 리더와 CTO라면**
+**For Technical Leaders and CTOs**
 
-- AI 시대의 개발 문화를 조직에 정착시키고 싶은 분
-- 개발팀의 생산성과 코드 품질을 동시에 향상시키고 싶은 분
-- 미래의 개발 환경을 준비하고 싶은 분
+- Those who want to establish a development culture for the AI era in their organization
+- Those who want to simultaneously improve their development team's productivity and code quality
+- Those who want to prepare for the future development environment
 
-## 책의 구성과 활용법
+## Book Structure and How to Use It
 
-이 책은 총 13개의 장으로 구성되어 있으며, 기초부터 고급 활용까지 단계적으로 학습할 수 있도록 설계되었습니다.
+This book consists of 13 chapters and is designed for step-by-step learning from basic to advanced utilization.
 
-**기초 편 (1-3장)**
+**Basics (Chapters 1-3)**
 
-- 제1장: Claude Code란 무엇인가? - AI 페어 프로그래밍의 새로운 패러다임
-- 제2장: 설치와 기본 설정 - 5분 만에 시작하기
-- 제3장: 기본 사용법 마스터 - 프롬프트 엔지니어링의 기술
+- Chapter 1: What is Claude Code? - A New Paradigm of AI Pair Programming
+- Chapter 2: Installation and Basic Setup - Get Started in 5 Minutes
+- Chapter 3: Mastering Basic Usage - The Art of Prompt Engineering
 
-**프로젝트 최적화 (4-6장)**
+**Project Optimization (Chapters 4-6)**
 
-- 제4장: CLAUDE.md로 프로젝트 맞춤 설정 - AI가 당신의 프로젝트를 이해하게 만들기
-- 제5장: 프레임워크별 베스트 프랙티스 - React, Vue, Django, Spring 완벽 활용
-- 제6장: 언어별 활용 전략 - TypeScript, Python, Java, Go, Rust 마스터하기
+- Chapter 4: Customizing Projects with CLAUDE.md - Making AI Understand Your Project
+- Chapter 5: Best Practices for Each Framework - Mastering React, Vue, Django, Spring
+- Chapter 6: Utilization Strategies for Each Language - Mastering TypeScript, Python, Java, Go, Rust
 
-**고급 워크플로우 (7-9장)**
+**Advanced Workflows (Chapters 7-9)**
 
-- 제7장: 효율적인 개발 워크플로우 - 생산성 10배 높이기
-- 제8장: 멀티태스킹과 병렬 처리 - 여러 작업을 동시에 처리하는 기술
-- 제9장: 자동화와 CI/CD 통합 - 반복 작업 제로 만들기
+- Chapter 7: Efficient Development Workflows - Increasing Productivity 10x
+- Chapter 8: Multitasking and Parallel Processing - Techniques for Handling Multiple Tasks Simultaneously
+- Chapter 9: Automation and CI/CD Integration - Making Repetitive Tasks Zero
 
-**실전 프로젝트 (10장)**
+**Real-world Project (Chapter 10)**
 
-- 제10장: 웹 애플리케이션 구축 - 처음부터 배포까지 함께하기
+- Chapter 10: Building a Web Application - From Start to Deployment Together
 
-**팀 협업과 조직 혁신 (11-13장)**
+**Team Collaboration and Organizational Innovation (Chapters 11-13)**
 
-- 제11장: GitHub Actions와 Claude Code Action - PR 자동화의 마법
-- 제12장: 팀에서 Claude Code 활용하기 - 함께 성장하는 개발 문화
-- 제13장: 조직별 Claude Code 활용 사례 연구 - Anthropic 팀들의 실제 경험
+- Chapter 11: GitHub Actions and Claude Code Action - The Magic of PR Automation
+- Chapter 12: Utilizing Claude Code in a Team - A Development Culture of Growing Together
+- Chapter 13: Case Studies of Claude Code Usage by Organization - Real Experiences from Anthropic Teams
 
-### 이 책을 최대한 활용하는 방법
+### How to Make the Most of This Book
 
-1. **실습 중심 학습**: 각 장의 예제를 직접 따라하며 학습하세요. Claude Code는 실제로 사용해봐야 그 가치를 알 수 있습니다.
+1. **Hands-on Learning**: Learn by following the examples in each chapter. You can only understand the value of Claude Code by actually using it.
 
-2. **점진적 적용**: 현재 진행 중인 프로젝트에 하나씩 적용해보세요. 작은 성공 경험이 큰 변화로 이어집니다.
+2. **Gradual Application**: Apply it one by one to your current projects. Small successful experiences lead to big changes.
 
-3. **커스터마이징**: 책의 내용을 그대로 따르기보다는, 여러분의 환경과 필요에 맞게 조정하세요.
+3. **Customization**: Rather than strictly following the book's content, adjust it to your environment and needs.
 
-4. **공유와 토론**: 팀원들과 경험을 공유하고, 더 나은 방법을 함께 찾아가세요.
+4. **Sharing and Discussion**: Share your experiences with team members and find better methods together.
 
-## 함께 떠나는 여정
+## A Journey Together
 
-이 책은 단순한 도구 사용법을 넘어, AI와 함께 일하는 새로운 개발 문화를 만들어가는 여정입니다. 
+This book is more than just a tool manual; it's a journey to create a new development culture of working with AI.
 
-Claude Code는 여러분의 코드를 대신 작성하는 도구가 아닙니다. 오히려 여러분이 더 나은 개발자가 되도록 돕는 동료입니다. 복잡한 문제를 함께 고민하고, 다양한 해결책을 제시하며, 때로는 여러분이 놓친 부분을 짚어주는 믿음직한 파트너입니다.
+Claude Code is not a tool that writes your code for you. Rather, it is a colleague that helps you become a better developer. It is a reliable partner that contemplates complex problems with you, suggests various solutions, and sometimes points out what you missed.
 
-이제 AI와 함께하는 개발의 세계로 첫발을 내딛어 봅시다. 이 책이 여러분의 개발 인생에 새로운 장을 여는 계기가 되기를 바랍니다.
+Let's take the first step into the world of development with AI. I hope this book will be an opportunity to open a new chapter in your development life.
 
-2025년 6월  
-황민호
+June 2025
+Minho Hwang
