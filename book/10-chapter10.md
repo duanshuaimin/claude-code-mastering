@@ -1,160 +1,160 @@
-# 제10장: 웹 애플리케이션 구축
+# Chapter 10: Building a Web Application
 
-> "실습은 이론을 현실로 만든다" - 벤자민 프랭클린
+> "Practice makes theory reality." - Benjamin Franklin
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 mindmap
-  root((학습 목표))
-    아키텍처 설계
-      엔터프라이즈급 시스템 설계
-      마이크로서비스 아키텍처
-      확장 가능한 구조
-    풀스택 개발
-      백엔드 API 구축
-      프론트엔드 최적화
-      실시간 통신
-    품질 보장
-      테스트 자동화
-      성능 최적화
-      보안 강화
-    DevOps 실천
-      컨테이너화
-      CI/CD 파이프라인
-      모니터링 시스템
+  root((Learning Objectives))
+    Architecture Design
+      Enterprise-grade system design
+      Microservices architecture
+      Scalable structure
+    Full-Stack Development
+      Building backend APIs
+      Frontend optimization
+      Real-time communication
+    Quality Assurance
+      Test automation
+      Performance optimization
+      Security hardening
+    DevOps Practices
+      Containerization
+      CI/CD pipeline
+      Monitoring system
 ```
 
-## 학습 목표
+## Learning Objectives
 
-이 장을 완료하면 다음을 할 수 있습니다.
+Upon completing this chapter, you will be able to:
 
-- 전체적인 웹 애플리케이션 아키텍처를 설계하고 구현할 수 있습니다.
-- Claude Code를 활용하여 백엔드와 프론트엔드를 체계적으로 개발할 수 있습니다.
-- 실시간 기능과 대화형 UI를 구현하고 최적화할 수 있습니다.
-- 테스트, 배포, 모니터링을 포함한 전체 개발 라이프사이클을 관리할 수 있습니다.
+- Design and implement a comprehensive web application architecture.
+- Systematically develop backend and frontend components using Claude Code.
+- Implement and optimize real-time features and interactive UIs.
+- Manage the entire development lifecycle, including testing, deployment, and monitoring.
 
-## 개요
+## Overview
 
-이 장에서는 지금까지 학습한 모든 이론과 기법을 실제 프로젝트에 적용하는 종합적 실습을 진행합니다. Claude Code를 활용해 실시간 채팅이 있는 협업 도구 ‘CollabSpace’를 처음부터 끝까지 구축하면서, 전문적인 웹 애플리케이션 개발의 전 과정을 경험해보겠습니다.
+In this chapter, we will conduct a comprehensive practical exercise applying all the theories and techniques learned so far to a real project. By building 'CollabSpace', a collaboration tool with real-time chat, from scratch using Claude Code, we will experience the entire process of professional web application development.
 
-이 프로젝트를 통해 아키텍처 설계부터 배포와 모니터링까지, 전체적인 개발 라이프사이클을 경험하고 실무에서 직접 활용할 수 있는 실전 역량을 배양하겠습니다.
+Through this project, we will experience the entire development lifecycle from architecture design to deployment and monitoring, and cultivate practical skills that can be directly applied in real-world scenarios.
 
-## 10.1 엔터프라이즈 프로젝트 설계와 아키텍처
+## 10.1 Enterprise Project Design and Architecture
 
-성공적인 웹 애플리케이션 구축은 체계적인 설계와 명확한 아키텍처에서 시작됩니다. 특히 실시간 협업 플랫폼과 같은 복잡한 시스템에서는 초기 설계 결정이 전체 프로젝트의 성패를 좌우합니다. 
+Successful web application development begins with systematic design and a clear architecture. Especially in complex systems like real-time collaboration platforms, initial design decisions determine the success or failure of the entire project.
 
-엔터프라이즈급 애플리케이션은 단순한 기능 구현을 넘어서 확장성, 안정성, 보안성, 유지보수성을 모두 고려해야 합니다. Claude Code는 이러한 다차원적 요구사항을 종합적으로 분석하고, 검증된 아키텍처 패턴을 제안하여 프로젝트의 기술적 위험을 최소화합니다.
+Enterprise-grade applications must consider not only functional implementation but also scalability, stability, security, and maintainability. Claude Code comprehensively analyzes these multi-dimensional requirements and proposes validated architectural patterns to minimize the project's technical risks.
 
-**아키텍처 설계의 핵심 원칙**
+**Key Principles of Architectural Design**
 
-1. **도메인 주도 설계(DDD)**: 비즈니스 로직을 중심으로 한 서비스 경계 정의
-2. **관심사의 분리**: 각 컴포넌트의 책임과 역할을 명확히 구분
-3. **느슨한 결합**: 서비스 간 의존성을 최소화하여 독립적 개발과 배포 가능
-4. **높은 응집도**: 관련 기능들을 논리적으로 그룹화하여 코드 품질 향상
-5. **확장성 고려**: 사용자 증가와 기능 확장에 대비한 유연한 구조
+1.  **Domain-Driven Design (DDD)**: Defining service boundaries centered on business logic.
+2.  **Separation of Concerns**: Clearly distinguishing the responsibilities and roles of each component.
+3.  **Loose Coupling**: Minimizing dependencies between services to enable independent development and deployment.
+4.  **High Cohesion**: Logically grouping related functionalities to improve code quality.
+5.  **Scalability Consideration**: Flexible structure to prepare for user growth and feature expansion.
 
-### 프로젝트 개요: "CollabSpace" - 엔터프라이즈급 협업 플랫폼
+### Project Overview: "CollabSpace" - An Enterprise-Grade Collaboration Platform
 
-CollabSpace는 현대적인 원격 협업 환경의 모든 요구사항을 충족하는 포괄적인 협업 플랫폼입니다. Slack과 Notion의 장점을 결합하면서도 개발팀을 위한 전문적인 기능들을 추가로 제공합니다.
+CollabSpace is a comprehensive collaboration platform that meets all the requirements of a modern remote collaboration environment. It combines the strengths of Slack and Notion while providing additional professional features for development teams.
 
-**핵심 기능 및 비즈니스 가치**
+**Core Features and Business Value**
 
-**1. 실시간 협업 엔진**
+**1. Real-time Collaboration Engine**
 
-- WebSocket 기반 실시간 통신 (1000+ 동시 사용자 지원)
-- 동시 편집과 충돌 해결 알고리즘
-- 실시간 커서 추적과 사용자 인식
-- 오프라인 동기화와 충돌 해결
+- WebSocket-based real-time communication (supporting 1000+ concurrent users)
+- Concurrent editing and conflict resolution algorithms
+- Real-time cursor tracking and user presence
+- Offline synchronization and conflict resolution
 
-**2. 지능형 워크스페이스 관리**
+**2. Intelligent Workspace Management**
 
-- 계층적 조직 구조 (Organization > Team > Project)
-- 역할 기반 접근 제어 (RBAC) 시스템
-- 동적 권한 위임과 임시 액세스
-- 감사 로그와 활동 추적
+- Hierarchical organizational structure (Organization > Team > Project)
+- Role-Based Access Control (RBAC) system
+- Dynamic permission delegation and temporary access
+- Audit logs and activity tracking
 
-**3. 통합 커뮤니케이션 허브**
+**3. Integrated Communication Hub**
 
-- 멀티미디어 지원 실시간 채팅
-- 스레드 기반 대화 구조
-- 지능형 알림 시스템
-- 통합 검색과 콘텐츠 발견
+- Real-time chat with multimedia support
+- Thread-based conversation structure
+- Intelligent notification system
+- Integrated search and content discovery
 
-**4. 프로젝트 관리 도구**
+**4. Project Management Tools**
 
-- 사용자 정의 가능한 칸반 보드
-- 간트 차트와 타임라인 뷰
-- 자동화된 워크플로우
-- 진행률 추적과 리포팅
+- Customizable Kanban boards
+- Gantt charts and timeline views
+- Automated workflows
+- Progress tracking and reporting
 
-**5. 파일과 지식 관리**
+**5. File and Knowledge Management**
 
-- 버전 관리가 있는 파일 시스템
-- 실시간 문서 협업 편집기
-- 위키 시스템과 지식베이스
-- 통합 코드 리뷰 도구
+- File system with version control
+- Real-time collaborative document editor
+- Wiki system and knowledge base
+- Integrated code review tools
 
-### 엔터프라이즈급 아키텍처 설계
+### Enterprise-Grade Architecture Design
 
-복잡한 협업 플랫폼의 아키텍처 설계는 기능적 요구사항뿐만 아니라 비기능적 요구사항(성능, 확장성, 가용성, 보안)을 모두 고려해야 합니다. 
+Designing the architecture for a complex collaboration platform must consider not only functional requirements but also non-functional requirements (performance, scalability, availability, security).
 
-**아키텍처 설계 방법론**
+**Architecture Design Methodology**
 
-현대적인 웹 애플리케이션 설계는 다음과 같은 체계적 접근법을 따릅니다:
+Modern web application design follows a systematic approach:
 
-1. **요구사항 분석**: 비즈니스 요구사항과 기술적 제약사항을 명확히 정의
-2. **도메인 모델링**: 핵심 비즈니스 엔티티와 그들 간의 관계 설계
-3. **서비스 분해**: 마이크로서비스 경계 설정과 API 인터페이스 정의
-4. **데이터 아키텍처**: 데이터 저장, 캐싱, 검색 전략 수립
-5. **통신 패턴**: 동기/비동기 통신, 이벤트 기반 아키텍처 설계
-6. **보안 아키텍처**: 인증, 인가, 데이터 보호 전략 구축
-7. **운영 아키텍처**: 모니터링, 로깅, 배포 전략 설계
+1.  **Requirements Analysis**: Clearly define business requirements and technical constraints.
+2.  **Domain Modeling**: Design core business entities and their relationships.
+3.  **Service Decomposition**: Define microservice boundaries and API interfaces.
+4.  **Data Architecture**: Establish strategies for data storage, caching, and retrieval.
+5.  **Communication Patterns**: Design synchronous/asynchronous communication and event-driven architecture.
+6.  **Security Architecture**: Build strategies for authentication, authorization, and data protection.
+7.  **Operational Architecture**: Design strategies for monitoring, logging, and deployment.
 
-Claude Code를 활용하여 이러한 전체적인 설계 과정을 체계적이고 검증된 방식으로 진행해보겠습니다.
+We will use Claude Code to proceed with this overall design process in a systematic and validated manner.
 
-**시스템 요구사항 정의**
+**System Requirements Definition**
 
 ```bash
-claude "CollabSpace 엔터프라이즈 협업 플랫폼의 아키텍처를 설계해줘.
+claude "Design the architecture for the CollabSpace enterprise collaboration platform.
 
-비기능적 요구사항
-- 성능: 1000+ 동시 사용자, 100ms 이하 API 응답
-- 확장성: 수평적 확장 가능한 마이크로서비스 구조
-- 가용성: 99.9% 업타임, 다중 가용 영역 배포
-- 보안: 제로 트러스트 아키텍처, 종단간 암호화
-- 데이터 일관성: 이벤트 소싱과 CQRS 패턴 적용
+Non-functional Requirements:
+- Performance: 1000+ concurrent users, API response time < 100ms
+- Scalability: Horizontally scalable microservices architecture
+- Availability: 99.9% uptime, multi-availability zone deployment
+- Security: Zero Trust architecture, end-to-end encryption
+- Data Consistency: Event sourcing and CQRS pattern application
 
-기능적 요구사항
-- 실시간 협업: WebSocket 기반 실시간 통신
-- 멀티 테넌시: 조직별 데이터 격리
-- 파일 시스템: 대용량 파일 처리와 CDN 연동
-- 검색 엔진: 전문 검색과 자동 완성
-- 분석 시스템: 사용 패턴 분석과 인사이트
+Functional Requirements:
+- Real-time Collaboration: WebSocket-based real-time communication
+- Multi-tenancy: Data isolation per organization
+- File System: Large file handling and CDN integration
+- Search Engine: Full-text search and auto-completion
+- Analytics System: User pattern analysis and insights
 
-기술 제약사항
-- 클라우드 네이티브 (Kubernetes 기반)
-- 컨테이너 우선 아키텍처
-- API 우선 설계 (API-First)
-- 이벤트 기반 아키텍처
-- 관찰 가능성 내장 (모니터링, 로깅, 추적)"
+Technical Constraints:
+- Cloud-native (Kubernetes-based)
+- Container-first architecture
+- API-first design
+- Event-driven architecture
+- Built-in observability (monitoring, logging, tracing)"
 ```
 
-**Claude Code가 제안하는 아키텍처 개요**
+**Architecture Overview Proposed by Claude Code**
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph TB
-    subgraph frontend [프론트엔드 계층]
+    subgraph frontend [Frontend Layer]
         A[Web App<br/>Next.js]
         B[Mobile App<br/>React Native]
         C[Desktop App<br/>Electron]
     end
     
-    subgraph gateway [API Gateway 계층]
-        D[API Gateway<br/>Kong/Istio<br/>인증/인가, Rate Limiting<br/>로드 밸런싱, 서비스 디스커버리]
+    subgraph gateway [API Gateway Layer]
+        D[API Gateway<br/>Kong/Istio<br/>Auth/AuthZ, Rate Limiting<br/>Load Balancing, Service Discovery]
     end
     
-    subgraph microservices [마이크로서비스 계층]
+    subgraph microservices [Microservices Layer]
         E[Auth Service]
         F[User Service]
         G[Workspace Service]
@@ -169,7 +169,7 @@ graph TB
         P[Email Service]
     end
     
-    subgraph data [데이터 계층]
+    subgraph data [Data Layer]
         Q[PostgreSQL<br/>Primary DB]
         R[Redis<br/>Cache]
         S[Elasticsearch<br/>Search]
@@ -220,113 +220,113 @@ graph TB
     class Q,R,S,T,U,V,W dataStyle
 ```
 
-**상세 아키텍처 설계 요청**
+**Detailed Architecture Design Request**
 
 ```bash
-# 마이크로서비스 경계 정의
-claude "CollabSpace의 마이크로서비스 경계를 DDD 원칙에 따라 정의해줘.
+# Define microservice boundaries
+claude "Define the microservice boundaries for CollabSpace according to DDD principles.
 
-도메인 컨텍스트 분석
-- 각 바운디드 컨텍스트의 책임과 경계
-- 서비스 간 통신 패턴 (동기 vs 비동기)
-- 데이터 소유권과 일관성 전략
-- 이벤트 스토밍 결과 반영
+Domain Context Analysis:
+- Responsibilities and boundaries of each bounded context
+- Communication patterns between services (synchronous vs. asynchronous)
+- Data ownership and consistency strategies
+- Reflection of event storming results
 
-서비스별 상세 설계
-1. 인증 서비스: OAuth2/OIDC, JWT, 다중 ID 제공자
-2. 사용자 관리: 프로필, 설정, 팀 멤버십
-3. 워크스페이스: 조직 구조, 권한 관리
-4. 실시간 통신: WebSocket 연결 관리, 메시지 라우팅
-5. 파일 서비스: 업로드, 저장, CDN 연동
-6. 검색 서비스: 인덱싱, 전문 검색, 자동 완성
-7. 알림 서비스: 실시간 알림, 이메일, 푸시
+Detailed Design per Service:
+1. Authentication Service: OAuth2/OIDC, JWT, multiple ID providers
+2. User Management: Profile, settings, team membership
+3. Workspace: Organizational structure, permission management
+4. Real-time Communication: WebSocket connection management, message routing
+5. File Service: Upload, storage, CDN integration
+6. Search Service: Indexing, full-text search, auto-completion
+7. Notification Service: Real-time notifications, email, push
 
-각 서비스는
-- 독립적 배포 가능
-- 자체 데이터베이스 소유
-- API 버전 관리 지원
-- 헬스체크와 모니터링 내장"
+Each service should:
+- Be independently deployable
+- Own its database
+- Support API version management
+- Have built-in health checks and monitoring"
 
-# 실시간 통신 아키텍처
-claude "대규모 실시간 협업을 위한 WebSocket 아키텍처를 설계해줘.
+# Real-time communication architecture
+claude "Design a WebSocket architecture for large-scale real-time collaboration.
 
-요구사항
-- 1000+ 동시 연결 지원
-- 메시지 보장과 순서 유지
-- 연결 복구와 재동기화
-- 수평적 확장 가능성
+Requirements:
+- Support 1000+ concurrent connections
+- Message guarantee and order preservation
+- Connection recovery and resynchronization
+- Horizontal scalability
 
-설계 요소
-1. WebSocket 클러스터 관리
-2. 메시지 브로커 (Redis Streams/Kafka)
-3. 세션 관리와 로드 밸런싱
-4. 백프레셔와 플로우 제어
-5. 연결 상태 모니터링
+Design Elements:
+1. WebSocket cluster management
+2. Message broker (Redis Streams/Kafka)
+3. Session management and load balancing
+4. Backpressure and flow control
+5. Connection status monitoring
 
-성능 최적화
-- 연결 풀링과 재사용
-- 메시지 배칭과 압축
-- 네임스페이스별 격리
-- 지리적 분산 배포"
+Performance Optimization:
+- Connection pooling and reuse
+- Message batching and compression
+- Namespace-specific isolation
+- Geo-distributed deployment"
 
-# 데이터 아키텍처 설계
-claude "멀티 테넌트 데이터 아키텍처를 설계해줘.
+# Data architecture design
+claude "Design a multi-tenant data architecture.
 
-격리 전략
-- 행 수준 보안 (Row-Level Security)
-- 스키마 분리 vs 데이터베이스 분리
-- 암호화와 접근 제어
+Isolation Strategy:
+- Row-Level Security
+- Schema separation vs. Database separation
+- Encryption and access control
 
-일관성 모델
-- ACID vs BASE 트레이드오프
-- 이벤트 소싱 적용 영역
-- CQRS 패턴 구현
-- 분산 트랜잭션 관리
+Consistency Model:
+- ACID vs. BASE trade-offs
+- Event sourcing application areas
+- CQRS pattern implementation
+- Distributed transaction management
 
-성능 최적화
-- 샤딩 전략
-- 읽기 복제본 활용
-- 캐싱 계층 설계
-- 인덱스 최적화"
+Performance Optimization:
+- Sharding strategy
+- Read replica utilization
+- Caching layer design
+- Index optimization"
 ```
 
-### 전략적 기술 스택 선정
+### Strategic Technology Stack Selection
 
-기술 스택 선정은 단순한 기술적 선호도를 넘어서 비즈니스 목표, 팀 역량, 장기적 유지보수성을 모두 고려해야 하는 전략적 의사결정입니다. Claude Code를 활용하여 각 계층별로 최적의 기술을 체계적으로 선택해보겠습니다.
+Selecting a technology stack is a strategic decision that must consider not only technical preferences but also business goals, team capabilities, and long-term maintainability. We will systematically select the optimal technology for each layer using Claude Code.
 
-**종합적 기술 스택 평가 요청**
+**Comprehensive Technology Stack Evaluation Request**
 
 ```bash
-claude "CollabSpace 엔터프라이즈 플랫폼을 위한 최적의 기술 스택을 추천해줘.
+claude "Recommend the optimal technology stack for the CollabSpace enterprise platform.
 
-평가 기준
-1. 성능과 확장성: 1000+ 동시 사용자 처리 능력
-2. 개발 생산성: 팀 러닝 커브와 개발 속도
-3. 생태계 성숙도: 라이브러리, 도구, 커뮤니티 지원
-4. 운영 안정성: 프로덕션 검증과 장기 지원
-5. 비용 효율성: 라이선스, 인프라, 인력 비용
-6. 보안: 보안 패치와 취약점 대응
-7. 인재 확보: 시장에서 개발자 확보 용이성
+Evaluation Criteria:
+1. Performance and Scalability: Ability to handle 1000+ concurrent users
+2. Development Productivity: Team learning curve and development speed
+3. Ecosystem Maturity: Library, tool, and community support
+4. Operational Stability: Production validation and long-term support
+5. Cost-Effectiveness: License, infrastructure, and personnel costs
+6. Security: Security patches and vulnerability response
+7. Talent Acquisition: Ease of acquiring developers in the market
 
-기술 영역별 후보
-- 프론트엔드: React/Next.js vs Vue/Nuxt vs Angular vs Svelte
-- 백엔드 언어: Node.js vs Python vs Java vs Go vs Rust
-- 웹 프레임워크: Express vs FastAPI vs Spring Boot vs Gin
-- 데이터베이스: PostgreSQL vs MySQL vs MongoDB vs Cassandra
-- 캐시: Redis vs Memcached vs Hazelcast
-- 메시지 큐: Kafka vs RabbitMQ vs Redis Streams vs NATS
-- 검색 엔진: Elasticsearch vs Solr vs Algolia vs Typesense
-- 컨테이너: Docker vs Podman vs containerd
-- 오케스트레이션: Kubernetes vs Docker Swarm vs Nomad
-- 클라우드: AWS vs GCP vs Azure vs 멀티 클라우드
+Technology Candidates per Area:
+- Frontend: React/Next.js vs. Vue/Nuxt vs. Angular vs. Svelte
+- Backend Language: Node.js vs. Python vs. Java vs. Go vs. Rust
+- Web Framework: Express vs. FastAPI vs. Spring Boot vs. Gin
+- Database: PostgreSQL vs. MySQL vs. MongoDB vs. Cassandra
+- Cache: Redis vs. Memcached vs. Hazelcast
+- Message Queue: Kafka vs. RabbitMQ vs. Redis Streams vs. NATS
+- Search Engine: Elasticsearch vs. Solr vs. Algolia vs. Typesense
+- Container: Docker vs. Podman vs. containerd
+- Orchestration: Kubernetes vs. Docker Swarm vs. Nomad
+- Cloud: AWS vs. GCP vs. Azure vs. Multi-cloud
 
-각 선택에 대한 상세한 근거와 트레이드오프 분석을 포함해줘."
+Include detailed justifications and trade-off analyses for each choice."
 ```
 
-**Claude Code가 추천하는 최종 기술 스택**
+**Final Technology Stack Recommended by Claude Code**
 
 ```yaml
-# 프론트엔드 스택
+# Frontend Stack
 frontend:
   framework: "Next.js 14"
   language: "TypeScript"
@@ -337,14 +337,14 @@ frontend:
   testing: "Vitest + Testing Library + Playwright"
   bundler: "Turbopack (Next.js built-in)"
   
-  선택_근거:
-    - "Next.js 14: App Router의 서버 컴포넌트로 성능 최적화"
-    - "TypeScript: 대규모 팀 개발에서 타입 안전성 보장"
-    - "Tailwind CSS: 일관된 디자인 시스템과 빠른 프로토타이핑"
-    - "Zustand: 간단하지만 강력한 상태 관리, Redux 대비 보일러플레이트 최소화"
-    - "Radix UI: 접근성 기본 제공, 기업 환경 필수 요구사항"
+  Rationale:
+    - "Next.js 14: Performance optimization with App Router's server components"
+    - "TypeScript: Type safety assurance in large team development"
+    - "Tailwind CSS: Consistent design system and rapid prototyping"
+    - "Zustand: Simple yet powerful state management, minimal boilerplate compared to Redux"
+    - "Radix UI: Accessibility built-in, essential for enterprise environments"
 
-# 백엔드 스택
+# Backend Stack
 backend:
   runtime: "Node.js 20 LTS"
   framework: "Fastify 4.x"
@@ -356,13 +356,13 @@ backend:
   api_documentation: "OpenAPI 3.0 + Swagger"
   testing: "Jest + Supertest"
   
-  선택_근거:
-    - "Node.js: 프론트엔드와 동일 언어로 팀 효율성 극대화"
-    - "Fastify: Express 대비 2배 성능, 플러그인 생태계 우수"
-    - "Prisma: 타입 안전한 데이터베이스 액세스, 마이그레이션 관리 우수"
-    - "Socket.io: 실시간 통신의 산업 표준, 폴백 메커니즘 내장"
+  Rationale:
+    - "Node.js: Maximizes team efficiency with the same language as frontend"
+    - "Fastify: Twice the performance of Express, excellent plugin ecosystem"
+    - "Prisma: Type-safe database access, excellent migration management"
+    - "Socket.io: Industry standard for real-time communication, built-in fallback mechanisms"
 
-# 데이터베이스 스택
+# Database Stack
 database:
   primary: "PostgreSQL 15"
   cache: "Redis 7.x"
@@ -371,13 +371,13 @@ database:
   message_queue: "Redis Streams"
   object_storage: "MinIO (S3 compatible)"
   
-  선택_근거:
-    - "PostgreSQL: ACID 보장, JSON 지원, 확장성 우수"
-    - "Redis: 고성능 캐싱, pub/sub, 스트림 처리 모두 지원"
-    - "Elasticsearch: 전문 검색, 실시간 분석, 자동 완성 최적화"
-    - "TimescaleDB: 시계열 데이터 처리에 특화된 PostgreSQL 확장"
+  Rationale:
+    - "PostgreSQL: ACID compliance, JSON support, excellent scalability"
+    - "Redis: Supports high-performance caching, pub/sub, and stream processing"
+    - "Elasticsearch: Optimized for full-text search, real-time analytics, auto-completion"
+    - "TimescaleDB: PostgreSQL extension specialized for time-series data processing"
 
-# 인프라 스택
+# Infrastructure Stack
 infrastructure:
   containerization: "Docker + Docker Compose"
   orchestration: "Kubernetes 1.28+"
@@ -389,13 +389,13 @@ infrastructure:
   ci_cd: "GitLab CI + ArgoCD"
   cloud: "AWS (multi-AZ deployment)"
   
-  선택_근거:
-    - "Kubernetes: 컨테이너 오케스트레이션 표준, 멀티 클라우드 지원"
-    - "Istio: 서비스 메시로 보안, 관찰성, 트래픽 관리 통합"
-    - "Kong: 엔터프라이즈급 API 게이트웨이, 플러그인 생태계"
-    - "Prometheus: 클라우드 네이티브 모니터링 표준"
+  Rationale:
+    - "Kubernetes: Container orchestration standard, multi-cloud support"
+    - "Istio: Integrates security, observability, and traffic management with service mesh"
+    - "Kong: Enterprise-grade API gateway, plugin ecosystem"
+    - "Prometheus: Cloud-native monitoring standard"
 
-# 개발 도구
+# Development Tools
 development:
   package_manager: "pnpm"
   monorepo: "Turborepo"
@@ -404,11 +404,11 @@ development:
   testing: "Jest + Playwright + k6"
   documentation: "Storybook + Docusaurus"
   
-  선택_근거:
-    - "pnpm: npm 대비 3배 빠른 설치 속도, 디스크 공간 절약"
-    - "Turborepo: 모노레포 빌드 최적화, 캐싱으로 CI 시간 단축"
+  Rationale:
+    - "pnpm: 3x faster installation speed than npm, saves disk space"
+    - "Turborepo: Monorepo build optimization, reduces CI time with caching"
 
-# 보안 스택
+# Security Stack
 security:
   authentication: "OAuth 2.0 + OpenID Connect"
   authorization: "RBAC + ABAC hybrid"
@@ -418,54 +418,54 @@ security:
   compliance: "SOC 2 Type II ready"
 ```
 
-**기술 스택 의사결정 매트릭스**
+**Technology Stack Decision Matrix**
 
 ```bash
-claude "선정된 기술 스택의 의사결정 과정을 투명하게 문서화해줘.
+claude "Transparently document the decision-making process for the selected technology stack.
 
-비교 매트릭스 생성
-- 각 기술 선택지에 대한 점수화 (1-10점)
-- 가중치 적용 (성능 30%, 개발 생산성 25%, 운영 안정성 20%, 비용 15%, 학습 곡선 10%)
-- 총점과 순위
-- 선택하지 않은 기술의 배제 이유
+Create Comparison Matrix:
+- Score for each technology option (1-10 points)
+- Apply weights (Performance 30%, Development Productivity 25%, Operational Stability 20%, Cost 15%, Learning Curve 10%)
+- Total score and ranking
+- Reasons for excluding unselected technologies
 
-리스크 분석
-- 기술별 주요 리스크와 완화 전략
-- 업그레이드 경로와 마이그레이션 계획
-- 벤더 종속성과 대안 기술
-- 팀 교육 계획과 일정
+Risk Analysis:
+- Key risks and mitigation strategies for each technology
+- Upgrade paths and migration plans
+- Vendor lock-in and alternative technologies
+- Team training plans and schedules
 
-성능 벤치마크
-- 예상 성능 지표
-- 병목 지점 예측
-- 확장성 시나리오
-- 모니터링 포인트"
+Performance Benchmarks:
+- Expected performance metrics
+- Predicted bottleneck points
+- Scalability scenarios
+- Monitoring points"
 ```
 
-**프로토타입 검증**
+**Prototype Validation**
 
 ```bash
-claude "기술 스택 검증을 위한 프로토타입을 만들어줘.
+claude "Create a prototype to validate the technology stack.
 
-검증 목표
-1. 성능 벤치마크: 동시 사용자 수, 응답 시간, 처리량
-2. 개발 생산성: 기능 개발 속도, 디버깅 용이성
-3. 운영 복잡성: 배포, 모니터링, 문제 해결
-4. 통합성: 서비스 간 연동, 데이터 일관성
+Validation Objectives:
+1. Performance Benchmark: Concurrent users, response time, throughput
+2. Development Productivity: Feature development speed, debugging ease
+3. Operational Complexity: Deployment, monitoring, problem-solving
+4. Integration: Inter-service communication, data consistency
 
-프로토타입 범위
-- 사용자 인증과 세션 관리
-- 실시간 채팅 (100명 동시 연결)
-- 파일 업로드와 다운로드
-- 검색 기능
-- 기본적인 모니터링과 로깅
+Prototype Scope:
+- User authentication and session management
+- Real-time chat (100 concurrent connections)
+- File upload and download
+- Search functionality
+- Basic monitoring and logging
 
-성공 기준
-- API 응답 시간 < 100ms (95%)
-- WebSocket 메시지 지연 < 50ms
-- 파일 업로드 처리량 > 10MB/s
-- 검색 응답 시간 < 200ms
-- 시스템 리소스 사용률 < 70%"
+Success Criteria:
+- API response time < 100ms (95%)
+- WebSocket message latency < 50ms
+- File upload throughput > 10MB/s
+- Search response time < 200ms
+- System resource utilization < 70%"
 ```
 
 ## 10.2 엔터프라이즈급 프로젝트 초기 설정
@@ -1261,39 +1261,38 @@ Closes #123
 최신 버전은 항상 프로젝트 루트의 CLAUDE.md 파일을 참조하세요.
 ````
 
-## 10.3 백엔드 개발
+## 10.3 Backend Development
 
-백엔드 개발은 애플리케이션의 핵심 비즈니스 로직과 데이터 관리를 담당하는 중요한 영역입니다. CollabSpace의 백엔드는 사용자 인증, 실시간 통신, 데이터 저장 등 다양한 기능을 안정적으로 제공해야 합니다.
+Backend development is a crucial area responsible for the application's core business logic and data management. CollabSpace's backend must reliably provide various functions such as user authentication, real-time communication, and data storage.
 
-### 인증 시스템 구현
+### Authentication System Implementation
 
-사용자 인증은 모든 협업 도구의 기반이 되는 핵심 기능입니다. JWT(JSON Web Token)를 활용한 인증 시스템은 확장성과 보안성을 모두 갖춘 현대적인 접근 방식입니다.
-
-```bash
-claude "JWT 기반 인증 시스템을 구현해줘.
-회원가입, 로그인, 토큰 갱신, 권한 미들웨어를 포함하고
-보안 베스트 프랙티스를 적용해줘"
-```
-
-**주요 구현 요소**
-
-1. **토큰 기반 인증**: 상태 비저장(stateless) 방식으로 서버 확장성 확보
-2. **역할 기반 접근 제어**: 워크스페이스별로 다른 권한 수준 관리
-3. **토큰 갱신 메커니즘**: 보안과 사용자 편의성의 균형
-4. **암호 해싱**: bcrypt를 활용한 안전한 패스워드 저장
-5. **입력 검증**: 악의적인 입력으로부터 시스템 보호
-
-### 데이터베이스 설계
-
-데이터베이스 스키마는 애플리케이션의 데이터 구조와 비즈니스 규칙을 반영하는 핵심 설계입니다. 협업 도구의 특성상 사용자, 워크스페이스, 프로젝트 간의 복잡한 관계를 명확히 정의해야 합니다.
+User authentication is a core function that forms the basis of all collaboration tools. An authentication system using JWT (JSON Web Token) is a modern approach that offers both scalability and security.
 
 ```bash
-claude "Prisma를 사용해서 데이터베이스 스키마를 설계해줘.
-User, Workspace, Project, Message, Task 엔티티와
-관계를 정의해줘"
+claude "Implement a JWT-based authentication system.
+Include sign-up, login, token refresh, and authorization middleware,
+and apply security best practices."
 ```
 
-생성된 스키마
+**Key Implementation Elements**
+
+1.  **Token-Based Authentication**: Ensures server scalability with a stateless approach.
+2.  **Role-Based Access Control**: Manages different permission levels per workspace.
+3.  **Token Refresh Mechanism**: Balances security and user convenience.
+4.  **Password Hashing**: Secure password storage using bcrypt.
+5.  **Input Validation**: Protects the system from malicious input.
+
+### Database Design
+
+The database schema is a core design that reflects the application's data structure and business rules. Due to the nature of collaboration tools, complex relationships between users, workspaces, and projects must be clearly defined.
+
+```bash
+claude "Design the database schema using Prisma.
+Define User, Workspace, Project, Message, and Task entities and their relationships."
+```
+
+Generated Schema:
 ```prisma
 // schema.prisma
 model User {
@@ -1341,416 +1340,415 @@ enum Role {
 }
 ```
 
-**스키마 설계 원칙**
+**Schema Design Principles**
 
-1. **정규화**: 데이터 중복을 최소화하여 일관성 보장
-2. **관계 정의**: 외래 키와 인덱스를 통한 효율적인 조인 연산
-3. **확장성**: 미래 요구사항을 고려한 유연한 구조
-4. **성능**: 자주 조회되는 필드에 대한 적절한 인덱싱
+1.  **Normalization**: Minimize data redundancy to ensure consistency.
+2.  **Relationship Definition**: Efficient join operations through foreign keys and indexes.
+3.  **Scalability**: Flexible structure considering future requirements.
+4.  **Performance**: Appropriate indexing for frequently queried fields.
 
-### 실시간 통신 구현
+### Real-time Communication Implementation
 
-실시간 통신은 협업 도구의 핵심 요소입니다. Socket.io를 활용하여 사용자 간의 즉시적인 정보 교환과 협업을 가능하게 합니다.
-
-```bash
-claude "Socket.io를 사용해서 실시간 채팅을 구현해줘.
-네임스페이스별 방 관리, 메시지 저장, 온라인 사용자 표시,
-타이핑 인디케이터를 포함해줘"
-```
-
-**실시간 통신 핵심 기능**
-
-1. **연결 관리**: 사용자 연결/해제 상태 추적 및 관리
-2. **방 기반 메시징**: 워크스페이스별 독립적인 채팅 공간
-3. **이벤트 처리**: 메시지, 타이핑, 상태 변경 등 다양한 이벤트 관리
-4. **에러 처리**: 연결 실패 및 재연결 로직 구현
-5. **성능 최적화**: 메시지 배치 처리 및 대역폭 효율성
-
-### API 엔드포인트 개발
-
-RESTful API는 프론트엔드와 백엔드 간의 표준화된 통신 인터페이스를 제공합니다. 체계적인 API 설계는 유지보수성과 확장성을 크게 향상시킵니다.
+Real-time communication is a core element of collaboration tools. Socket.io enables instant information exchange and collaboration between users.
 
 ```bash
-claude "RESTful API를 체계적으로 구현해줘.
-라우터 구조, 미들웨어, 에러 처리, 입력 검증을 포함하고
-OpenAPI 스펙도 자동 생성되도록 해줘"
+claude "Implement real-time chat using Socket.io.
+Include namespace-specific room management, message storage, online user display,
+and typing indicators."
 ```
 
-**API 설계 원칙**
+**Core Real-time Communication Features**
 
-1. **일관된 명명 규칙**: 직관적이고 예측 가능한 엔드포인트 구조
-2. **적절한 HTTP 메서드**: GET, POST, PUT, DELETE의 의미론적 사용
-3. **에러 핸들링**: 표준화된 에러 응답 형식과 적절한 HTTP 상태 코드
-4. **입력 검증**: 보안과 데이터 무결성을 위한 철저한 유효성 검사
-5. **문서화**: 자동 생성되는 API 문서로 개발 효율성 증대
+1.  **Connection Management**: Track and manage user connection/disconnection status.
+2.  **Room-Based Messaging**: Independent chat spaces per workspace.
+3.  **Event Handling**: Manage various events like messages, typing, status changes.
+4.  **Error Handling**: Implement connection failure and reconnection logic.
+5.  **Performance Optimization**: Message batch processing and bandwidth efficiency.
 
-## 10.4 프론트엔드 개발
+### API Endpoint Development
 
-프론트엔드는 사용자가 직접 상호작용하는 인터페이스입니다. 현대적인 웹 애플리케이션은 단순한 정적 페이지를 넘어서 반응성과 성능을 모두 갖춘 복잡한 시스템입니다.
-
-### 프로젝트 설정
-
-Next.js 14는 React 생태계에서 가장 성숙한 풀스택 프레임워크 중 하나입니다. App Router, 서버 컴포넌트, 스트리밍 등 최신 웹 기술을 활용하여 뛰어난 성능과 개발자 경험을 제공합니다.
+RESTful APIs provide a standardized communication interface between frontend and backend. Systematic API design significantly improves maintainability and scalability.
 
 ```bash
-claude "Next.js 14 프로젝트를 설정해줘.
-App Router, TypeScript, Tailwind CSS, 
-상태 관리 (Zustand), UI 라이브러리 (shadcn/ui)를 포함해줘"
+claude "Systematically implement RESTful APIs.
+Include router structure, middleware, error handling, input validation,
+and ensure OpenAPI specs are auto-generated."
 ```
 
-**기술 스택 선택 이유**
+**API Design Principles**
 
-1. **Next.js 14**: 서버 사이드 렌더링과 정적 생성으로 최적화된 성능
-2. **TypeScript**: 컴파일 타임 타입 검사로 런타임 에러 방지
-3. **Tailwind CSS**: 유틸리티 기반 CSS로 빠르고 일관된 스타일링
-4. **Zustand**: 가벼우면서도 강력한 상태 관리 라이브러리
-5. **shadcn/ui**: 접근성과 디자인을 모두 고려한 컴포넌트 라이브러리
+1.  **Consistent Naming Conventions**: Intuitive and predictable endpoint structure.
+2.  **Appropriate HTTP Methods**: Semantic use of GET, POST, PUT, DELETE.
+3.  **Error Handling**: Standardized error response format and appropriate HTTP status codes.
+4.  **Input Validation**: Thorough validation for security and data integrity.
+5.  **Documentation**: Improve development efficiency with auto-generated API documentation.
 
-### 인증 구현
+## 10.4 Frontend Development
 
-프론트엔드 인증은 사용자 경험과 보안의 균형을 맞추는 중요한 요소입니다. NextAuth.js는 다양한 인증 제공자와의 통합을 간소화하고 보안 베스트 프랙티스를 자동으로 적용합니다.
+The frontend is the interface users directly interact with. Modern web applications are complex systems that require both responsiveness and performance, going beyond simple static pages.
+
+### Project Setup
+
+Next.js 14 is one of the most mature full-stack frameworks in the React ecosystem. It offers excellent performance and developer experience by utilizing the latest web technologies such as App Router, server components, and streaming.
 
 ```bash
-claude "NextAuth.js를 사용해서 프론트엔드 인증을 구현해줘.
-소셜 로그인 (Google, GitHub), 세션 관리,
-보호된 라우트를 포함해줘"
+claude "Set up a Next.js 14 project.
+Include App Router, TypeScript, Tailwind CSS,
+state management (Zustand), and UI library (shadcn/ui)."
 ```
 
-**인증 시스템 핵심 요소**
+**Technology Stack Selection Rationale**
 
-1. **소셜 로그인**: OAuth 2.0을 통한 간편하고 안전한 인증
-2. **세션 관리**: JWT와 쿠키를 활용한 상태 유지
-3. **보호된 라우트**: 인증되지 않은 사용자의 접근 제한
-4. **토큰 갱신**: 자동 토큰 리프레시로 끊김 없는 사용자 경험
+1.  **Next.js 14**: Optimized performance with server-side rendering and static generation.
+2.  **TypeScript**: Prevents runtime errors with compile-time type checking.
+3.  **Tailwind CSS**: Fast and consistent styling with utility-based CSS.
+4.  **Zustand**: Lightweight yet powerful state management library.
+5.  **shadcn/ui**: Component library considering both accessibility and design.
 
-### 실시간 기능 구현
+### Authentication Implementation
 
-실시간 기능은 협업 도구의 핵심입니다. Socket.io 클라이언트는 서버와의 양방향 통신을 통해 즉시적인 데이터 동기화를 가능하게 합니다.
+Frontend authentication is an important element that balances user experience and security. NextAuth.js simplifies integration with various authentication providers and automatically applies security best practices.
 
 ```bash
-claude "Socket.io 클라이언트를 구현해줘.
-연결 관리, 이벤트 리스너, 재연결 로직,
-React 컴포넌트와의 통합을 포함해줘"
+claude "Implement frontend authentication using NextAuth.js.
+Include social login (Google, GitHub), session management,
+and protected routes."
 ```
 
-**실시간 통신 클라이언트 설계**
+**Core Authentication System Elements**
 
-1. **연결 관리**: 네트워크 상태에 따른 적응적 연결 처리
-2. **이벤트 시스템**: 타입 안전한 이벤트 리스너와 에미터
-3. **재연결 로직**: 네트워크 장애 시 자동 복구 메커니즘
-4. **상태 동기화**: 서버와 클라이언트 간 데이터 일관성 보장
+1.  **Social Login**: Simple and secure authentication via OAuth 2.0.
+2.  **Session Management**: State persistence using JWT and cookies.
+3.  **Protected Routes**: Restrict access for unauthenticated users.
+4.  **Token Refresh**: Seamless user experience with automatic token refresh.
 
-### UI 컴포넌트 개발
+### Real-time Feature Implementation
 
-사용자 인터페이스는 기능적 요구사항과 사용자 경험을 모두 만족시켜야 합니다. 특히 채팅 인터페이스는 실시간성과 접근성을 고려한 세심한 설계가 필요합니다.
+Real-time features are core to collaboration tools. The Socket.io client enables instant data synchronization through bidirectional communication with the server.
 
 ```bash
-claude "채팅 인터페이스를 구현해줘.
-메시지 목록, 입력창, 파일 업로드, 이모지 선택기,
-반응형 디자인을 포함해줘"
+claude "Implement the Socket.io client.
+Include connection management, event listeners, reconnection logic,
+and integration with React components."
 ```
 
-**UI 설계 고려사항**
+**Real-time Communication Client Design**
 
-1. **성능 최적화**: 가상화된 리스트로 대량 메시지 처리
-2. **접근성**: 키보드 내비게이션과 스크린 리더 지원
-3. **반응형 디자인**: 다양한 디바이스에서 일관된 경험
-4. **사용자 경험**: 직관적인 인터랙션과 명확한 피드백
+1.  **Connection Management**: Adaptive connection handling based on network status.
+2.  **Event System**: Type-safe event listeners and emitters.
+3.  **Reconnection Logic**: Automatic recovery mechanism for network failures.
+4.  **State Synchronization**: Ensure data consistency between server and client.
 
-### 상태 관리
+### UI Component Development
 
-복잡한 애플리케이션에서 상태 관리는 데이터 흐름의 예측 가능성과 디버깅 용이성을 결정하는 핵심 요소입니다. Zustand는 간단하면서도 강력한 상태 관리 솔루션을 제공합니다.
+The user interface must satisfy both functional requirements and user experience. Chat interfaces, in particular, require careful design considering real-time aspects and accessibility.
 
 ```bash
-claude "Zustand를 사용해서 전역 상태를 관리해줘.
-사용자 정보, 워크스페이스, 채팅 메시지, 
-실시간 연결 상태를 포함해줘"
+claude "Implement the chat interface.
+Include message list, input field, file upload, emoji picker,
+and responsive design."
 ```
 
-**상태 관리 전략**
+**UI Design Considerations**
 
-1. **모듈화**: 기능별로 분리된 스토어 구조
-2. **타입 안전성**: TypeScript와의 완벽한 통합
-3. **성능**: 필요한 컴포넌트만 리렌더링하는 선택적 구독
-4. **지속성**: 로컬 스토리지와 연동한 상태 영속화
+1.  **Performance Optimization**: Handle large message volumes with virtualized lists.
+2.  **Accessibility**: Support keyboard navigation and screen readers.
+3.  **Responsive Design**: Consistent experience across various devices.
+4.  **User Experience**: Intuitive interactions and clear feedback.
 
-## 10.5 실시간 기능 추가
+### State Management
 
-실시간 기능은 협업 도구를 단순한 정보 공유 도구에서 진정한 팀워크 플랫폼으로 변모시키는 핵심 요소입니다. 사용자 간의 즉시적인 상호작용을 통해 물리적 거리에 상관없이 효율적인 협업이 가능해집니다.
-
-### 채팅 시스템
-
-채팅 시스템은 팀 커뮤니케이션의 중심축입니다. 단순한 메시지 교환을 넘어서 파일 공유, 멘션, 읽음 확인 등 다양한 커뮤니케이션 요구사항을 지원해야 합니다.
+In complex applications, state management is a key element that determines the predictability of data flow and debugging ease. Zustand provides a simple yet powerful state management solution.
 
 ```bash
-claude "실시간 채팅 시스템을 완성해줘.
-메시지 전송/수신, 읽음 확인, 메시지 편집/삭제,
-파일 첨부, 멘션 기능을 포함해줘"
+claude "Manage global state using Zustand.
+Include user information, workspace, chat messages,
+and real-time connection status."
 ```
 
-**채팅 시스템 핵심 기능**
+**State Management Strategy**
 
-1. **메시지 관리**: 실시간 전송/수신과 영구 저장의 조화
-2. **읽음 확인**: 팀원 간의 정보 공유 상태 추적
-3. **리치 미디어**: 파일, 이미지, 링크 프리뷰 지원
-4. **멘션 시스템**: 특정 사용자에게 주의를 환기하는 기능
-5. **메시지 편집**: 오타 수정과 내용 업데이트 지원
+1.  **Modularization**: Store structure separated by feature.
+2.  **Type Safety**: Perfect integration with TypeScript.
+3.  **Performance**: Selective subscription that only re-renders necessary components.
+4.  **Persistence**: State persistence integrated with local storage.
 
-### 협업 기능
+## 10.5 Adding Real-time Features
 
-실시간 협업 기능은 팀원들이 마치 같은 공간에서 작업하는 것처럼 느낄 수 있게 해주는 고급 기능입니다. 동시 편집과 실시간 피드백을 통해 생산성을 크게 향상시킵니다.
+Real-time features are core elements that transform collaboration tools from simple information sharing tools into true teamwork platforms. Instant interaction between users enables efficient collaboration regardless of physical distance.
+
+### Chat System
+
+The chat system is the central hub for team communication. It must support various communication needs beyond simple message exchange, such as file sharing, mentions, and read receipts.
 
 ```bash
-claude "실시간 협업 기능을 추가해줘.
-동시 편집 표시, 커서 위치 공유, 
-실시간 알림, 활동 피드를 구현해줘"
+claude "Complete the real-time chat system.
+Include message sending/receiving, read receipts, message editing/deletion,
+file attachments, and mention functionality."
 ```
 
-**협업 기능 설계 원칙**
+**Core Chat System Features**
 
-1. **시각적 피드백**: 다른 사용자의 활동을 직관적으로 표시
-2. **충돌 방지**: 동시 편집 시 데이터 무결성 보장
-3. **컨텍스트 보존**: 사용자의 작업 흐름 방해 최소화
-4. **선택적 알림**: 중요도에 따른 차별화된 알림 시스템
+1.  **Message Management**: Balance real-time sending/receiving with permanent storage.
+2.  **Read Receipts**: Track information sharing status among team members.
+3.  **Rich Media**: Support for files, images, and link previews.
+4.  **Mention System**: Feature to draw specific users' attention.
+5.  **Message Editing**: Support for typo correction and content updates.
 
-### 칸반 보드
+### Collaboration Features
 
-칸반 보드는 시각적 작업 관리의 핵심 도구입니다. 드래그 앤 드롭 인터페이스와 실시간 동기화를 통해 팀의 작업 현황을 직관적으로 파악하고 관리할 수 있습니다.
+Real-time collaboration features are advanced functions that make team members feel as if they are working in the same space. Productivity is greatly enhanced through concurrent editing and real-time feedback.
 
 ```bash
-claude "드래그 앤 드롭이 가능한 칸반 보드를 구현해줘.
-실시간 동기화, 카드 이동, 상태 변경,
-다중 사용자 편집을 지원해줘"
+claude "Add real-time collaboration features.
+Implement concurrent editing display, cursor position sharing,
+real-time notifications, and activity feeds."
 ```
 
-**칸반 보드 핵심 기능**
+**Collaboration Feature Design Principles**
 
-1. **직관적 인터랙션**: 드래그 앤 드롭으로 자연스러운 작업 관리
-2. **실시간 동기화**: 모든 팀원에게 즉시 반영되는 변경사항
-3. **상태 추적**: 작업 진행 상황의 시각적 표현
-4. **다중 사용자 지원**: 동시 편집과 충돌 해결 메커니즘
+1.  **Visual Feedback**: Intuitively display other users' activities.
+2.  **Conflict Prevention**: Ensure data integrity during concurrent editing.
+3.  **Context Preservation**: Minimize disruption to users' workflow.
+4.  **Selective Notifications**: Differentiated notification system based on importance.
 
-## 10.6 테스트 구현
+### Kanban Board
 
-소프트웨어 테스트는 코드의 품질과 안정성을 보장하는 필수적인 과정입니다. 특히 실시간 기능과 복잡한 상호작용을 가진 협업 도구에서는 체계적인 테스트 전략이 더욱 중요합니다.
-
-### 백엔드 테스트
-
-백엔드 테스트는 API의 정확성, 보안, 성능을 검증하는 핵심 과정입니다. 비즈니스 로직의 무결성과 데이터 일관성을 보장하기 위해 다층적인 테스트 접근법이 필요합니다.
+Kanban boards are core tools for visual task management. Drag-and-drop interfaces and real-time synchronization allow teams to intuitively grasp and manage task status.
 
 ```bash
-claude "백엔드 API에 대한 종합적인 테스트를 작성해줘.
-단위 테스트, 통합 테스트, Socket.io 테스트를 포함하고
-테스트 데이터베이스 설정도 해줘"
+claude "Implement a drag-and-drop enabled Kanban board.
+Support real-time synchronization, card movement, status changes,
+and multi-user editing."
 ```
 
-**백엔드 테스트 전략**
+**Core Kanban Board Features**
 
-1. **단위 테스트**: 개별 함수와 모듈의 정확성 검증
-2. **통합 테스트**: API 엔드포인트와 데이터베이스 상호작용 검증
-3. **실시간 통신 테스트**: Socket.io 이벤트와 연결 상태 검증
-4. **테스트 격리**: 각 테스트 간의 독립성 보장
-5. **모킹과 스텁**: 외부 의존성 제어를 통한 안정적인 테스트
+1.  **Intuitive Interaction**: Natural task management with drag-and-drop.
+2.  **Real-time Synchronization**: Changes instantly reflected for all team members.
+3.  **Status Tracking**: Visual representation of task progress.
+4.  **Multi-User Support**: Concurrent editing and conflict resolution mechanisms.
 
-### 프론트엔드 테스트
+## 10.6 Implementing Tests
 
-프론트엔드 테스트는 사용자 관점에서 애플리케이션의 동작을 검증합니다. 컴포넌트의 렌더링, 사용자 상호작용, 상태 변화를 포함한 전체적인 사용자 경험을 테스트해야 합니다.
+Software testing is an essential process to ensure code quality and stability. A systematic test strategy is even more crucial for collaboration tools with real-time features and complex interactions.
+
+### Backend Testing
+
+Backend testing is a core process for verifying API accuracy, security, and performance. A multi-layered testing approach is needed to ensure business logic integrity and data consistency.
 
 ```bash
-claude "React 컴포넌트 테스트를 작성해줘.
-React Testing Library, Jest를 사용하고
-사용자 상호작용, 실시간 기능, 상태 변경을 테스트해줘"
+claude "Write comprehensive tests for the backend API.
+Include unit tests, integration tests, Socket.io tests,
+and set up a test database."
 ```
 
-**프론트엔드 테스트 핵심 영역**
+**Backend Test Strategy**
 
-1. **컴포넌트 렌더링**: 올바른 UI 요소 표시 검증
-2. **사용자 상호작용**: 클릭, 입력, 드래그 앤 드롭 등의 이벤트 처리
-3. **상태 관리**: 전역 상태와 로컬 상태의 올바른 업데이트
-4. **비동기 동작**: API 호출과 실시간 데이터 업데이트 검증
-5. **에러 처리**: 예외 상황에서의 적절한 사용자 피드백
+1.  **Unit Tests**: Verify the correctness of individual functions and modules.
+2.  **Integration Tests**: Verify API endpoint and database interactions.
+3.  **Real-time Communication Tests**: Verify Socket.io events and connection status.
+4.  **Test Isolation**: Ensure independence between each test.
+5.  **Mocking and Stubbing**: Stable testing through control of external dependencies.
 
-### E2E 테스트
+### Frontend Testing
 
-End-to-End 테스트는 실제 사용자 시나리오를 통해 전체 시스템의 통합성을 검증합니다. 개별 컴포넌트와 서비스가 완전한 워크플로우에서 올바르게 작동하는지 확인합니다.
+Frontend testing verifies application behavior from the user's perspective. The entire user experience, including component rendering, user interactions, and state changes, must be tested.
 
 ```bash
-claude "Playwright를 사용해서 E2E 테스트를 작성해줘.
-사용자 시나리오 (회원가입, 로그인, 채팅, 협업)를
-전체적으로 테스트해줘"
+claude "Write React component tests.
+Use React Testing Library, Jest, and
+test user interactions, real-time features, and state changes."
 ```
 
-**E2E 테스트 시나리오**
+**Core Frontend Testing Areas**
 
-1. **사용자 여정**: 회원가입부터 주요 기능 사용까지의 완전한 플로우
-2. **크로스 브라우저**: 다양한 브라우저 환경에서의 동작 검증
-3. **실시간 기능**: 여러 사용자 간의 동시 작업 시나리오
-4. **에러 복구**: 네트워크 장애나 서버 오류 상황에서의 복구 능력
-5. **성능 기준**: 응답 시간과 로딩 성능의 기준값 검증
+1.  **Component Rendering**: Verify correct display of UI elements.
+2.  **User Interaction**: Event handling for clicks, inputs, drag-and-drop, etc.
+3.  **State Management**: Correct updates of global and local state.
+4.  **Asynchronous Behavior**: Verification of API calls and real-time data updates.
+5.  **Error Handling**: Appropriate user feedback in exceptional situations.
 
-## 10.7 성능 최적화
+### E2E Testing
 
-성능 최적화는 사용자 경험을 직접적으로 좌우하는 핵심 요소입니다. 로딩 시간, 응답성, 메모리 효율성을 개선하여 모든 사용자에게 쾌적한 환경을 제공해야 합니다.
-
-### 프론트엔드 최적화
-
-프론트엔드 성능은 사용자가 체감하는 애플리케이션의 반응성에 직접적인 영향을 미칩니다. 번들 크기 최적화, 렌더링 성능 개선, 네트워크 요청 최적화를 통해 전반적인 사용자 경험을 향상시킬 수 있습니다.
+End-to-End testing verifies the integration of the entire system through real user scenarios. It confirms that individual components and services work correctly in a complete workflow.
 
 ```bash
-claude "프론트엔드 성능을 최적화해줘.
-코드 스플리팅, 이미지 최적화, 메모이제이션,
-가상 스크롤링을 적용해줘"
+claude "Write E2E tests using Playwright.
+Comprehensively test user scenarios (sign-up, login, chat, collaboration)."
 ```
 
-**프론트엔드 최적화 전략**
+**E2E Test Scenarios**
 
-1. **코드 스플리팅**: 필요한 코드만 로드하여 초기 로딩 시간 단축
-2. **이미지 최적화**: WebP 포맷, 지연 로딩, 반응형 이미지 적용
-3. **메모이제이션**: React.memo, useMemo, useCallback을 통한 불필요한 리렌더링 방지
-4. **가상 스크롤링**: 대량 데이터 표시 시 렌더링 성능 최적화
-5. **캐시 활용**: 브라우저 캐시와 서비스 워커를 통한 리소스 캐싱
+1.  **User Journey**: Complete flow from sign-up to main feature usage.
+2.  **Cross-Browser**: Behavior verification in various browser environments.
+3.  **Real-time Features**: Concurrent task scenarios among multiple users.
+4.  **Error Recovery**: Recovery capability in case of network or server errors.
+5.  **Performance Baseline**: Baseline verification of response time and loading performance.
 
-### 백엔드 최적화
+## 10.7 Performance Optimization
 
-백엔드 성능은 시스템의 처리량과 응답 시간을 결정합니다. 데이터베이스 쿼리 최적화, 캐싱 전략, 연결 관리를 통해 서버의 효율성을 극대화할 수 있습니다.
+Performance optimization is a core element that directly impacts user experience. Loading time, responsiveness, and memory efficiency must be improved to provide a pleasant environment for all users.
+
+### Frontend Optimization
+
+Frontend performance directly affects the application's perceived responsiveness. Overall user experience can be improved through bundle size optimization, rendering performance improvement, and network request optimization.
 
 ```bash
-claude "백엔드 성능을 최적화해줘.
-데이터베이스 쿼리 최적화, 캐싱 (Redis),
-Connection pooling, 응답 압축을 적용해줘"
+claude "Optimize frontend performance.
+Apply code splitting, image optimization, memoization,
+and virtual scrolling."
 ```
 
-**백엔드 최적화 핵심 요소**
+**Frontend Optimization Strategy**
 
-1. **쿼리 최적화**: 인덱스 활용, N+1 문제 해결, 쿼리 계획 분석
-2. **캐싱 전략**: Redis를 활용한 다층 캐시 시스템 구축
-3. **연결 풀링**: 데이터베이스 연결 재사용을 통한 오버헤드 감소
-4. **응답 압축**: gzip, brotli 압축을 통한 네트워크 트래픽 최적화
-5. **비동기 처리**: 무거운 작업의 백그라운드 처리로 응답성 향상
+1.  **Code Splitting**: Reduce initial loading time by loading only necessary code.
+2.  **Image Optimization**: Apply WebP format, lazy loading, and responsive images.
+3.  **Memoization**: Prevent unnecessary re-renders with React.memo, useMemo, useCallback.
+4.  **Virtual Scrolling**: Optimize rendering performance when displaying large amounts of data.
+5.  **Cache Utilization**: Resource caching through browser cache and service workers.
 
-### 실시간 통신 최적화
+### Backend Optimization
 
-실시간 통신은 많은 동시 연결과 빈번한 메시지 교환으로 인해 특별한 최적화 접근법이 필요합니다. 메모리 효율성과 네트워크 대역폭 관리가 핵심입니다.
+Backend performance determines system throughput and response time. Server efficiency can be maximized through database query optimization, caching strategies, and connection management.
 
 ```bash
-claude "Socket.io 성능을 최적화해줘.
-네임스페이스 관리, 메모리 사용량 최적화,
-연결 수 제한, 메시지 큐잉을 구현해줘"
+claude "Optimize backend performance.
+Apply database query optimization, caching (Redis),
+connection pooling, and response compression."
 ```
 
-**실시간 통신 최적화 전략**
+**Core Backend Optimization Elements**
 
-1. **네임스페이스 관리**: 논리적 분리를 통한 효율적인 이벤트 라우팅
-2. **메모리 최적화**: 연결 정보와 메시지 버퍼의 효율적 관리
-3. **연결 제한**: 서버 용량에 맞는 동시 연결 수 제어
-4. **메시지 큐잉**: 백프레셔 제어와 순차 처리 보장
-5. **부하 분산**: 여러 서버 인스턴스 간의 연결 분산
+1.  **Query Optimization**: Index utilization, N+1 problem resolution, query plan analysis.
+2.  **Caching Strategy**: Build a multi-layer cache system using Redis.
+3.  **Connection Pooling**: Reduce overhead by reusing database connections.
+4.  **Response Compression**: Optimize network traffic with gzip, brotli compression.
+5.  **Asynchronous Processing**: Improve responsiveness by processing heavy tasks in the background.
 
-## 10.8 보안 강화
+### Real-time Communication Optimization
 
-보안은 협업 도구에서 가장 중요한 요소 중 하나입니다. 사용자 데이터 보호, 인증/인가 시스템, 악성 공격 방지를 통해 신뢰할 수 있는 서비스를 구축해야 합니다.
-
-### 인증/인가 보안
-
-웹 애플리케이션의 보안은 다층적 방어 체계를 통해 구축되어야 합니다. 각각의 보안 위협에 대해 적절한 대응책을 마련하여 시스템의 전반적인 보안 수준을 향상시킵니다.
+Real-time communication requires special optimization approaches due to many concurrent connections and frequent message exchanges. Memory efficiency and network bandwidth management are key.
 
 ```bash
-claude "보안을 강화해줘.
-CSRF 방지, Rate limiting, 
-입력 검증, SQL Injection 방지,
-XSS 방지를 구현해줘"
+claude "Optimize Socket.io performance.
+Implement namespace management, memory usage optimization,
+connection count limits, and message queuing."
 ```
 
-**핵심 보안 요소**
+**Real-time Communication Optimization Strategy**
 
-1. **CSRF 방지**: 크로스 사이트 요청 위조 공격 차단
-2. **Rate Limiting**: 무차별 대입 공격과 DDoS 공격 방지
-3. **입력 검증**: 모든 사용자 입력에 대한 엄격한 검증과 정제
-4. **SQL Injection 방지**: 매개변수화된 쿼리와 ORM 활용
-5. **XSS 방지**: 출력 인코딩과 콘텐츠 보안 정책 적용
+1.  **Namespace Management**: Efficient event routing through logical separation.
+2.  **Memory Optimization**: Efficient management of connection information and message buffers.
+3.  **Connection Limits**: Control concurrent connection count according to server capacity.
+4.  **Message Queuing**: Backpressure control and sequential processing assurance.
+5.  **Load Balancing**: Distribute connections among multiple server instances.
 
-**추가 보안 고려사항**
+## 10.8 Security Hardening
 
-- **HTTPS 강제**: 모든 통신의 암호화 적용
-- **세션 관리**: 안전한 세션 생성과 만료 처리
-- **권한 분리**: 최소 권한 원칙과 역할 기반 접근 제어
-- **보안 헤더**: HSTS, X-Frame-Options 등 보안 헤더 설정
+Security is one of the most important elements in collaboration tools. A reliable service must be built through user data protection, authentication/authorization systems, and malicious attack prevention.
 
-### 실시간 통신 보안
+### Authentication/Authorization Security
 
-실시간 통신은 지속적인 연결과 빈번한 데이터 교환으로 인해 특별한 보안 고려사항이 필요합니다. 연결 인증, 메시지 검증, 악용 방지를 통해 안전한 실시간 환경을 구축합니다.
+Web application security must be built through a multi-layered defense system. The overall security level of the system is improved by preparing appropriate countermeasures for each security threat.
 
 ```bash
-claude "Socket.io 보안을 강화해줘.
-네임스페이스별 권한 검사, 메시지 검증,
-스팸 방지, 악성 사용자 차단을 구현해줘"
+claude "Enhance security.
+Implement CSRF prevention, rate limiting,
+input validation, SQL Injection prevention,
+and XSS prevention."
 ```
 
-**실시간 통신 보안 전략**
+**Core Security Elements**
 
-1. **연결 인증**: Socket.io 연결 시 JWT 토큰 검증
-2. **권한 검사**: 네임스페이스와 룸별 접근 권한 확인
-3. **메시지 검증**: 실시간 메시지의 형식과 내용 검증
-4. **스팸 방지**: 메시지 빈도 제한과 패턴 분석
-5. **악성 사용자 차단**: 실시간 모니터링과 자동 차단 시스템
+1.  **CSRF Prevention**: Block cross-site request forgery attacks.
+2.  **Rate Limiting**: Prevent brute-force and DDoS attacks.
+3.  **Input Validation**: Strict validation and sanitization for all user inputs.
+4.  **SQL Injection Prevention**: Parameterized queries and ORM utilization.
+5.  **XSS Prevention**: Output encoding and Content Security Policy application.
 
-## 10.9 배포 및 인프라
+**Additional Security Considerations**
 
-현대적인 애플리케이션 배포는 단순한 서버 업로드를 넘어서 자동화, 확장성, 안정성을 모두 고려한 체계적인 접근이 필요합니다. 컨테이너화와 클라우드 네이티브 아키텍처를 통해 효율적인 배포 환경을 구축합니다.
+-   **HTTPS Enforcement**: Apply encryption to all communications.
+-   **Session Management**: Secure session creation and expiration handling.
+-   **Permission Separation**: Principle of least privilege and role-based access control.
+-   **Security Headers**: Set security headers like HSTS, X-Frame-Options.
 
-### Docker 컨테이너화
+### Real-time Communication Security
 
-컨테이너화는 애플리케이션의 일관된 실행 환경을 보장하고 배포의 복잡성을 크게 줄여줍니다. 멀티 스테이지 빌드와 최적화를 통해 효율적인 컨테이너 이미지를 생성할 수 있습니다.
+Real-time communication requires special security considerations due to persistent connections and frequent data exchange. A secure real-time environment is built through connection authentication, message validation, and abuse prevention.
 
 ```bash
-claude "애플리케이션을 Docker로 컨테이너화해줘.
-멀티 스테이지 빌드, 최적화된 이미지 크기,
-개발/프로덕션 환경 분리를 적용해줘"
+claude "Enhance Socket.io security.
+Implement namespace-specific permission checks, message validation,
+spam prevention, and malicious user blocking."
 ```
 
-**컨테이너화 핵심 원칙**
+**Real-time Communication Security Strategy**
 
-1. **멀티 스테이지 빌드**: 빌드 의존성과 런타임 환경 분리
-2. **이미지 최적화**: 필요한 파일만 포함하여 이미지 크기 최소화
-3. **보안 강화**: 비특권 사용자 실행과 취약점 스캔
-4. **환경 분리**: 개발, 스테이징, 프로덕션 환경별 최적화
-5. **헬스 체크**: 컨테이너 상태 모니터링과 자동 복구
+1.  **Connection Authentication**: JWT token validation upon Socket.io connection.
+2.  **Permission Checks**: Access permission verification per namespace and room.
+3.  **Message Validation**: Validation of real-time message format and content.
+4.  **Spam Prevention**: Message frequency limits and pattern analysis.
+5.  **Malicious User Blocking**: Real-time monitoring and automatic blocking system.
 
-### CI/CD 파이프라인
+## 10.9 Deployment and Infrastructure
 
-지속적 통합과 배포는 코드 변경부터 프로덕션 배포까지의 전체 과정을 자동화합니다. 테스트, 보안 검사, 배포를 체계적으로 관리하여 안정적인 릴리스를 보장합니다.
+Modern application deployment requires a systematic approach that considers automation, scalability, and stability, going beyond simple server uploads. An efficient deployment environment is built through containerization and cloud-native architecture.
+
+### Docker Containerization
+
+Containerization ensures a consistent execution environment for the application and significantly reduces deployment complexity. Efficient container images can be created through multi-stage builds and optimization.
 
 ```bash
-claude "GitHub Actions를 사용해서 CI/CD 파이프라인을 구축해줘.
-테스트 자동화, 보안 스캔, 
-자동 배포, 롤백 절차를 포함해줘"
+claude "Containerize the application with Docker.
+Apply multi-stage builds, optimized image size,
+and separation of development/production environments."
 ```
 
-**CI/CD 파이프라인 구성 요소**
+**Core Containerization Principles**
 
-1. **소스 코드 관리**: Git 기반 버전 관리와 브랜치 전략
-2. **자동 빌드**: 코드 변경 시 즉시 빌드와 테스트 실행
-3. **품질 게이트**: 코드 품질 기준과 보안 요구사항 검증
-4. **배포 자동화**: 환경별 자동 배포와 설정 관리
-5. **모니터링과 롤백**: 배포 후 모니터링과 필요 시 자동 롤백
+1.  **Multi-Stage Builds**: Separate build dependencies and runtime environment.
+2.  **Image Optimization**: Minimize image size by including only necessary files.
+3.  **Security Hardening**: Run as non-privileged user and scan for vulnerabilities.
+4.  **Environment Separation**: Optimization per development, staging, and production environment.
+5.  **Health Checks**: Container status monitoring and automatic recovery.
 
-### AWS 배포
+### CI/CD Pipeline
 
-클라우드 인프라는 확장성, 가용성, 비용 효율성을 모두 고려한 아키텍처가 필요합니다. AWS의 관리형 서비스를 활용하여 운영 부담을 줄이고 안정성을 확보합니다.
+Continuous Integration and Deployment automates the entire process from code changes to production deployment. Stable releases are ensured through systematic management of testing, security checks, and deployment.
 
 ```bash
-claude "AWS에 배포 가능한 인프라를 구성해줘.
-ECS, RDS, ElastiCache, CloudFront,
-로드 밸런서, 오토 스케일링을 포함해줘"
+claude "Build a CI/CD pipeline using GitHub Actions.
+Include test automation, security scanning,
+automatic deployment, and rollback procedures."
 ```
 
-**AWS 인프라 아키텍처**
+**CI/CD Pipeline Components**
 
-1. **컨테이너 오케스트레이션**: ECS/EKS를 통한 컨테이너 관리
-2. **데이터베이스**: RDS 다중 AZ 배포로 고가용성 확보
-3. **캐싱**: ElastiCache로 성능 최적화
-4. **CDN**: CloudFront를 통한 글로벌 콘텐츠 배포
-5. **부하 분산**: Application Load Balancer와 오토 스케일링
+1.  **Source Code Management**: Git-based version control and branching strategy.
+2.  **Automatic Builds**: Instant build and test execution upon code changes.
+3.  **Quality Gates**: Verification of code quality standards and security requirements.
+4.  **Deployment Automation**: Automatic deployment and configuration management per environment.
+5.  **Monitoring and Rollback**: Post-deployment monitoring and automatic rollback if needed.
+
+### AWS Deployment
+
+Cloud infrastructure requires an architecture that considers scalability, availability, and cost-effectiveness. Operational burden is reduced and stability is ensured by utilizing AWS managed services.
+
+```bash
+claude "Configure AWS deployable infrastructure.
+Include ECS, RDS, ElastiCache, CloudFront,
+load balancer, and auto-scaling."
+```
+
+**AWS Infrastructure Architecture**
+
+1.  **Container Orchestration**: Container management via ECS/EKS.
+2.  **Database**: High availability with RDS Multi-AZ deployment.
+3.  **Caching**: Performance optimization with ElastiCache.
+4.  **CDN**: Global content delivery via CloudFront.
+5.  **Load Balancing**: Application Load Balancer and auto-scaling.
 
 ## 10.10 모니터링과 로깅
 
