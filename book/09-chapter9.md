@@ -1,74 +1,74 @@
-# 제9장: 자동화와 CI/CD 통합
+# Chapter 9: Automation and CI/CD Integration
 
-> "자동화의 힘은 반복을 제거하고 창의성을 해방시키는 것이다" - 마틴 파울러
+> "The power of automation is to eliminate repetition and liberate creativity." - Martin Fowler
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 mindmap
-  root((학습 목표))
-    CI/CD 통합
-      Headless 모드 활용
-      파이프라인 자동화
-      배포 전략 수립
-    자동 코드 리뷰
-      품질 게이트 구축
-      지능형 분석 시스템
-      팀 협업 강화
-    문서화 자동화
-      API 문서 생성
-      아키텍처 다이어그램
-      배포 가이드 작성
-    모니터링 대시보드
-      실시간 품질 추적
-      성능 메트릭 수집
-      알림 시스템 구축
+  root((Learning Objectives))
+    CI/CD Integration
+      Utilizing Headless Mode
+      Pipeline Automation
+      Deployment Strategy Formulation
+    Automated Code Review
+      Building Quality Gates
+      Intelligent Analysis System
+      Enhancing Team Collaboration
+    Documentation Automation
+      API Document Generation
+      Architecture Diagrams
+      Deployment Guide Creation
+    Monitoring Dashboard
+      Real-time Quality Tracking
+      Performance Metrics Collection
+      Alert System Implementation
 ```
 
-## 학습 목표
+## Learning Objectives
 
-이 장을 완료하면 다음을 할 수 있습니다.
+Upon completing this chapter, you will be able to:
 
-- Claude Code를 CI/CD 파이프라인에 통합하여 자동화된 개발 프로세스를 구축할 수 있습니다.
-- Headless 모드를 활용하여 자동 코드 리뷰와 품질 검사 시스템을 구현할 수 있습니다.
-- 문서 자동 생성과 배포 프로세스 자동화를 설정할 수 있습니다.
-- 품질 게이트와 통합 대시보드를 구축하여 지속적인 모니터링을 수행할 수 있습니다.
+- Integrate Claude Code into CI/CD pipelines to build automated development processes.
+- Implement automated code review and quality inspection systems using Headless Mode.
+- Set up automated document generation and deployment process automation.
+- Build quality gates and integrated dashboards for continuous monitoring.
 
-## 개요
+## Overview
 
-현대 소프트웨어 개발에서 자동화는 선택이 아닌 필수 요소가 되었습니다. 빠른 배포 주기, 높은 품질 요구사항, 그리고 지속적인 전달 필요성이 자동화를 넘어설 수 없는 환경을 만들었습니다.
+In modern software development, automation has become an essential element, not an option. Rapid deployment cycles, high quality demands, and the need for continuous delivery have created an environment where automation is indispensable.
 
-Claude Code를 CI/CD 파이프라인에 통합하는 것은 단순한 도구 추가를 넘어서, 지능적인 자동화 시스템을 구축하는 것입니다. 이를 통해 코드 품질 향상, 배포 안정성 증대, 그리고 지속적인 개선 문화를 동시에 달성할 수 있습니다.
+Integrating Claude Code into CI/CD pipelines is more than just adding a tool; it's about building an intelligent automation system. This allows for simultaneous achievement of improved code quality, increased deployment stability, and a culture of continuous improvement.
 
-전통적인 CI/CD가 정적인 규칙 기반 자동화에 의존했다면, Claude Code 통합 시스템은 컨텍스트를 이해하고 적응하는 지능형 자동화를 제공합니다. 이는 개발 프로세스의 패러다임 변화를 의미하며, 개발자가 창의적 작업에 더 집중할 수 있는 환경을 조성합니다.
+While traditional CI/CD relies on static rule-based automation, a Claude Code integrated system provides intelligent automation that understands and adapts to context. This signifies a paradigm shift in the development process, creating an environment where developers can focus more on creative tasks.
 
-## 9.1 지능형 Headless 모드 아키텍처
+## 9.1 Intelligent Headless Mode Architecture
 
-### 엔터프라이즈급 Headless 통합 전략
+### Enterprise-Grade Headless Integration Strategy
 
-Claude Code의 Headless 모드는 단순한 명령행 도구를 넘어서 엔터프라이즈급 자동화 생태계의 핵심 인프라로 기능합니다. 이 모드는 다양한 자동화 시나리오에 맞춰 유연하게 확장되며, 대규모 개발 조직의 복잡한 요구사항을 충족합니다.
+Claude Code's Headless Mode functions as core infrastructure for an enterprise-grade automation ecosystem, going beyond a simple command-line tool. This mode flexibly expands to suit various automation scenarios and meets the complex requirements of large development organizations.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph TD
-    A[Headless 모드] --> B[환경 감지]
-    A --> C[컨텍스트 분석]
-    A --> D[전략 수립]
+    A[Headless Mode] --> B[Environment Detection]
+    A --> C[Context Analysis]
+    A --> D[Strategy Formulation]
     
-    B --> E[Production<br/>최고 품질 모델]
-    B --> F[Staging<br/>표준 검증]
-    B --> G[Development<br/>빠른 피드백]
+    B --> E[Production<br/>Highest Quality Model]
+    B --> F[Staging<br/>Standard Validation]
+    B --> G[Development<br/>Fast Feedback]
     
-    C --> H[프로젝트 규모]
-    C --> I[기술 스택]
-    C --> J[팀 구조]
+    C --> H[Project Scale]
+    C --> I[Tech Stack]
+    C --> J[Team Structure]
     
-    D --> K[분석 깊이]
-    D --> L[우선순위 영역]
-    D --> M[리소스 할당]
+    D --> K[Analysis Depth]
+    D --> L[Priority Areas]
+    D --> M[Resource Allocation]
     
-    E --> N[종합 품질 분석]
-    F --> O[표준 검증 프로세스]
-    G --> P[빠른 피드백 루프]
+    E --> N[Comprehensive Quality Analysis]
+    F --> O[Standard Validation Process]
+    G --> P[Fast Feedback Loop]
     
     classDef envStyle fill:#e2e8f0,stroke:#334155,stroke-width:2px,color:#1e293b
     classDef analysisStyle fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#1e293b
@@ -77,34 +77,34 @@ graph TD
     class E,F,G,H,I,J,K,L,M,N,O,P analysisStyle
 ```
 
-**지능형 컨텍스트 인식 시스템**
+**Intelligent Context Awareness System**
 
-Headless 모드는 실행 환경, 프로젝트 상태, 팀 규칙을 자동으로 감지하여 최적화된 분석을 제공합니다. 이는 단순한 명령 실행을 넘어서 프로젝트의 전체적인 맥락을 이해하고 적절한 판단을 내리는 지능형 시스템입니다.
+Headless Mode automatically detects the execution environment, project status, and team rules to provide optimized analysis. This is an intelligent system that understands the overall project context and makes appropriate judgments, going beyond simple command execution.
 
-**고급 Headless 실행 패턴**
+**Advanced Headless Execution Patterns**
 
 ```bash
-# 환경별 적응형 분석
+# Adaptive analysis by environment
 claude --headless --context production \
-  "프로덕션 배포를 위한 종합 위험도 평가를 수행해주세요.
-   보안, 성능, 안정성, 비즈니스 임팩트를 종합 분석하고
-   배포 승인 여부를 JSON 형태로 제공해주세요."
+  "Perform a comprehensive risk assessment for production deployment.
+   Analyze security, performance, stability, and business impact,
+   and provide deployment approval status in JSON format."
 
-# 실시간 스트리밍 분석
+# Real-time streaming analysis
 claude --headless --stream --output-format json \
-  "대용량 코드 변경사항을 실시간으로 분석하며
-   중요한 이슈 발견 시 즉시 알림을 제공해주세요."
+  "Analyze large-scale code changes in real-time and
+   provide immediate notifications for critical issues found."
 
-# 지능형 조건부 실행
+# Intelligent conditional execution
 #!/bin/bash
 # advanced-quality-gate.sh
 
 set -euo pipefail
 
-# 환경 감지 및 설정
+# Environment detection and configuration
 DETECT_ENV=$(claude --headless --quiet \
-  "현재 Git 브랜치와 변경사항을 분석하여
-   적절한 품질 검증 수준을 결정해주세요 (minimal/standard/strict)")
+  "Analyze the current Git branch and changes to determine
+   the appropriate quality validation level (minimal/standard/strict).")
 
 case $DETECT_ENV in
   "strict")
@@ -124,53 +124,53 @@ case $DETECT_ENV in
     ;;
 esac
 
-# 적응형 품질 분석
+# Adaptive quality analysis
 QUALITY_RESULT=$(claude --headless --output quality-report.json \
-  "코드 품질을 $QUALITY_THRESHOLD% 기준으로 분석해주세요.
-   기준: 복잡도, 중복도, 테스트 커버리지, 문서화 수준
-   결과: pass/fail과 상세 개선 방안")
+  "Analyze code quality against a $QUALITY_THRESHOLD% standard.
+   Criteria: complexity, duplication, test coverage, documentation level
+   Result: pass/fail and detailed improvement suggestions.")
 
-# 조건부 보안 스캔
+# Conditional security scan
 if [ "$SECURITY_SCAN" = true ]; then
   SECURITY_RESULT=$(claude --headless --output security-report.json \
-    "OWASP Top 10과 SANS Top 25 기준으로
-     보안 취약점을 종합 분석해주세요.
-     심각도별 분류와 수정 우선순위 포함")
+    "Perform a comprehensive security vulnerability analysis
+     based on OWASP Top 10 and SANS Top 25.
+     Include classification by severity and remediation priority.")
 fi
 
-# 지능형 의사결정
+# Intelligent decision-making
 DECISION=$(claude --headless \
-  "품질 리포트와 보안 리포트를 종합하여
-   배포 승인 여부를 결정해주세요.
-   결정 근거와 함께 명확한 approve/reject 답변")
+  "Synthesize the quality and security reports to
+   determine deployment approval.
+   Provide a clear approve/reject answer with justification.")
 
 if [[ $DECISION == *"approve"* ]]; then
-  echo "✅ 품질 게이트 통과 - 배포 승인"
+  echo "✅ Quality Gate Passed - Deployment Approved"
   exit 0
 else
-  echo "❌ 품질 게이트 실패 - 개선 필요"
-  claude --headless "개선 방안과 예상 소요 시간을 제시해주세요"
+  echo "❌ Quality Gate Failed - Improvement Needed"
+  claude --headless "Suggest improvement measures and estimated time."
   exit 1
 fi
 ```
 
-### 엔터프라이즈 환경 구성 관리
+### Enterprise Environment Configuration Management
 
-**다층 구성 시스템**
+**Multi-layered Configuration System**
 
 ```bash
-# 기본 환경 변수 (모든 환경 공통)
+# Basic environment variables (common to all environments)
 export CLAUDE_API_KEY="sk-ant-..."
-export CLAUDE_MODEL="claude-3-sonnet-20240229"  # 비용 효율적 기본 모델
+export CLAUDE_MODEL="claude-3-sonnet-20240229"  # Cost-effective default model
 export CLAUDE_HEADLESS=true
-export CLAUDE_TIMEOUT=300  # 5분 타임아웃
+export CLAUDE_TIMEOUT=300  # 5-minute timeout
 export CLAUDE_RETRY_COUNT=3
 export CLAUDE_LOG_LEVEL="info"
 
-# 환경별 세부 구성
+# Environment-specific detailed configuration
 case "$ENVIRONMENT" in
   "production")
-    export CLAUDE_MODEL="claude-3-opus-20240229"  # 최고 품질
+    export CLAUDE_MODEL="claude-3-opus-20240229"  # Highest quality
     export CLAUDE_OUTPUT_FORMAT="structured-json"
     export CLAUDE_VALIDATION_STRICT=true
     export CLAUDE_AUDIT_ENABLED=true
@@ -181,55 +181,55 @@ case "$ENVIRONMENT" in
     export CLAUDE_VALIDATION_STANDARD=true
     ;;
   "development")
-    export CLAUDE_MODEL="claude-3-haiku-20240307"  # 빠른 반응
+    export CLAUDE_MODEL="claude-3-haiku-20240307"  # Fast response
     export CLAUDE_OUTPUT_FORMAT="markdown"
     export CLAUDE_VALIDATION_MINIMAL=true
     ;;
 esac
 
-# 프로젝트별 컨텍스트 구성
+# Project-specific context configuration
 export CLAUDE_PROJECT_TYPE="web-application"
 export CLAUDE_TECH_STACK="react,node,typescript,postgresql"
 export CLAUDE_TEAM_SIZE="12"
-export CLAUDE_COMPLIANCE_LEVEL="SOC2"  # SOC2, HIPAA, PCI-DSS 등
+export CLAUDE_COMPLIANCE_LEVEL="SOC2"  # SOC2, HIPAA, PCI-DSS, etc.
 export CLAUDE_QUALITY_GATES="security,performance,accessibility"
 
-# 고급 기능 설정
+# Advanced feature settings
 export CLAUDE_CACHE_ENABLED=true
-export CLAUDE_CACHE_TTL=3600  # 1시간
+export CLAUDE_CACHE_TTL=3600  # 1 hour
 export CLAUDE_PARALLEL_ANALYSIS=true
 export CLAUDE_MAX_CONCURRENT=4
 export CLAUDE_MEMORY_LIMIT="2GB"
 
-# 보안 및 규정 준수
+# Security and compliance
 export CLAUDE_DATA_RESIDENCY="us-east-1"
 export CLAUDE_PII_DETECTION=true
 export CLAUDE_SENSITIVE_DATA_MASKING=true
 export CLAUDE_AUDIT_LOG_RETENTION="90d"
 ```
 
-**동적 구성 로더**
+**Dynamic Configuration Loader**
 
 ```bash
 #!/bin/bash
 # claude-config-loader.sh
 
-# 프로젝트별 동적 구성 로드
+# Project-specific dynamic configuration loading
 load_claude_config() {
     local project_root="$(git rev-parse --show-toplevel)"
     local config_file="$project_root/.claude/ci-config.json"
     
     if [[ -f "$config_file" ]]; then
-        # JSON 구성 파일에서 환경 변수 로드
+        # Load environment variables from JSON config file
         eval "$(jq -r 'to_entries[] | "export CLAUDE_\(.key | ascii_upcase)=\(.value)"' "$config_file")"
     fi
     
-    # Git 메타데이터 기반 자동 설정
+    # Automatic configuration based on Git metadata
     export CLAUDE_GIT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
     export CLAUDE_GIT_COMMIT="$(git rev-parse HEAD)"
     export CLAUDE_GIT_AUTHOR="$(git log -1 --pretty=format:'%an')"
     
-    # 프로젝트 규모 자동 탐지
+    # Automatic project scale detection
     local file_count=$(find . -name "*.ts" -o -name "*.js" -o -name "*.py" | wc -l)
     if (( file_count > 1000 )); then
         export CLAUDE_PROJECT_SCALE="large"
@@ -243,34 +243,34 @@ load_claude_config() {
     fi
 }
 
-# 사용법
+# Usage
 load_claude_config
 ```
 
-## 9.2 지능형 자동 코드 리뷰 생태계
+## 9.2 Intelligent Automated Code Review Ecosystem
 
-### GitHub Actions 엔터프라이즈 통합
+### GitHub Actions Enterprise Integration
 
-지능형 코드 리뷰 시스템은 단순한 정적 분석을 넘어서 프로젝트 맥락을 이해하고 적응하는 동적 분석 플랫폼입니다.
+An intelligent code review system is a dynamic analysis platform that understands and adapts to project context, going beyond simple static analysis.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fafc", "primaryTextColor": "#1e293b", "primaryBorderColor": "#e2e8f0", "lineColor": "#94a3b8", "secondaryColor": "#f1f5f9", "tertiaryColor": "#e2e8f0"}}}%%
 graph LR
-    subgraph trigger [트리거 이벤트]
+    subgraph trigger [Trigger Events]
         A[Pull Request] 
         B[Scheduled Analysis]
         C[Manual Trigger]
     end
     
-    subgraph analysis [병렬 분석 엔진]
+    subgraph analysis [Parallel Analysis Engine]
         D[Security Scan<br/>OWASP, SANS]
-        E[Performance Analysis<br/>복잡도, 메모리]
-        F[Architecture Review<br/>SOLID, 패턴]
-        G[Testing Coverage<br/>커버리지, 품질]
-        H[Documentation<br/>API, 가이드]
+        E[Performance Analysis<br/>Complexity, Memory]
+        F[Architecture Review<br/>SOLID, Patterns]
+        G[Testing Coverage<br/>Coverage, Quality]
+        H[Documentation<br/>API, Guides]
     end
     
-    subgraph integration [통합 및 결과]
+    subgraph integration [Integration & Results]
         I[Comprehensive Review]
         J[PR Comment]
         K[Dashboard Update]
@@ -312,14 +312,14 @@ on:
   pull_request:
     types: [opened, synchronize, ready_for_review]
   schedule:
-    - cron: '0 2 * * *'  # 매일 새벽 2시 전체 코드베이스 분석
+    - cron: '0 2 * * *'  # Daily full codebase analysis at 2 AM
 
 env:
   CLAUDE_PROJECT_CONTEXT: ${{ github.repository }}
   CLAUDE_ENVIRONMENT: ${{ github.ref_name == 'main' && 'production' || 'development' }}
 
 jobs:
-  # 사전 분석 단계
+  # Pre-analysis stage
   pre-analysis:
     runs-on: ubuntu-latest
     outputs:
@@ -351,17 +351,17 @@ jobs:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
         run: |
           claude --headless --output strategy.json \
-            "변경된 파일들을 분석하여 최적의 리뷰 전략을 결정해주세요:
-             - 변경 범위와 복잡도 평가
-             - 우선순위 영역 식별
-             - 리뷰 깊이 수준 결정
-             - 예상 분석 시간
-             결과는 JSON 형태로 제공"
+            "Analyze the changed files to determine the optimal review strategy:
+             - Assess scope and complexity of changes
+             - Identify priority areas
+             - Determine review depth level
+             - Estimate analysis time
+             Provide results in JSON format."
           
           STRATEGY=$(jq -r '.strategy' strategy.json)
           echo "strategy=$STRATEGY" >> $GITHUB_OUTPUT
   
-  # 병렬 코드 분석
+  # Parallel code analysis
   parallel-analysis:
     runs-on: ubuntu-latest
     needs: pre-analysis
@@ -377,7 +377,7 @@ jobs:
       - name: Setup Analysis Environment
         run: |
           npm install -g @anthropic-ai/claude-code
-          # 분석 타입별 전용 도구 설치
+          # Install specialized tools per analysis type
           case "${{ matrix.analysis-type }}" in
             security) npm install -g eslint-plugin-security ;;
             performance) npm install -g clinic autocannon ;;
@@ -393,53 +393,53 @@ jobs:
           case "$ANALYSIS_TYPE" in
             "security")
               claude --headless --output security-analysis.json \
-                "보안 중심 코드 분석을 수행해주세요
-                 - OWASP Top 10 취약점 스캔
-                 - 민감 정보 노출 검사
-                 - 인증/인가 로직 검증
-                 - SQL Injection 및 XSS 가능성
-                 - 암호화 및 해시 적용 검토
-                 심각도별 분류와 즉시 수정 필요 항목 표시"
+                "Perform security-focused code analysis:
+                 - Scan for OWASP Top 10 vulnerabilities
+                 - Check for sensitive information exposure
+                 - Verify authentication/authorization logic
+                 - Assess SQL Injection and XSS possibilities
+                 - Review cryptography and hashing application
+                 Classify by severity and flag items needing immediate fixing."
               ;;
             "performance")
               claude --headless --output performance-analysis.json \
-                "성능 중심 코드 분석을 수행해주세요
-                 - 알고리즘 복잡도 분석
-                 - 메모리 사용 패턴 검토
-                 - 데이터베이스 쿼리 최적화 기회
-                 - 캐싱 전략 개선점
-                 - 번들 크기 및 로딩 성능
-                 성능 임팩트 예측과 개선 방안 제시"
+                "Perform performance-focused code analysis:
+                 - Analyze algorithm complexity
+                 - Review memory usage patterns
+                 - Identify database query optimization opportunities
+                 - Suggest caching strategy improvements
+                 - Assess bundle size and loading performance
+                 Predict performance impact and suggest improvements."
               ;;
             "architecture")
               claude --headless --output architecture-analysis.json \
-                "아키텍처 중심 코드 분석을 수행해주세요
-                 - SOLID 원칙 준수 여부
-                 - 디자인 패턴 적용 검토
-                 - 의존성 그래프 복잡도
-                 - 모듈화 및 결합도 분석
-                 - 확장성 및 유지보수성
-                 리팩토링 우선순위와 방법 제안"
+                "Perform architecture-focused code analysis:
+                 - Check adherence to SOLID principles
+                 - Review application of design patterns
+                 - Assess dependency graph complexity
+                 - Analyze modularity and coupling
+                 - Evaluate scalability and maintainability
+                 Suggest refactoring priorities and methods."
               ;;
             "testing")
               claude --headless --output testing-analysis.json \
-                "테스트 중심 코드 분석을 수행해주세요
-                 - 테스트 커버리지 부족 영역
-                 - 테스트 품질 및 신뢰성
-                 - Edge case 및 예외 상황 처리
-                 - Mock 및 Stub 적절성
-                 - 통합 테스트 시나리오
-                 누락된 테스트 케이스와 생성 방법 제안"
+                "Perform testing-focused code analysis:
+                 - Identify areas with insufficient test coverage
+                 - Assess test quality and reliability
+                 - Check handling of edge cases and exceptions
+                 - Evaluate appropriateness of mocks and stubs
+                 - Review integration test scenarios
+                 Suggest missing test cases and generation methods."
               ;;
             "documentation")
               claude --headless --output documentation-analysis.json \
-                "문서화 중심 코드 분석을 수행해주세요
-                 - API 문서 완성도
-                 - 코드 주석 품질
-                 - README 및 가이드 적절성
-                 - 아키텍처 문서 동기화
-                 - 온보딩 문서 현황
-                 문서화 개선 방안과 자동화 기회 제시"
+                "Perform documentation-focused code analysis:
+                 - Assess completeness of API documentation
+                 - Evaluate quality of code comments
+                 - Check appropriateness of READMEs and guides
+                 - Verify synchronization of architecture documents
+                 - Review status of onboarding documentation
+                 Suggest documentation improvements and automation opportunities."
               ;;
           esac
       
@@ -450,7 +450,7 @@ jobs:
           path: ${{ matrix.analysis-type }}-analysis.json
           retention-days: 30
   
-  # 종합 리뷰 생성
+  # Generate comprehensive review
   comprehensive-review:
     runs-on: ubuntu-latest
     needs: [pre-analysis, parallel-analysis]
@@ -467,21 +467,21 @@ jobs:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
         run: |
           claude --headless --output comprehensive-review.json \
-            "모든 분석 결과를 종합하여 포괄적인 코드 리뷰를 생성해주세요:
+            "Synthesize all analysis results to generate a comprehensive code review:
              
-             분석 결과 파일들:
+             Analysis result files:
              $(find analysis-results -name '*.json' | head -10)
              
-             종합 요구사항:
-             1. 전체적인 코드 품질 평가 (0-100점)
-             2. 카테고리별 세부 점수
-             3. 가장 우선적으로 해결할 이슈 Top 5
-             4. 긍정적인 변화와 개선사항
-             5. 장기적 기술 부채 관리 방안
-             6. 팀 학습 기회 및 지식 공유 포인트
+             Comprehensive requirements:
+             1. Overall code quality assessment (0-100 points)
+             2. Detailed scores by category
+             3. Top 5 issues to resolve with highest priority
+             4. Positive changes and improvements
+             5. Long-term technical debt management plan
+             6. Team learning opportunities and knowledge sharing points
              
-             리뷰 형식: GitHub PR 댓글에 적합한 마크다운
-             톤: 건설적이고 교육적, 구체적 개선 방안 포함"
+             Review format: Markdown suitable for GitHub PR comments
+             Tone: Constructive and educational, including specific improvement suggestions."
       
       - name: Advanced PR Comment with Rich Formatting
         uses: actions/github-script@v7
@@ -490,37 +490,37 @@ jobs:
             const fs = require('fs');
             const review = JSON.parse(fs.readFileSync('comprehensive-review.json', 'utf8'));
             
-            // 동적 배지 생성
+            // Dynamic badge generation
             const qualityBadge = review.overall_score >= 90 ? '🟢' : 
                                review.overall_score >= 75 ? '🟡' : '🔴';
             
             const comment = `
             ## ${qualityBadge} Claude Enterprise Code Review
             
-            > **전체 품질 점수: ${review.overall_score}/100** | 분석 완료: ${new Date().toLocaleString()}
+            > **Overall Quality Score: ${review.overall_score}/100** | Analysis Completed: ${new Date().toLocaleString()}
             
-            ### 📊 카테고리별 점수
-            | 영역 | 점수 | 상태 |
+            ### 📊 Scores by Category
+            | Area | Score | Status |
             |------|------|------|
-            | 🔒 보안 | ${review.security_score}/100 | ${review.security_score >= 85 ? '✅' : '⚠️'} |
-            | ⚡ 성능 | ${review.performance_score}/100 | ${review.performance_score >= 85 ? '✅' : '⚠️'} |
-            | 🏗️ 아키텍처 | ${review.architecture_score}/100 | ${review.architecture_score >= 85 ? '✅' : '⚠️'} |
-            | 🧪 테스트 | ${review.testing_score}/100 | ${review.testing_score >= 85 ? '✅' : '⚠️'} |
-            | 📚 문서화 | ${review.documentation_score}/100 | ${review.documentation_score >= 85 ? '✅' : '⚠️'} |
+            | 🔒 Security | ${review.security_score}/100 | ${review.security_score >= 85 ? '✅' : '⚠️'} |
+            | ⚡ Performance | ${review.performance_score}/100 | ${review.performance_score >= 85 ? '✅' : '⚠️'} |
+            | 🏗️ Architecture | ${review.architecture_score}/100 | ${review.architecture_score >= 85 ? '✅' : '⚠️'} |
+            | 🧪 Testing | ${review.testing_score}/100 | ${review.testing_score >= 85 ? '✅' : '⚠️'} |
+            | 📚 Documentation | ${review.documentation_score}/100 | ${review.documentation_score >= 85 ? '✅' : '⚠️'} |
             
-            ### 🚨 우선 해결 항목
+            ### 🚨 Priority Items
             ${review.priority_issues.map((issue, index) => 
               `${index + 1}. **${issue.title}** (${issue.severity})
-                 - 📍 위치: ${issue.location}
-                 - 💡 해결방안: ${issue.solution}`
+                 - 📍 Location: ${issue.location}
+                 - 💡 Solution: ${issue.solution}`
             ).join('\n\n')}
             
-            ### 🎉 긍정적 변화
+            ### 🎉 Positive Changes
             ${review.positive_changes.map(change => `- ✨ ${change}`).join('\n')}
             
-            ### 💡 개선 제안
+            ### 💡 Improvement Suggestions
             <details>
-            <summary>상세 개선 방안 보기</summary>
+            <summary>View Detailed Improvement Suggestions</summary>
             
             ${review.improvements.map(improvement => 
               `#### ${improvement.category}
@@ -528,16 +528,16 @@ jobs:
             ).join('\n\n')}
             </details>
             
-            ### 📈 기술 부채 관리
+            ### 📈 Technical Debt Management
             ${review.tech_debt.map(debt => 
-              `- **${debt.area}**: ${debt.description} (예상 해결 시간: ${debt.effort})`
+              `- **${debt.area}**: ${debt.description} (Estimated resolution time: ${debt.effort})`
             ).join('\n')}
             
-            ### 🎓 학습 기회
+            ### 🎓 Learning Opportunities
             ${review.learning_opportunities.map(opportunity => `- 📖 ${opportunity}`).join('\n')}
             
             ---
-            <sub>🤖 Generated by Claude Enterprise Code Review System | 분석 범위: ${process.env.ANALYSIS_SCOPE} | 전략: ${process.env.REVIEW_STRATEGY}</sub>
+            <sub>🤖 Generated by Claude Enterprise Code Review System | Analysis Scope: ${process.env.ANALYSIS_SCOPE} | Strategy: ${process.env.REVIEW_STRATEGY}</sub>
             `;
             
             github.rest.issues.createComment({
@@ -550,11 +550,11 @@ jobs:
       - name: Create Review Summary for Dashboard
         run: |
           claude --headless --output dashboard-summary.json \
-            "코드 리뷰 결과를 팀 대시보드용으로 요약해주세요
-             - 주요 메트릭 및 트렌드
-             - 팀 성과 지표
-             - 권장 액션 아이템
-             JSON 형태로 제공"
+            "Summarize the code review results for the team dashboard:
+             - Key metrics and trends
+             - Team performance indicators
+             - Recommended action items
+             Provide in JSON format."
       
       - name: Send Slack Notification for Critical Issues
         if: ${{ contains(fromJSON(readFile('comprehensive-review.json')).priority_issues[*].severity, 'critical') }}
@@ -564,7 +564,7 @@ jobs:
             ${{ secrets.SLACK_WEBHOOK_URL }}
 ```
 
-### GitLab CI 엔터프라이즈 통합
+### GitLab CI Enterprise Integration
 
 ```yaml
 # .gitlab-ci.yml
